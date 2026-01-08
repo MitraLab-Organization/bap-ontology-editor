@@ -11,6 +11,17 @@ This repository provides a human-readable way to manage:
 
 Changes are validated automatically via GitHub Actions and generate OWL files for use in WebProtégé and other tools.
 
+<!-- STATS_START -->
+📊 **Ontology Statistics**
+```
+├── Structures: 201
+├── Hierarchy depth: 6 levels
+└── Relationships: 43
+    ├── Innervated By: 39
+    └── Supplied By: 4
+```
+<!-- STATS_END -->
+
 ## Current Hierarchy
 
 <!-- HIERARCHY_START -->
@@ -212,6 +223,74 @@ Body
         └── sternum
 ```
 <!-- HIERARCHY_END -->
+
+## Relationships
+
+<!-- MERMAID_START -->
+#### Innervation Map
+```mermaid
+graph LR
+    Accessory_nerve[Accessory nerve]
+    Accessory_nerve -->|innervates| Trapezius[Trapezius]
+    Facial_nerve[Facial nerve]
+    Facial_nerve -->|innervates| Buccinatorius[Buccinatorius]
+    Facial_nerve -->|innervates| Depressor_rhinarii[Depressor rhinarii]
+    Facial_nerve -->|innervates| Depressor_septi_nasi[Depressor septi nasi]
+    Facial_nerve -->|innervates| Digastricus_posterior[Digastricus posterior]
+    Facial_nerve -->|innervates| Dilatator_nasi[Dilatator nasi]
+    Facial_nerve -->|innervates| Interscutularis[Interscutularis]
+    Facial_nerve -->|innervates| Levator_anguli_oris[Levator anguli oris]
+    Facial_nerve -->|innervates| Levator_labii_superioris[Levator labii superioris]
+    Facial_nerve -->|innervates| Facial_nerve_more[+16 more]
+    Glossopharyngeal_nerve[Glossopharyngeal nerve]
+    Glossopharyngeal_nerve -->|innervates| Stylopharyngeus[Stylopharyngeus]
+    Hypoglossal_nerve[Hypoglossal nerve]
+    Hypoglossal_nerve -->|innervates| Genioglossus[Genioglossus]
+    Hypoglossal_nerve -->|innervates| Hyoglossus[Hyoglossus]
+    Trigeminal_nerve[Trigeminal nerve]
+    Trigeminal_nerve -->|innervates| Deep_masseter[Deep masseter]
+    Trigeminal_nerve -->|innervates| Digastricus_anterior[Digastricus anterior]
+    Trigeminal_nerve -->|innervates| Masseter[Masseter]
+    Trigeminal_nerve -->|innervates| Mylohyoideus[Mylohyoideus]
+    Trigeminal_nerve -->|innervates| Pterygoideus_lateralis[Pterygoideus lateralis]
+    Trigeminal_nerve -->|innervates| Pterygoideus_medialis[Pterygoideus medialis]
+    Trigeminal_nerve -->|innervates| Superficial_masseter[Superficial masseter]
+    Trigeminal_nerve -->|innervates| Temporalis[Temporalis]
+    Trigeminal_nerve -->|innervates| Trigeminal_nerve_more[+3 more]
+```
+
+#### Blood Supply Map
+```mermaid
+graph LR
+    Lingual_artery([Lingual artery])
+    Lingual_artery -.->|supplies| Genioglossus[Genioglossus]
+    Lingual_artery -.->|supplies| Hyoglossus[Hyoglossus]
+    Maxillary_artery([Maxillary artery])
+    Maxillary_artery -.->|supplies| Masseter[Masseter]
+    Temporal_artery([Temporal artery])
+    Temporal_artery -.->|supplies| Temporalis[Temporalis]
+```
+<!-- MERMAID_END -->
+
+<!-- TABLES_START -->
+### Innervation
+
+| Nerve | Innervates |
+|-------|------------|
+| Accessory nerve | Trapezius |
+| Facial nerve | Buccinatorius, Depressor rhinarii, Depressor septi nasi, Digastricus posterior, Dilatator nasi, Interscutularis, Levator anguli oris, Levator labii superioris, Levator labii superioris alaeque nasi, Levator rhinarii, Mandibuloauricularis, Nasalis, Occipitalis, Orbicularis oculi, Orbicularis oris, Orbito-temporo-auricularis, Platysma cervicale, Platysma myoides, Sphincter colli profundus, Sphincter colli superficialis, Stapedius, Stylohyoideus, Zygomaticus major, Zygomaticus minor |
+| Glossopharyngeal nerve | Stylopharyngeus |
+| Hypoglossal nerve | Genioglossus, Hyoglossus |
+| Trigeminal nerve | Deep masseter, Digastricus anterior, Masseter, Mylohyoideus, Pterygoideus lateralis, Pterygoideus medialis, Superficial masseter, Temporalis, Tensor tympani, Tensor veli palatini, Zygomaticomandibularis |
+
+### Blood Supply
+
+| Artery | Supplies |
+|--------|----------|
+| Lingual artery | Genioglossus, Hyoglossus |
+| Maxillary artery | Masseter |
+| Temporal artery | Temporalis |
+<!-- TABLES_END -->
 
 ## Repository Structure
 

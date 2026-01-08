@@ -2,7 +2,7 @@
 """
 BAP Hierarchy Tree Generator
 
-Generates a visual hierarchy tree from YAML definitions and updates the README.
+Generates a visual hierarchy tree, relationship diagrams, and stats from YAML.
 
 Usage:
     python scripts/generate_tree.py
@@ -25,6 +25,7 @@ import yaml
 
 ROOT_DIR = Path(__file__).parent.parent
 STRUCTURES_DIR = ROOT_DIR / "structures"
+RELATIONSHIPS_DIR = ROOT_DIR / "relationships"
 README_PATH = ROOT_DIR / "README.md"
 
 # Tree drawing characters
@@ -66,6 +67,23 @@ def load_all_structures() -> Dict[str, dict]:
             if "id" in struct:
                 structures[struct["id"]] = struct
     return structures
+
+
+def load_all_relationships() -> Dict[str, List[dict]]:
+    """Load all relationships grouped by type."""
+    relationships = defaultdict(list)
+    for data in load_yaml_files(RELATIONSHIPS_DIR):
+        for rel in data.get("relationships", []) or []:
+            predicate = rel.get("predicate", "unknown")
+            relationships[predicate].append(rel)
+    return dict(relationships)
+
+
+def get_structure_name(structures: Dict[str, dict], id_or_name: str) -> str:
+    """Get structure name from ID or return as-is if already a name."""
+    if id_or_name in structures:
+        return structures[id_or_name].get('name', id_or_name)
+    return id_or_name
 
 
 # ============================================================================
@@ -182,8 +200,25 @@ def generate_subtree(structures: Dict[str, dict], root_name: str, max_depth: int
 # README Update
 # ============================================================================
 
-def update_readme(tree_content: str):
-    """Update README.md with the hierarchy tree."""
+def update_readme_section(readme: str, start_marker: str, end_marker: str, content: str) -> str:
+    """Update a section in the README between markers."""
+    import re
+    
+    if start_marker not in readme:
+        return readme  # Section doesn't exist, skip
+    
+    pattern = f"{re.escape(start_marker)}.*?{re.escape(end_marker)}"
+    replacement = f"{start_marker}\n{content}\n{end_marker}"
+    return re.sub(pattern, replacement, readme, flags=re.DOTALL)
+
+
+def update_readme(
+    tree_content: str,
+    stats_content: str = "",
+    mermaid_content: str = "",
+    tables_content: str = ""
+):
+    """Update README.md with all generated content."""
     if not README_PATH.exists():
         print(f"README not found: {README_PATH}")
         return False
@@ -191,32 +226,40 @@ def update_readme(tree_content: str):
     with open(README_PATH, 'r', encoding='utf-8') as f:
         readme = f.read()
     
-    # Markers for the hierarchy section
-    start_marker = "<!-- HIERARCHY_START -->"
-    end_marker = "<!-- HIERARCHY_END -->"
+    # Update hierarchy tree
+    readme = update_readme_section(
+        readme,
+        "<!-- HIERARCHY_START -->",
+        "<!-- HIERARCHY_END -->",
+        f"```\n{tree_content}\n```"
+    )
     
-    if start_marker not in readme:
-        # Add section if it doesn't exist
-        hierarchy_section = f"""
-## Current Hierarchy
-
-{start_marker}
-```
-{tree_content}
-```
-{end_marker}
-"""
-        # Insert before ## Quick Start or at the end
-        if "## Quick Start" in readme:
-            readme = readme.replace("## Quick Start", hierarchy_section + "\n## Quick Start")
-        else:
-            readme += hierarchy_section
-    else:
-        # Replace existing section
-        import re
-        pattern = f"{re.escape(start_marker)}.*?{re.escape(end_marker)}"
-        replacement = f"{start_marker}\n```\n{tree_content}\n```\n{end_marker}"
-        readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+    # Update stats
+    if stats_content:
+        readme = update_readme_section(
+            readme,
+            "<!-- STATS_START -->",
+            "<!-- STATS_END -->",
+            stats_content
+        )
+    
+    # Update relationship diagrams
+    if mermaid_content:
+        readme = update_readme_section(
+            readme,
+            "<!-- MERMAID_START -->",
+            "<!-- MERMAID_END -->",
+            mermaid_content
+        )
+    
+    # Update relationship tables
+    if tables_content:
+        readme = update_readme_section(
+            readme,
+            "<!-- TABLES_START -->",
+            "<!-- TABLES_END -->",
+            tables_content
+        )
     
     with open(README_PATH, 'w', encoding='utf-8') as f:
         f.write(readme)
@@ -229,8 +272,8 @@ def update_readme(tree_content: str):
 # Statistics
 # ============================================================================
 
-def generate_stats(structures: Dict[str, dict]) -> str:
-    """Generate statistics about the hierarchy."""
+def generate_stats(structures: Dict[str, dict], relationships: Dict[str, List[dict]]) -> str:
+    """Generate statistics about the ontology."""
     children_map = build_children_map(structures)
     
     # Count by depth
@@ -247,12 +290,149 @@ def generate_stats(structures: Dict[str, dict]) -> str:
         for d, c in count_at_depth(root_id).items():
             total_counts[d] += c
     
-    stats = []
-    stats.append(f"Total structures: {len(structures)}")
-    stats.append(f"Root nodes: {len(children_map.get(None, []))}")
-    stats.append(f"Max depth: {max(total_counts.keys()) if total_counts else 0}")
+    total_rels = sum(len(r) for r in relationships.values())
+    max_depth = max(total_counts.keys()) if total_counts else 0
     
-    return '\n'.join(stats)
+    # Build tree-style stats
+    lines = [
+        "📊 **Ontology Statistics**",
+        "```",
+        f"├── Structures: {len(structures)}",
+        f"├── Hierarchy depth: {max_depth} levels",
+        f"└── Relationships: {total_rels}",
+    ]
+    
+    rel_types = sorted(relationships.keys())
+    for i, rel_type in enumerate(rel_types):
+        count = len(relationships[rel_type])
+        prefix = "    └── " if i == len(rel_types) - 1 else "    ├── "
+        nice_name = rel_type.replace('_', ' ').title()
+        lines.append(f"{prefix}{nice_name}: {count}")
+    
+    lines.append("```")
+    return '\n'.join(lines)
+
+
+# ============================================================================
+# Mermaid Diagrams
+# ============================================================================
+
+def generate_mermaid_innervation(structures: Dict[str, dict], relationships: Dict[str, List[dict]]) -> str:
+    """Generate Mermaid diagram for innervation relationships."""
+    innervation = relationships.get('innervated_by', [])
+    
+    if not innervation:
+        return ""
+    
+    # Group by nerve (object)
+    by_nerve = defaultdict(list)
+    for rel in innervation:
+        nerve = get_structure_name(structures, rel.get('object', ''))
+        muscle = get_structure_name(structures, rel.get('subject', ''))
+        by_nerve[nerve].append(muscle)
+    
+    lines = [
+        "```mermaid",
+        "graph LR",
+    ]
+    
+    # Create subgraphs for major nerves
+    for nerve, muscles in sorted(by_nerve.items()):
+        # Create safe ID
+        nerve_id = nerve.replace(' ', '_').replace('-', '_')
+        lines.append(f"    {nerve_id}[{nerve}]")
+        
+        for muscle in sorted(muscles)[:8]:  # Limit to 8 per nerve for readability
+            muscle_id = muscle.replace(' ', '_').replace('-', '_')
+            lines.append(f"    {nerve_id} -->|innervates| {muscle_id}[{muscle}]")
+        
+        if len(muscles) > 8:
+            lines.append(f"    {nerve_id} -->|innervates| {nerve_id}_more[+{len(muscles)-8} more]")
+    
+    lines.append("```")
+    return '\n'.join(lines)
+
+
+def generate_mermaid_blood_supply(structures: Dict[str, dict], relationships: Dict[str, List[dict]]) -> str:
+    """Generate Mermaid diagram for blood supply relationships."""
+    blood_supply = relationships.get('supplied_by', [])
+    
+    if not blood_supply:
+        return ""
+    
+    # Group by artery
+    by_artery = defaultdict(list)
+    for rel in blood_supply:
+        artery = get_structure_name(structures, rel.get('object', ''))
+        structure = get_structure_name(structures, rel.get('subject', ''))
+        by_artery[artery].append(structure)
+    
+    lines = [
+        "```mermaid",
+        "graph LR",
+    ]
+    
+    for artery, supplied in sorted(by_artery.items()):
+        artery_id = artery.replace(' ', '_').replace('-', '_')
+        lines.append(f"    {artery_id}([{artery}])")
+        
+        for struct in sorted(supplied)[:6]:
+            struct_id = struct.replace(' ', '_').replace('-', '_')
+            lines.append(f"    {artery_id} -.->|supplies| {struct_id}[{struct}]")
+    
+    lines.append("```")
+    return '\n'.join(lines)
+
+
+# ============================================================================
+# Relationship Tables
+# ============================================================================
+
+def generate_relationship_tables(structures: Dict[str, dict], relationships: Dict[str, List[dict]]) -> str:
+    """Generate markdown tables for all relationships."""
+    sections = []
+    
+    # Innervation table (grouped by nerve)
+    innervation = relationships.get('innervated_by', [])
+    if innervation:
+        by_nerve = defaultdict(list)
+        for rel in innervation:
+            nerve = get_structure_name(structures, rel.get('object', ''))
+            muscle = get_structure_name(structures, rel.get('subject', ''))
+            by_nerve[nerve].append(muscle)
+        
+        lines = ["### Innervation", "", "| Nerve | Innervates |", "|-------|------------|"]
+        for nerve, muscles in sorted(by_nerve.items()):
+            muscle_list = ", ".join(sorted(muscles))
+            lines.append(f"| {nerve} | {muscle_list} |")
+        sections.append('\n'.join(lines))
+    
+    # Blood supply table
+    blood_supply = relationships.get('supplied_by', [])
+    if blood_supply:
+        by_artery = defaultdict(list)
+        for rel in blood_supply:
+            artery = get_structure_name(structures, rel.get('object', ''))
+            structure = get_structure_name(structures, rel.get('subject', ''))
+            by_artery[artery].append(structure)
+        
+        lines = ["### Blood Supply", "", "| Artery | Supplies |", "|--------|----------|"]
+        for artery, supplied in sorted(by_artery.items()):
+            struct_list = ", ".join(sorted(supplied))
+            lines.append(f"| {artery} | {struct_list} |")
+        sections.append('\n'.join(lines))
+    
+    # Developmental origins
+    developmental = relationships.get('develops_from', [])
+    if developmental:
+        lines = ["### Developmental Origins", "", "| Structure | Develops From |", "|-----------|---------------|"]
+        for rel in developmental:
+            structure = get_structure_name(structures, rel.get('subject', ''))
+            origin = get_structure_name(structures, rel.get('object', ''))
+            lines.append(f"| {structure} | {origin} |")
+        sections.append('\n'.join(lines))
+    
+    return '\n\n'.join(sections)
 
 
 # ============================================================================
@@ -272,9 +452,14 @@ def main():
     structures = load_all_structures()
     print(f"  Loaded {len(structures)} structures")
     
+    print("Loading relationships...")
+    relationships = load_all_relationships()
+    total_rels = sum(len(r) for r in relationships.values())
+    print(f"  Loaded {total_rels} relationships")
+    
     if args.stats:
         print("\nStatistics:")
-        print(generate_stats(structures))
+        print(generate_stats(structures, relationships))
         print()
     
     # Generate tree
@@ -289,7 +474,26 @@ def main():
             f.write(tree)
         print(f"✓ Saved to {args.output}")
     elif args.update_readme:
-        update_readme(tree)
+        # Generate all content
+        stats = generate_stats(structures, relationships)
+        
+        # Generate Mermaid diagrams
+        mermaid_parts = []
+        innervation_mermaid = generate_mermaid_innervation(structures, relationships)
+        if innervation_mermaid:
+            mermaid_parts.append("#### Innervation Map\n" + innervation_mermaid)
+        
+        blood_mermaid = generate_mermaid_blood_supply(structures, relationships)
+        if blood_mermaid:
+            mermaid_parts.append("#### Blood Supply Map\n" + blood_mermaid)
+        
+        mermaid = '\n\n'.join(mermaid_parts)
+        
+        # Generate tables
+        tables = generate_relationship_tables(structures, relationships)
+        
+        # Update README
+        update_readme(tree, stats, mermaid, tables)
     else:
         print("\n" + tree)
     
