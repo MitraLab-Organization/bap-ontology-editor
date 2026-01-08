@@ -14,7 +14,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 201
+├── Structures: 200
 ├── Hierarchy depth: 6 levels
 └── Relationships: 42
     ├── Innervated By: 38
@@ -149,7 +149,6 @@ Body
 │   │   │   └── superior rectus
 │   │   ├── Gustatory epithelium
 │   │   ├── Inner ear
-│   │   │   ├── Tensor tympani
 │   │   │   ├── incus
 │   │   │   ├── internal acoustic meatus
 │   │   │   ├── malleus

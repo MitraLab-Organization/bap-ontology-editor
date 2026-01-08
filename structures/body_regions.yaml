@@ -255,10 +255,3 @@ structures:
 - id: BAP_0000011
   name: Tail
   parent: BAP_0000006
-- id: BAP_0021602
-  name: Tensor tympani
-  parent: BAP_0020301
-  definition: Small muscle that attaches to the malleus and dampens loud sounds by
-    tensing the eardrum
-  abbreviation: TT
-  external_id: UBERON_0001600
