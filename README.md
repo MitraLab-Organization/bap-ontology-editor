@@ -14,7 +14,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 202
+├── Structures: 201
 ├── Hierarchy depth: 6 levels
 └── Relationships: 43
     ├── Innervated By: 39
@@ -249,6 +249,7 @@ graph LR
     Hypoglossal_nerve -->|innervates| Genioglossus[Genioglossus]
     Hypoglossal_nerve -->|innervates| Hyoglossus[Hyoglossus]
     Trigeminal_nerve[Trigeminal nerve]
+    Trigeminal_nerve -->|innervates| BAP_0000022[BAP_0000022]
     Trigeminal_nerve -->|innervates| Deep_masseter[Deep masseter]
     Trigeminal_nerve -->|innervates| Digastricus_anterior[Digastricus anterior]
     Trigeminal_nerve -->|innervates| Masseter[Masseter]
@@ -256,7 +257,6 @@ graph LR
     Trigeminal_nerve -->|innervates| Pterygoideus_lateralis[Pterygoideus lateralis]
     Trigeminal_nerve -->|innervates| Pterygoideus_medialis[Pterygoideus medialis]
     Trigeminal_nerve -->|innervates| Superficial_masseter[Superficial masseter]
-    Trigeminal_nerve -->|innervates| Temporalis[Temporalis]
     Trigeminal_nerve -->|innervates| Trigeminal_nerve_more[+3 more]
 ```
 
@@ -282,7 +282,7 @@ graph LR
 | Facial nerve | Buccinatorius, Depressor rhinarii, Depressor septi nasi, Digastricus posterior, Dilatator nasi, Interscutularis, Levator anguli oris, Levator labii superioris, Levator labii superioris alaeque nasi, Levator rhinarii, Mandibuloauricularis, Nasalis, Occipitalis, Orbicularis oculi, Orbicularis oris, Orbito-temporo-auricularis, Platysma cervicale, Platysma myoides, Sphincter colli profundus, Sphincter colli superficialis, Stapedius, Stylohyoideus, Zygomaticus major, Zygomaticus minor |
 | Glossopharyngeal nerve | Stylopharyngeus |
 | Hypoglossal nerve | Genioglossus, Hyoglossus |
-| Trigeminal nerve | Deep masseter, Digastricus anterior, Masseter, Mylohyoideus, Pterygoideus lateralis, Pterygoideus medialis, Superficial masseter, Temporalis, Tensor tympani, Tensor veli palatini, Zygomaticomandibularis |
+| Trigeminal nerve | BAP_0000022, Deep masseter, Digastricus anterior, Masseter, Mylohyoideus, Pterygoideus lateralis, Pterygoideus medialis, Superficial masseter, Temporalis, Tensor veli palatini, Zygomaticomandibularis |
 
 ### Blood Supply
 
