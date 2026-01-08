@@ -15,6 +15,12 @@ on:
       - 'structures/**'
       - 'relationships/**'
       - 'schemas/**'
+  
+  push:
+    branches: [main]
+    paths:
+      - 'structures/**'
+      - 'relationships/**'
 
 jobs:
   validate:
@@ -101,3 +107,31 @@ jobs:
       - name: Check validation result
         if: steps.validate.outcome == 'failure'
         run: exit 1
+
+  # Update README after merge to main
+  update-readme:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Update README with hierarchy
+        run: python scripts/generate_tree.py --update-readme --stats
+      
+      - name: Commit updated README
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs: update hierarchy tree [skip ci]"
+          git push
