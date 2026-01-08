@@ -48,9 +48,7 @@ relationships:
     predicate: innervated_by
     object: BAP_0001004   # Trigeminal nerve
     
-  - subject: BAP_0000022  # Tensor tympani
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
+  # BAP_0000022 (Tensor tympani) removed - structure deleted
     
   - subject: BAP_0000023  # Tensor veli palatini
     predicate: innervated_by
