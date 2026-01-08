@@ -6,9 +6,22 @@ Handles removal, deprecation, and merge operations.
 
 import os
 import re
-import yaml
+import sys
 from pathlib import Path
 from datetime import datetime
+
+# Add scripts directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
+
+try:
+    from yaml_utils import (
+        load_yaml, save_yaml, remove_structure_by_index, 
+        deprecate_structure, remove_relationships_by_structure, update_structure_parent
+    )
+    USE_RUAMEL = True
+except ImportError:
+    import yaml
+    USE_RUAMEL = False
 
 
 def parse_issue_body(body: str) -> dict:
@@ -34,15 +47,32 @@ def parse_issue_body(body: str) -> dict:
     return data
 
 
+def _load_yaml_file(filepath: Path) -> dict:
+    """Load YAML file using appropriate library."""
+    if USE_RUAMEL:
+        return load_yaml(filepath)
+    else:
+        with open(filepath) as f:
+            return yaml.safe_load(f) or {}
+
+
+def _save_yaml_file(filepath: Path, data: dict):
+    """Save YAML file using appropriate library."""
+    if USE_RUAMEL:
+        save_yaml(filepath, data)
+    else:
+        with open(filepath, 'w') as f:
+            yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+
+
 def find_structure_in_files(structures_dir: Path, name: str) -> tuple[Path | None, dict | None, int | None]:
     """Find a structure by name, return (file_path, structure_dict, index)."""
     for yaml_file in structures_dir.glob('*.yaml'):
-        with open(yaml_file) as f:
-            data = yaml.safe_load(f)
-            if data and 'structures' in data:
-                for i, struct in enumerate(data['structures']):
-                    if struct.get('name', '').lower() == name.lower():
-                        return yaml_file, struct, i
+        data = _load_yaml_file(yaml_file)
+        if data and 'structures' in data:
+            for i, struct in enumerate(data['structures']):
+                if struct.get('name', '').lower() == name.lower():
+                    return yaml_file, dict(struct), i
     return None, None, None
 
 
@@ -50,12 +80,11 @@ def find_children(structures_dir: Path, parent_id: str) -> list[dict]:
     """Find all structures that have this as parent."""
     children = []
     for yaml_file in structures_dir.glob('*.yaml'):
-        with open(yaml_file) as f:
-            data = yaml.safe_load(f)
-            if data and 'structures' in data:
-                for struct in data['structures']:
-                    if struct.get('parent') == parent_id:
-                        children.append(struct)
+        data = _load_yaml_file(yaml_file)
+        if data and 'structures' in data:
+            for struct in data['structures']:
+                if struct.get('parent') == parent_id:
+                    children.append(dict(struct))
     return children
 
 
@@ -63,39 +92,35 @@ def find_relationships(relationships_dir: Path, structure_id: str) -> list[tuple
     """Find all relationships involving this structure."""
     found = []
     for yaml_file in relationships_dir.glob('*.yaml'):
-        with open(yaml_file) as f:
-            data = yaml.safe_load(f)
-            if data and 'relationships' in data and data['relationships']:
-                for rel in data['relationships']:
-                    if rel.get('subject') == structure_id or rel.get('object') == structure_id:
-                        found.append((yaml_file, rel))
+        data = _load_yaml_file(yaml_file)
+        if data and 'relationships' in data and data['relationships']:
+            for rel in data['relationships']:
+                if rel.get('subject') == structure_id or rel.get('object') == structure_id:
+                    found.append((yaml_file, dict(rel)))
     return found
 
 
-def deprecate_structure(file_path: Path, index: int, reason: str):
+def do_deprecate_structure(file_path: Path, index: int, reason: str):
     """Mark a structure as deprecated instead of removing."""
-    with open(file_path) as f:
-        data = yaml.safe_load(f)
-    
-    data['structures'][index]['deprecated'] = True
-    data['structures'][index]['deprecated_date'] = datetime.now().strftime('%Y-%m-%d')
-    data['structures'][index]['deprecation_reason'] = reason
-    
-    with open(file_path, 'w') as f:
-        yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    if USE_RUAMEL:
+        deprecate_structure(file_path, index, reason)
+    else:
+        data = _load_yaml_file(file_path)
+        data['structures'][index]['deprecated'] = True
+        data['structures'][index]['deprecated_date'] = datetime.now().strftime('%Y-%m-%d')
+        data['structures'][index]['deprecation_reason'] = reason
+        _save_yaml_file(file_path, data)
 
 
 def remove_structure(file_path: Path, index: int):
     """Remove a structure from the YAML file."""
-    with open(file_path) as f:
-        data = yaml.safe_load(f)
-    
-    removed = data['structures'].pop(index)
-    
-    with open(file_path, 'w') as f:
-        yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-    
-    return removed
+    if USE_RUAMEL:
+        return remove_structure_by_index(file_path, index)
+    else:
+        data = _load_yaml_file(file_path)
+        removed = data['structures'].pop(index)
+        _save_yaml_file(file_path, data)
+        return removed
 
 
 def merge_structures(structures_dir: Path, relationships_dir: Path, 
@@ -114,8 +139,7 @@ def merge_structures(structures_dir: Path, relationships_dir: Path,
     
     # Update all relationships pointing to source to point to target
     for yaml_file in relationships_dir.glob('*.yaml'):
-        with open(yaml_file) as f:
-            data = yaml.safe_load(f)
+        data = _load_yaml_file(yaml_file)
         
         if data and 'relationships' in data and data['relationships']:
             modified = False
@@ -130,13 +154,11 @@ def merge_structures(structures_dir: Path, relationships_dir: Path,
                     modified = True
             
             if modified:
-                with open(yaml_file, 'w') as f:
-                    yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+                _save_yaml_file(yaml_file, data)
     
     # Update children to point to new parent
     for yaml_file in structures_dir.glob('*.yaml'):
-        with open(yaml_file) as f:
-            data = yaml.safe_load(f)
+        data = _load_yaml_file(yaml_file)
         
         if data and 'structures' in data:
             modified = False
@@ -146,8 +168,7 @@ def merge_structures(structures_dir: Path, relationships_dir: Path,
                     modified = True
             
             if modified:
-                with open(yaml_file, 'w') as f:
-                    yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+                _save_yaml_file(yaml_file, data)
     
     # Remove the source structure
     remove_structure(source_file, source_index)
@@ -157,8 +178,13 @@ def merge_structures(structures_dir: Path, relationships_dir: Path,
 
 def remove_relationship_from_file(filepath: Path, structure_id: str):
     """Remove all relationships involving a structure from a YAML file."""
-    with open(filepath) as f:
-        data = yaml.safe_load(f)
+    if USE_RUAMEL:
+        removed = remove_relationships_by_structure(filepath, structure_id)
+        if removed > 0:
+            print(f"  Removed {removed} relationships from {filepath.name}")
+        return
+    
+    data = _load_yaml_file(filepath)
     
     if data and 'relationships' in data and data['relationships']:
         original_count = len(data['relationships'])
@@ -169,8 +195,7 @@ def remove_relationship_from_file(filepath: Path, structure_id: str):
         removed_count = original_count - len(data['relationships'])
         
         if removed_count > 0:
-            with open(filepath, 'w') as f:
-                yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            _save_yaml_file(filepath, data)
             print(f"  Removed {removed_count} relationships from {filepath.name}")
 
 
@@ -233,7 +258,7 @@ def main():
     
     # Perform the action
     if action == 'deprecate':
-        deprecate_structure(file_path, index, f"{reason}: {justification}")
+        do_deprecate_structure(file_path, index, f"{reason}: {justification}")
         print(f"Deprecated structure '{structure_name}'")
         
     elif action == 'remove':

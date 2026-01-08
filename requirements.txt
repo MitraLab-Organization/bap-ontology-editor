@@ -1,7 +1,8 @@
 # BAP Ontology Tools Dependencies
 
-# YAML parsing
+# YAML parsing (ruamel preserves formatting)
 PyYAML>=6.0
+ruamel.yaml>=0.18
 
 # JSON Schema validation
 jsonschema>=4.0

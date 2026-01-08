@@ -30,7 +30,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml ruamel.yaml
       
       - name: Parse issue and create YAML
         id: parse
@@ -74,7 +74,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml ruamel.yaml
       
       - name: Parse issue and create YAML
         env:
@@ -114,7 +114,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml ruamel.yaml
       
       - name: Parse issue and process removal
         env:
@@ -156,7 +156,7 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install pyyaml ruamel.yaml
       
       - name: Process batch reorganization
         env:
