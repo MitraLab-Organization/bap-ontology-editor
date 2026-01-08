@@ -1,0 +1,97 @@
+name: "➕ Add New Structure"
+description: "Propose a new anatomical structure to add to the ontology"
+title: "[Structure] "
+labels: ["structure", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a New Anatomical Structure
+        Fill out this form to propose a new structure. A maintainer will review and the system will automatically generate the YAML changes.
+
+  - type: input
+    id: name
+    attributes:
+      label: Structure Name
+      description: The full name of the anatomical structure
+      placeholder: "e.g., Medial pterygoid"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Body Region
+      description: Which major region does this structure belong to?
+      options:
+        - Head
+        - Neck
+        - Trunk
+        - Appendages
+    validations:
+      required: true
+
+  - type: dropdown
+    id: system
+    attributes:
+      label: Organ System
+      description: Which organ system does this structure belong to?
+      options:
+        - Musculoskeletal system
+        - Nervous system
+        - Sense organs
+        - Vascular system
+        - Endocrine and exocrine system
+        - Cavities and passages
+        - Integumentary system
+    validations:
+      required: true
+
+  - type: input
+    id: parent
+    attributes:
+      label: Parent Structure
+      description: The immediate parent structure (must already exist)
+      placeholder: "e.g., Cranial muscles"
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition
+      description: A clear anatomical definition of this structure
+      placeholder: "e.g., Muscle of mastication that elevates the mandible and assists in grinding motion"
+    validations:
+      required: true
+
+  - type: input
+    id: abbreviation
+    attributes:
+      label: Abbreviation (Optional)
+      description: Standard abbreviation if one exists
+      placeholder: "e.g., MP"
+
+  - type: input
+    id: external_id
+    attributes:
+      label: External ID (Optional)
+      description: Cross-reference to UBERON or other ontology
+      placeholder: "e.g., UBERON_0001600"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Citations supporting this structure (PMIDs, DOIs, or text)
+      placeholder: "PMID:12345678 or Gray's Anatomy, 42nd ed."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have verified this structure doesn't already exist in the ontology
+          required: true
+        - label: I have checked the parent structure exists
+          required: true

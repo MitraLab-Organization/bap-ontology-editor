@@ -1,0 +1,80 @@
+name: "🔗 Add New Relationship"
+description: "Propose a new relationship between structures (innervation, blood supply, etc.)"
+title: "[Relationship] "
+labels: ["relationship", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a New Relationship
+        Fill out this form to propose a new relationship between existing structures.
+
+  - type: dropdown
+    id: relationship_type
+    attributes:
+      label: Relationship Type
+      description: What kind of relationship is this?
+      options:
+        - innervated_by (nerve supplies muscle/structure)
+        - supplied_by (artery supplies structure)
+        - develops_from (developmental origin)
+        - part_of (structure is part of another)
+        - adjacent_to (structures are next to each other)
+    validations:
+      required: true
+
+  - type: input
+    id: subject
+    attributes:
+      label: Subject Structure
+      description: The structure that has the relationship (e.g., the muscle being innervated)
+      placeholder: "e.g., Masseter"
+    validations:
+      required: true
+
+  - type: input
+    id: object
+    attributes:
+      label: Object Structure  
+      description: The target structure (e.g., the nerve doing the innervating)
+      placeholder: "e.g., Trigeminal nerve"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence Level
+      description: How certain is this relationship?
+      options:
+        - high (well-established in literature)
+        - medium (generally accepted)
+        - low (preliminary or uncertain)
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Citations supporting this relationship
+      placeholder: "PMID:12345678"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context about this relationship
+      placeholder: "e.g., Primary innervation via masseteric branch of V3"
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: Both structures already exist in the ontology
+          required: true
+        - label: This relationship is not already recorded
+          required: true

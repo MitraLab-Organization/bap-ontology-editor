@@ -1,0 +1,52 @@
+name: "📁 Modify Hierarchy"
+description: "Propose moving a structure to a different parent or reorganizing"
+title: "[Hierarchy] "
+labels: ["hierarchy", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Modify Structure Hierarchy
+        Use this to propose moving a structure to a different parent or reorganizing the hierarchy.
+
+  - type: input
+    id: structure
+    attributes:
+      label: Structure to Move
+      description: The name of the structure you want to move
+      placeholder: "e.g., Tensor tympani"
+    validations:
+      required: true
+
+  - type: input
+    id: current_parent
+    attributes:
+      label: Current Parent
+      description: The current parent structure
+      placeholder: "e.g., Ear"
+    validations:
+      required: true
+
+  - type: input
+    id: new_parent
+    attributes:
+      label: New Parent
+      description: The proposed new parent structure
+      placeholder: "e.g., Inner ear"
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why should this structure be moved?
+      placeholder: "Explain the anatomical or organizational rationale..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References (Optional)
+      description: Any citations supporting this change

@@ -229,19 +229,59 @@ bap-ontology/
 │   └── structure.schema.json
 ├── scripts/              # Build and validation scripts
 │   ├── validate.py       # Validate YAML files
-│   └── generate_owl.py   # Generate OWL from YAML
+│   ├── generate_owl.py   # Generate OWL from YAML
+│   ├── generate_tree.py  # Generate hierarchy tree
+│   └── process_*.py      # Issue processors
 └── .github/workflows/    # CI/CD automation
     ├── validate.yml      # Validate on PR
     └── generate.yml      # Generate OWL on merge
 ```
 
-## Quick Start
+## 🎯 Easy Way: Use Issue Templates (Recommended)
+
+**No coding required!** Just fill out a form to propose changes:
+
+### Add a New Structure
+
+1. Go to [Issues → New Issue](../../issues/new/choose)
+2. Select **"➕ Add New Structure"**
+3. Fill out the form:
+   - Structure name
+   - Body region (Head, Neck, Trunk, Appendages)
+   - Organ system
+   - Parent structure
+   - Definition
+4. Submit the issue
+5. A maintainer reviews and adds the `approved` label
+6. 🤖 A PR is automatically created with the YAML changes!
+
+### Add a New Relationship
+
+1. Go to [Issues → New Issue](../../issues/new/choose)
+2. Select **"🔗 Add New Relationship"**
+3. Fill out the form:
+   - Relationship type (innervation, blood supply, etc.)
+   - Subject structure (e.g., the muscle)
+   - Object structure (e.g., the nerve)
+   - Confidence level
+   - References
+4. Submit and wait for approval
+
+### Modify Hierarchy
+
+Use the **"📁 Modify Hierarchy"** template to propose moving structures to different parents.
+
+---
+
+## 💻 Developer Way: Direct YAML Editing
+
+For power users who prefer editing files directly:
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_ORG/bap-ontology.git
-cd bap-ontology
+git clone https://github.com/MitraLab-Organization/bap-ontology-editor.git
+cd bap-ontology-editor
 ```
 
 ### 2. Edit structures

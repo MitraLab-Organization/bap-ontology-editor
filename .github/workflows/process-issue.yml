@@ -1,0 +1,97 @@
+# Process Issue Forms and Create PRs
+#
+# When an issue is labeled 'approved', this workflow:
+# 1. Parses the issue body
+# 2. Generates the appropriate YAML changes
+# 3. Creates a PR with those changes
+
+name: Process Approved Issues
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  process-structure:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'structure')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Parse issue and create YAML
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/process_structure_issue.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add structure from issue #${{ github.event.issue.number }}"
+          title: "Add structure: ${{ github.event.issue.title }}"
+          body: |
+            This PR was automatically generated from issue #${{ github.event.issue.number }}.
+            
+            Closes #${{ github.event.issue.number }}
+            
+            Please review the generated YAML and merge if correct.
+          branch: "issue-${{ github.event.issue.number }}-structure"
+          labels: auto-generated
+
+  process-relationship:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'relationship')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Parse issue and create YAML
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/process_relationship_issue.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add relationship from issue #${{ github.event.issue.number }}"
+          title: "Add relationship: ${{ github.event.issue.title }}"
+          body: |
+            This PR was automatically generated from issue #${{ github.event.issue.number }}.
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "issue-${{ github.event.issue.number }}-relationship"
+          labels: auto-generated

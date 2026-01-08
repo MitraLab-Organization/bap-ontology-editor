@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 View Documentation
+    url: https://github.com/MitraLab-Organization/bap-ontology-editor#readme
+    about: Read the documentation before submitting
+  - name: 🔍 Browse Existing Structures
+    url: https://github.com/MitraLab-Organization/bap-ontology-editor/tree/main/structures
+    about: Check what structures already exist
