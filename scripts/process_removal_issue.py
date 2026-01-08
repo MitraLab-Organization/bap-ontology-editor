@@ -155,6 +155,25 @@ def merge_structures(structures_dir: Path, relationships_dir: Path,
     return True
 
 
+def remove_relationship_from_file(filepath: Path, structure_id: str):
+    """Remove all relationships involving a structure from a YAML file."""
+    with open(filepath) as f:
+        data = yaml.safe_load(f)
+    
+    if data and 'relationships' in data and data['relationships']:
+        original_count = len(data['relationships'])
+        data['relationships'] = [
+            rel for rel in data['relationships']
+            if rel.get('subject') != structure_id and rel.get('object') != structure_id
+        ]
+        removed_count = original_count - len(data['relationships'])
+        
+        if removed_count > 0:
+            with open(filepath, 'w') as f:
+                yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            print(f"  Removed {removed_count} relationships from {filepath.name}")
+
+
 def main():
     issue_body = os.environ.get('ISSUE_BODY', '')
     issue_number = os.environ.get('ISSUE_NUMBER', 'unknown')
@@ -220,8 +239,12 @@ def main():
     elif action == 'remove':
         if children:
             print(f"Warning: Structure has {len(children)} children that will be orphaned!")
+        
+        # Remove relationships that reference this structure
         if relationships:
-            print(f"Warning: Structure has {len(relationships)} relationships that will be broken!")
+            print(f"Removing {len(relationships)} relationships...")
+            for rel_file, rel in relationships:
+                remove_relationship_from_file(rel_file, structure_id)
         
         removed = remove_structure(file_path, index)
         print(f"Removed structure '{structure_name}'")
