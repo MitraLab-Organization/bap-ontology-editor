@@ -1,0 +1,125 @@
+name: "📦 Batch Reorganization"
+description: "Move multiple structures to a new parent or reorganize a hierarchy section"
+title: "[Reorganize] "
+labels: ["reorganization", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Batch Hierarchy Reorganization
+        
+        Use this template to propose moving multiple structures at once, 
+        creating new intermediate categories, or reorganizing a section of the hierarchy.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Reorganization
+      description: Explain what you want to change and why
+      placeholder: |
+        Example: "Move all laryngeal muscles to be under a new 'Laryngeal muscles' 
+        category instead of directly under Larynx. This better reflects the 
+        organizational pattern used elsewhere in the ontology."
+    validations:
+      required: true
+
+  - type: textarea
+    id: structures_to_move
+    attributes:
+      label: Structures to Move
+      description: List all structures that should be moved (one per line)
+      placeholder: |
+        Arytenoideus
+        Cricoarytenoideus alaris
+        Cricoarytenoideus lateralis
+        Cricoarytenoideus posterior
+        Thyroarytenoideus
+    validations:
+      required: true
+
+  - type: input
+    id: new_parent
+    attributes:
+      label: New Parent Structure
+      description: The structure these should be moved under
+      placeholder: "e.g., Laryngeal muscles"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: create_parent
+    attributes:
+      label: Does the new parent need to be created?
+      options:
+        - "No - parent already exists"
+        - "Yes - create new parent structure"
+    validations:
+      required: true
+
+  - type: input
+    id: parent_of_new_parent
+    attributes:
+      label: Parent of New Parent (if creating)
+      description: If creating a new parent structure, what should ITS parent be?
+      placeholder: "e.g., Larynx"
+
+  - type: textarea
+    id: new_parent_definition
+    attributes:
+      label: Definition for New Parent (if creating)
+      description: If creating a new structure, provide a definition
+      placeholder: "Muscles that control the larynx and vocal apparatus"
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Body Region
+      description: Which region is this reorganization in?
+      options:
+        - Head
+        - Neck
+        - Trunk
+        - Appendages
+        - Multiple regions
+    validations:
+      required: true
+
+  - type: textarea
+    id: before_after
+    attributes:
+      label: Before/After Hierarchy (Optional)
+      description: Show the expected hierarchy change
+      placeholder: |
+        BEFORE:
+        Larynx
+        ├── Arytenoideus
+        ├── Cricoarytenoideus alaris
+        └── ...
+        
+        AFTER:
+        Larynx
+        └── Laryngeal muscles
+            ├── Arytenoideus
+            ├── Cricoarytenoideus alaris
+            └── ...
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why is this reorganization needed?
+      placeholder: "This matches the organizational pattern used in Head → Musculoskeletal → Cranial muscles"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have verified all listed structures exist in the ontology
+          required: true
+        - label: I have checked that this won't create circular references
+          required: true
+        - label: I understand this may affect multiple YAML files
+          required: true

@@ -137,3 +137,47 @@ jobs:
             Closes #${{ github.event.issue.number }}
           branch: "issue-${{ github.event.issue.number }}-removal"
           labels: auto-generated,breaking-change
+
+  process-reorganization:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'reorganization')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Process batch reorganization
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/process_batch_reorg.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "refactor: batch reorganization from issue #${{ github.event.issue.number }}"
+          title: "${{ github.event.issue.title }}"
+          body: |
+            This PR was automatically generated from issue #${{ github.event.issue.number }}.
+            
+            📦 **Batch Reorganization**
+            
+            Please review the changes to the hierarchy structure.
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "issue-${{ github.event.issue.number }}-reorganization"
+          labels: auto-generated,hierarchy-change
