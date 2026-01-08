@@ -1,0 +1,93 @@
+name: "🗑️ Remove or Deprecate Structure"
+description: "Propose removing or deprecating an anatomical structure"
+title: "[Remove] "
+labels: ["removal", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Remove or Deprecate a Structure
+        
+        ⚠️ **Removal is a sensitive operation** - structures may have relationships or children.
+        
+        Options:
+        - **Deprecate**: Mark as obsolete but keep for historical reference
+        - **Remove**: Completely delete (only if no dependencies)
+        - **Merge**: Combine with another structure (e.g., duplicate cleanup)
+
+  - type: input
+    id: structure_name
+    attributes:
+      label: Structure to Remove
+      description: The name of the structure
+      placeholder: "e.g., Tensor tympani"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action Type
+      description: What should happen to this structure?
+      options:
+        - deprecate (mark obsolete, keep in ontology)
+        - remove (delete completely)
+        - merge (combine with another structure)
+    validations:
+      required: true
+
+  - type: input
+    id: merge_target
+    attributes:
+      label: Merge Into (if merging)
+      description: If merging, which structure should this be merged into?
+      placeholder: "e.g., Stapedius"
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for Removal
+      options:
+        - Duplicate entry
+        - Incorrectly classified
+        - Not anatomically valid
+        - Merged with another structure
+        - Out of scope for this ontology
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Detailed Justification
+      description: Explain why this structure should be removed
+      placeholder: "This structure is a duplicate of..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: child_handling
+    attributes:
+      label: Child Structure Handling
+      description: If this structure has children, what should happen to them?
+      placeholder: "Move children to parent X, or remove them too because..."
+
+  - type: textarea
+    id: relationship_handling
+    attributes:
+      label: Relationship Handling
+      description: If this structure has relationships, what should happen?
+      placeholder: "Transfer innervation relationships to structure X..."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked for child structures that would be affected
+          required: true
+        - label: I have checked for relationships that reference this structure
+          required: true
+        - label: I understand this change may affect downstream systems
+          required: true

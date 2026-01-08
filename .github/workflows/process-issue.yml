@@ -95,3 +95,45 @@ jobs:
             Closes #${{ github.event.issue.number }}
           branch: "issue-${{ github.event.issue.number }}-relationship"
           labels: auto-generated
+
+  process-removal:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'removal')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml
+      
+      - name: Parse issue and process removal
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/process_removal_issue.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "fix: remove/deprecate structure from issue #${{ github.event.issue.number }}"
+          title: "${{ github.event.issue.title }}"
+          body: |
+            This PR was automatically generated from issue #${{ github.event.issue.number }}.
+            
+            ⚠️ **Please review the impact report carefully before merging.**
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "issue-${{ github.event.issue.number }}-removal"
+          labels: auto-generated,breaking-change
