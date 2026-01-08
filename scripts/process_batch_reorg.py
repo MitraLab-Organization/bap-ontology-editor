@@ -26,7 +26,7 @@ def parse_issue_body(body: str) -> dict:
         content_lines = [l for l in lines[1:] if l.strip() and not l.startswith('- [')]
         content = '\n'.join(content_lines).strip()
         
-        key = label.lower().replace(' ', '_').replace('(', '').replace(')', '').replace('/', '_')
+        key = label.lower().replace(' ', '_').replace('(', '').replace(')', '').replace('/', '_').replace('?', '')
         
         if content and content != '_No response_':
             data[key] = content
@@ -122,7 +122,13 @@ def main():
     structures_to_move = [s.strip() for s in structures_to_move if s.strip()]
     
     new_parent_name = data.get('new_parent_structure', '').strip()
-    create_parent = 'yes' in data.get('does_the_new_parent_need_to_be_created', '').lower()
+    # Check various possible key names for "create parent"
+    create_parent_value = (
+        data.get('does_the_new_parent_need_to_be_created', '') or
+        data.get('does_the_new_parent_need_to_be_created?', '') or
+        ''
+    )
+    create_parent = 'yes' in create_parent_value.lower()
     parent_of_new_parent = data.get('parent_of_new_parent_if_creating', '').strip()
     new_parent_definition = data.get('definition_for_new_parent_if_creating', '').strip()
     region = data.get('body_region', 'Head')
