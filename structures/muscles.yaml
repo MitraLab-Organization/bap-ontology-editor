@@ -1,0 +1,412 @@
+# BAP Muscles
+# Exported from groundtruth database - matches existing data exactly
+
+metadata:
+  category: muscles
+  description: Muscles of the mouse head and neck region
+  version: "1.0.0"
+  last_modified: "2026-01-08"
+
+structures:
+  # ============================================================================
+  # MASTICATION MUSCLES (Trigeminal nerve innervated)
+  # ============================================================================
+  
+  - id: BAP_0000015
+    name: Masseter
+    parent: BAP_0012007
+    definition: Primary muscle of mastication; elevates and protrudes the mandible
+    
+  - id: BAP_0000016
+    name: Superficial masseter
+    parent: BAP_0000015
+    definition: Superficial portion of masseter; elevates and protrudes mandible
+    
+  - id: BAP_0000017
+    name: Deep masseter
+    parent: BAP_0000015
+    definition: Deep portion of masseter; elevates mandible with vertical force
+    
+  - id: BAP_0000018
+    name: Zygomaticomandibularis
+    parent: BAP_0000015
+    definition: Accessory masticatory muscle; assists in jaw elevation
+    
+  - id: BAP_0000019
+    name: Temporalis
+    parent: BAP_0012007
+    definition: Muscle of mastication; elevates and retracts the mandible
+    
+  - id: BAP_0000080
+    name: Temporalis lateralis
+    parent: BAP_0000019
+    
+  - id: BAP_0000081
+    name: Temporalis medialis
+    parent: BAP_0000019
+    
+  - id: BAP_0000020
+    name: Pterygoideus lateralis
+    parent: BAP_0012007
+    definition: Muscle of mastication; protrudes mandible and assists lateral movement
+    
+  - id: BAP_0000021
+    name: Pterygoideus medialis
+    parent: BAP_0012007
+    definition: Muscle of mastication; elevates mandible and assists grinding motion
+    
+  - id: BAP_0000013
+    name: Mylohyoideus
+    parent: BAP_0012007
+    definition: Elevate floor of oral cavity
+    
+  - id: BAP_0000014
+    name: Digastricus anterior
+    parent: BAP_0012007
+    definition: Depress mandible
+    
+  - id: BAP_0000022
+    name: Tensor tympani
+    parent: BAP_0000009
+    
+  - id: BAP_0000023
+    name: Tensor veli palatini
+    parent: BAP_0000079
+    definition: Tenses soft palate
+    
+  # ============================================================================
+  # FACIAL EXPRESSION MUSCLES (Facial nerve innervated)
+  # ============================================================================
+  
+  - id: BAP_0000024
+    name: Stylohyoideus
+    parent: BAP_0012007
+    definition: Suprahyoid muscle; elevates and retracts the hyoid bone
+    
+  - id: BAP_0000025
+    name: Digastricus posterior
+    parent: BAP_0012007
+    definition: Suprahyoid muscle; elevates hyoid bone and assists jaw opening
+    
+  - id: BAP_0000026
+    name: Stapedius
+    parent: BAP_0000009
+    definition: Stabelize stapes bone
+    
+  - id: BAP_0000027
+    name: Platysma cervicale
+    parent: BAP_0012007
+    definition: Superficial cervical muscle; tenses skin of the anterior neck
+    
+  - id: BAP_0000028
+    name: Platysma myoides
+    parent: BAP_0012007
+    definition: Superficial facial muscle; tenses skin of the lower face and neck
+    
+  - id: BAP_0000029
+    name: Occipitalis
+    parent: BAP_0012007
+    definition: Scalp movment
+    
+  - id: BAP_0000030
+    name: Mandibuloauricularis
+    parent: BAP_0012007
+    
+  - id: BAP_0000031
+    name: Sphincter colli superficialis
+    parent: BAP_0012007
+    
+  - id: BAP_0000032
+    name: Sphincter colli profundus
+    parent: BAP_0012007
+    
+  - id: BAP_0000033
+    name: Interscutularis
+    parent: BAP_0012007
+    
+  - id: BAP_0000034
+    name: Zygomaticus major
+    parent: BAP_0012007
+    
+  - id: BAP_0000035
+    name: Zygomaticus minor
+    parent: BAP_0012007
+    
+  - id: BAP_0000036
+    name: Orbito-temporo-auricularis
+    parent: BAP_0012007
+    
+  - id: BAP_0000037
+    name: Orbicularis oculi
+    parent: BAP_0012007
+    
+  - id: BAP_0000038
+    name: Levator labii superioris alaeque nasi
+    parent: BAP_0012007
+    
+  - id: BAP_0000039
+    name: Levator labii superioris
+    parent: BAP_0012007
+    
+  - id: BAP_0000040
+    name: Buccinatorius
+    parent: BAP_0012007
+    
+  - id: BAP_0000041
+    name: Dilatator nasi
+    parent: BAP_0012007
+    
+  - id: BAP_0000042
+    name: Nasalis
+    parent: BAP_0012007
+    
+  - id: BAP_0000043
+    name: Depressor septi nasi
+    parent: BAP_0012007
+    
+  - id: BAP_0000044
+    name: Depressor rhinarii
+    parent: BAP_0012007
+    
+  - id: BAP_0000045
+    name: Levator rhinarii
+    parent: BAP_0012007
+    
+  - id: BAP_0000046
+    name: Levator anguli oris
+    parent: BAP_0012007
+    
+  - id: BAP_0000047
+    name: Orbicularis oris
+    parent: BAP_0012007
+    
+  - id: BAP_0000082
+    name: Frontalis
+    parent: BAP_0012007
+    
+  # ============================================================================
+  # TONGUE MUSCLES (Hypoglossal nerve innervated)
+  # ============================================================================
+  
+  - id: BAP_0000071
+    name: Genioglossus
+    parent: BAP_0000102
+    definition: Extrinsic tongue muscle; protrudes and depresses the tongue
+    
+  - id: BAP_0000072
+    name: Hyoglossus
+    parent: BAP_0000102
+    definition: Extrinsic tongue muscle; depresses and retracts the tongue
+    
+  - id: BAP_0000073
+    name: Styloglossus
+    parent: BAP_0000102
+    definition: Extrinsic tongue muscle; retracts and elevates the tongue
+    
+  - id: BAP_0000101
+    name: Palatoglossus
+    parent: BAP_0000102
+    
+  - id: BAP_0000103
+    name: Superior longitudinal
+    parent: BAP_0000102
+    
+  - id: BAP_0000104
+    name: Inferior longitudinal
+    parent: BAP_0000102
+    
+  - id: BAP_0000105
+    name: Transverse
+    parent: BAP_0000102
+    
+  - id: BAP_0000106
+    name: Vertical
+    parent: BAP_0000102
+    
+  # ============================================================================
+  # PHARYNGEAL MUSCLES
+  # ============================================================================
+  
+  - id: BAP_0000048
+    name: Stylopharyngeus
+    parent: BAP_0012007
+    
+  - id: BAP_0000049
+    name: Ceratohyoideus
+    parent: BAP_0012007
+    
+  - id: BAP_0000056
+    name: Constrictor pharyngis superior
+    parent: BAP_0000079
+    
+  - id: BAP_0000057
+    name: Constrictor pharyngis medius
+    parent: BAP_0000079
+    
+  - id: BAP_0000058
+    name: Constrictor pharyngis inferior
+    parent: BAP_0000079
+    
+  - id: BAP_0000060
+    name: Pterygopharyngeus
+    parent: BAP_0000079
+    
+  - id: BAP_0000061
+    name: Palatopharyngeus
+    parent: BAP_0000079
+    
+  - id: BAP_0000063
+    name: Levator veli palatini
+    parent: BAP_0000079
+    
+  - id: BAP_0000064
+    name: Salpingopharyngeus
+    parent: BAP_0000079
+    
+  - id: BAP_0000083
+    name: Esophagus
+    parent: BAP_0000079
+    
+  - id: BAP_0000084
+    name: sternofacialis left
+    parent: BAP_0000079
+    
+  # ============================================================================
+  # LARYNGEAL MUSCLES
+  # ============================================================================
+  
+  - id: BAP_0000065
+    name: Thyroarytenoideus
+    parent: BAP_0000078
+    
+  - id: BAP_0000066
+    name: Cricoarytenoideus alaris
+    parent: BAP_0000078
+    
+  - id: BAP_0000067
+    name: Cricoarytenoideus lateralis
+    parent: BAP_0000078
+    
+  - id: BAP_0000068
+    name: Cricoarytenoideus posterior
+    parent: BAP_0000078
+    
+  - id: BAP_0000069
+    name: Arytenoideus
+    parent: BAP_0000078
+    
+  # ============================================================================
+  # NECK MUSCLES (under Neck -> Musculoskeletal system -> Neck muscles)
+  # ============================================================================
+  
+  - id: BAP_0000050
+    name: Trapezius
+    parent: BAP_0021101
+    
+  - id: BAP_0000051
+    name: Acromiotrapezius
+    parent: BAP_0000050
+    
+  - id: BAP_0000052
+    name: Spinotrapezius
+    parent: BAP_0000050
+    
+  - id: BAP_0000053
+    name: Cleidooccipitalis
+    parent: BAP_0021101
+    
+  - id: BAP_0000054
+    name: Cleidomastoideus
+    parent: BAP_0021101
+    
+  - id: BAP_0000055
+    name: Sternomastoideus
+    parent: BAP_0021101
+    
+  - id: BAP_0000059
+    name: Cricothyroideus
+    parent: BAP_0021101
+    
+  - id: BAP_0000062
+    name: Jugulohyoideus
+    parent: BAP_0021101
+    
+  - id: BAP_0000070
+    name: Geniohyoideus
+    parent: BAP_0012007
+    
+  - id: BAP_0000074
+    name: Sternohyoideus
+    parent: BAP_0012007
+    definition: Infrahyoid muscle; depresses hyoid bone after swallowing
+    
+  - id: BAP_0000075
+    name: Omohyoideus
+    parent: BAP_0021101
+    definition: Infrahyoid muscle; depresses hyoid bone and stabilizes during speech
+    
+  - id: BAP_0000076
+    name: Sternothyroideus
+    parent: BAP_0021101
+    definition: Thyroid cartilage depression
+    
+  - id: BAP_0000077
+    name: Thyrohyoideus
+    parent: BAP_0021101
+    definition: Hyoid depression, thyroid elevation
+    
+  # ============================================================================
+  # EXTRAOCULAR MUSCLES
+  # ============================================================================
+  
+  - id: BAP_0000085
+    name: levator palpebrae superioris
+    parent: BAP_0000008
+    
+  - id: BAP_0000086
+    name: superior oblique muscle
+    parent: BAP_0000008
+    
+  - id: BAP_0000087
+    name: superior oblique tendon
+    parent: BAP_0000086
+    
+  - id: BAP_0000088
+    name: trochlea
+    parent: BAP_0000087
+    
+  - id: BAP_0000089
+    name: inferior oblique
+    parent: BAP_0000008
+    
+  - id: BAP_0000090
+    name: lateral rectus
+    parent: BAP_0000008
+    
+  - id: BAP_0000091
+    name: medial rectus
+    parent: BAP_0000008
+    
+  - id: BAP_0000092
+    name: superior rectus
+    parent: BAP_0000008
+    
+  - id: BAP_0000093
+    name: retractor bulbi
+    parent: BAP_0000008
+    
+  # ============================================================================
+  # EAR MUSCLES
+  # ============================================================================
+  
+  - id: BAP_0000098
+    name: Auricularis posterior
+    parent: BAP_0000009
+    
+  - id: BAP_0000099
+    name: Auricularis anterior
+    parent: BAP_0000009
+    
+  - id: BAP_0000100
+    name: Auricularis superior
+    parent: BAP_0000009

@@ -1,0 +1,103 @@
+# Validate BAP Ontology on Pull Request
+#
+# This workflow runs on every PR to validate:
+# - YAML syntax
+# - Schema compliance
+# - Referential integrity
+# - Hierarchy consistency
+
+name: Validate Ontology
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'structures/**'
+      - 'relationships/**'
+      - 'schemas/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema
+      
+      - name: Run validation
+        id: validate
+        run: |
+          python scripts/validate.py --json validation-report.json
+        continue-on-error: true
+      
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation-report.json
+      
+      - name: Comment on PR
+        uses: actions/github-script@v7
+        if: github.event_name == 'pull_request'
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('validation-report.json', 'utf8'));
+            
+            let body = '## 🔍 Ontology Validation Report\n\n';
+            
+            if (report.valid) {
+              body += '✅ **All checks passed!**\n\n';
+            } else {
+              body += '❌ **Validation failed**\n\n';
+            }
+            
+            body += `| Metric | Count |\n`;
+            body += `|--------|-------|\n`;
+            body += `| Errors | ${report.error_count} |\n`;
+            body += `| Warnings | ${report.warning_count} |\n`;
+            
+            if (report.stats) {
+              body += `| Structures | ${report.stats['Total structures'] || 'N/A'} |\n`;
+              body += `| Relationships | ${report.stats['Total relationships'] || 'N/A'} |\n`;
+            }
+            
+            if (report.issues && report.issues.length > 0) {
+              body += '\n### Issues\n\n';
+              const errors = report.issues.filter(i => i.level === 'error').slice(0, 10);
+              const warnings = report.issues.filter(i => i.level === 'warning').slice(0, 5);
+              
+              if (errors.length > 0) {
+                body += '**Errors:**\n';
+                errors.forEach(e => {
+                  body += `- ❌ [${e.category}] ${e.message}\n`;
+                });
+              }
+              
+              if (warnings.length > 0) {
+                body += '\n**Warnings:**\n';
+                warnings.forEach(w => {
+                  body += `- ⚠️ [${w.category}] ${w.message}\n`;
+                });
+              }
+            }
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
+      
+      - name: Check validation result
+        if: steps.validate.outcome == 'failure'
+        run: exit 1

@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://bap.org/schemas/structure.schema.json",
+  "title": "BAP Anatomical Structure",
+  "description": "Schema for anatomical structure definitions in the BAP ontology",
+  
+  "definitions": {
+    "bap_id": {
+      "type": "string",
+      "pattern": "^BAP_[0-9]{7}$",
+      "description": "BAP identifier in format BAP_XXXXXXX (7 digits)"
+    },
+    
+    "structure": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/bap_id",
+          "description": "Unique BAP identifier"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "description": "Human-readable structure name"
+        },
+        "parent": {
+          "oneOf": [
+            { "$ref": "#/definitions/bap_id" },
+            { "type": "null" }
+          ],
+          "description": "Parent structure ID, null for root nodes"
+        },
+        "definition": {
+          "type": "string",
+          "maxLength": 2000,
+          "description": "IAO definition text"
+        },
+        "abbreviation": {
+          "type": "string",
+          "maxLength": 20,
+          "description": "Short abbreviation"
+        },
+        "external_id": {
+          "type": "string",
+          "pattern": "^[A-Z]+_[0-9]+$",
+          "description": "Cross-reference to external ontology (e.g., UBERON_0001234)"
+        },
+        "synonyms": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Alternative names"
+        },
+        "deprecated": {
+          "type": "boolean",
+          "default": false,
+          "description": "Mark structure as deprecated"
+        },
+        "replaced_by": {
+          "$ref": "#/definitions/bap_id",
+          "description": "Replacement structure if deprecated"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  
+  "type": "object",
+  "required": ["structures"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": ["muscles", "nerves", "vessels", "bones", "organs", "regions"]
+        },
+        "description": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "last_modified": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "structures": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/structure" },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,28 @@
+# BAP Blood Vessels
+# Updated to align with organ system hierarchy
+
+metadata:
+  category: vessels
+  description: Arteries of the mouse head region
+  version: "2.0.0"
+  last_modified: "2026-01-08"
+
+structures:
+  # ============================================================================
+  # ARTERIES - Under Head arteries (BAP_0020401)
+  # ============================================================================
+  
+  - id: BAP_0002000
+    name: Lingual artery
+    parent: BAP_0020401
+    definition: Branch of external carotid supplying the tongue
+    
+  - id: BAP_0002001
+    name: Maxillary artery
+    parent: BAP_0020401
+    definition: Terminal branch of external carotid, supplies deep face structures
+    
+  - id: BAP_0002002
+    name: Temporal artery
+    parent: BAP_0020401
+    definition: Superficial temporal artery supplying temporal region

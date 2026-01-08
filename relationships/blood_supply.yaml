@@ -1,0 +1,37 @@
+# BAP Blood Supply Relationships
+# Exported from groundtruth database - matches existing data exactly
+
+metadata:
+  type: blood_supply
+  description: Arterial blood supply relationships
+  version: "1.0.0"
+  last_modified: "2026-01-08"
+
+relationships:
+  # ============================================================================
+  # MAXILLARY ARTERY SUPPLY
+  # ============================================================================
+  
+  - subject: BAP_0000015  # Masseter
+    predicate: supplied_by
+    object: BAP_0002001   # Maxillary artery
+    
+  # ============================================================================
+  # TEMPORAL ARTERY SUPPLY
+  # ============================================================================
+  
+  - subject: BAP_0000019  # Temporalis
+    predicate: supplied_by
+    object: BAP_0002002   # Temporal artery
+    
+  # ============================================================================
+  # LINGUAL ARTERY SUPPLY
+  # ============================================================================
+  
+  - subject: BAP_0000071  # Genioglossus
+    predicate: supplied_by
+    object: BAP_0002000   # Lingual artery
+    
+  - subject: BAP_0000072  # Hyoglossus
+    predicate: supplied_by
+    object: BAP_0002000   # Lingual artery

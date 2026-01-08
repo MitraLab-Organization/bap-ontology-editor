@@ -1,0 +1,66 @@
+# BAP Developmental Origin Relationships
+#
+# This file defines the embryonic developmental origins of structures.
+# Format: subject (adult structure) develops_from object (embryonic structure)
+
+metadata:
+  type: developmental
+  description: Developmental origin relationships
+  version: "1.0.0"
+  last_modified: "2026-01-08"
+
+# Empty for now - uncomment entries below once developmental structures are defined
+relationships: []
+
+# ============================================================================
+# TEMPLATE ENTRIES (uncomment when ready)
+# ============================================================================
+
+# TONGUE MUSCLES - From Occipital Somites
+# Tongue muscles derive from occipital somites and migrate anteriorly
+#
+# - subject: BAP_0001101  # Genioglossus
+#   predicate: develops_from
+#   object: BAP_0004001   # Occipital somites (to be defined)
+#   confidence: high
+#   reference: "PMID:12345678"
+
+# MASTICATION MUSCLES - From First Pharyngeal Arch
+#
+# - subject: BAP_0001301  # Masseter
+#   predicate: develops_from
+#   object: BAP_0004010   # First pharyngeal arch mesoderm
+#   confidence: high
+
+# - subject: BAP_0001302  # Temporalis
+#   predicate: develops_from
+#   object: BAP_0004010   # First pharyngeal arch mesoderm
+#   confidence: high
+
+# FACIAL EXPRESSION MUSCLES - From Second Pharyngeal Arch
+#
+# - subject: BAP_0001201  # Levator labii superioris
+#   predicate: develops_from
+#   object: BAP_0004020   # Second pharyngeal arch mesoderm
+#   confidence: high
+
+# - subject: BAP_0001205  # Buccinator
+#   predicate: develops_from
+#   object: BAP_0004020   # Second pharyngeal arch mesoderm
+#   confidence: high
+
+# EXTRAOCULAR MUSCLES - Mixed origin
+# Superior oblique from 1st arch, lateral rectus from 3rd arch, others from prechordal
+#
+# - subject: BAP_0001405  # Superior oblique
+#   predicate: develops_from
+#   object: BAP_0004010   # First pharyngeal arch mesoderm
+#   confidence: high
+
+# - subject: BAP_0001404  # Lateral rectus
+#   predicate: develops_from
+#   object: BAP_0004030   # Third pharyngeal arch mesoderm
+#   confidence: high
+
+# NOTE: Add developmental structure definitions to structures/developmental.yaml
+# before uncommenting these relationships.

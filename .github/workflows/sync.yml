@@ -1,0 +1,121 @@
+# Sync BAP Ontology to Database on Merge
+#
+# This workflow runs when PRs are merged to main:
+# 1. Generates the OWL file
+# 2. Syncs changes to the PostgreSQL database
+# 3. Creates a release with the OWL file
+
+# name: Sync to Database
+
+# on:
+#   push:
+#     branches: [main]
+#     paths:
+#       - 'structures/**'
+#       - 'relationships/**'
+
+#   # Allow manual trigger
+#   workflow_dispatch:
+
+# jobs:
+#   sync:
+#     runs-on: ubuntu-latest
+    
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+      
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: '3.11'
+      
+#       - name: Install dependencies
+#         run: |
+#           pip install pyyaml jsonschema psycopg2-binary
+      
+#       # Re-validate before sync (safety check)
+#       - name: Validate
+#         run: python scripts/validate.py --strict
+      
+#       # Generate OWL file
+#       - name: Generate OWL
+#         run: |
+#           python scripts/generate_owl.py --output bap-mousehead.owl --validate
+      
+#       # Generate hierarchy tree and update README
+#       - name: Update README with hierarchy
+#         run: |
+#           python scripts/generate_tree.py --update-readme --stats
+      
+#       # Sync to database
+#       - name: Sync to Database
+#         env:
+#           DB_HOST: ${{ secrets.DB_HOST }}
+#           DB_PORT: ${{ secrets.DB_PORT }}
+#           DB_NAME: ${{ secrets.DB_NAME }}
+#           DB_USER: ${{ secrets.DB_USER }}
+#           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+#         run: |
+#           python scripts/sync_to_db.py --force
+      
+#       # Upload OWL as artifact
+#       - name: Upload OWL artifact
+#         uses: actions/upload-artifact@v4
+#         with:
+#           name: bap-mousehead-owl
+#           path: bap-mousehead.owl
+      
+#       # Commit generated files back to repo
+#       - name: Commit generated files
+#         run: |
+#           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+#           git config --local user.name "github-actions[bot]"
+#           git add bap-mousehead.owl README.md
+#           git diff --staged --quiet || git commit -m "chore: regenerate OWL and update hierarchy [skip ci]"
+#           git push
+      
+#       # Create release on version tags
+#       - name: Check for version tag
+#         id: check_tag
+#         run: |
+#           if [[ "${{ github.ref }}" == refs/tags/v* ]]; then
+#             echo "is_release=true" >> $GITHUB_OUTPUT
+#           else
+#             echo "is_release=false" >> $GITHUB_OUTPUT
+#           fi
+      
+#       - name: Create Release
+#         if: steps.check_tag.outputs.is_release == 'true'
+#         uses: softprops/action-gh-release@v1
+#         with:
+#           files: bap-mousehead.owl
+#           generate_release_notes: true
+
+#   # Optional: Deploy to staging database for review
+#   deploy-staging:
+#     runs-on: ubuntu-latest
+#     if: github.event_name == 'pull_request'
+#     environment: staging
+    
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+      
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: '3.11'
+      
+#       - name: Install dependencies
+#         run: pip install pyyaml psycopg2-binary
+      
+#       - name: Sync to Staging DB (dry-run)
+#         env:
+#           DB_HOST: ${{ secrets.STAGING_DB_HOST }}
+#           DB_PORT: ${{ secrets.STAGING_DB_PORT }}
+#           DB_NAME: ${{ secrets.STAGING_DB_NAME }}
+#           DB_USER: ${{ secrets.STAGING_DB_USER }}
+#           DB_PASSWORD: ${{ secrets.STAGING_DB_PASSWORD }}
+#         run: |
+#           python scripts/sync_to_db.py --dry-run

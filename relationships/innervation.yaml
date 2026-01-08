@@ -1,0 +1,185 @@
+# BAP Innervation Relationships
+# Exported from groundtruth database - matches existing data exactly
+
+metadata:
+  type: innervation
+  description: Nerve-to-muscle innervation relationships
+  version: "1.0.0"
+  last_modified: "2026-01-08"
+
+relationships:
+  # ============================================================================
+  # TRIGEMINAL NERVE (CN V) INNERVATION - Mastication muscles
+  # ============================================================================
+  
+  - subject: BAP_0000013  # Mylohyoideus
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000014  # Digastricus anterior
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000015  # Masseter
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000016  # Superficial masseter
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000017  # Deep masseter
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000018  # Zygomaticomandibularis
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000019  # Temporalis
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000020  # Pterygoideus lateralis
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000021  # Pterygoideus medialis
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000022  # Tensor tympani
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  - subject: BAP_0000023  # Tensor veli palatini
+    predicate: innervated_by
+    object: BAP_0001004   # Trigeminal nerve
+    
+  # ============================================================================
+  # FACIAL NERVE (CN VII) INNERVATION - Facial expression muscles
+  # ============================================================================
+  
+  - subject: BAP_0000024  # Stylohyoideus
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000025  # Digastricus posterior
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000026  # Stapedius
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000027  # Platysma cervicale
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000028  # Platysma myoides
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000029  # Occipitalis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000030  # Mandibuloauricularis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000031  # Sphincter colli superficialis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000032  # Sphincter colli profundus
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000033  # Interscutularis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000034  # Zygomaticus major
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000035  # Zygomaticus minor
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000036  # Orbito-temporo-auricularis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000037  # Orbicularis oculi
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000038  # Levator labii superioris alaeque nasi
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000039  # Levator labii superioris
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000040  # Buccinatorius
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000041  # Dilatator nasi
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000042  # Nasalis
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000043  # Depressor septi nasi
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000044  # Depressor rhinarii
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000045  # Levator rhinarii
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000046  # Levator anguli oris
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  - subject: BAP_0000047  # Orbicularis oris
+    predicate: innervated_by
+    object: BAP_0001000   # Facial nerve
+    
+  # ============================================================================
+  # GLOSSOPHARYNGEAL NERVE (CN IX) INNERVATION
+  # ============================================================================
+  
+  - subject: BAP_0000048  # Stylopharyngeus
+    predicate: innervated_by
+    object: BAP_0001001   # Glossopharyngeal nerve
+    
+  # ============================================================================
+  # ACCESSORY NERVE (CN XI) INNERVATION
+  # ============================================================================
+  
+  - subject: BAP_0000050  # Trapezius
+    predicate: innervated_by
+    object: BAP_0001003   # Accessory nerve
+    
+  # ============================================================================
+  # HYPOGLOSSAL NERVE (CN XII) INNERVATION - Tongue muscles
+  # ============================================================================
+  
+  - subject: BAP_0000071  # Genioglossus
+    predicate: innervated_by
+    object: BAP_0001002   # Hypoglossal nerve
+    
+  - subject: BAP_0000072  # Hyoglossus
+    predicate: innervated_by
+    object: BAP_0001002   # Hypoglossal nerve

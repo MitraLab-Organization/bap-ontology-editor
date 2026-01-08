@@ -1,0 +1,10 @@
+# BAP Ontology Tools Dependencies
+
+# YAML parsing
+PyYAML>=6.0
+
+# JSON Schema validation
+jsonschema>=4.0
+
+# Database connectivity (for sync)
+psycopg2-binary>=2.9
