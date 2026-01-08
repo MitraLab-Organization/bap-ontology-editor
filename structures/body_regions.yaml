@@ -1,405 +1,264 @@
-# BAP Body Regions
-# Updated hierarchy with organ system-based organization
-
 metadata:
   category: regions
   description: Major body regions and organ system hierarchy
-  version: "2.0.0"
-  last_modified: "2026-01-08"
-
+  version: 2.0.0
+  last_modified: '2026-01-08'
 structures:
-  # ============================================================================
-  # ROOT - Body
-  # ============================================================================
-  
-  - id: BAP_0012000
-    name: Body
-    parent: null
-    definition: Root structure for the entire body
-    
-  # ============================================================================
-  # MAJOR BODY REGIONS
-  # ============================================================================
-  
-  - id: BAP_0000001
-    name: Head
-    parent: BAP_0012000
-    definition: Head region of the mouse
-    
-  - id: BAP_0000002
-    name: Neck
-    parent: BAP_0012000
-    
-  - id: BAP_0000006
-    name: Appendages
-    parent: BAP_0012000
-    
-  - id: BAP_0012001
-    name: Trunk
-    parent: BAP_0012000
-    definition: Central body region containing thorax, abdomen, and pelvis
-    
-  # ============================================================================
-  # HEAD: ORGAN SYSTEMS (Level 2 under Head)
-  # ============================================================================
-  
-  - id: BAP_0020001
-    name: Musculoskeletal system
-    parent: BAP_0000001
-    definition: Musculoskeletal structures of the head including muscles and cranium
-    
-  - id: BAP_0020002
-    name: Nervous system
-    parent: BAP_0000001
-    definition: Neural structures of the head
-    
-  - id: BAP_0020003
-    name: Sense organs
-    parent: BAP_0000001
-    definition: Sensory organs and structures of the head
-    
-  - id: BAP_0020004
-    name: Vascular system
-    parent: BAP_0000001
-    definition: Blood vessels and lymphatics of the head
-    
-  - id: BAP_0020005
-    name: Endocrine and exocrine system
-    parent: BAP_0000001
-    definition: Glandular structures of the head
-    
-  - id: BAP_0020006
-    name: Cavities and passages
-    parent: BAP_0000001
-    definition: Anatomical spaces and passages of the head
-    
-  - id: BAP_0020007
-    name: Integumentary system
-    parent: BAP_0000001
-    definition: Skin and external structures of the head
-    
-  # ============================================================================
-  # MUSCULOSKELETAL SYSTEM SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0012007
-    name: Cranial muscles
-    parent: BAP_0020001
-    definition: Muscles of the head region
-    
-  - id: BAP_0020101
-    name: Cranium
-    parent: BAP_0020001
-    definition: Bony skull structure
-    
-  - id: BAP_0000138
-    name: Neurocranium
-    parent: BAP_0020101
-    definition: Bones enclosing the brain
-    
-  - id: BAP_0000139
-    name: Viscerocranium
-    parent: BAP_0020101
-    definition: Facial skeleton bones
-    
-  # ============================================================================
-  # NERVOUS SYSTEM SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0020201
-    name: Peripheral nervous system
-    parent: BAP_0020002
-    definition: Peripheral nerves of the head
-    
-  - id: BAP_0012006
-    name: Cranial Nerves
-    parent: BAP_0020201
-    definition: Group of nerves emerging directly from the brain
-    
-  - id: BAP_0020202
-    name: Central nervous system
-    parent: BAP_0020002
-    definition: Central nervous system structures in the head
-    
-  - id: BAP_0012004
-    name: Brain
-    parent: BAP_0020202
-    definition: Central nervous system organ in the head
-    
-  # ============================================================================
-  # SENSE ORGANS SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0000008
-    name: Eye
-    parent: BAP_0020003
-    definition: Visual organ
-    
-  - id: BAP_0020301
-    name: Inner ear
-    parent: BAP_0020003
-    definition: Auditory and vestibular organ
-    
-  - id: BAP_0020302
-    name: Whisker barrels
-    parent: BAP_0020003
-    definition: Somatosensory cortical structures for whisker sensation
-    
-  - id: BAP_0020303
-    name: Olfactory epithelium
-    parent: BAP_0020003
-    definition: Sensory epithelium for smell
-    
-  - id: BAP_0020304
-    name: Gustatory epithelium
-    parent: BAP_0020003
-    definition: Sensory epithelium for taste
-    
-  # ============================================================================
-  # VASCULAR SYSTEM SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0020401
-    name: Arteries
-    parent: BAP_0020004
-    definition: Arterial blood supply to the head
-    
-  - id: BAP_0020402
-    name: Veins
-    parent: BAP_0020004
-    definition: Venous drainage of the head
-    
-  - id: BAP_0020403
-    name: Lymphatics
-    parent: BAP_0020004
-    definition: Lymphatic structures of the head
-    
-  # ============================================================================
-  # ENDOCRINE/EXOCRINE SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0020501
-    name: Parotid glands
-    parent: BAP_0020005
-    definition: Major salivary glands near the ear
-    
-  - id: BAP_0020502
-    name: Palatal submucosa
-    parent: BAP_0020005
-    definition: Submucosal glandular tissue of the palate
-    
-  # ============================================================================
-  # CAVITIES AND PASSAGES SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0020601
-    name: Oral cavity
-    parent: BAP_0020006
-    definition: Mouth cavity
-    
-  - id: BAP_0020602
-    name: Nasal sinuses
-    parent: BAP_0020006
-    definition: Paranasal sinus cavities
-    
-  - id: BAP_0000010
-    name: Nasal cavity
-    parent: BAP_0020006
-    definition: Nasal passage
-    
-  # ============================================================================
-  # INTEGUMENTARY SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0020701
-    name: Skin
-    parent: BAP_0020007
-    definition: Skin covering the head
-    
-  - id: BAP_0000012
-    name: Whiskers
-    parent: BAP_0020007
-    definition: Vibrissae - tactile hairs
-    
-  - id: BAP_0020702
-    name: External ear
-    parent: BAP_0020007
-    definition: Pinna and external acoustic structures
-    
-  # ============================================================================
-  # EXISTING STRUCTURES TO REORGANIZE
-  # Ear (9) - split into Inner ear and External ear above
-  # ============================================================================
-  
-  - id: BAP_0000009
-    name: Ear
-    parent: BAP_0020003
-    definition: Auditory organ (to be deprecated - use Inner ear / External ear)
-    deprecated: true
-    
-  - id: BAP_0000102
-    name: Tongue
-    parent: BAP_0020006
-    definition: Muscular organ in oral cavity
-    
-  - id: BAP_0000007
-    name: Jaw apparatus
-    parent: BAP_0000139
-    definition: Jaw structures
-    
-  # ============================================================================
-  # NECK: ORGAN SYSTEMS (Level 2 under Neck)
-  # ============================================================================
-  
-  - id: BAP_0021001
-    name: Musculoskeletal system
-    parent: BAP_0000002
-    definition: Musculoskeletal structures of the neck
-    
-  - id: BAP_0021002
-    name: Nervous system
-    parent: BAP_0000002
-    definition: Neural structures of the neck
-    
-  - id: BAP_0021003
-    name: Vascular system
-    parent: BAP_0000002
-    definition: Blood vessels and lymphatics of the neck
-    
-  - id: BAP_0021004
-    name: Endocrine and exocrine system
-    parent: BAP_0000002
-    definition: Glandular structures of the neck
-    
-  - id: BAP_0021005
-    name: Cavities and passages
-    parent: BAP_0000002
-    definition: Anatomical passages of the neck
-    
-  - id: BAP_0021006
-    name: Integumentary system
-    parent: BAP_0000002
-    definition: Skin of the neck
-    
-  # ============================================================================
-  # NECK: MUSCULOSKELETAL SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0021101
-    name: Neck muscles
-    parent: BAP_0021001
-    definition: Muscles of the neck region
-    
-  - id: BAP_0021102
-    name: Neck skeletal system
-    parent: BAP_0021001
-    definition: Skeletal structures of the neck
-    
-  # ============================================================================
-  # NECK: NERVOUS SYSTEM SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0021201
-    name: Peripheral nervous system
-    parent: BAP_0021002
-    definition: Peripheral nerves of the neck
-    
-  - id: BAP_0021202
-    name: Cervical nerves
-    parent: BAP_0021201
-    definition: Spinal nerves of the cervical region
-    
-  - id: BAP_0021203
-    name: Central nervous system
-    parent: BAP_0021002
-    definition: Central nervous system structures in the neck
-    
-  - id: BAP_0012005
-    name: Spinal Cord
-    parent: BAP_0021203
-    definition: Central nervous system structure extending from brain
-    
-  # ============================================================================
-  # NECK: VASCULAR SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0021301
-    name: Arteries
-    parent: BAP_0021003
-    definition: Arterial blood supply to the neck
-    
-  - id: BAP_0021302
-    name: Veins
-    parent: BAP_0021003
-    definition: Venous drainage of the neck
-    
-  - id: BAP_0021303
-    name: Lymphatics
-    parent: BAP_0021003
-    definition: Lymphatic structures of the neck
-    
-  # ============================================================================
-  # NECK: ENDOCRINE/EXOCRINE SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0021401
-    name: Thyroid gland
-    parent: BAP_0021004
-    definition: Endocrine gland in the anterior neck
-    
-  # ============================================================================
-  # NECK: CAVITIES AND PASSAGES SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0000079
-    name: Pharynx
-    parent: BAP_0021005
-    definition: Pharyngeal passage
-    
-  - id: BAP_0000078
-    name: Larynx
-    parent: BAP_0021005
-    definition: Laryngeal passage and voice box
-    
-  # ============================================================================
-  # NECK: INTEGUMENTARY SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0021601
-    name: Skin
-    parent: BAP_0021006
-    definition: Skin covering the neck
-    
-  # ============================================================================
-  # TRUNK SUBDIVISIONS
-  # ============================================================================
-  
-  - id: BAP_0000003
-    name: Thorax
-    parent: BAP_0012001
-    
-  - id: BAP_0012002
-    name: Abdomen
-    parent: BAP_0012001
-    definition: Abdominal region of the trunk
-    
-  - id: BAP_0012003
-    name: Pelvis
-    parent: BAP_0012001
-    definition: Pelvic region of the trunk
-    
-  # ============================================================================
-  # APPENDAGES
-  # ============================================================================
-  
-  - id: BAP_0000004
-    name: Forelimb
-    parent: BAP_0000006
-    
-  - id: BAP_0000005
-    name: Hindlimb
-    parent: BAP_0000006
-    
-  - id: BAP_0000011
-    name: Tail
-    parent: BAP_0000006
+- id: BAP_0012000
+  name: Body
+  parent: null
+  definition: Root structure for the entire body
+- id: BAP_0000001
+  name: Head
+  parent: BAP_0012000
+  definition: Head region of the mouse
+- id: BAP_0000002
+  name: Neck
+  parent: BAP_0012000
+- id: BAP_0000006
+  name: Appendages
+  parent: BAP_0012000
+- id: BAP_0012001
+  name: Trunk
+  parent: BAP_0012000
+  definition: Central body region containing thorax, abdomen, and pelvis
+- id: BAP_0020001
+  name: Musculoskeletal system
+  parent: BAP_0000001
+  definition: Musculoskeletal structures of the head including muscles and cranium
+- id: BAP_0020002
+  name: Nervous system
+  parent: BAP_0000001
+  definition: Neural structures of the head
+- id: BAP_0020003
+  name: Sense organs
+  parent: BAP_0000001
+  definition: Sensory organs and structures of the head
+- id: BAP_0020004
+  name: Vascular system
+  parent: BAP_0000001
+  definition: Blood vessels and lymphatics of the head
+- id: BAP_0020005
+  name: Endocrine and exocrine system
+  parent: BAP_0000001
+  definition: Glandular structures of the head
+- id: BAP_0020006
+  name: Cavities and passages
+  parent: BAP_0000001
+  definition: Anatomical spaces and passages of the head
+- id: BAP_0020007
+  name: Integumentary system
+  parent: BAP_0000001
+  definition: Skin and external structures of the head
+- id: BAP_0012007
+  name: Cranial muscles
+  parent: BAP_0020001
+  definition: Muscles of the head region
+- id: BAP_0020101
+  name: Cranium
+  parent: BAP_0020001
+  definition: Bony skull structure
+- id: BAP_0000138
+  name: Neurocranium
+  parent: BAP_0020101
+  definition: Bones enclosing the brain
+- id: BAP_0000139
+  name: Viscerocranium
+  parent: BAP_0020101
+  definition: Facial skeleton bones
+- id: BAP_0020201
+  name: Peripheral nervous system
+  parent: BAP_0020002
+  definition: Peripheral nerves of the head
+- id: BAP_0012006
+  name: Cranial Nerves
+  parent: BAP_0020201
+  definition: Group of nerves emerging directly from the brain
+- id: BAP_0020202
+  name: Central nervous system
+  parent: BAP_0020002
+  definition: Central nervous system structures in the head
+- id: BAP_0012004
+  name: Brain
+  parent: BAP_0020202
+  definition: Central nervous system organ in the head
+- id: BAP_0000008
+  name: Eye
+  parent: BAP_0020003
+  definition: Visual organ
+- id: BAP_0020301
+  name: Inner ear
+  parent: BAP_0020003
+  definition: Auditory and vestibular organ
+- id: BAP_0020302
+  name: Whisker barrels
+  parent: BAP_0020003
+  definition: Somatosensory cortical structures for whisker sensation
+- id: BAP_0020303
+  name: Olfactory epithelium
+  parent: BAP_0020003
+  definition: Sensory epithelium for smell
+- id: BAP_0020304
+  name: Gustatory epithelium
+  parent: BAP_0020003
+  definition: Sensory epithelium for taste
+- id: BAP_0020401
+  name: Arteries
+  parent: BAP_0020004
+  definition: Arterial blood supply to the head
+- id: BAP_0020402
+  name: Veins
+  parent: BAP_0020004
+  definition: Venous drainage of the head
+- id: BAP_0020403
+  name: Lymphatics
+  parent: BAP_0020004
+  definition: Lymphatic structures of the head
+- id: BAP_0020501
+  name: Parotid glands
+  parent: BAP_0020005
+  definition: Major salivary glands near the ear
+- id: BAP_0020502
+  name: Palatal submucosa
+  parent: BAP_0020005
+  definition: Submucosal glandular tissue of the palate
+- id: BAP_0020601
+  name: Oral cavity
+  parent: BAP_0020006
+  definition: Mouth cavity
+- id: BAP_0020602
+  name: Nasal sinuses
+  parent: BAP_0020006
+  definition: Paranasal sinus cavities
+- id: BAP_0000010
+  name: Nasal cavity
+  parent: BAP_0020006
+  definition: Nasal passage
+- id: BAP_0020701
+  name: Skin
+  parent: BAP_0020007
+  definition: Skin covering the head
+- id: BAP_0000012
+  name: Whiskers
+  parent: BAP_0020007
+  definition: Vibrissae - tactile hairs
+- id: BAP_0020702
+  name: External ear
+  parent: BAP_0020007
+  definition: Pinna and external acoustic structures
+- id: BAP_0000009
+  name: Ear
+  parent: BAP_0020003
+  definition: Auditory organ (to be deprecated - use Inner ear / External ear)
+  deprecated: true
+- id: BAP_0000102
+  name: Tongue
+  parent: BAP_0020006
+  definition: Muscular organ in oral cavity
+- id: BAP_0000007
+  name: Jaw apparatus
+  parent: BAP_0000139
+  definition: Jaw structures
+- id: BAP_0021001
+  name: Musculoskeletal system
+  parent: BAP_0000002
+  definition: Musculoskeletal structures of the neck
+- id: BAP_0021002
+  name: Nervous system
+  parent: BAP_0000002
+  definition: Neural structures of the neck
+- id: BAP_0021003
+  name: Vascular system
+  parent: BAP_0000002
+  definition: Blood vessels and lymphatics of the neck
+- id: BAP_0021004
+  name: Endocrine and exocrine system
+  parent: BAP_0000002
+  definition: Glandular structures of the neck
+- id: BAP_0021005
+  name: Cavities and passages
+  parent: BAP_0000002
+  definition: Anatomical passages of the neck
+- id: BAP_0021006
+  name: Integumentary system
+  parent: BAP_0000002
+  definition: Skin of the neck
+- id: BAP_0021101
+  name: Neck muscles
+  parent: BAP_0021001
+  definition: Muscles of the neck region
+- id: BAP_0021102
+  name: Neck skeletal system
+  parent: BAP_0021001
+  definition: Skeletal structures of the neck
+- id: BAP_0021201
+  name: Peripheral nervous system
+  parent: BAP_0021002
+  definition: Peripheral nerves of the neck
+- id: BAP_0021202
+  name: Cervical nerves
+  parent: BAP_0021201
+  definition: Spinal nerves of the cervical region
+- id: BAP_0021203
+  name: Central nervous system
+  parent: BAP_0021002
+  definition: Central nervous system structures in the neck
+- id: BAP_0012005
+  name: Spinal Cord
+  parent: BAP_0021203
+  definition: Central nervous system structure extending from brain
+- id: BAP_0021301
+  name: Arteries
+  parent: BAP_0021003
+  definition: Arterial blood supply to the neck
+- id: BAP_0021302
+  name: Veins
+  parent: BAP_0021003
+  definition: Venous drainage of the neck
+- id: BAP_0021303
+  name: Lymphatics
+  parent: BAP_0021003
+  definition: Lymphatic structures of the neck
+- id: BAP_0021401
+  name: Thyroid gland
+  parent: BAP_0021004
+  definition: Endocrine gland in the anterior neck
+- id: BAP_0000079
+  name: Pharynx
+  parent: BAP_0021005
+  definition: Pharyngeal passage
+- id: BAP_0000078
+  name: Larynx
+  parent: BAP_0021005
+  definition: Laryngeal passage and voice box
+- id: BAP_0021601
+  name: Skin
+  parent: BAP_0021006
+  definition: Skin covering the neck
+- id: BAP_0000003
+  name: Thorax
+  parent: BAP_0012001
+- id: BAP_0012002
+  name: Abdomen
+  parent: BAP_0012001
+  definition: Abdominal region of the trunk
+- id: BAP_0012003
+  name: Pelvis
+  parent: BAP_0012001
+  definition: Pelvic region of the trunk
+- id: BAP_0000004
+  name: Forelimb
+  parent: BAP_0000006
+- id: BAP_0000005
+  name: Hindlimb
+  parent: BAP_0000006
+- id: BAP_0000011
+  name: Tail
+  parent: BAP_0000006
+- id: BAP_0021602
+  name: Tensor tympani
+  parent: BAP_0020301
+  definition: Small muscle that attaches to the malleus and dampens loud sounds by
+    tensing the eardrum
+  abbreviation: TT
+  external_id: UBERON_0001600
