@@ -1,0 +1,38 @@
+name: "✏️ Rename Structure"
+description: "Rename an existing structure (updates all references)"
+title: "[Rename] "
+labels: ["rename", "structure"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ✏️ Rename a Structure
+        
+        This will rename the structure and update all references in relationships.
+
+  - type: input
+    id: current_name
+    attributes:
+      label: Current Name
+      description: The exact current name of the structure
+      placeholder: "e.g., Inner ear"
+    validations:
+      required: true
+
+  - type: input
+    id: new_name
+    attributes:
+      label: New Name
+      description: What should it be renamed to?
+      placeholder: "e.g., Internal ear"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Rename
+      description: Why is this rename needed?
+      placeholder: "e.g., To align with standard anatomical nomenclature"
+    validations:
+      required: false

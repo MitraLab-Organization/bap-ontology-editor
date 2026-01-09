@@ -1,0 +1,40 @@
+name: "🔍 AI Query (Ask Questions)"
+description: "Ask questions about the ontology - the AI will search and answer"
+title: "[Query] "
+labels: ["ai-query"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔍 Ask the Ontology
+        
+        Ask questions about structures, relationships, or hierarchy.
+        The AI will search the ontology and provide answers.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Ask in natural language
+      placeholder: |
+        Examples:
+        - What muscles are innervated by the facial nerve?
+        - List all structures under "Inner ear"
+        - How many cranial nerves are defined?
+        - What supplies blood to the masseter?
+        - Show the hierarchy of Head > Musculoskeletal system
+        - Are there any structures without parents?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: output_format
+    attributes:
+      label: Output Format
+      options:
+        - Summary (text answer)
+        - Table
+        - Tree/Hierarchy
+        - Mermaid Diagram
+    validations:
+      required: false

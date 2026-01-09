@@ -1,0 +1,66 @@
+name: "📥 Bulk Import"
+description: "Import multiple structures from a list or table"
+title: "[Import] "
+labels: ["import", "bulk"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📥 Bulk Import Structures
+        
+        Import multiple structures at once from a formatted list.
+
+  - type: dropdown
+    id: parent
+    attributes:
+      label: Parent Structure
+      description: Where should these structures be added?
+      options:
+        - Head
+        - Head > Musculoskeletal system
+        - Head > Nervous system
+        - Head > Vascular system
+        - Head > Sense organs
+        - Neck
+        - Neck > Musculoskeletal system
+        - Other (specify in data)
+    validations:
+      required: true
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Structures to Import
+      description: |
+        Paste your data in one of these formats:
+        
+        **Simple list:**
+        ```
+        Structure 1
+        Structure 2
+        Structure 3
+        ```
+        
+        **With definitions:**
+        ```
+        Structure 1 | Definition for structure 1
+        Structure 2 | Definition for structure 2
+        ```
+        
+        **Full format:**
+        ```
+        Name | Parent | Definition
+        Structure 1 | Head muscles | The first structure
+        Structure 2 | Structure 1 | A child of structure 1
+        ```
+      placeholder: |
+        Paste your list here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Data Source (Optional)
+      description: Where did this data come from?
+      placeholder: "e.g., Gray's Anatomy, UBERON ontology, manual curation"

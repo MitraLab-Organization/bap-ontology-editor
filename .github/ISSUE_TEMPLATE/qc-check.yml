@@ -1,0 +1,52 @@
+name: "🔬 QC Check Request"
+description: "Request a quality control check on the ontology"
+title: "[QC] "
+labels: ["qc", "validation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔬 Quality Control Check
+        
+        Request automated checks for data quality issues.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: What to check?
+      options:
+        - label: Orphan structures (no parent)
+        - label: Structures without definitions
+        - label: Duplicate names
+        - label: Circular references in hierarchy
+        - label: Broken relationship references
+        - label: Structures with no relationships
+        - label: Unused structures (no children, no relationships)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Which part of the ontology to check?
+      options:
+        - Everything
+        - Head only
+        - Neck only
+        - Muscles only
+        - Nerves only
+        - Vessels only
+        - Relationships only
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: action
+    attributes:
+      label: What should happen with issues found?
+      options:
+        - label: Just report them (no changes)
+          required: true
+        - label: Auto-fix where possible
+        - label: Create individual issues for each problem
