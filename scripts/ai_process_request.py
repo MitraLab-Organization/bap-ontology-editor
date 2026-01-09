@@ -25,7 +25,7 @@ import yaml
 # ============================================================================
 
 def load_current_structures() -> list[str]:
-    """Load all current structure names for context."""
+    """Load ALL current structure names for context."""
     structures = []
     structures_dir = Path('structures')
     
@@ -46,6 +46,52 @@ def load_current_structures() -> list[str]:
             pass
     
     return structures
+
+
+def load_structure_lookup() -> dict[str, str]:
+    """Load a name->ID lookup dictionary for all structures."""
+    lookup = {}
+    structures_dir = Path('structures')
+    
+    if not structures_dir.exists():
+        return lookup
+    
+    for yaml_file in structures_dir.glob('*.yaml'):
+        try:
+            with open(yaml_file) as f:
+                data = yaml.safe_load(f)
+                if data and 'structures' in data:
+                    for struct in data['structures']:
+                        name = struct.get('name', '')
+                        struct_id = struct.get('id', '')
+                        if name and struct_id:
+                            # Store multiple lookup keys
+                            lookup[name.lower()] = struct_id
+                            lookup[name.lower().replace(' ', '')] = struct_id
+        except Exception:
+            pass
+    
+    return lookup
+
+
+def find_existing_structure(name: str, lookup: dict[str, str]) -> str | None:
+    """Find an existing structure ID by name (fuzzy match)."""
+    name_lower = name.lower()
+    
+    # Exact match
+    if name_lower in lookup:
+        return lookup[name_lower]
+    
+    # Without spaces
+    if name_lower.replace(' ', '') in lookup:
+        return lookup[name_lower.replace(' ', '')]
+    
+    # Partial match
+    for key, struct_id in lookup.items():
+        if name_lower in key or key in name_lower:
+            return struct_id
+    
+    return None
 
 
 def get_next_available_id() -> int:
@@ -83,50 +129,57 @@ SYSTEM_PROMPT = """You are a BAP (Brain Architecture Project) ontology assistant
 
 Your job is to parse natural language requests about anatomical structures and relationships, and output structured JSON.
 
-IMPORTANT RULES:
-1. Use EXACT existing structure names when referring to parents or relationship targets
-2. Generate new BAP IDs starting from {next_id} (format: BAP_XXXXXXX)
-3. Only output valid JSON with this structure:
+CRITICAL RULES:
+1. ALWAYS check if a structure already exists before creating a new one!
+2. If a structure EXISTS, use its EXACT name and ID from the list below
+3. Only create NEW structures if they don't exist in the list
+4. For relationships, use EXISTING structure names
 
+Output JSON format:
 {{
   "understood": "Brief summary of what you understood",
   "structures": [
     {{
-      "id": "BAP_XXXXXXX",
+      "id": "BAP_XXXXXXX or EXISTING_ID",
       "name": "Structure Name",
       "parent_name": "Existing Parent Name",
-      "definition": "Brief anatomical definition"
+      "parent_id": "Parent's BAP ID if known",
+      "definition": "Brief anatomical definition",
+      "is_new": true/false
     }}
   ],
   "relationships": [
     {{
       "subject_name": "Structure Name",
+      "subject_id": "BAP ID if known",
       "predicate": "innervated_by|supplied_by|develops_from|part_of|adjacent_to",
-      "object_name": "Target Structure Name"
+      "object_name": "Target Structure Name",
+      "object_id": "BAP ID if known"
     }}
   ],
   "warnings": ["Any issues or clarifications needed"]
 }}
 
-EXISTING STRUCTURES (use these exact names):
+EXISTING STRUCTURES (search this list first!):
 {structures}
 
-If a parent doesn't exist, add it to warnings.
-If unsure about anatomical accuracy, add it to warnings.
+For NEW structures, use IDs starting from BAP_{next_id}.
 """
 
 
 def process_with_ai(user_request: str, api_key: str) -> dict:
     """Process the request using Groq's free Llama model."""
     
-    # Load context
+    # Load ALL structures for context
     structures = load_current_structures()
     next_id = get_next_available_id()
     
-    # Build prompt
+    print(f"Loaded {len(structures)} existing structures for context")
+    
+    # Build prompt with ALL structures
     system = SYSTEM_PROMPT.format(
         next_id=next_id,
-        structures='\n'.join(f"- {s}" for s in structures[:100])  # Limit for context
+        structures='\n'.join(f"- {s}" for s in structures)  # Include ALL structures
     )
     
     client = Groq(api_key=api_key)
@@ -168,12 +221,25 @@ def generate_response_markdown(parsed: dict, issue_number: str) -> str:
     # Structures
     structures = parsed.get('structures', [])
     if structures:
-        md += "### 📦 Structures to Add\n\n"
-        md += "| Name | ID | Parent | Definition |\n"
-        md += "|------|-----|--------|------------|\n"
-        for s in structures:
-            md += f"| {s.get('name', '?')} | `{s.get('id', '?')}` | {s.get('parent_name', '?')} | {s.get('definition', '-')[:50]} |\n"
-        md += "\n"
+        new_structures = [s for s in structures if s.get('is_new', True)]
+        existing_refs = [s for s in structures if not s.get('is_new', True)]
+        
+        if new_structures:
+            md += "### 📦 NEW Structures to Add\n\n"
+            md += "| Name | ID | Parent | Definition |\n"
+            md += "|------|-----|--------|------------|\n"
+            for s in new_structures:
+                parent = s.get('parent_name', '?')
+                if s.get('parent_id'):
+                    parent += f" (`{s['parent_id']}`)"
+                md += f"| {s.get('name', '?')} | `{s.get('id', '?')}` | {parent} | {s.get('definition', '-')[:50]} |\n"
+            md += "\n"
+        
+        if existing_refs:
+            md += "### ✅ Using Existing Structures\n\n"
+            for s in existing_refs:
+                md += f"- **{s.get('name')}** (`{s.get('id')}`)\n"
+            md += "\n"
     
     # Relationships
     relationships = parsed.get('relationships', [])
@@ -181,7 +247,16 @@ def generate_response_markdown(parsed: dict, issue_number: str) -> str:
         md += "### 🔗 Relationships to Add\n\n"
         for r in relationships:
             predicate = r.get('predicate', '?').replace('_', ' ')
-            md += f"- **{r.get('subject_name', '?')}** {predicate} **{r.get('object_name', '?')}**\n"
+            subject = r.get('subject_name', '?')
+            obj = r.get('object_name', '?')
+            
+            # Add IDs if known
+            if r.get('subject_id'):
+                subject += f" (`{r['subject_id']}`)"
+            if r.get('object_id'):
+                obj += f" (`{r['object_id']}`)"
+            
+            md += f"- **{subject}** {predicate} **{obj}**\n"
         md += "\n"
     
     # Warnings
