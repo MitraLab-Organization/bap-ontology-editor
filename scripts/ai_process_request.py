@@ -94,6 +94,66 @@ def find_existing_structure(name: str, lookup: dict[str, str]) -> str | None:
     return None
 
 
+def find_ambiguous_names(structures: list[str]) -> dict[str, list[str]]:
+    """Find structure names that could be ambiguous (e.g., 'Skin' appears multiple times)."""
+    name_counts = {}
+    
+    for s in structures:
+        # Extract just the name (before the ID)
+        if ' (' in s:
+            name = s.split(' (')[0].lower()
+        else:
+            name = s.lower()
+        
+        if name not in name_counts:
+            name_counts[name] = []
+        name_counts[name].append(s)
+    
+    # Return only names with multiple entries
+    return {k: v for k, v in name_counts.items() if len(v) > 1}
+
+
+def load_existing_relationships() -> list[dict]:
+    """Load all existing relationships from YAML files."""
+    relationships = []
+    rel_dir = Path('relationships')
+    
+    if not rel_dir.exists():
+        return relationships
+    
+    for yaml_file in rel_dir.glob('*.yaml'):
+        try:
+            with open(yaml_file) as f:
+                data = yaml.safe_load(f)
+                if data and 'relationships' in data and data['relationships']:
+                    for rel in data['relationships']:
+                        rel['_file'] = yaml_file.name
+                        relationships.append(rel)
+        except Exception:
+            pass
+    
+    return relationships
+
+
+def check_duplicate_relationship(subject_id: str, predicate: str, object_id: str, existing_rels: list[dict]) -> bool:
+    """Check if a relationship already exists."""
+    for rel in existing_rels:
+        if (rel.get('subject') == subject_id and 
+            rel.get('predicate') == predicate and 
+            rel.get('object') == object_id):
+            return True
+    return False
+
+
+def find_conflicting_relationships(subject_id: str, predicate: str, existing_rels: list[dict]) -> list[dict]:
+    """Find existing relationships that might conflict (same subject + predicate)."""
+    conflicts = []
+    for rel in existing_rels:
+        if rel.get('subject') == subject_id and rel.get('predicate') == predicate:
+            conflicts.append(rel)
+    return conflicts
+
+
 def get_next_available_id() -> int:
     """Find the next available BAP ID number."""
     max_id = 21700  # Start from here for AI-generated
@@ -173,14 +233,25 @@ def process_with_ai(user_request: str, api_key: str) -> dict:
     # Load ALL structures for context
     structures = load_current_structures()
     next_id = get_next_available_id()
+    existing_rels = load_existing_relationships()
     
     print(f"Loaded {len(structures)} existing structures for context")
+    print(f"Loaded {len(existing_rels)} existing relationships")
+    
+    # Find ambiguous names to warn about
+    ambiguous = find_ambiguous_names(structures)
+    ambiguous_warning = ""
+    if ambiguous:
+        ambiguous_warning = "\n\nWARNING - These names are AMBIGUOUS (exist multiple times):\n"
+        for name, entries in list(ambiguous.items())[:10]:  # Limit to 10
+            ambiguous_warning += f"- '{name}': {', '.join(entries)}\n"
+        ambiguous_warning += "Always use the FULL name with ID when referring to these!\n"
     
     # Build prompt with ALL structures
     system = SYSTEM_PROMPT.format(
         next_id=next_id,
         structures='\n'.join(f"- {s}" for s in structures)  # Include ALL structures
-    )
+    ) + ambiguous_warning
     
     client = Groq(api_key=api_key)
     
@@ -195,7 +266,40 @@ def process_with_ai(user_request: str, api_key: str) -> dict:
         response_format={"type": "json_object"}
     )
     
-    return json.loads(response.choices[0].message.content)
+    parsed = json.loads(response.choices[0].message.content)
+    
+    # Post-process: validate relationships
+    parsed = validate_and_enrich(parsed)
+    
+    return parsed
+
+
+def validate_and_enrich(parsed: dict) -> dict:
+    """Post-process AI output to add validation warnings."""
+    existing_rels = load_existing_relationships()
+    lookup = load_structure_lookup()
+    warnings = parsed.get('warnings', [])
+    
+    # Check each proposed relationship
+    for rel in parsed.get('relationships', []):
+        subject_id = rel.get('subject_id') or find_existing_structure(rel.get('subject_name', ''), lookup)
+        object_id = rel.get('object_id') or find_existing_structure(rel.get('object_name', ''), lookup)
+        predicate = rel.get('predicate', '')
+        
+        if subject_id and object_id and predicate:
+            # Check for exact duplicate
+            if check_duplicate_relationship(subject_id, predicate, object_id, existing_rels):
+                warnings.append(f"⚠️ DUPLICATE: Relationship '{rel.get('subject_name')} {predicate} {rel.get('object_name')}' already exists!")
+                rel['_is_duplicate'] = True
+            
+            # Check for potential conflicts
+            conflicts = find_conflicting_relationships(subject_id, predicate, existing_rels)
+            if conflicts and not rel.get('_is_duplicate'):
+                existing_targets = [c.get('object') for c in conflicts]
+                warnings.append(f"ℹ️ Note: {rel.get('subject_name')} already has {predicate} relationship(s) with: {existing_targets}")
+    
+    parsed['warnings'] = warnings
+    return parsed
 
 
 def mock_process(user_request: str) -> dict:
@@ -244,20 +348,32 @@ def generate_response_markdown(parsed: dict, issue_number: str) -> str:
     # Relationships
     relationships = parsed.get('relationships', [])
     if relationships:
-        md += "### 🔗 Relationships to Add\n\n"
-        for r in relationships:
-            predicate = r.get('predicate', '?').replace('_', ' ')
-            subject = r.get('subject_name', '?')
-            obj = r.get('object_name', '?')
-            
-            # Add IDs if known
-            if r.get('subject_id'):
-                subject += f" (`{r['subject_id']}`)"
-            if r.get('object_id'):
-                obj += f" (`{r['object_id']}`)"
-            
-            md += f"- **{subject}** {predicate} **{obj}**\n"
-        md += "\n"
+        # Separate duplicates from new
+        new_rels = [r for r in relationships if not r.get('_is_duplicate')]
+        dup_rels = [r for r in relationships if r.get('_is_duplicate')]
+        
+        if new_rels:
+            md += "### 🔗 Relationships to Add\n\n"
+            for r in new_rels:
+                predicate = r.get('predicate', '?').replace('_', ' ')
+                subject = r.get('subject_name', '?')
+                obj = r.get('object_name', '?')
+                
+                # Add IDs if known
+                if r.get('subject_id'):
+                    subject += f" (`{r['subject_id']}`)"
+                if r.get('object_id'):
+                    obj += f" (`{r['object_id']}`)"
+                
+                md += f"- **{subject}** {predicate} **{obj}**\n"
+            md += "\n"
+        
+        if dup_rels:
+            md += "### ⚠️ Already Exists (will be skipped)\n\n"
+            for r in dup_rels:
+                predicate = r.get('predicate', '?').replace('_', ' ')
+                md += f"- ~~{r.get('subject_name', '?')} {predicate} {r.get('object_name', '?')}~~ (duplicate)\n"
+            md += "\n"
     
     # Warnings
     warnings = parsed.get('warnings', [])

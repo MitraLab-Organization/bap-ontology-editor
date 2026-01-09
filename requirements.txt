@@ -12,3 +12,10 @@ psycopg2-binary>=2.9
 
 # AI processing (FREE with Groq)
 groq>=0.4
+
+# Testing
+pytest>=7.0
+
+# Optional: for semantic search embeddings
+# sentence-transformers>=2.0
+# numpy>=1.24
