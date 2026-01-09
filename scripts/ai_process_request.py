@@ -132,7 +132,7 @@ def process_with_ai(user_request: str, api_key: str) -> dict:
     client = Groq(api_key=api_key)
     
     response = client.chat.completions.create(
-        model="llama-3.1-70b-versatile",  # Free and powerful!
+        model="llama-3.3-70b-versatile",  
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": user_request}
