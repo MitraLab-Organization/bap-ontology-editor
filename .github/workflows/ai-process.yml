@@ -10,11 +10,14 @@ name: AI Process Request
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 jobs:
   process-ai-request:
-    if: contains(github.event.issue.labels.*.name, 'ai-request')
+    # Only run for ai-request label, and not if already processed
+    if: |
+      contains(github.event.issue.labels.*.name, 'ai-request') &&
+      !contains(github.event.issue.labels.*.name, 'ai-processed')
     runs-on: ubuntu-latest
     permissions:
       issues: write
