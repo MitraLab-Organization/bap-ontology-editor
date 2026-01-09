@@ -9,3 +9,6 @@ jsonschema>=4.0
 
 # Database connectivity (for sync)
 psycopg2-binary>=2.9
+
+# AI processing (FREE with Groq)
+groq>=0.4

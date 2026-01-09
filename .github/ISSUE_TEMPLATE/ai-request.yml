@@ -1,0 +1,37 @@
+name: "🤖 AI Request (Natural Language)"
+description: "Describe changes in plain English - AI will generate the YAML"
+title: "[AI] "
+labels: ["ai-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤖 AI-Powered Ontology Editing
+        
+        Just describe what you want in plain English! The AI will:
+        1. Parse your request
+        2. Generate the appropriate structures/relationships
+        3. Show you what it understood
+        4. Create a PR when you approve
+
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like to add or change?
+      description: Describe in natural language
+      placeholder: |
+        Examples:
+        - Add stapedius muscle under inner ear, it's innervated by the facial nerve
+        - The masseter is supplied by the maxillary artery
+        - Move tensor tympani from inner ear to middle ear
+        - Add a new category called "Middle ear" under Sense organs
+        - The temporalis muscle has two parts: lateralis and medialis
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context (Optional)
+      description: Any references or details
+      placeholder: "Based on Gray's Anatomy, 42nd edition"

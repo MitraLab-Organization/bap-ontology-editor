@@ -1,0 +1,110 @@
+# AI-Powered Ontology Request Processing (FREE with Groq)
+#
+# When an issue is created with 'ai-request' label:
+# 1. AI parses the natural language request
+# 2. Bot comments with structured interpretation
+# 3. User approves with /approve command
+# 4. PR is automatically created
+
+name: AI Process Request
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-ai-request:
+    if: contains(github.event.issue.labels.*.name, 'ai-request')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install groq pyyaml
+      
+      - name: Process with AI
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/ai_process_request.py
+      
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const response = fs.readFileSync('ai_response.md', 'utf8');
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: response
+            });
+            
+            // Add 'ai-processed' label
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['ai-processed']
+            });
+
+  # Handle approval command
+  handle-approval:
+    if: github.event_name == 'issue_comment' && 
+        contains(github.event.issue.labels.*.name, 'ai-processed') &&
+        github.event.comment.body == '/approve'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install pyyaml ruamel.yaml
+      
+      - name: Create changes from AI data
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python scripts/ai_create_changes.py
+      
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: AI-generated changes from issue #${{ github.event.issue.number }}"
+          title: "[AI] Changes from issue #${{ github.event.issue.number }}"
+          body: |
+            🤖 **AI-Generated Changes**
+            
+            This PR was automatically created based on the approved AI interpretation.
+            
+            Closes #${{ github.event.issue.number }}
+            
+            Please review the changes carefully before merging.
+          branch: "ai-issue-${{ github.event.issue.number }}"
+          labels: ai-generated,auto-generated
