@@ -32,3 +32,8 @@ validation-report.json
 .env
 .env.local
 secrets.yaml
+
+# Giga
+.giga/
+.cursorrules
+.cursor/

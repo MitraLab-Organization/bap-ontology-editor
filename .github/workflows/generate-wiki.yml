@@ -1,0 +1,72 @@
+name: Generate Wiki Documentation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'structures/**'
+      - 'relationships/**'
+      - 'scripts/generate_wiki.py'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate-wiki:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Get full history for change tracking
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Generate wiki pages
+        run: |
+          echo "📚 Generating wiki documentation..."
+          python scripts/generate_wiki.py --output docs/
+      
+      - name: Generate change log
+        run: |
+          echo "📝 Generating change history..."
+          python scripts/generate_changelog.py --output docs/Change-History.md || echo "Change log generator not yet implemented"
+      
+      - name: Commit and push wiki updates
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add docs/
+          
+          if git diff --cached --quiet; then
+            echo "📋 No changes to wiki"
+          else
+            git commit -m "📚 Auto-update wiki documentation [skip ci]"
+            git push
+            echo "✅ Wiki updated successfully"
+          fi
+      
+      - name: Generate summary
+        run: |
+          echo "## 📊 Wiki Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Wiki pages generated successfully" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Pages" >> $GITHUB_STEP_SUMMARY
+          ls -1 docs/*.md | while read file; do
+            basename=$(basename "$file")
+            size=$(wc -c < "$file")
+            echo "- \`$basename\` (${size} bytes)" >> $GITHUB_STEP_SUMMARY
+          done

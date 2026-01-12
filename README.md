@@ -2,6 +2,10 @@
 
 A collaborative repository for managing the Brain Architecture Project (BAP) mouse head anatomical ontology.
 
+## 📚 [**View the Auto-Generated Wiki →**](https://mitralab-organization.github.io/bap-ontology-editor/)
+
+Complete documentation with detailed reports, statistics, and visualizations - **automatically updated on every push!**
+
 ## Overview
 
 This repository provides a human-readable way to manage:

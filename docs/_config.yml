@@ -1,0 +1,31 @@
+# GitHub Pages Configuration for BAP Ontology Wiki
+
+# Theme
+theme: jekyll-theme-cayman
+title: "BAP Ontology Wiki"
+description: "Auto-generated documentation for the Brain Architecture Project Mouse Head Ontology"
+
+# Disable default plugins that might interfere
+plugins: []
+
+# Include all markdown files
+include:
+  - "*.md"
+  - "README.md"
+
+# Don't process these
+exclude:
+  - vendor
+  - .git
+  - .github
+
+# Use relative links
+relative_links:
+  enabled: true
+  collections: true
+
+# Enable auto-generation of titles
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
