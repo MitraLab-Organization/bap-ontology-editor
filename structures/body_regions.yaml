@@ -54,6 +54,18 @@ structures:
   name: Cranial muscles
   parent: BAP_0020001
   definition: Muscles of the head region
+- id: BAP_0012008
+  name: Eye Muscles
+  parent: BAP_0012007
+  definition: Extraocular and eyelid muscles controlling eye movement and eyelid function
+- id: BAP_0012009
+  name: Inner Ear Muscles
+  parent: BAP_0012007
+  definition: Muscles of the middle ear controlling ossicle movement
+- id: BAP_0012010
+  name: External Ear Muscles
+  parent: BAP_0012007
+  definition: Muscles controlling pinna movement and positioning
 - id: BAP_0020101
   name: Cranium
   parent: BAP_0020001
@@ -134,6 +146,10 @@ structures:
   name: Nasal cavity
   parent: BAP_0020006
   definition: Nasal passage
+- id: BAP_0020603
+  name: Ear Cavities
+  parent: BAP_0020006
+  definition: Anatomical passages and spaces of the ear
 - id: BAP_0020701
   name: Skin
   parent: BAP_0020007
@@ -146,11 +162,6 @@ structures:
   name: External ear
   parent: BAP_0020007
   definition: Pinna and external acoustic structures
-- id: BAP_0000009
-  name: Ear
-  parent: BAP_0020003
-  definition: Auditory organ (to be deprecated - use Inner ear / External ear)
-  deprecated: true
 - id: BAP_0000007
   name: Jaw apparatus
   parent: BAP_0000139

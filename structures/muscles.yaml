@@ -60,8 +60,12 @@ structures:
   definition: Suprahyoid muscle; elevates hyoid bone and assists jaw opening
 - id: BAP_0000026
   name: Stapedius
-  parent: BAP_0000009
+  parent: BAP_0012009
   definition: Stabelize stapes bone
+- id: BAP_0000022
+  name: Tensor tympani
+  parent: BAP_0012009
+  definition: Muscle that tenses the tympanic membrane
 - id: BAP_0000027
   name: Platysma cervicale
   parent: BAP_0012007
@@ -251,10 +255,10 @@ structures:
   definition: Hyoid depression, thyroid elevation
 - id: BAP_0000085
   name: levator palpebrae superioris
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000086
   name: superior oblique muscle
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000087
   name: superior oblique tendon
   parent: BAP_0000086
@@ -263,25 +267,25 @@ structures:
   parent: BAP_0000087
 - id: BAP_0000089
   name: inferior oblique
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000090
   name: lateral rectus
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000091
   name: medial rectus
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000092
   name: superior rectus
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000093
   name: retractor bulbi
-  parent: BAP_0000008
+  parent: BAP_0012008
 - id: BAP_0000098
   name: Auricularis posterior
-  parent: BAP_0000009
+  parent: BAP_0012010
 - id: BAP_0000099
   name: Auricularis anterior
-  parent: BAP_0000009
+  parent: BAP_0012010
 - id: BAP_0000100
   name: Auricularis superior
-  parent: BAP_0000009
+  parent: BAP_0012010

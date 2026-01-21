@@ -82,11 +82,11 @@ structures:
   
   - id: BAP_0000123
     name: nasal
-    parent: BAP_0000010
+    parent: BAP_0000139
     
   - id: BAP_0000137
     name: vomer
-    parent: BAP_0000010
+    parent: BAP_0000139
     
   # ============================================================================
   # EXTERNAL EAR STRUCTURES (under Head integumentary -> External ear)
@@ -98,7 +98,7 @@ structures:
     
   - id: BAP_0000096
     name: external acoustic meatus
-    parent: BAP_0020702
+    parent: BAP_0020603
     
   # ============================================================================
   # INNER EAR / MIDDLE EAR STRUCTURES (under Sense organs -> Inner ear)
@@ -106,7 +106,7 @@ structures:
   
   - id: BAP_0000097
     name: internal acoustic meatus
-    parent: BAP_0020301
+    parent: BAP_0020603
     
   - id: BAP_0000108
     name: stapes
