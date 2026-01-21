@@ -1,28 +1,37 @@
 # Change History
 
-**Last Updated:** 2026-01-21 16:18:39 UTC
+**Last Updated:** 2026-01-21 17:09:21 UTC
 
-**Period:** Last 6 commits
+**Period:** Last 7 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 6 |
+| **Total Commits** | 7 |
 | **Active Contributors** | 2 |
 | Structure Changes | 4 |
-| Other Changes | 1 |
+| Other Changes | 2 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
+- **Ken**: 4 commit(s)
 - **Mivangod**: 3 commit(s)
-- **Ken**: 3 commit(s)
 
 ## Recent Changes
 
 
-### 2026-01-21 (1 commits)
+### 2026-01-21 (2 commits)
+
+#### 📝 Helper script
+
+*By Ken at 17:09 · [`55cdb12`](../../commit/55cdb12ed20e1f00e0616c594237360049477cba)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
 
 #### 📝 feat: AI-generated changes from issue #11
 
