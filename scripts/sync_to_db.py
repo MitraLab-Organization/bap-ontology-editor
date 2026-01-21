@@ -364,11 +364,15 @@ def sync_relationships(
         if existing is None:
             print(f"    + ADD relationship: {subject_name} --[{predicate}]--> {object_name}")
             if not dry_run:
+                # Get next available ID
+                cur.execute("SELECT COALESCE(MAX(id), 0) + 1 FROM anatomical_structure_relationship")
+                next_id = cur.fetchone()[0]
+                
                 cur.execute("""
                     INSERT INTO anatomical_structure_relationship
-                    (entity1_id, entity2_id, relationship_type_id, notes)
-                    VALUES (%s, %s, %s, %s)
-                """, (subject_id, object_id, rel_type_id, rel.get('notes')))
+                    (id, entity1_id, entity2_id, relationship_type_id, notes)
+                    VALUES (%s, %s, %s, %s, %s)
+                """, (next_id, subject_id, object_id, rel_type_id, rel.get('notes')))
             stats.relationships_added += 1
         # Note: We don't update existing relationships to avoid conflicts
 
