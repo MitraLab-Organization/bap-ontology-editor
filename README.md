@@ -18,8 +18,8 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 200
-├── Hierarchy depth: 6 levels
+├── Structures: 204
+├── Hierarchy depth: 7 levels
 └── Relationships: 45
     ├── Innervated By: 38
     ├── Part Of: 3
@@ -40,9 +40,10 @@ Body
 │   └── Tail
 ├── Head
 │   ├── Cavities and passages
+│   │   ├── Ear Cavities
+│   │   │   ├── external acoustic meatus
+│   │   │   └── internal acoustic meatus
 │   │   ├── Nasal cavity
-│   │   │   ├── nasal
-│   │   │   └── vomer
 │   │   ├── Nasal sinuses
 │   │   └── Oral cavity
 │   ├── Endocrine and exocrine system
@@ -50,8 +51,7 @@ Body
 │   │   └── Parotid glands
 │   ├── Integumentary system
 │   │   ├── External ear
-│   │   │   ├── Pinna
-│   │   │   └── external acoustic meatus
+│   │   │   └── Pinna
 │   │   ├── Skin
 │   │   └── Whiskers
 │   ├── Musculoskeletal system
@@ -63,8 +63,25 @@ Body
 │   │   │   ├── Digastricus anterior
 │   │   │   ├── Digastricus posterior
 │   │   │   ├── Dilatator nasi
+│   │   │   ├── External Ear Muscles
+│   │   │   │   ├── Auricularis anterior
+│   │   │   │   ├── Auricularis posterior
+│   │   │   │   └── Auricularis superior
+│   │   │   ├── Eye Muscles
+│   │   │   │   ├── inferior oblique
+│   │   │   │   ├── lateral rectus
+│   │   │   │   ├── levator palpebrae superioris
+│   │   │   │   ├── medial rectus
+│   │   │   │   ├── retractor bulbi
+│   │   │   │   ├── superior oblique muscle
+│   │   │   │   │   └── superior oblique tendon
+│   │   │   │   │       └── trochlea
+│   │   │   │   └── superior rectus
 │   │   │   ├── Frontalis
 │   │   │   ├── Geniohyoideus
+│   │   │   ├── Inner Ear Muscles
+│   │   │   │   ├── Stapedius
+│   │   │   │   └── Tensor tympani
 │   │   │   ├── Interscutularis
 │   │   │   ├── Levator anguli oris
 │   │   │   ├── Levator labii superioris
@@ -118,10 +135,12 @@ Body
 │   │           ├── lacrimal
 │   │           ├── mandible
 │   │           ├── maxilla
+│   │           ├── nasal
 │   │           ├── palatine
 │   │           ├── premaxilla
 │   │           ├── sphenoid
 │   │           ├── squamosal
+│   │           ├── vomer
 │   │           └── zygomatic
 │   ├── Nervous system
 │   │   ├── Central nervous system
@@ -143,19 +162,9 @@ Body
 │   │           └── Vestibulocochlear nerve
 │   ├── Sense organs
 │   │   ├── Eye
-│   │   │   ├── inferior oblique
-│   │   │   ├── lateral rectus
-│   │   │   ├── levator palpebrae superioris
-│   │   │   ├── medial rectus
-│   │   │   ├── retractor bulbi
-│   │   │   ├── superior oblique muscle
-│   │   │   │   └── superior oblique tendon
-│   │   │   │       └── trochlea
-│   │   │   └── superior rectus
 │   │   ├── Gustatory epithelium
 │   │   ├── Inner ear
 │   │   │   ├── incus
-│   │   │   ├── internal acoustic meatus
 │   │   │   ├── malleus
 │   │   │   ├── stapes
 │   │   │   └── tympanic
