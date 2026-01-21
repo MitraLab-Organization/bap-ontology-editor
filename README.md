@@ -20,8 +20,9 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 ```
 ├── Structures: 200
 ├── Hierarchy depth: 6 levels
-└── Relationships: 42
+└── Relationships: 45
     ├── Innervated By: 38
+    ├── Part Of: 3
     └── Supplied By: 4
 ```
 <!-- STATS_END -->
@@ -43,16 +44,7 @@ Body
 │   │   │   ├── nasal
 │   │   │   └── vomer
 │   │   ├── Nasal sinuses
-│   │   ├── Oral cavity
-│   │   └── Tongue
-│   │       ├── Genioglossus
-│   │       ├── Hyoglossus
-│   │       ├── Inferior longitudinal
-│   │       ├── Palatoglossus
-│   │       ├── Styloglossus
-│   │       ├── Superior longitudinal
-│   │       ├── Transverse
-│   │       └── Vertical
+│   │   └── Oral cavity
 │   ├── Endocrine and exocrine system
 │   │   ├── Palatal submucosa
 │   │   └── Parotid glands
@@ -101,6 +93,15 @@ Body
 │   │   │   ├── Temporalis
 │   │   │   │   ├── Temporalis lateralis
 │   │   │   │   └── Temporalis medialis
+│   │   │   ├── Tongue
+│   │   │   │   ├── Genioglossus
+│   │   │   │   ├── Hyoglossus
+│   │   │   │   ├── Inferior longitudinal
+│   │   │   │   ├── Palatoglossus
+│   │   │   │   ├── Styloglossus
+│   │   │   │   ├── Superior longitudinal
+│   │   │   │   ├── Transverse
+│   │   │   │   └── Vertical
 │   │   │   ├── Zygomaticus major
 │   │   │   └── Zygomaticus minor
 │   │   └── Cranium

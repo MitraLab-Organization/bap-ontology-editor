@@ -10,7 +10,10 @@ metadata:
   last_modified: "2026-01-08"
 
 # Empty for now - uncomment entries below once developmental structures are defined
-relationships: []
+relationships:
+- subject: BAP_0000102
+  predicate: part_of
+  object: BAP_0012007
 
 # ============================================================================
 # TEMPLATE ENTRIES (uncomment when ready)
@@ -64,3 +67,9 @@ relationships: []
 
 # NOTE: Add developmental structure definitions to structures/developmental.yaml
 # before uncommenting these relationships.
+- subject: BAP_0000102
+  predicate: part_of
+  object: BAP_0000001
+- subject: BAP_0000102
+  predicate: part_of
+  object: BAP_0020001

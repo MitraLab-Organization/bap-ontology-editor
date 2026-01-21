@@ -1,0 +1,39 @@
+{
+  "understood": "Move Tongue from Cavities and passages to Cranial muscles in Head Musculoskeletal system",
+  "structures": [
+    {
+      "id": "BAP_0000102",
+      "name": "Tongue",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": "Muscular organ in the mouth",
+      "is_new": false
+    }
+  ],
+  "relationships": [
+    {
+      "subject_name": "Tongue",
+      "subject_id": "BAP_0000102",
+      "predicate": "part_of",
+      "object_name": "Cranial muscles",
+      "object_id": "BAP_0012007"
+    },
+    {
+      "subject_name": "Tongue",
+      "subject_id": "BAP_0000102",
+      "predicate": "part_of",
+      "object_name": "Head",
+      "object_id": "BAP_0000001"
+    },
+    {
+      "subject_name": "Tongue",
+      "subject_id": "BAP_0000102",
+      "predicate": "part_of",
+      "object_name": "Musculoskeletal system",
+      "object_id": "BAP_0020001"
+    }
+  ],
+  "warnings": [
+    "Tongue was previously not directly associated with Cranial muscles or Head Musculoskeletal system. This change may have implications for other relationships."
+  ]
+}
