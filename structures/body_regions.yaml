@@ -6,7 +6,7 @@ metadata:
 structures:
 - id: BAP_0012000
   name: Body
-  parent:
+  parent: null
   definition: Root structure for the entire body
 - id: BAP_0000001
   name: Head
@@ -151,10 +151,6 @@ structures:
   parent: BAP_0020003
   definition: Auditory organ (to be deprecated - use Inner ear / External ear)
   deprecated: true
-- id: BAP_0000102
-  name: Tongue
-  parent: BAP_0020006
-  definition: Muscular organ in oral cavity
 - id: BAP_0000007
   name: Jaw apparatus
   parent: BAP_0000139
