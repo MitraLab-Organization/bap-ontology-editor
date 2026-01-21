@@ -66,7 +66,7 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000011` | **Tail** | Appendages |  |
 | `BAP_0000003` | **Thorax** | Trunk |  |
 | `BAP_0021401` | **Thyroid gland** | Endocrine and exocrine system | Endocrine gland in the anterior neck |
-| `BAP_0000102` | **Tongue** | Cavities and passages | Muscular organ in oral cavity |
+| `BAP_0000102` | **Tongue** | Cranial muscles | Muscular organ in the mouth |
 | `BAP_0012001` | **Trunk** | Body | Central body region containing thorax, abdomen, and pelvis |
 | `BAP_0020004` | **Vascular system** | Head | Blood vessels and lymphatics of the head |
 | `BAP_0021003` | **Vascular system** | Neck | Blood vessels and lymphatics of the neck |

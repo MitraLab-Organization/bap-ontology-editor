@@ -1,13 +1,13 @@
 # BAP Ontology Wiki
 
-**Last Updated:** 2026-01-12 22:16:46 UTC
+**Last Updated:** 2026-01-21 16:18:39 UTC
 
 ## 📊 Overview Statistics
 
 | Metric | Count |
 |--------|-------|
 | **Total Structures** | 200 |
-| **Total Relationships** | 42 |
+| **Total Relationships** | 45 |
 | **Root Structures** | 1 |
 | **Maximum Hierarchy Depth** | 6 levels |
 | **Source Files** | 5 YAML files |
@@ -27,6 +27,7 @@
 | Predicate | Count |
 |-----------|-------|
 | **Innervated By** | 38 |
+| **Part Of** | 3 |
 | **Supplied By** | 4 |
 
 

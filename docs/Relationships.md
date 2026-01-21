@@ -1,6 +1,6 @@
 # Relationship Networks
 
-**Total Relationships:** 42
+**Total Relationships:** 45
 
 This page documents all cross-structure relationships in the ontology.
 
@@ -49,6 +49,14 @@ This page documents all cross-structure relationships in the ontology.
 | Zygomaticomandibularis | innervated by | Trigeminal nerve | N/A | `innervation.yaml` |
 | Zygomaticus major | innervated by | Facial nerve | N/A | `innervation.yaml` |
 | Zygomaticus minor | innervated by | Facial nerve | N/A | `innervation.yaml` |
+
+### Part Of (3 relationships)
+
+| Subject | → | Object | Confidence | Source |
+|---------|---|--------|------------|--------|
+| Tongue | part of | Cranial muscles | N/A | `developmental.yaml` |
+| Tongue | part of | Head | N/A | `developmental.yaml` |
+| Tongue | part of | Musculoskeletal system | N/A | `developmental.yaml` |
 
 ### Supplied By (4 relationships)
 

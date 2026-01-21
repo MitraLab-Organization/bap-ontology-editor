@@ -7,7 +7,7 @@ Comprehensive analytics and metrics for the BAP ontology.
 | Metric | Value |
 |--------|-------|
 | Total Structures | 200 |
-| Total Relationships | 42 |
+| Total Relationships | 45 |
 | Average Children per Parent | 4.42 |
 
 ## Most Connected Structures
@@ -16,6 +16,7 @@ Comprehensive analytics and metrics for the BAP ontology.
 |-----------|-------------|
 | Facial nerve | 24 |
 | Trigeminal nerve | 10 |
+| Tongue | 3 |
 | Masseter | 2 |
 | Temporalis | 2 |
 | Genioglossus | 2 |
@@ -23,14 +24,14 @@ Comprehensive analytics and metrics for the BAP ontology.
 | Hyoglossus | 2 |
 | Hypoglossal nerve | 2 |
 | Maxillary artery | 1 |
-| Temporal artery | 1 |
 
 ## Relationships by Type
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| Innervated By | 38 | 90.5% |
-| Supplied By | 4 | 9.5% |
+| Innervated By | 38 | 84.4% |
+| Supplied By | 4 | 8.9% |
+| Part Of | 3 | 6.7% |
 
 ## Structures by File
 
