@@ -1,0 +1,40 @@
+{
+  "understood": "Reorganize eye and ear muscles into logical groups",
+  "reasoning": [
+    "Eye has 7 muscle children that should be under musculoskeletal system",
+    "Ear (deprecated) has 4 muscle children to redistribute",
+    "Creating 3 new muscle groups under Cranial muscles",
+    "Moving 11 muscles total",
+    "Deleting Ear after all children migrated"
+  ],
+  "actions": [
+    {
+      "type": "create_structure",
+      "name": "Eye Muscles",
+      "id": "BAP_0012008",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": "Extraocular and eyelid muscles",
+      "file": "body_regions.yaml"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "levator palpebrae superioris",
+      "structure_id": "BAP_0000085",
+      "new_parent_name": "Eye Muscles",
+      "new_parent_id": "BAP_0012008"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Ear",
+      "structure_id": "BAP_0000009",
+      "reason": "deprecated, children moved"
+    }
+  ],
+  "safety_checks": [
+    "\u2713 All structures to move exist",
+    "\u2713 Parent groups created before moves",
+    "\u2713 Ear empty before deletion",
+    "\u2713 No circular references"
+  ]
+}

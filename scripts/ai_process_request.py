@@ -19,6 +19,14 @@ except ImportError:
 
 import yaml
 
+# Import enhanced prompt if available
+try:
+    from ai_enhanced_prompt import ENHANCED_SYSTEM_PROMPT, build_hierarchy_summary
+    from ai_context import build_context
+    USE_ENHANCED = True
+except ImportError:
+    USE_ENHANCED = False
+
 
 # ============================================================================
 # Load Current Ontology for Context
@@ -238,20 +246,33 @@ def process_with_ai(user_request: str, api_key: str) -> dict:
     print(f"Loaded {len(structures)} existing structures for context")
     print(f"Loaded {len(existing_rels)} existing relationships")
     
-    # Find ambiguous names to warn about
-    ambiguous = find_ambiguous_names(structures)
-    ambiguous_warning = ""
-    if ambiguous:
-        ambiguous_warning = "\n\nWARNING - These names are AMBIGUOUS (exist multiple times):\n"
-        for name, entries in list(ambiguous.items())[:10]:  # Limit to 10
-            ambiguous_warning += f"- '{name}': {', '.join(entries)}\n"
-        ambiguous_warning += "Always use the FULL name with ID when referring to these!\n"
-    
-    # Build prompt with ALL structures
-    system = SYSTEM_PROMPT.format(
-        next_id=next_id,
-        structures='\n'.join(f"- {s}" for s in structures)  # Include ALL structures
-    ) + ambiguous_warning
+    # Use enhanced prompt if available
+    if USE_ENHANCED:
+        print("Using ENHANCED AI prompt with context-aware reasoning")
+        context = build_context()
+        hierarchy_summary = build_hierarchy_summary(context['structures'], context)
+        
+        system = ENHANCED_SYSTEM_PROMPT.format(
+            next_id=next_id,
+            structures='\n'.join(f"- {s}" for s in structures),
+            hierarchy_summary=hierarchy_summary
+        )
+    else:
+        print("Using basic AI prompt")
+        # Find ambiguous names to warn about
+        ambiguous = find_ambiguous_names(structures)
+        ambiguous_warning = ""
+        if ambiguous:
+            ambiguous_warning = "\n\nWARNING - These names are AMBIGUOUS (exist multiple times):\n"
+            for name, entries in list(ambiguous.items())[:10]:  # Limit to 10
+                ambiguous_warning += f"- '{name}': {', '.join(entries)}\n"
+            ambiguous_warning += "Always use the FULL name with ID when referring to these!\n"
+        
+        # Build prompt with ALL structures
+        system = SYSTEM_PROMPT.format(
+            next_id=next_id,
+            structures='\n'.join(f"- {s}" for s in structures)  # Include ALL structures
+        ) + ambiguous_warning
     
     client = Groq(api_key=api_key)
     
