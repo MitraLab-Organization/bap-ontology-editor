@@ -338,12 +338,12 @@ def generate_mermaid_innervation(structures: Dict[str, dict], relationships: Dic
     
     # Create subgraphs for major nerves
     for nerve, muscles in sorted(by_nerve.items()):
-        # Create safe ID
-        nerve_id = nerve.replace(' ', '_').replace('-', '_')
+        # Create safe ID (remove parentheses that cause mermaid parse errors)
+        nerve_id = nerve.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
         lines.append(f"    {nerve_id}[{nerve}]")
         
         for muscle in sorted(muscles)[:8]:  # Limit to 8 per nerve for readability
-            muscle_id = muscle.replace(' ', '_').replace('-', '_')
+            muscle_id = muscle.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
             lines.append(f"    {nerve_id} -->|innervates| {muscle_id}[{muscle}]")
         
         if len(muscles) > 8:
