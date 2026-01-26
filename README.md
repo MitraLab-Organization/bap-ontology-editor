@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 206
+├── Structures: 208
 ├── Hierarchy depth: 7 levels
 └── Relationships: 45
     ├── Innervated By: 38
@@ -182,16 +182,6 @@ Body
 ├── Neck
 │   ├── Cavities and passages
 │   │   ├── Larynx
-│   │   │   ├── Arytenoideus
-│   │   │   ├── Cricoarytenoideus alaris
-│   │   │   ├── Cricoarytenoideus lateralis
-│   │   │   ├── Cricoarytenoideus posterior
-│   │   │   ├── Thyroarytenoideus
-│   │   │   ├── arytenoid cartilage
-│   │   │   ├── cricoid cartilage
-│   │   │   ├── epiglottis
-│   │   │   ├── laryngeal alar cartilage
-│   │   │   └── thyroid cartilage
 │   │   └── Pharynx
 │   │       ├── Constrictor pharyngis inferior
 │   │       ├── Constrictor pharyngis medius
@@ -214,6 +204,12 @@ Body
 │   │   │   ├── Cleidooccipitalis
 │   │   │   ├── Cricothyroideus
 │   │   │   ├── Jugulohyoideus
+│   │   │   ├── Laryngeal muscles
+│   │   │   │   ├── Arytenoideus
+│   │   │   │   ├── Cricoarytenoideus alaris
+│   │   │   │   ├── Cricoarytenoideus lateralis
+│   │   │   │   ├── Cricoarytenoideus posterior
+│   │   │   │   └── Thyroarytenoideus
 │   │   │   ├── Omohyoideus
 │   │   │   ├── Sternomastoideus
 │   │   │   ├── Sternothyroideus
@@ -222,6 +218,12 @@ Body
 │   │   │       ├── Acromiotrapezius
 │   │   │       └── Spinotrapezius
 │   │   └── Neck skeletal system
+│   │       ├── Laryngeal skeletal system
+│   │       │   ├── arytenoid cartilage
+│   │       │   ├── cricoid cartilage
+│   │       │   ├── epiglottis
+│   │       │   ├── laryngeal alar cartilage
+│   │       │   └── thyroid cartilage
 │   │       └── cervical vertebra
 │   ├── Nervous system
 │   │   ├── Central nervous system
