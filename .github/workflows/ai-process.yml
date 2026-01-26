@@ -91,6 +91,13 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml ruamel.yaml
       
+      - name: Parse AI response from issue comments
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/parse_ai_response_from_issue.py
+      
       - name: Create changes from AI data
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
