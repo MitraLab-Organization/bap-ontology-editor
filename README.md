@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 204
+├── Structures: 206
 ├── Hierarchy depth: 7 levels
 └── Relationships: 45
     ├── Innervated By: 38
@@ -110,15 +110,17 @@ Body
 │   │   │   ├── Temporalis
 │   │   │   │   ├── Temporalis lateralis
 │   │   │   │   └── Temporalis medialis
-│   │   │   ├── Tongue
-│   │   │   │   ├── Genioglossus
-│   │   │   │   ├── Hyoglossus
-│   │   │   │   ├── Inferior longitudinal
-│   │   │   │   ├── Palatoglossus
-│   │   │   │   ├── Styloglossus
-│   │   │   │   ├── Superior longitudinal
-│   │   │   │   ├── Transverse
-│   │   │   │   └── Vertical
+│   │   │   ├── Tongue muscles
+│   │   │   │   ├── Extrinsic tongue muscles
+│   │   │   │   │   ├── Genioglossus
+│   │   │   │   │   ├── Hyoglossus
+│   │   │   │   │   ├── Palatoglossus
+│   │   │   │   │   └── Styloglossus
+│   │   │   │   └── Intrinsic tongue muscles
+│   │   │   │       ├── Inferior longitudinal
+│   │   │   │       ├── Superior longitudinal
+│   │   │   │       ├── Transverse
+│   │   │   │       └── Vertical
 │   │   │   ├── Zygomaticus major
 │   │   │   └── Zygomaticus minor
 │   │   └── Cranium
