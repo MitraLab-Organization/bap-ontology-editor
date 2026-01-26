@@ -197,8 +197,11 @@ def action_delete_structure(action: dict, context: dict) -> bool:
             print(f"    ⚠️  Structure '{struct_name}' not found")
             return False
     
-    # Safety check: ensure no children
-    children = context['parent_child_map'].get(struct_id, [])
+    # Safety check: reload fresh context and ensure no children
+    # (Context may be stale if structures were moved earlier)
+    fresh_structures = load_all_structures()
+    fresh_context = build_hierarchy_context(fresh_structures)
+    children = fresh_context['parent_child_map'].get(struct_id, [])
     if children:
         print(f"    ⚠️  Structure has {len(children)} children - cannot delete")
         return False

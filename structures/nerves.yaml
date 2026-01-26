@@ -11,30 +11,6 @@ structures:
   # ============================================================================
   # CRANIAL NERVES
   # ============================================================================
-- id: BAP_0001004
-  name: Trigeminal nerve
-  parent: BAP_0012006
-  abbreviation: CN V
-
-- id: BAP_0001000
-  name: Facial nerve
-  parent: BAP_0012006
-  abbreviation: CN VII
-
-- id: BAP_0001001
-  name: Glossopharyngeal nerve
-  parent: BAP_0012006
-  abbreviation: CN IX
-
-- id: BAP_0001003
-  name: Accessory nerve
-  parent: BAP_0012006
-  abbreviation: CN XI
-
-- id: BAP_0001002
-  name: Hypoglossal nerve
-  parent: BAP_0012006
-  abbreviation: CN XII
 - id: BAP_0021732
   name: Cervical nerves (L)
   parent: BAP_0021201
@@ -77,16 +53,16 @@ structures:
   definition: Third cranial nerve, motor for eye movement
 - id: BAP_0021970
   name: Trigeminal nerve (L)
-  parent: BAP_0001004
+  parent: BAP_0012006
 - id: BAP_0021971
   name: Trigeminal nerve (R)
-  parent: BAP_0001004
+  parent: BAP_0012006
 - id: BAP_0021974
   name: Facial nerve (L)
-  parent: BAP_0001000
+  parent: BAP_0012006
 - id: BAP_0021975
   name: Facial nerve (R)
-  parent: BAP_0001000
+  parent: BAP_0012006
 - id: BAP_0021976
   name: Vestibulocochlear nerve (L)
   parent: BAP_0012006
@@ -97,10 +73,10 @@ structures:
   definition: Eighth cranial nerve, sensory for hearing and balance
 - id: BAP_0021978
   name: Glossopharyngeal nerve (L)
-  parent: BAP_0001001
+  parent: BAP_0012006
 - id: BAP_0021979
   name: Glossopharyngeal nerve (R)
-  parent: BAP_0001001
+  parent: BAP_0012006
 - id: BAP_0021980
   name: Vagus nerve (L)
   parent: BAP_0012006
@@ -111,13 +87,13 @@ structures:
   definition: Tenth cranial nerve, mixed nerve for visceral functions
 - id: BAP_0021982
   name: Accessory nerve (L)
-  parent: BAP_0001003
+  parent: BAP_0012006
 - id: BAP_0021983
   name: Accessory nerve (R)
-  parent: BAP_0001003
+  parent: BAP_0012006
 - id: BAP_0021984
   name: Hypoglossal nerve (L)
-  parent: BAP_0001002
+  parent: BAP_0012006
 - id: BAP_0021985
   name: Hypoglossal nerve (R)
-  parent: BAP_0001002
+  parent: BAP_0012006

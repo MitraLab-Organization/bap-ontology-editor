@@ -11,20 +11,6 @@ structures:
   # ============================================================================
   # ARTERIES - Under Head arteries (BAP_0020401)
   # ============================================================================
-- id: BAP_0002000
-  name: Lingual artery
-  parent: BAP_0020401
-  definition: Branch of external carotid supplying the tongue
-
-- id: BAP_0002001
-  name: Maxillary artery
-  parent: BAP_0020401
-  definition: Terminal branch of external carotid, supplies deep face structures
-
-- id: BAP_0002002
-  name: Temporal artery
-  parent: BAP_0020401
-  definition: Superficial temporal artery supplying temporal region
 - id: BAP_0021718
   name: Veins (L)
   parent: BAP_0020004
@@ -43,17 +29,17 @@ structures:
   definition: Venous drainage of the neck
 - id: BAP_0021986
   name: Lingual artery (L)
-  parent: BAP_0002000
+  parent: BAP_0020401
   definition: Branch of external carotid supplying the tongue
 - id: BAP_0021987
   name: Lingual artery (R)
-  parent: BAP_0002000
+  parent: BAP_0020401
   definition: Branch of external carotid supplying the tongue
 - id: BAP_0021990
   name: Temporal artery (L)
-  parent: BAP_0002002
+  parent: BAP_0020401
   definition: Superficial temporal artery supplying temporal region
 - id: BAP_0021991
   name: Temporal artery (R)
-  parent: BAP_0002002
+  parent: BAP_0020401
   definition: Superficial temporal artery supplying temporal region

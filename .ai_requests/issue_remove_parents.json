@@ -1,0 +1,846 @@
+{
+  "understood": "Remove 42 lateralized parents and promote (L) and (R) children",
+  "actions": [
+    {
+      "type": "move_structure",
+      "structure_name": "Superficial masseter (L)",
+      "structure_id": "BAP_0021800",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Superficial masseter (R)",
+      "structure_id": "BAP_0021801",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Superficial masseter",
+      "structure_id": "BAP_0000016",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Deep masseter (L)",
+      "structure_id": "BAP_0021802",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Deep masseter (R)",
+      "structure_id": "BAP_0021803",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Deep masseter",
+      "structure_id": "BAP_0000017",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticomandibularis (L)",
+      "structure_id": "BAP_0021804",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticomandibularis (R)",
+      "structure_id": "BAP_0021805",
+      "new_parent_name": "Masseter",
+      "new_parent_id": "BAP_0000015"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Zygomaticomandibularis",
+      "structure_id": "BAP_0000018",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Pterygoideus lateralis (L)",
+      "structure_id": "BAP_0021810",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Pterygoideus lateralis (R)",
+      "structure_id": "BAP_0021811",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Pterygoideus lateralis",
+      "structure_id": "BAP_0000020",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Pterygoideus medialis (L)",
+      "structure_id": "BAP_0021812",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Pterygoideus medialis (R)",
+      "structure_id": "BAP_0021813",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Pterygoideus medialis",
+      "structure_id": "BAP_0000021",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Mylohyoideus (L)",
+      "structure_id": "BAP_0021814",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Mylohyoideus (R)",
+      "structure_id": "BAP_0021815",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Mylohyoideus",
+      "structure_id": "BAP_0000013",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Digastricus anterior (L)",
+      "structure_id": "BAP_0021816",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Digastricus anterior (R)",
+      "structure_id": "BAP_0021817",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Digastricus anterior",
+      "structure_id": "BAP_0000014",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Tensor veli palatini (L)",
+      "structure_id": "BAP_0021818",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Tensor veli palatini (R)",
+      "structure_id": "BAP_0021819",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Tensor veli palatini",
+      "structure_id": "BAP_0000023",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stylohyoideus (L)",
+      "structure_id": "BAP_0021820",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stylohyoideus (R)",
+      "structure_id": "BAP_0021821",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Stylohyoideus",
+      "structure_id": "BAP_0000024",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Digastricus posterior (L)",
+      "structure_id": "BAP_0021822",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Digastricus posterior (R)",
+      "structure_id": "BAP_0021823",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Digastricus posterior",
+      "structure_id": "BAP_0000025",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stapedius (L)",
+      "structure_id": "BAP_0021824",
+      "new_parent_name": "Inner Ear Muscles",
+      "new_parent_id": "BAP_0012009"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stapedius (R)",
+      "structure_id": "BAP_0021825",
+      "new_parent_name": "Inner Ear Muscles",
+      "new_parent_id": "BAP_0012009"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Stapedius",
+      "structure_id": "BAP_0000026",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Platysma cervicale (L)",
+      "structure_id": "BAP_0021828",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Platysma cervicale (R)",
+      "structure_id": "BAP_0021829",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Platysma cervicale",
+      "structure_id": "BAP_0000027",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Platysma myoides (L)",
+      "structure_id": "BAP_0021830",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Platysma myoides (R)",
+      "structure_id": "BAP_0021831",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Platysma myoides",
+      "structure_id": "BAP_0000028",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Occipitalis (L)",
+      "structure_id": "BAP_0021832",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Occipitalis (R)",
+      "structure_id": "BAP_0021833",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Occipitalis",
+      "structure_id": "BAP_0000029",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Mandibuloauricularis (L)",
+      "structure_id": "BAP_0021834",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Mandibuloauricularis (R)",
+      "structure_id": "BAP_0021835",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Mandibuloauricularis",
+      "structure_id": "BAP_0000030",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Sphincter colli superficialis (L)",
+      "structure_id": "BAP_0021836",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Sphincter colli superficialis (R)",
+      "structure_id": "BAP_0021837",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Sphincter colli superficialis",
+      "structure_id": "BAP_0000031",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Sphincter colli profundus (L)",
+      "structure_id": "BAP_0021838",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Sphincter colli profundus (R)",
+      "structure_id": "BAP_0021839",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Sphincter colli profundus",
+      "structure_id": "BAP_0000032",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Interscutularis (L)",
+      "structure_id": "BAP_0021840",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Interscutularis (R)",
+      "structure_id": "BAP_0021841",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Interscutularis",
+      "structure_id": "BAP_0000033",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticus major (L)",
+      "structure_id": "BAP_0021842",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticus major (R)",
+      "structure_id": "BAP_0021843",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Zygomaticus major",
+      "structure_id": "BAP_0000034",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticus minor (L)",
+      "structure_id": "BAP_0021844",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Zygomaticus minor (R)",
+      "structure_id": "BAP_0021845",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Zygomaticus minor",
+      "structure_id": "BAP_0000035",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Orbito-temporo-auricularis (L)",
+      "structure_id": "BAP_0021846",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Orbito-temporo-auricularis (R)",
+      "structure_id": "BAP_0021847",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Orbito-temporo-auricularis",
+      "structure_id": "BAP_0000036",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Orbicularis oculi (L)",
+      "structure_id": "BAP_0021848",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Orbicularis oculi (R)",
+      "structure_id": "BAP_0021849",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Orbicularis oculi",
+      "structure_id": "BAP_0000037",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator labii superioris alaeque nasi (L)",
+      "structure_id": "BAP_0021850",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator labii superioris alaeque nasi (R)",
+      "structure_id": "BAP_0021851",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Levator labii superioris alaeque nasi",
+      "structure_id": "BAP_0000038",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator labii superioris (L)",
+      "structure_id": "BAP_0021852",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator labii superioris (R)",
+      "structure_id": "BAP_0021853",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Levator labii superioris",
+      "structure_id": "BAP_0000039",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Buccinatorius (L)",
+      "structure_id": "BAP_0021854",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Buccinatorius (R)",
+      "structure_id": "BAP_0021855",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Buccinatorius",
+      "structure_id": "BAP_0000040",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Dilatator nasi (L)",
+      "structure_id": "BAP_0021856",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Dilatator nasi (R)",
+      "structure_id": "BAP_0021857",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Dilatator nasi",
+      "structure_id": "BAP_0000041",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Nasalis (L)",
+      "structure_id": "BAP_0021858",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Nasalis (R)",
+      "structure_id": "BAP_0021859",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Nasalis",
+      "structure_id": "BAP_0000042",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Depressor septi nasi (L)",
+      "structure_id": "BAP_0021860",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Depressor septi nasi (R)",
+      "structure_id": "BAP_0021861",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Depressor septi nasi",
+      "structure_id": "BAP_0000043",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Depressor rhinarii (L)",
+      "structure_id": "BAP_0021862",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Depressor rhinarii (R)",
+      "structure_id": "BAP_0021863",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Depressor rhinarii",
+      "structure_id": "BAP_0000044",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator rhinarii (L)",
+      "structure_id": "BAP_0021864",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator rhinarii (R)",
+      "structure_id": "BAP_0021865",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Levator rhinarii",
+      "structure_id": "BAP_0000045",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator anguli oris (L)",
+      "structure_id": "BAP_0021866",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator anguli oris (R)",
+      "structure_id": "BAP_0021867",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Levator anguli oris",
+      "structure_id": "BAP_0000046",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Genioglossus (L)",
+      "structure_id": "BAP_0021870",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_0021701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Genioglossus (R)",
+      "structure_id": "BAP_0021871",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_0021701"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Genioglossus",
+      "structure_id": "BAP_0000071",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Hyoglossus (L)",
+      "structure_id": "BAP_0021872",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_0021701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Hyoglossus (R)",
+      "structure_id": "BAP_0021873",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_0021701"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Hyoglossus",
+      "structure_id": "BAP_0000072",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stylopharyngeus (L)",
+      "structure_id": "BAP_0021886",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Stylopharyngeus (R)",
+      "structure_id": "BAP_0021887",
+      "new_parent_name": "Cranial muscles",
+      "new_parent_id": "BAP_0012007"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Stylopharyngeus",
+      "structure_id": "BAP_0000048",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Trigeminal nerve (L)",
+      "structure_id": "BAP_0021970",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Trigeminal nerve (R)",
+      "structure_id": "BAP_0021971",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Trigeminal nerve",
+      "structure_id": "BAP_0001004",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Facial nerve (L)",
+      "structure_id": "BAP_0021974",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Facial nerve (R)",
+      "structure_id": "BAP_0021975",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Facial nerve",
+      "structure_id": "BAP_0001000",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Glossopharyngeal nerve (L)",
+      "structure_id": "BAP_0021978",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Glossopharyngeal nerve (R)",
+      "structure_id": "BAP_0021979",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Glossopharyngeal nerve",
+      "structure_id": "BAP_0001001",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Accessory nerve (L)",
+      "structure_id": "BAP_0021982",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Accessory nerve (R)",
+      "structure_id": "BAP_0021983",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Accessory nerve",
+      "structure_id": "BAP_0001003",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Hypoglossal nerve (L)",
+      "structure_id": "BAP_0021984",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Hypoglossal nerve (R)",
+      "structure_id": "BAP_0021985",
+      "new_parent_name": "Cranial Nerves",
+      "new_parent_id": "BAP_0012006"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Hypoglossal nerve",
+      "structure_id": "BAP_0001002",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Lingual artery (L)",
+      "structure_id": "BAP_0021986",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Lingual artery (R)",
+      "structure_id": "BAP_0021987",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Lingual artery",
+      "structure_id": "BAP_0002000",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Maxillary artery (L)",
+      "structure_id": "BAP_0021988",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Maxillary artery (R)",
+      "structure_id": "BAP_0021989",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Maxillary artery",
+      "structure_id": "BAP_0002001",
+      "reason": "lateralized parent no longer needed"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Temporal artery (L)",
+      "structure_id": "BAP_0021990",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Temporal artery (R)",
+      "structure_id": "BAP_0021991",
+      "new_parent_name": "Arteries",
+      "new_parent_id": "BAP_0020401"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Temporal artery",
+      "structure_id": "BAP_0002002",
+      "reason": "lateralized parent no longer needed"
+    }
+  ],
+  "warnings": []
+}

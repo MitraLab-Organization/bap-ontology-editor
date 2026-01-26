@@ -77,23 +77,23 @@ structures:
   parent: BAP_0000139
 - id: BAP_0021824
   name: Stapedius (L)
-  parent: BAP_0000026
+  parent: BAP_0012009
   definition: Stabelize stapes bone
 - id: BAP_0021825
   name: Stapedius (R)
-  parent: BAP_0000026
+  parent: BAP_0012009
   definition: Stabelize stapes bone
 - id: BAP_0021858
   name: Nasalis (L)
-  parent: BAP_0000042
+  parent: BAP_0012007
 - id: BAP_0021859
   name: Nasalis (R)
-  parent: BAP_0000042
+  parent: BAP_0012007
 - id: BAP_0021988
   name: Maxillary artery (L)
-  parent: BAP_0002001
+  parent: BAP_0020401
   definition: Terminal branch of external carotid, supplies deep face structures
 - id: BAP_0021989
   name: Maxillary artery (R)
-  parent: BAP_0002001
+  parent: BAP_0020401
   definition: Terminal branch of external carotid, supplies deep face structures

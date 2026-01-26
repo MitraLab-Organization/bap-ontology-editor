@@ -465,19 +465,19 @@ structures:
   parent: BAP_0000004
 - id: BAP_0021800
   name: Superficial masseter (L)
-  parent: BAP_0000016
+  parent: BAP_0000015
   definition: Superficial portion of masseter; elevates and protrudes mandible
 - id: BAP_0021801
   name: Superficial masseter (R)
-  parent: BAP_0000016
+  parent: BAP_0000015
   definition: Superficial portion of masseter; elevates and protrudes mandible
 - id: BAP_0021802
   name: Deep masseter (L)
-  parent: BAP_0000017
+  parent: BAP_0000015
   definition: Deep portion of masseter; elevates mandible with vertical force
 - id: BAP_0021803
   name: Deep masseter (R)
-  parent: BAP_0000017
+  parent: BAP_0000015
   definition: Deep portion of masseter; elevates mandible with vertical force
 - id: BAP_0021806
   name: Temporalis lateralis (L)
@@ -493,100 +493,100 @@ structures:
   parent: BAP_0000019
 - id: BAP_0021814
   name: Mylohyoideus (L)
-  parent: BAP_0000013
+  parent: BAP_0012007
   definition: Elevate floor of oral cavity
 - id: BAP_0021815
   name: Mylohyoideus (R)
-  parent: BAP_0000013
+  parent: BAP_0012007
   definition: Elevate floor of oral cavity
 - id: BAP_0021816
   name: Digastricus anterior (L)
-  parent: BAP_0000014
+  parent: BAP_0012007
   definition: Depress mandible
 - id: BAP_0021817
   name: Digastricus anterior (R)
-  parent: BAP_0000014
+  parent: BAP_0012007
   definition: Depress mandible
 - id: BAP_0021832
   name: Occipitalis (L)
-  parent: BAP_0000029
+  parent: BAP_0012007
   definition: Scalp movment
 - id: BAP_0021833
   name: Occipitalis (R)
-  parent: BAP_0000029
+  parent: BAP_0012007
   definition: Scalp movment
 - id: BAP_0021834
   name: Mandibuloauricularis (L)
-  parent: BAP_0000030
+  parent: BAP_0012007
 - id: BAP_0021835
   name: Mandibuloauricularis (R)
-  parent: BAP_0000030
+  parent: BAP_0012007
 - id: BAP_0021836
   name: Sphincter colli superficialis (L)
-  parent: BAP_0000031
+  parent: BAP_0012007
 - id: BAP_0021837
   name: Sphincter colli superficialis (R)
-  parent: BAP_0000031
+  parent: BAP_0012007
 - id: BAP_0021838
   name: Sphincter colli profundus (L)
-  parent: BAP_0000032
+  parent: BAP_0012007
 - id: BAP_0021839
   name: Sphincter colli profundus (R)
-  parent: BAP_0000032
+  parent: BAP_0012007
 - id: BAP_0021840
   name: Interscutularis (L)
-  parent: BAP_0000033
+  parent: BAP_0012007
 - id: BAP_0021841
   name: Interscutularis (R)
-  parent: BAP_0000033
+  parent: BAP_0012007
 - id: BAP_0021842
   name: Zygomaticus major (L)
-  parent: BAP_0000034
+  parent: BAP_0012007
 - id: BAP_0021843
   name: Zygomaticus major (R)
-  parent: BAP_0000034
+  parent: BAP_0012007
 - id: BAP_0021844
   name: Zygomaticus minor (L)
-  parent: BAP_0000035
+  parent: BAP_0012007
 - id: BAP_0021845
   name: Zygomaticus minor (R)
-  parent: BAP_0000035
+  parent: BAP_0012007
 - id: BAP_0021846
   name: Orbito-temporo-auricularis (L)
-  parent: BAP_0000036
+  parent: BAP_0012007
 - id: BAP_0021847
   name: Orbito-temporo-auricularis (R)
-  parent: BAP_0000036
+  parent: BAP_0012007
 - id: BAP_0021848
   name: Orbicularis oculi (L)
-  parent: BAP_0000037
+  parent: BAP_0012007
 - id: BAP_0021849
   name: Orbicularis oculi (R)
-  parent: BAP_0000037
+  parent: BAP_0012007
 - id: BAP_0021854
   name: Buccinatorius (L)
-  parent: BAP_0000040
+  parent: BAP_0012007
 - id: BAP_0021855
   name: Buccinatorius (R)
-  parent: BAP_0000040
+  parent: BAP_0012007
 - id: BAP_0021856
   name: Dilatator nasi (L)
-  parent: BAP_0000041
+  parent: BAP_0012007
 - id: BAP_0021857
   name: Dilatator nasi (R)
-  parent: BAP_0000041
+  parent: BAP_0012007
 - id: BAP_0021860
   name: Depressor septi nasi (L)
-  parent: BAP_0000043
+  parent: BAP_0012007
 - id: BAP_0021861
   name: Depressor septi nasi (R)
-  parent: BAP_0000043
+  parent: BAP_0012007
 - id: BAP_0021862
   name: Depressor rhinarii (L)
-  parent: BAP_0000044
+  parent: BAP_0012007
 - id: BAP_0021863
   name: Depressor rhinarii (R)
-  parent: BAP_0000044
+  parent: BAP_0012007
 - id: BAP_0021868
   name: Frontalis (L)
   parent: BAP_0012007
@@ -625,10 +625,10 @@ structures:
   parent: BAP_0021702
 - id: BAP_0021886
   name: Stylopharyngeus (L)
-  parent: BAP_0000048
+  parent: BAP_0012007
 - id: BAP_0021887
   name: Stylopharyngeus (R)
-  parent: BAP_0000048
+  parent: BAP_0012007
 - id: BAP_0021888
   name: Ceratohyoideus (L)
   parent: BAP_0012007
