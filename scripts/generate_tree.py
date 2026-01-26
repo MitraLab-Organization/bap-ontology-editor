@@ -340,13 +340,16 @@ def generate_mermaid_innervation(structures: Dict[str, dict], relationships: Dic
     for nerve, muscles in sorted(by_nerve.items()):
         # Create safe ID (remove parentheses that cause mermaid parse errors)
         nerve_id = nerve.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
+        # Use quotes if name contains parentheses
+        nerve_label = f'"{nerve}"' if '(' in nerve else nerve
         
         for muscle in sorted(muscles)[:8]:  # Limit to 8 per nerve for readability
             muscle_id = muscle.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
-            lines.append(f"    {nerve_id}[{nerve}] -->|innervates| {muscle_id}[{muscle}]")
+            muscle_label = f'"{muscle}"' if '(' in muscle else muscle
+            lines.append(f"    {nerve_id}[{nerve_label}] -->|innervates| {muscle_id}[{muscle_label}]")
         
         if len(muscles) > 8:
-            lines.append(f"    {nerve_id}[{nerve}] -->|innervates| {nerve_id}_more[+{len(muscles)-8} more]")
+            lines.append(f"    {nerve_id}[{nerve_label}] -->|innervates| {nerve_id}_more[+{len(muscles)-8} more]")
     
     lines.append("```")
     return '\n'.join(lines)
@@ -373,10 +376,12 @@ def generate_mermaid_blood_supply(structures: Dict[str, dict], relationships: Di
     
     for artery, supplied in sorted(by_artery.items()):
         artery_id = artery.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
+        artery_label = f'"{artery}"' if '(' in artery else artery
         
         for struct in sorted(supplied)[:6]:
             struct_id = struct.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
-            lines.append(f"    {artery_id}([{artery}]) -.->|supplies| {struct_id}[{struct}]")
+            struct_label = f'"{struct}"' if '(' in struct else struct
+            lines.append(f"    {artery_id}([{artery_label}]) -.->|supplies| {struct_id}[{struct_label}]")
     
     lines.append("```")
     return '\n'.join(lines)
