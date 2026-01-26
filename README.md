@@ -44,8 +44,8 @@ Body
 │   │   │   ├── external acoustic meatus
 │   │   │   └── internal acoustic meatus
 │   │   ├── Nasal cavity
-│   │   ├── Nasal sinuses
-│   │   └── Oral cavity
+│   │   ├── Oral cavity
+│   │   └── Paranasal sinuses
 │   ├── Endocrine and exocrine system
 │   │   ├── Palatal submucosa
 │   │   └── Parotid glands
