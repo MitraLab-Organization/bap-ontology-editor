@@ -1,0 +1,14 @@
+{
+  "understood": "Reorganization with 1 actions",
+  "actions": [
+    {
+      "type": "update_structure",
+      "structure_name": "Nasal sinuses",
+      "structure_id": "BAP_0020602",
+      "changes": {
+        "name": "Paranasal sinuses"
+      }
+    }
+  ],
+  "warnings": []
+}

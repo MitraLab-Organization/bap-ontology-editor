@@ -139,7 +139,7 @@ structures:
   parent: BAP_0020006
   definition: Mouth cavity
 - id: BAP_0020602
-  name: Nasal sinuses
+  name: Paranasal sinuses
   parent: BAP_0020006
   definition: Paranasal sinus cavities
 - id: BAP_0000010
