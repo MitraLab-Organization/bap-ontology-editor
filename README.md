@@ -20,8 +20,8 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 ```
 ├── Structures: 353
 ├── Hierarchy depth: 7 levels
-└── Relationships: 87
-    ├── Innervated By: 76
+└── Relationships: 89
+    ├── Innervated By: 78
     ├── Part Of: 3
     └── Supplied By: 8
 ```
@@ -427,7 +427,7 @@ graph LR
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Pterygoideus_medialis_L["Pterygoideus medialis (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Superficial_masseter_L["Superficial masseter (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Temporalis[Temporalis]
-    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Trigeminal_nerve_L_more[+2 more]
+    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Trigeminal_nerve_L_more[+3 more]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Deep_masseter_R["Deep masseter (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Digastricus_anterior_R["Digastricus anterior (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Masseter[Masseter]
@@ -436,7 +436,7 @@ graph LR
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Pterygoideus_medialis_R["Pterygoideus medialis (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Superficial_masseter_R["Superficial masseter (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Temporalis[Temporalis]
-    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Trigeminal_nerve_R_more[+2 more]
+    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Trigeminal_nerve_R_more[+3 more]
 ```
 
 #### Blood Supply Map
@@ -466,8 +466,8 @@ graph LR
 | Glossopharyngeal nerve (R) | Stylopharyngeus (R) |
 | Hypoglossal nerve (L) | Genioglossus (L), Hyoglossus (L) |
 | Hypoglossal nerve (R) | Genioglossus (R), Hyoglossus (R) |
-| Trigeminal nerve (L) | Deep masseter (L), Digastricus anterior (L), Masseter, Mylohyoideus (L), Pterygoideus lateralis (L), Pterygoideus medialis (L), Superficial masseter (L), Temporalis, Tensor veli palatini (L), Zygomaticomandibularis (L) |
-| Trigeminal nerve (R) | Deep masseter (R), Digastricus anterior (R), Masseter, Mylohyoideus (R), Pterygoideus lateralis (R), Pterygoideus medialis (R), Superficial masseter (R), Temporalis, Tensor veli palatini (R), Zygomaticomandibularis (R) |
+| Trigeminal nerve (L) | Deep masseter (L), Digastricus anterior (L), Masseter, Mylohyoideus (L), Pterygoideus lateralis (L), Pterygoideus medialis (L), Superficial masseter (L), Temporalis, Tensor tympani (L), Tensor veli palatini (L), Zygomaticomandibularis (L) |
+| Trigeminal nerve (R) | Deep masseter (R), Digastricus anterior (R), Masseter, Mylohyoideus (R), Pterygoideus lateralis (R), Pterygoideus medialis (R), Superficial masseter (R), Temporalis, Tensor tympani (R), Tensor veli palatini (R), Zygomaticomandibularis (R) |
 
 ### Blood Supply
 
