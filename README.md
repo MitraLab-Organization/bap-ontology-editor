@@ -20,10 +20,10 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 ```
 ├── Structures: 353
 ├── Hierarchy depth: 7 levels
-└── Relationships: 75
-    ├── Innervated By: 68
+└── Relationships: 87
+    ├── Innervated By: 76
     ├── Part Of: 3
-    └── Supplied By: 4
+    └── Supplied By: 8
 ```
 <!-- STATS_END -->
 
@@ -393,6 +393,8 @@ Body
 #### Innervation Map
 ```mermaid
 graph LR
+    Accessory_nerve_L["Accessory nerve (L)"] -->|innervates| Trapezius[Trapezius]
+    Accessory_nerve_R["Accessory nerve (R)"] -->|innervates| Trapezius[Trapezius]
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Buccinatorius_L["Buccinatorius (L)"]
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Depressor_rhinarii_L["Depressor rhinarii (L)"]
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Depressor_septi_nasi_L["Depressor septi nasi (L)"]
@@ -401,7 +403,7 @@ graph LR
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Interscutularis_L["Interscutularis (L)"]
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Levator_anguli_oris_L["Levator anguli oris (L)"]
     Facial_nerve_L["Facial nerve (L)"] -->|innervates| Levator_labii_superioris_L["Levator labii superioris (L)"]
-    Facial_nerve_L["Facial nerve (L)"] -->|innervates| Facial_nerve_L_more[+15 more]
+    Facial_nerve_L["Facial nerve (L)"] -->|innervates| Facial_nerve_L_more[+16 more]
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Buccinatorius_R["Buccinatorius (R)"]
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Depressor_rhinarii_R["Depressor rhinarii (R)"]
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Depressor_septi_nasi_R["Depressor septi nasi (R)"]
@@ -410,7 +412,7 @@ graph LR
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Interscutularis_R["Interscutularis (R)"]
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Levator_anguli_oris_R["Levator anguli oris (R)"]
     Facial_nerve_R["Facial nerve (R)"] -->|innervates| Levator_labii_superioris_R["Levator labii superioris (R)"]
-    Facial_nerve_R["Facial nerve (R)"] -->|innervates| Facial_nerve_R_more[+15 more]
+    Facial_nerve_R["Facial nerve (R)"] -->|innervates| Facial_nerve_R_more[+16 more]
     Glossopharyngeal_nerve_L["Glossopharyngeal nerve (L)"] -->|innervates| Stylopharyngeus_L["Stylopharyngeus (L)"]
     Glossopharyngeal_nerve_R["Glossopharyngeal nerve (R)"] -->|innervates| Stylopharyngeus_R["Stylopharyngeus (R)"]
     Hypoglossal_nerve_L["Hypoglossal nerve (L)"] -->|innervates| Genioglossus_L["Genioglossus (L)"]
@@ -419,20 +421,22 @@ graph LR
     Hypoglossal_nerve_R["Hypoglossal nerve (R)"] -->|innervates| Hyoglossus_R["Hyoglossus (R)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Deep_masseter_L["Deep masseter (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Digastricus_anterior_L["Digastricus anterior (L)"]
+    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Masseter[Masseter]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Mylohyoideus_L["Mylohyoideus (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Pterygoideus_lateralis_L["Pterygoideus lateralis (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Pterygoideus_medialis_L["Pterygoideus medialis (L)"]
     Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Superficial_masseter_L["Superficial masseter (L)"]
-    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Tensor_veli_palatini_L["Tensor veli palatini (L)"]
-    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Zygomaticomandibularis_L["Zygomaticomandibularis (L)"]
+    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Temporalis[Temporalis]
+    Trigeminal_nerve_L["Trigeminal nerve (L)"] -->|innervates| Trigeminal_nerve_L_more[+2 more]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Deep_masseter_R["Deep masseter (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Digastricus_anterior_R["Digastricus anterior (R)"]
+    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Masseter[Masseter]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Mylohyoideus_R["Mylohyoideus (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Pterygoideus_lateralis_R["Pterygoideus lateralis (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Pterygoideus_medialis_R["Pterygoideus medialis (R)"]
     Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Superficial_masseter_R["Superficial masseter (R)"]
-    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Tensor_veli_palatini_R["Tensor veli palatini (R)"]
-    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Zygomaticomandibularis_R["Zygomaticomandibularis (R)"]
+    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Temporalis[Temporalis]
+    Trigeminal_nerve_R["Trigeminal nerve (R)"] -->|innervates| Trigeminal_nerve_R_more[+2 more]
 ```
 
 #### Blood Supply Map
@@ -442,6 +446,10 @@ graph LR
     Lingual_artery_L(["Lingual artery (L)"]) -.->|supplies| Hyoglossus_L["Hyoglossus (L)"]
     Lingual_artery_R(["Lingual artery (R)"]) -.->|supplies| Genioglossus_R["Genioglossus (R)"]
     Lingual_artery_R(["Lingual artery (R)"]) -.->|supplies| Hyoglossus_R["Hyoglossus (R)"]
+    Maxillary_artery_L(["Maxillary artery (L)"]) -.->|supplies| Masseter[Masseter]
+    Maxillary_artery_R(["Maxillary artery (R)"]) -.->|supplies| Masseter[Masseter]
+    Temporal_artery_L(["Temporal artery (L)"]) -.->|supplies| Temporalis[Temporalis]
+    Temporal_artery_R(["Temporal artery (R)"]) -.->|supplies| Temporalis[Temporalis]
 ```
 <!-- MERMAID_END -->
 
@@ -450,14 +458,16 @@ graph LR
 
 | Nerve | Innervates |
 |-------|------------|
-| Facial nerve (L) | Buccinatorius (L), Depressor rhinarii (L), Depressor septi nasi (L), Digastricus posterior (L), Dilatator nasi (L), Interscutularis (L), Levator anguli oris (L), Levator labii superioris (L), Levator labii superioris alaeque nasi (L), Levator rhinarii (L), Mandibuloauricularis (L), Nasalis (L), Occipitalis (L), Orbicularis oculi (L), Orbito-temporo-auricularis (L), Platysma cervicale (L), Platysma myoides (L), Sphincter colli profundus (L), Sphincter colli superficialis (L), Stapedius (L), Stylohyoideus (L), Zygomaticus major (L), Zygomaticus minor (L) |
-| Facial nerve (R) | Buccinatorius (R), Depressor rhinarii (R), Depressor septi nasi (R), Digastricus posterior (R), Dilatator nasi (R), Interscutularis (R), Levator anguli oris (R), Levator labii superioris (R), Levator labii superioris alaeque nasi (R), Levator rhinarii (R), Mandibuloauricularis (R), Nasalis (R), Occipitalis (R), Orbicularis oculi (R), Orbito-temporo-auricularis (R), Platysma cervicale (R), Platysma myoides (R), Sphincter colli profundus (R), Sphincter colli superficialis (R), Stapedius (R), Stylohyoideus (R), Zygomaticus major (R), Zygomaticus minor (R) |
+| Accessory nerve (L) | Trapezius |
+| Accessory nerve (R) | Trapezius |
+| Facial nerve (L) | Buccinatorius (L), Depressor rhinarii (L), Depressor septi nasi (L), Digastricus posterior (L), Dilatator nasi (L), Interscutularis (L), Levator anguli oris (L), Levator labii superioris (L), Levator labii superioris alaeque nasi (L), Levator rhinarii (L), Mandibuloauricularis (L), Nasalis (L), Occipitalis (L), Orbicularis oculi (L), Orbicularis oris, Orbito-temporo-auricularis (L), Platysma cervicale (L), Platysma myoides (L), Sphincter colli profundus (L), Sphincter colli superficialis (L), Stapedius (L), Stylohyoideus (L), Zygomaticus major (L), Zygomaticus minor (L) |
+| Facial nerve (R) | Buccinatorius (R), Depressor rhinarii (R), Depressor septi nasi (R), Digastricus posterior (R), Dilatator nasi (R), Interscutularis (R), Levator anguli oris (R), Levator labii superioris (R), Levator labii superioris alaeque nasi (R), Levator rhinarii (R), Mandibuloauricularis (R), Nasalis (R), Occipitalis (R), Orbicularis oculi (R), Orbicularis oris, Orbito-temporo-auricularis (R), Platysma cervicale (R), Platysma myoides (R), Sphincter colli profundus (R), Sphincter colli superficialis (R), Stapedius (R), Stylohyoideus (R), Zygomaticus major (R), Zygomaticus minor (R) |
 | Glossopharyngeal nerve (L) | Stylopharyngeus (L) |
 | Glossopharyngeal nerve (R) | Stylopharyngeus (R) |
 | Hypoglossal nerve (L) | Genioglossus (L), Hyoglossus (L) |
 | Hypoglossal nerve (R) | Genioglossus (R), Hyoglossus (R) |
-| Trigeminal nerve (L) | Deep masseter (L), Digastricus anterior (L), Mylohyoideus (L), Pterygoideus lateralis (L), Pterygoideus medialis (L), Superficial masseter (L), Tensor veli palatini (L), Zygomaticomandibularis (L) |
-| Trigeminal nerve (R) | Deep masseter (R), Digastricus anterior (R), Mylohyoideus (R), Pterygoideus lateralis (R), Pterygoideus medialis (R), Superficial masseter (R), Tensor veli palatini (R), Zygomaticomandibularis (R) |
+| Trigeminal nerve (L) | Deep masseter (L), Digastricus anterior (L), Masseter, Mylohyoideus (L), Pterygoideus lateralis (L), Pterygoideus medialis (L), Superficial masseter (L), Temporalis, Tensor veli palatini (L), Zygomaticomandibularis (L) |
+| Trigeminal nerve (R) | Deep masseter (R), Digastricus anterior (R), Masseter, Mylohyoideus (R), Pterygoideus lateralis (R), Pterygoideus medialis (R), Superficial masseter (R), Temporalis, Tensor veli palatini (R), Zygomaticomandibularis (R) |
 
 ### Blood Supply
 
@@ -465,6 +475,10 @@ graph LR
 |--------|----------|
 | Lingual artery (L) | Genioglossus (L), Hyoglossus (L) |
 | Lingual artery (R) | Genioglossus (R), Hyoglossus (R) |
+| Maxillary artery (L) | Masseter |
+| Maxillary artery (R) | Masseter |
+| Temporal artery (L) | Temporalis |
+| Temporal artery (R) | Temporalis |
 <!-- TABLES_END -->
 
 ## Repository Structure
