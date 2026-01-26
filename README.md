@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 210
+├── Structures: 211
 ├── Hierarchy depth: 7 levels
 └── Relationships: 45
     ├── Innervated By: 38
@@ -124,6 +124,10 @@ Body
 │   │   │   ├── Zygomaticus major
 │   │   │   └── Zygomaticus minor
 │   │   └── Cranium
+│   │       ├── Inner ear
+│   │       │   ├── incus
+│   │       │   ├── malleus
+│   │       │   └── stapes
 │   │       ├── Neurocranium
 │   │       │   ├── basisphenoid
 │   │       │   ├── ethmoid
@@ -131,7 +135,8 @@ Body
 │   │       │   ├── interparietal
 │   │       │   ├── occipital
 │   │       │   ├── parietal
-│   │       │   └── presphenoid
+│   │       │   ├── presphenoid
+│   │       │   └── tympanic membrane
 │   │       └── Viscerocranium
 │   │           ├── Jaw apparatus
 │   │           │   ├── mandible
@@ -166,10 +171,6 @@ Body
 │   │   ├── Eye
 │   │   ├── Gustatory epithelium
 │   │   ├── Inner ear
-│   │   │   ├── incus
-│   │   │   ├── malleus
-│   │   │   ├── stapes
-│   │   │   └── tympanic
 │   │   ├── Olfactory epithelium
 │   │   └── Whisker barrels
 │   └── Vascular system
