@@ -11,6 +11,8 @@ name: AI Process Request
 on:
   issues:
     types: [opened, labeled]
+  issue_comment:
+    types: [created]
 
 jobs:
   process-ai-request:
