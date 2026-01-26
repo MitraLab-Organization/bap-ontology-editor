@@ -23,3 +23,15 @@ relationships:
 - subject: BAP_0021873
   predicate: supplied_by
   object: BAP_0021987
+- subject: BAP_0000015
+  predicate: supplied_by
+  object: BAP_0021988
+- subject: BAP_0000015
+  predicate: supplied_by
+  object: BAP_0021989
+- subject: BAP_0000019
+  predicate: supplied_by
+  object: BAP_0021990
+- subject: BAP_0000019
+  predicate: supplied_by
+  object: BAP_0021991

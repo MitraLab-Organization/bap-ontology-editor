@@ -215,3 +215,27 @@ relationships:
 - subject: BAP_0021873
   predicate: innervated_by
   object: BAP_0021985
+- subject: BAP_0000015
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0000015
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0000019
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0000019
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0000050
+  predicate: innervated_by
+  object: BAP_0021982
+- subject: BAP_0000050
+  predicate: innervated_by
+  object: BAP_0021983
+- subject: BAP_0000047
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0000047
+  predicate: innervated_by
+  object: BAP_0021975
