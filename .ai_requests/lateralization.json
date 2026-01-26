@@ -1,0 +1,2878 @@
+{
+  "understood": "Lateralize 142 leaf structures",
+  "actions": [
+    {
+      "type": "create_structure",
+      "name": "Eye (L)",
+      "id": "BAP_0021708",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Visual organ"
+    },
+    {
+      "type": "create_structure",
+      "name": "Eye (R)",
+      "id": "BAP_0021709",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Visual organ"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Eye",
+      "structure_id": "BAP_0000008",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Inner ear (L)",
+      "id": "BAP_0021710",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Auditory and vestibular organ"
+    },
+    {
+      "type": "create_structure",
+      "name": "Inner ear (R)",
+      "id": "BAP_0021711",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Auditory and vestibular organ"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Inner ear",
+      "structure_id": "BAP_0020301",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Whisker barrels (L)",
+      "id": "BAP_0021712",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Somatosensory cortical structures for whisker sensation"
+    },
+    {
+      "type": "create_structure",
+      "name": "Whisker barrels (R)",
+      "id": "BAP_0021713",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Somatosensory cortical structures for whisker sensation"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Whisker barrels",
+      "structure_id": "BAP_0020302",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Olfactory epithelium (L)",
+      "id": "BAP_0021714",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Sensory epithelium for smell"
+    },
+    {
+      "type": "create_structure",
+      "name": "Olfactory epithelium (R)",
+      "id": "BAP_0021715",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Sensory epithelium for smell"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Olfactory epithelium",
+      "structure_id": "BAP_0020303",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Gustatory epithelium (L)",
+      "id": "BAP_0021716",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Sensory epithelium for taste"
+    },
+    {
+      "type": "create_structure",
+      "name": "Gustatory epithelium (R)",
+      "id": "BAP_0021717",
+      "parent_name": "Sense organs",
+      "parent_id": "BAP_0020003",
+      "definition": "Sensory epithelium for taste"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Gustatory epithelium",
+      "structure_id": "BAP_0020304",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Veins (L)",
+      "id": "BAP_0021718",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0020004",
+      "definition": "Venous drainage of the head"
+    },
+    {
+      "type": "create_structure",
+      "name": "Veins (R)",
+      "id": "BAP_0021719",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0020004",
+      "definition": "Venous drainage of the head"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Veins",
+      "structure_id": "BAP_0020402",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Lymphatics (L)",
+      "id": "BAP_0021720",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0020004",
+      "definition": "Lymphatic structures of the head"
+    },
+    {
+      "type": "create_structure",
+      "name": "Lymphatics (R)",
+      "id": "BAP_0021721",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0020004",
+      "definition": "Lymphatic structures of the head"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Lymphatics",
+      "structure_id": "BAP_0020403",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Parotid glands (L)",
+      "id": "BAP_0021722",
+      "parent_name": "Endocrine and exocrine system",
+      "parent_id": "BAP_0020005",
+      "definition": "Major salivary glands near the ear"
+    },
+    {
+      "type": "create_structure",
+      "name": "Parotid glands (R)",
+      "id": "BAP_0021723",
+      "parent_name": "Endocrine and exocrine system",
+      "parent_id": "BAP_0020005",
+      "definition": "Major salivary glands near the ear"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Parotid glands",
+      "structure_id": "BAP_0020501",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatal submucosa (L)",
+      "id": "BAP_0021724",
+      "parent_name": "Endocrine and exocrine system",
+      "parent_id": "BAP_0020005",
+      "definition": "Submucosal glandular tissue of the palate"
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatal submucosa (R)",
+      "id": "BAP_0021725",
+      "parent_name": "Endocrine and exocrine system",
+      "parent_id": "BAP_0020005",
+      "definition": "Submucosal glandular tissue of the palate"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Palatal submucosa",
+      "structure_id": "BAP_0020502",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Paranasal sinuses (L)",
+      "id": "BAP_0021726",
+      "parent_name": "Cavities and passages",
+      "parent_id": "BAP_0020006",
+      "definition": "Paranasal sinus cavities"
+    },
+    {
+      "type": "create_structure",
+      "name": "Paranasal sinuses (R)",
+      "id": "BAP_0021727",
+      "parent_name": "Cavities and passages",
+      "parent_id": "BAP_0020006",
+      "definition": "Paranasal sinus cavities"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Paranasal sinuses",
+      "structure_id": "BAP_0020602",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Skin (L)",
+      "id": "BAP_0021728",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0020007",
+      "definition": "Skin covering the head"
+    },
+    {
+      "type": "create_structure",
+      "name": "Skin (R)",
+      "id": "BAP_0021729",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0020007",
+      "definition": "Skin covering the head"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Skin",
+      "structure_id": "BAP_0020701",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Whiskers (L)",
+      "id": "BAP_0021730",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0020007",
+      "definition": "Vibrissae - tactile hairs"
+    },
+    {
+      "type": "create_structure",
+      "name": "Whiskers (R)",
+      "id": "BAP_0021731",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0020007",
+      "definition": "Vibrissae - tactile hairs"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Whiskers",
+      "structure_id": "BAP_0000012",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cervical nerves (L)",
+      "id": "BAP_0021732",
+      "parent_name": "Peripheral nervous system",
+      "parent_id": "BAP_0021201",
+      "definition": "Spinal nerves of the cervical region"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cervical nerves (R)",
+      "id": "BAP_0021733",
+      "parent_name": "Peripheral nervous system",
+      "parent_id": "BAP_0021201",
+      "definition": "Spinal nerves of the cervical region"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cervical nerves",
+      "structure_id": "BAP_0021202",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Arteries (L)",
+      "id": "BAP_0021734",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Arterial blood supply to the neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Arteries (R)",
+      "id": "BAP_0021735",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Arterial blood supply to the neck"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Arteries",
+      "structure_id": "BAP_0021301",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Veins (L)",
+      "id": "BAP_0021736",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Venous drainage of the neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Veins (R)",
+      "id": "BAP_0021737",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Venous drainage of the neck"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Veins",
+      "structure_id": "BAP_0021302",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Lymphatics (L)",
+      "id": "BAP_0021738",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Lymphatic structures of the neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Lymphatics (R)",
+      "id": "BAP_0021739",
+      "parent_name": "Vascular system",
+      "parent_id": "BAP_0021003",
+      "definition": "Lymphatic structures of the neck"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Lymphatics",
+      "structure_id": "BAP_0021303",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Skin (L)",
+      "id": "BAP_0021740",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0021006",
+      "definition": "Skin covering the neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Skin (R)",
+      "id": "BAP_0021741",
+      "parent_name": "Integumentary system",
+      "parent_id": "BAP_0021006",
+      "definition": "Skin covering the neck"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Skin",
+      "structure_id": "BAP_0021601",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Abdomen (L)",
+      "id": "BAP_0021742",
+      "parent_name": "Trunk",
+      "parent_id": "BAP_0012001",
+      "definition": "Abdominal region of the trunk"
+    },
+    {
+      "type": "create_structure",
+      "name": "Abdomen (R)",
+      "id": "BAP_0021743",
+      "parent_name": "Trunk",
+      "parent_id": "BAP_0012001",
+      "definition": "Abdominal region of the trunk"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Abdomen",
+      "structure_id": "BAP_0012002",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pelvis (L)",
+      "id": "BAP_0021744",
+      "parent_name": "Trunk",
+      "parent_id": "BAP_0012001",
+      "definition": "Pelvic region of the trunk"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pelvis (R)",
+      "id": "BAP_0021745",
+      "parent_name": "Trunk",
+      "parent_id": "BAP_0012001",
+      "definition": "Pelvic region of the trunk"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Pelvis",
+      "structure_id": "BAP_0012003",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Hindlimb (L)",
+      "id": "BAP_0021746",
+      "parent_name": "Appendages",
+      "parent_id": "BAP_0000006",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Hindlimb (R)",
+      "id": "BAP_0021747",
+      "parent_name": "Appendages",
+      "parent_id": "BAP_0000006",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Hindlimb",
+      "structure_id": "BAP_0000005",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "parietal (L)",
+      "id": "BAP_0021748",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "parietal (R)",
+      "id": "BAP_0021749",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "parietal",
+      "structure_id": "BAP_0000116",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "interparietal (L)",
+      "id": "BAP_0021750",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "interparietal (R)",
+      "id": "BAP_0021751",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "interparietal",
+      "structure_id": "BAP_0000125",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "basisphenoid (L)",
+      "id": "BAP_0021752",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "basisphenoid (R)",
+      "id": "BAP_0021753",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "basisphenoid",
+      "structure_id": "BAP_0000133",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "ethmoid (L)",
+      "id": "BAP_0021754",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "ethmoid (R)",
+      "id": "BAP_0021755",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "ethmoid",
+      "structure_id": "BAP_0000134",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "presphenoid (L)",
+      "id": "BAP_0021756",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "presphenoid (R)",
+      "id": "BAP_0021757",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "presphenoid",
+      "structure_id": "BAP_0000136",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "squamosal (L)",
+      "id": "BAP_0021758",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "squamosal (R)",
+      "id": "BAP_0021759",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "squamosal",
+      "structure_id": "BAP_0000117",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "mandible (L)",
+      "id": "BAP_0021760",
+      "parent_name": "Jaw apparatus",
+      "parent_id": "BAP_0000007",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "mandible (R)",
+      "id": "BAP_0021761",
+      "parent_name": "Jaw apparatus",
+      "parent_id": "BAP_0000007",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "mandible",
+      "structure_id": "BAP_0000118",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "zygomatic (L)",
+      "id": "BAP_0021762",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "zygomatic (R)",
+      "id": "BAP_0021763",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "zygomatic",
+      "structure_id": "BAP_0000119",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "lacrimal (L)",
+      "id": "BAP_0021764",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "lacrimal (R)",
+      "id": "BAP_0021765",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "lacrimal",
+      "structure_id": "BAP_0000120",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "maxilla (L)",
+      "id": "BAP_0021766",
+      "parent_name": "Jaw apparatus",
+      "parent_id": "BAP_0000007",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "maxilla (R)",
+      "id": "BAP_0021767",
+      "parent_name": "Jaw apparatus",
+      "parent_id": "BAP_0000007",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "maxilla",
+      "structure_id": "BAP_0000121",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "premaxilla (L)",
+      "id": "BAP_0021768",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "premaxilla (R)",
+      "id": "BAP_0021769",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "premaxilla",
+      "structure_id": "BAP_0000124",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "palatine (L)",
+      "id": "BAP_0021770",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "palatine (R)",
+      "id": "BAP_0021771",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "palatine",
+      "structure_id": "BAP_0000135",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "nasal (L)",
+      "id": "BAP_0021772",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "nasal (R)",
+      "id": "BAP_0021773",
+      "parent_name": "Viscerocranium",
+      "parent_id": "BAP_0000139",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "nasal",
+      "structure_id": "BAP_0000123",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pinna (L)",
+      "id": "BAP_0021774",
+      "parent_name": "External ear",
+      "parent_id": "BAP_0020702",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Pinna (R)",
+      "id": "BAP_0021775",
+      "parent_name": "External ear",
+      "parent_id": "BAP_0020702",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Pinna",
+      "structure_id": "BAP_0000095",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "external acoustic meatus (L)",
+      "id": "BAP_0021776",
+      "parent_name": "Ear Cavities",
+      "parent_id": "BAP_0020603",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "external acoustic meatus (R)",
+      "id": "BAP_0021777",
+      "parent_name": "Ear Cavities",
+      "parent_id": "BAP_0020603",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "external acoustic meatus",
+      "structure_id": "BAP_0000096",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "internal acoustic meatus (L)",
+      "id": "BAP_0021778",
+      "parent_name": "Ear Cavities",
+      "parent_id": "BAP_0020603",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "internal acoustic meatus (R)",
+      "id": "BAP_0021779",
+      "parent_name": "Ear Cavities",
+      "parent_id": "BAP_0020603",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "internal acoustic meatus",
+      "structure_id": "BAP_0000097",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "stapes (L)",
+      "id": "BAP_0021780",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "stapes (R)",
+      "id": "BAP_0021781",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "stapes",
+      "structure_id": "BAP_0000108",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "incus (L)",
+      "id": "BAP_0021782",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "incus (R)",
+      "id": "BAP_0021783",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "incus",
+      "structure_id": "BAP_0000112",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "malleus (L)",
+      "id": "BAP_0021784",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "malleus (R)",
+      "id": "BAP_0021785",
+      "parent_name": "Inner ear",
+      "parent_id": "BAP_0021707",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "malleus",
+      "structure_id": "BAP_0000113",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "tympanic membrane (L)",
+      "id": "BAP_0021786",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "tympanic membrane (R)",
+      "id": "BAP_0021787",
+      "parent_name": "Neurocranium",
+      "parent_id": "BAP_0000138",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "tympanic membrane",
+      "structure_id": "BAP_0000114",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "arytenoid cartilage (L)",
+      "id": "BAP_0021788",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "arytenoid cartilage (R)",
+      "id": "BAP_0021789",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "arytenoid cartilage",
+      "structure_id": "BAP_0000109",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "laryngeal alar cartilage (L)",
+      "id": "BAP_0021790",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "laryngeal alar cartilage (R)",
+      "id": "BAP_0021791",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "laryngeal alar cartilage",
+      "structure_id": "BAP_0000110",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "cricoid cartilage (L)",
+      "id": "BAP_0021792",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "cricoid cartilage (R)",
+      "id": "BAP_0021793",
+      "parent_name": "Laryngeal skeletal system",
+      "parent_id": "BAP_0021704",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "cricoid cartilage",
+      "structure_id": "BAP_0000128",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "sternum (L)",
+      "id": "BAP_0021794",
+      "parent_name": "Thorax",
+      "parent_id": "BAP_0000003",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "sternum (R)",
+      "id": "BAP_0021795",
+      "parent_name": "Thorax",
+      "parent_id": "BAP_0000003",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "sternum",
+      "structure_id": "BAP_0000129",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "clavicle (L)",
+      "id": "BAP_0021796",
+      "parent_name": "Forelimb",
+      "parent_id": "BAP_0000004",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "clavicle (R)",
+      "id": "BAP_0021797",
+      "parent_name": "Forelimb",
+      "parent_id": "BAP_0000004",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "clavicle",
+      "structure_id": "BAP_0000130",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "scapula (L)",
+      "id": "BAP_0021798",
+      "parent_name": "Forelimb",
+      "parent_id": "BAP_0000004",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "scapula (R)",
+      "id": "BAP_0021799",
+      "parent_name": "Forelimb",
+      "parent_id": "BAP_0000004",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "scapula",
+      "structure_id": "BAP_0000131",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Superficial masseter (L)",
+      "id": "BAP_0021800",
+      "parent_name": "Superficial masseter",
+      "parent_id": "BAP_0000016",
+      "definition": "Superficial portion of masseter; elevates and protrudes mandible"
+    },
+    {
+      "type": "create_structure",
+      "name": "Superficial masseter (R)",
+      "id": "BAP_0021801",
+      "parent_name": "Superficial masseter",
+      "parent_id": "BAP_0000016",
+      "definition": "Superficial portion of masseter; elevates and protrudes mandible"
+    },
+    {
+      "type": "create_structure",
+      "name": "Deep masseter (L)",
+      "id": "BAP_0021802",
+      "parent_name": "Deep masseter",
+      "parent_id": "BAP_0000017",
+      "definition": "Deep portion of masseter; elevates mandible with vertical force"
+    },
+    {
+      "type": "create_structure",
+      "name": "Deep masseter (R)",
+      "id": "BAP_0021803",
+      "parent_name": "Deep masseter",
+      "parent_id": "BAP_0000017",
+      "definition": "Deep portion of masseter; elevates mandible with vertical force"
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticomandibularis (L)",
+      "id": "BAP_0021804",
+      "parent_name": "Zygomaticomandibularis",
+      "parent_id": "BAP_0000018",
+      "definition": "Accessory masticatory muscle; assists in jaw elevation"
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticomandibularis (R)",
+      "id": "BAP_0021805",
+      "parent_name": "Zygomaticomandibularis",
+      "parent_id": "BAP_0000018",
+      "definition": "Accessory masticatory muscle; assists in jaw elevation"
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporalis lateralis (L)",
+      "id": "BAP_0021806",
+      "parent_name": "Temporalis",
+      "parent_id": "BAP_0000019",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporalis lateralis (R)",
+      "id": "BAP_0021807",
+      "parent_name": "Temporalis",
+      "parent_id": "BAP_0000019",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Temporalis lateralis",
+      "structure_id": "BAP_0000080",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporalis medialis (L)",
+      "id": "BAP_0021808",
+      "parent_name": "Temporalis",
+      "parent_id": "BAP_0000019",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporalis medialis (R)",
+      "id": "BAP_0021809",
+      "parent_name": "Temporalis",
+      "parent_id": "BAP_0000019",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Temporalis medialis",
+      "structure_id": "BAP_0000081",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygoideus lateralis (L)",
+      "id": "BAP_0021810",
+      "parent_name": "Pterygoideus lateralis",
+      "parent_id": "BAP_0000020",
+      "definition": "Muscle of mastication; protrudes mandible and assists lateral movement"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygoideus lateralis (R)",
+      "id": "BAP_0021811",
+      "parent_name": "Pterygoideus lateralis",
+      "parent_id": "BAP_0000020",
+      "definition": "Muscle of mastication; protrudes mandible and assists lateral movement"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygoideus medialis (L)",
+      "id": "BAP_0021812",
+      "parent_name": "Pterygoideus medialis",
+      "parent_id": "BAP_0000021",
+      "definition": "Muscle of mastication; elevates mandible and assists grinding motion"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygoideus medialis (R)",
+      "id": "BAP_0021813",
+      "parent_name": "Pterygoideus medialis",
+      "parent_id": "BAP_0000021",
+      "definition": "Muscle of mastication; elevates mandible and assists grinding motion"
+    },
+    {
+      "type": "create_structure",
+      "name": "Mylohyoideus (L)",
+      "id": "BAP_0021814",
+      "parent_name": "Mylohyoideus",
+      "parent_id": "BAP_0000013",
+      "definition": "Elevate floor of oral cavity"
+    },
+    {
+      "type": "create_structure",
+      "name": "Mylohyoideus (R)",
+      "id": "BAP_0021815",
+      "parent_name": "Mylohyoideus",
+      "parent_id": "BAP_0000013",
+      "definition": "Elevate floor of oral cavity"
+    },
+    {
+      "type": "create_structure",
+      "name": "Digastricus anterior (L)",
+      "id": "BAP_0021816",
+      "parent_name": "Digastricus anterior",
+      "parent_id": "BAP_0000014",
+      "definition": "Depress mandible"
+    },
+    {
+      "type": "create_structure",
+      "name": "Digastricus anterior (R)",
+      "id": "BAP_0021817",
+      "parent_name": "Digastricus anterior",
+      "parent_id": "BAP_0000014",
+      "definition": "Depress mandible"
+    },
+    {
+      "type": "create_structure",
+      "name": "Tensor veli palatini (L)",
+      "id": "BAP_0021818",
+      "parent_name": "Tensor veli palatini",
+      "parent_id": "BAP_0000023",
+      "definition": "Tenses soft palate"
+    },
+    {
+      "type": "create_structure",
+      "name": "Tensor veli palatini (R)",
+      "id": "BAP_0021819",
+      "parent_name": "Tensor veli palatini",
+      "parent_id": "BAP_0000023",
+      "definition": "Tenses soft palate"
+    },
+    {
+      "type": "create_structure",
+      "name": "Stylohyoideus (L)",
+      "id": "BAP_0021820",
+      "parent_name": "Stylohyoideus",
+      "parent_id": "BAP_0000024",
+      "definition": "Suprahyoid muscle; elevates and retracts the hyoid bone"
+    },
+    {
+      "type": "create_structure",
+      "name": "Stylohyoideus (R)",
+      "id": "BAP_0021821",
+      "parent_name": "Stylohyoideus",
+      "parent_id": "BAP_0000024",
+      "definition": "Suprahyoid muscle; elevates and retracts the hyoid bone"
+    },
+    {
+      "type": "create_structure",
+      "name": "Digastricus posterior (L)",
+      "id": "BAP_0021822",
+      "parent_name": "Digastricus posterior",
+      "parent_id": "BAP_0000025",
+      "definition": "Suprahyoid muscle; elevates hyoid bone and assists jaw opening"
+    },
+    {
+      "type": "create_structure",
+      "name": "Digastricus posterior (R)",
+      "id": "BAP_0021823",
+      "parent_name": "Digastricus posterior",
+      "parent_id": "BAP_0000025",
+      "definition": "Suprahyoid muscle; elevates hyoid bone and assists jaw opening"
+    },
+    {
+      "type": "create_structure",
+      "name": "Stapedius (L)",
+      "id": "BAP_0021824",
+      "parent_name": "Stapedius",
+      "parent_id": "BAP_0000026",
+      "definition": "Stabelize stapes bone"
+    },
+    {
+      "type": "create_structure",
+      "name": "Stapedius (R)",
+      "id": "BAP_0021825",
+      "parent_name": "Stapedius",
+      "parent_id": "BAP_0000026",
+      "definition": "Stabelize stapes bone"
+    },
+    {
+      "type": "create_structure",
+      "name": "Tensor tympani (L)",
+      "id": "BAP_0021826",
+      "parent_name": "Inner Ear Muscles",
+      "parent_id": "BAP_0012009",
+      "definition": "Muscle that tenses the tympanic membrane"
+    },
+    {
+      "type": "create_structure",
+      "name": "Tensor tympani (R)",
+      "id": "BAP_0021827",
+      "parent_name": "Inner Ear Muscles",
+      "parent_id": "BAP_0012009",
+      "definition": "Muscle that tenses the tympanic membrane"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Tensor tympani",
+      "structure_id": "BAP_0000022",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Platysma cervicale (L)",
+      "id": "BAP_0021828",
+      "parent_name": "Platysma cervicale",
+      "parent_id": "BAP_0000027",
+      "definition": "Superficial cervical muscle; tenses skin of the anterior neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Platysma cervicale (R)",
+      "id": "BAP_0021829",
+      "parent_name": "Platysma cervicale",
+      "parent_id": "BAP_0000027",
+      "definition": "Superficial cervical muscle; tenses skin of the anterior neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Platysma myoides (L)",
+      "id": "BAP_0021830",
+      "parent_name": "Platysma myoides",
+      "parent_id": "BAP_0000028",
+      "definition": "Superficial facial muscle; tenses skin of the lower face and neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Platysma myoides (R)",
+      "id": "BAP_0021831",
+      "parent_name": "Platysma myoides",
+      "parent_id": "BAP_0000028",
+      "definition": "Superficial facial muscle; tenses skin of the lower face and neck"
+    },
+    {
+      "type": "create_structure",
+      "name": "Occipitalis (L)",
+      "id": "BAP_0021832",
+      "parent_name": "Occipitalis",
+      "parent_id": "BAP_0000029",
+      "definition": "Scalp movment"
+    },
+    {
+      "type": "create_structure",
+      "name": "Occipitalis (R)",
+      "id": "BAP_0021833",
+      "parent_name": "Occipitalis",
+      "parent_id": "BAP_0000029",
+      "definition": "Scalp movment"
+    },
+    {
+      "type": "create_structure",
+      "name": "Mandibuloauricularis (L)",
+      "id": "BAP_0021834",
+      "parent_name": "Mandibuloauricularis",
+      "parent_id": "BAP_0000030",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Mandibuloauricularis (R)",
+      "id": "BAP_0021835",
+      "parent_name": "Mandibuloauricularis",
+      "parent_id": "BAP_0000030",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Sphincter colli superficialis (L)",
+      "id": "BAP_0021836",
+      "parent_name": "Sphincter colli superficialis",
+      "parent_id": "BAP_0000031",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Sphincter colli superficialis (R)",
+      "id": "BAP_0021837",
+      "parent_name": "Sphincter colli superficialis",
+      "parent_id": "BAP_0000031",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Sphincter colli profundus (L)",
+      "id": "BAP_0021838",
+      "parent_name": "Sphincter colli profundus",
+      "parent_id": "BAP_0000032",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Sphincter colli profundus (R)",
+      "id": "BAP_0021839",
+      "parent_name": "Sphincter colli profundus",
+      "parent_id": "BAP_0000032",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Interscutularis (L)",
+      "id": "BAP_0021840",
+      "parent_name": "Interscutularis",
+      "parent_id": "BAP_0000033",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Interscutularis (R)",
+      "id": "BAP_0021841",
+      "parent_name": "Interscutularis",
+      "parent_id": "BAP_0000033",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticus major (L)",
+      "id": "BAP_0021842",
+      "parent_name": "Zygomaticus major",
+      "parent_id": "BAP_0000034",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticus major (R)",
+      "id": "BAP_0021843",
+      "parent_name": "Zygomaticus major",
+      "parent_id": "BAP_0000034",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticus minor (L)",
+      "id": "BAP_0021844",
+      "parent_name": "Zygomaticus minor",
+      "parent_id": "BAP_0000035",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Zygomaticus minor (R)",
+      "id": "BAP_0021845",
+      "parent_name": "Zygomaticus minor",
+      "parent_id": "BAP_0000035",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Orbito-temporo-auricularis (L)",
+      "id": "BAP_0021846",
+      "parent_name": "Orbito-temporo-auricularis",
+      "parent_id": "BAP_0000036",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Orbito-temporo-auricularis (R)",
+      "id": "BAP_0021847",
+      "parent_name": "Orbito-temporo-auricularis",
+      "parent_id": "BAP_0000036",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Orbicularis oculi (L)",
+      "id": "BAP_0021848",
+      "parent_name": "Orbicularis oculi",
+      "parent_id": "BAP_0000037",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Orbicularis oculi (R)",
+      "id": "BAP_0021849",
+      "parent_name": "Orbicularis oculi",
+      "parent_id": "BAP_0000037",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator labii superioris alaeque nasi (L)",
+      "id": "BAP_0021850",
+      "parent_name": "Levator labii superioris alaeque nasi",
+      "parent_id": "BAP_0000038",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator labii superioris alaeque nasi (R)",
+      "id": "BAP_0021851",
+      "parent_name": "Levator labii superioris alaeque nasi",
+      "parent_id": "BAP_0000038",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator labii superioris (L)",
+      "id": "BAP_0021852",
+      "parent_name": "Levator labii superioris",
+      "parent_id": "BAP_0000039",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator labii superioris (R)",
+      "id": "BAP_0021853",
+      "parent_name": "Levator labii superioris",
+      "parent_id": "BAP_0000039",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Buccinatorius (L)",
+      "id": "BAP_0021854",
+      "parent_name": "Buccinatorius",
+      "parent_id": "BAP_0000040",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Buccinatorius (R)",
+      "id": "BAP_0021855",
+      "parent_name": "Buccinatorius",
+      "parent_id": "BAP_0000040",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Dilatator nasi (L)",
+      "id": "BAP_0021856",
+      "parent_name": "Dilatator nasi",
+      "parent_id": "BAP_0000041",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Dilatator nasi (R)",
+      "id": "BAP_0021857",
+      "parent_name": "Dilatator nasi",
+      "parent_id": "BAP_0000041",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Nasalis (L)",
+      "id": "BAP_0021858",
+      "parent_name": "Nasalis",
+      "parent_id": "BAP_0000042",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Nasalis (R)",
+      "id": "BAP_0021859",
+      "parent_name": "Nasalis",
+      "parent_id": "BAP_0000042",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Depressor septi nasi (L)",
+      "id": "BAP_0021860",
+      "parent_name": "Depressor septi nasi",
+      "parent_id": "BAP_0000043",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Depressor septi nasi (R)",
+      "id": "BAP_0021861",
+      "parent_name": "Depressor septi nasi",
+      "parent_id": "BAP_0000043",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Depressor rhinarii (L)",
+      "id": "BAP_0021862",
+      "parent_name": "Depressor rhinarii",
+      "parent_id": "BAP_0000044",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Depressor rhinarii (R)",
+      "id": "BAP_0021863",
+      "parent_name": "Depressor rhinarii",
+      "parent_id": "BAP_0000044",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator rhinarii (L)",
+      "id": "BAP_0021864",
+      "parent_name": "Levator rhinarii",
+      "parent_id": "BAP_0000045",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator rhinarii (R)",
+      "id": "BAP_0021865",
+      "parent_name": "Levator rhinarii",
+      "parent_id": "BAP_0000045",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator anguli oris (L)",
+      "id": "BAP_0021866",
+      "parent_name": "Levator anguli oris",
+      "parent_id": "BAP_0000046",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator anguli oris (R)",
+      "id": "BAP_0021867",
+      "parent_name": "Levator anguli oris",
+      "parent_id": "BAP_0000046",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Frontalis (L)",
+      "id": "BAP_0021868",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Frontalis (R)",
+      "id": "BAP_0021869",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Frontalis",
+      "structure_id": "BAP_0000082",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Genioglossus (L)",
+      "id": "BAP_0021870",
+      "parent_name": "Genioglossus",
+      "parent_id": "BAP_0000071",
+      "definition": "Extrinsic tongue muscle; protrudes and depresses the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Genioglossus (R)",
+      "id": "BAP_0021871",
+      "parent_name": "Genioglossus",
+      "parent_id": "BAP_0000071",
+      "definition": "Extrinsic tongue muscle; protrudes and depresses the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Hyoglossus (L)",
+      "id": "BAP_0021872",
+      "parent_name": "Hyoglossus",
+      "parent_id": "BAP_0000072",
+      "definition": "Extrinsic tongue muscle; depresses and retracts the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Hyoglossus (R)",
+      "id": "BAP_0021873",
+      "parent_name": "Hyoglossus",
+      "parent_id": "BAP_0000072",
+      "definition": "Extrinsic tongue muscle; depresses and retracts the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Styloglossus (L)",
+      "id": "BAP_0021874",
+      "parent_name": "Extrinsic tongue muscles",
+      "parent_id": "BAP_0021701",
+      "definition": "Extrinsic tongue muscle; retracts and elevates the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Styloglossus (R)",
+      "id": "BAP_0021875",
+      "parent_name": "Extrinsic tongue muscles",
+      "parent_id": "BAP_0021701",
+      "definition": "Extrinsic tongue muscle; retracts and elevates the tongue"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Styloglossus",
+      "structure_id": "BAP_0000073",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatoglossus (L)",
+      "id": "BAP_0021876",
+      "parent_name": "Extrinsic tongue muscles",
+      "parent_id": "BAP_0021701",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatoglossus (R)",
+      "id": "BAP_0021877",
+      "parent_name": "Extrinsic tongue muscles",
+      "parent_id": "BAP_0021701",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Palatoglossus",
+      "structure_id": "BAP_0000101",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Superior longitudinal (L)",
+      "id": "BAP_0021878",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Superior longitudinal (R)",
+      "id": "BAP_0021879",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Superior longitudinal",
+      "structure_id": "BAP_0000103",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Inferior longitudinal (L)",
+      "id": "BAP_0021880",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Inferior longitudinal (R)",
+      "id": "BAP_0021881",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Inferior longitudinal",
+      "structure_id": "BAP_0000104",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Transverse (L)",
+      "id": "BAP_0021882",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Transverse (R)",
+      "id": "BAP_0021883",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Transverse",
+      "structure_id": "BAP_0000105",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Vertical (L)",
+      "id": "BAP_0021884",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Vertical (R)",
+      "id": "BAP_0021885",
+      "parent_name": "Intrinsic tongue muscles",
+      "parent_id": "BAP_0021702",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Vertical",
+      "structure_id": "BAP_0000106",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Stylopharyngeus (L)",
+      "id": "BAP_0021886",
+      "parent_name": "Stylopharyngeus",
+      "parent_id": "BAP_0000048",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Stylopharyngeus (R)",
+      "id": "BAP_0021887",
+      "parent_name": "Stylopharyngeus",
+      "parent_id": "BAP_0000048",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Ceratohyoideus (L)",
+      "id": "BAP_0021888",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Ceratohyoideus (R)",
+      "id": "BAP_0021889",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Ceratohyoideus",
+      "structure_id": "BAP_0000049",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis superior (L)",
+      "id": "BAP_0021890",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis superior (R)",
+      "id": "BAP_0021891",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Constrictor pharyngis superior",
+      "structure_id": "BAP_0000056",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis medius (L)",
+      "id": "BAP_0021892",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis medius (R)",
+      "id": "BAP_0021893",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Constrictor pharyngis medius",
+      "structure_id": "BAP_0000057",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis inferior (L)",
+      "id": "BAP_0021894",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Constrictor pharyngis inferior (R)",
+      "id": "BAP_0021895",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Constrictor pharyngis inferior",
+      "structure_id": "BAP_0000058",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygopharyngeus (L)",
+      "id": "BAP_0021896",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Pterygopharyngeus (R)",
+      "id": "BAP_0021897",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Pterygopharyngeus",
+      "structure_id": "BAP_0000060",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatopharyngeus (L)",
+      "id": "BAP_0021898",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Palatopharyngeus (R)",
+      "id": "BAP_0021899",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Palatopharyngeus",
+      "structure_id": "BAP_0000061",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator veli palatini (L)",
+      "id": "BAP_0021900",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Levator veli palatini (R)",
+      "id": "BAP_0021901",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Levator veli palatini",
+      "structure_id": "BAP_0000063",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Salpingopharyngeus (L)",
+      "id": "BAP_0021902",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Salpingopharyngeus (R)",
+      "id": "BAP_0021903",
+      "parent_name": "Pharyngeal muscles",
+      "parent_id": "BAP_0021705",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Salpingopharyngeus",
+      "structure_id": "BAP_0000064",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "sternofacialis left (L)",
+      "id": "BAP_0021904",
+      "parent_name": "Pharynx",
+      "parent_id": "BAP_0000079",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "sternofacialis left (R)",
+      "id": "BAP_0021905",
+      "parent_name": "Pharynx",
+      "parent_id": "BAP_0000079",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "sternofacialis left",
+      "structure_id": "BAP_0000084",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Thyroarytenoideus (L)",
+      "id": "BAP_0021906",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Thyroarytenoideus (R)",
+      "id": "BAP_0021907",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Thyroarytenoideus",
+      "structure_id": "BAP_0000065",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus alaris (L)",
+      "id": "BAP_0021908",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus alaris (R)",
+      "id": "BAP_0021909",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cricoarytenoideus alaris",
+      "structure_id": "BAP_0000066",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus lateralis (L)",
+      "id": "BAP_0021910",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus lateralis (R)",
+      "id": "BAP_0021911",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cricoarytenoideus lateralis",
+      "structure_id": "BAP_0000067",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus posterior (L)",
+      "id": "BAP_0021912",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricoarytenoideus posterior (R)",
+      "id": "BAP_0021913",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cricoarytenoideus posterior",
+      "structure_id": "BAP_0000068",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Arytenoideus (L)",
+      "id": "BAP_0021914",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Arytenoideus (R)",
+      "id": "BAP_0021915",
+      "parent_name": "Laryngeal muscles",
+      "parent_id": "BAP_0021703",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Arytenoideus",
+      "structure_id": "BAP_0000069",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Acromiotrapezius (L)",
+      "id": "BAP_0021916",
+      "parent_name": "Trapezius",
+      "parent_id": "BAP_0000050",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Acromiotrapezius (R)",
+      "id": "BAP_0021917",
+      "parent_name": "Trapezius",
+      "parent_id": "BAP_0000050",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Acromiotrapezius",
+      "structure_id": "BAP_0000051",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Spinotrapezius (L)",
+      "id": "BAP_0021918",
+      "parent_name": "Trapezius",
+      "parent_id": "BAP_0000050",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Spinotrapezius (R)",
+      "id": "BAP_0021919",
+      "parent_name": "Trapezius",
+      "parent_id": "BAP_0000050",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Spinotrapezius",
+      "structure_id": "BAP_0000052",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cleidooccipitalis (L)",
+      "id": "BAP_0021920",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cleidooccipitalis (R)",
+      "id": "BAP_0021921",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cleidooccipitalis",
+      "structure_id": "BAP_0000053",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cleidomastoideus (L)",
+      "id": "BAP_0021922",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cleidomastoideus (R)",
+      "id": "BAP_0021923",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cleidomastoideus",
+      "structure_id": "BAP_0000054",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternomastoideus (L)",
+      "id": "BAP_0021924",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternomastoideus (R)",
+      "id": "BAP_0021925",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Sternomastoideus",
+      "structure_id": "BAP_0000055",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricothyroideus (L)",
+      "id": "BAP_0021926",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Cricothyroideus (R)",
+      "id": "BAP_0021927",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Cricothyroideus",
+      "structure_id": "BAP_0000059",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Jugulohyoideus (L)",
+      "id": "BAP_0021928",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Jugulohyoideus (R)",
+      "id": "BAP_0021929",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Jugulohyoideus",
+      "structure_id": "BAP_0000062",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Geniohyoideus (L)",
+      "id": "BAP_0021930",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Geniohyoideus (R)",
+      "id": "BAP_0021931",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Geniohyoideus",
+      "structure_id": "BAP_0000070",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternohyoideus (L)",
+      "id": "BAP_0021932",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": "Infrahyoid muscle; depresses hyoid bone after swallowing"
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternohyoideus (R)",
+      "id": "BAP_0021933",
+      "parent_name": "Cranial muscles",
+      "parent_id": "BAP_0012007",
+      "definition": "Infrahyoid muscle; depresses hyoid bone after swallowing"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Sternohyoideus",
+      "structure_id": "BAP_0000074",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Omohyoideus (L)",
+      "id": "BAP_0021934",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Infrahyoid muscle; depresses hyoid bone and stabilizes during speech"
+    },
+    {
+      "type": "create_structure",
+      "name": "Omohyoideus (R)",
+      "id": "BAP_0021935",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Infrahyoid muscle; depresses hyoid bone and stabilizes during speech"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Omohyoideus",
+      "structure_id": "BAP_0000075",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternothyroideus (L)",
+      "id": "BAP_0021936",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Thyroid cartilage depression"
+    },
+    {
+      "type": "create_structure",
+      "name": "Sternothyroideus (R)",
+      "id": "BAP_0021937",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Thyroid cartilage depression"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Sternothyroideus",
+      "structure_id": "BAP_0000076",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Thyrohyoideus (L)",
+      "id": "BAP_0021938",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Hyoid depression, thyroid elevation"
+    },
+    {
+      "type": "create_structure",
+      "name": "Thyrohyoideus (R)",
+      "id": "BAP_0021939",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Hyoid depression, thyroid elevation"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Thyrohyoideus",
+      "structure_id": "BAP_0000077",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "levator palpebrae superioris (L)",
+      "id": "BAP_0021940",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "levator palpebrae superioris (R)",
+      "id": "BAP_0021941",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "levator palpebrae superioris",
+      "structure_id": "BAP_0000085",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "trochlea (L)",
+      "id": "BAP_0021942",
+      "parent_name": "superior oblique tendon",
+      "parent_id": "BAP_0000087",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "trochlea (R)",
+      "id": "BAP_0021943",
+      "parent_name": "superior oblique tendon",
+      "parent_id": "BAP_0000087",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "trochlea",
+      "structure_id": "BAP_0000088",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "inferior oblique (L)",
+      "id": "BAP_0021944",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "inferior oblique (R)",
+      "id": "BAP_0021945",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "inferior oblique",
+      "structure_id": "BAP_0000089",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "lateral rectus (L)",
+      "id": "BAP_0021946",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "lateral rectus (R)",
+      "id": "BAP_0021947",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "lateral rectus",
+      "structure_id": "BAP_0000090",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "medial rectus (L)",
+      "id": "BAP_0021948",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "medial rectus (R)",
+      "id": "BAP_0021949",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "medial rectus",
+      "structure_id": "BAP_0000091",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "superior rectus (L)",
+      "id": "BAP_0021950",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "superior rectus (R)",
+      "id": "BAP_0021951",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "superior rectus",
+      "structure_id": "BAP_0000092",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "retractor bulbi (L)",
+      "id": "BAP_0021952",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "retractor bulbi (R)",
+      "id": "BAP_0021953",
+      "parent_name": "Eye Muscles",
+      "parent_id": "BAP_0012008",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "retractor bulbi",
+      "structure_id": "BAP_0000093",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis posterior (L)",
+      "id": "BAP_0021954",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis posterior (R)",
+      "id": "BAP_0021955",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Auricularis posterior",
+      "structure_id": "BAP_0000098",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis anterior (L)",
+      "id": "BAP_0021956",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis anterior (R)",
+      "id": "BAP_0021957",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Auricularis anterior",
+      "structure_id": "BAP_0000099",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis superior (L)",
+      "id": "BAP_0021958",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Auricularis superior (R)",
+      "id": "BAP_0021959",
+      "parent_name": "External Ear Muscles",
+      "parent_id": "BAP_0012010",
+      "definition": ""
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Auricularis superior",
+      "structure_id": "BAP_0000100",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Terminal nerve (L)",
+      "id": "BAP_0021960",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Cranial nerve zero, associated with pheromone detection"
+    },
+    {
+      "type": "create_structure",
+      "name": "Terminal nerve (R)",
+      "id": "BAP_0021961",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Cranial nerve zero, associated with pheromone detection"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Terminal nerve",
+      "structure_id": "BAP_0012020",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Olfactory nerve (L)",
+      "id": "BAP_0021962",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "First cranial nerve, sensory for smell"
+    },
+    {
+      "type": "create_structure",
+      "name": "Olfactory nerve (R)",
+      "id": "BAP_0021963",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "First cranial nerve, sensory for smell"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Olfactory nerve",
+      "structure_id": "BAP_0012021",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Optic nerve (L)",
+      "id": "BAP_0021964",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Second cranial nerve, sensory for vision"
+    },
+    {
+      "type": "create_structure",
+      "name": "Optic nerve (R)",
+      "id": "BAP_0021965",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Second cranial nerve, sensory for vision"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Optic nerve",
+      "structure_id": "BAP_0012022",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Oculomotor nerve (L)",
+      "id": "BAP_0021966",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Third cranial nerve, motor for eye movement"
+    },
+    {
+      "type": "create_structure",
+      "name": "Oculomotor nerve (R)",
+      "id": "BAP_0021967",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Third cranial nerve, motor for eye movement"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Oculomotor nerve",
+      "structure_id": "BAP_0012023",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Trochlear nerve (L)",
+      "id": "BAP_0021968",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Fourth cranial nerve, motor for superior oblique muscle"
+    },
+    {
+      "type": "create_structure",
+      "name": "Trochlear nerve (R)",
+      "id": "BAP_0021969",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Fourth cranial nerve, motor for superior oblique muscle"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Trochlear nerve",
+      "structure_id": "BAP_0012024",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Trigeminal nerve (L)",
+      "id": "BAP_0021970",
+      "parent_name": "Trigeminal nerve",
+      "parent_id": "BAP_0001004",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Trigeminal nerve (R)",
+      "id": "BAP_0021971",
+      "parent_name": "Trigeminal nerve",
+      "parent_id": "BAP_0001004",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Abducens nerve (L)",
+      "id": "BAP_0021972",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Sixth cranial nerve, motor for lateral rectus muscle"
+    },
+    {
+      "type": "create_structure",
+      "name": "Abducens nerve (R)",
+      "id": "BAP_0021973",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Sixth cranial nerve, motor for lateral rectus muscle"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Abducens nerve",
+      "structure_id": "BAP_0012025",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Facial nerve (L)",
+      "id": "BAP_0021974",
+      "parent_name": "Facial nerve",
+      "parent_id": "BAP_0001000",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Facial nerve (R)",
+      "id": "BAP_0021975",
+      "parent_name": "Facial nerve",
+      "parent_id": "BAP_0001000",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Vestibulocochlear nerve (L)",
+      "id": "BAP_0021976",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Eighth cranial nerve, sensory for hearing and balance"
+    },
+    {
+      "type": "create_structure",
+      "name": "Vestibulocochlear nerve (R)",
+      "id": "BAP_0021977",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Eighth cranial nerve, sensory for hearing and balance"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Vestibulocochlear nerve",
+      "structure_id": "BAP_0012026",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Glossopharyngeal nerve (L)",
+      "id": "BAP_0021978",
+      "parent_name": "Glossopharyngeal nerve",
+      "parent_id": "BAP_0001001",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Glossopharyngeal nerve (R)",
+      "id": "BAP_0021979",
+      "parent_name": "Glossopharyngeal nerve",
+      "parent_id": "BAP_0001001",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Vagus nerve (L)",
+      "id": "BAP_0021980",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Tenth cranial nerve, mixed nerve for visceral functions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Vagus nerve (R)",
+      "id": "BAP_0021981",
+      "parent_name": "Cranial Nerves",
+      "parent_id": "BAP_0012006",
+      "definition": "Tenth cranial nerve, mixed nerve for visceral functions"
+    },
+    {
+      "type": "delete_structure",
+      "structure_name": "Vagus nerve",
+      "structure_id": "BAP_0012027",
+      "reason": "replaced with lateralized (L) and (R) versions"
+    },
+    {
+      "type": "create_structure",
+      "name": "Accessory nerve (L)",
+      "id": "BAP_0021982",
+      "parent_name": "Accessory nerve",
+      "parent_id": "BAP_0001003",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Accessory nerve (R)",
+      "id": "BAP_0021983",
+      "parent_name": "Accessory nerve",
+      "parent_id": "BAP_0001003",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Hypoglossal nerve (L)",
+      "id": "BAP_0021984",
+      "parent_name": "Hypoglossal nerve",
+      "parent_id": "BAP_0001002",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Hypoglossal nerve (R)",
+      "id": "BAP_0021985",
+      "parent_name": "Hypoglossal nerve",
+      "parent_id": "BAP_0001002",
+      "definition": ""
+    },
+    {
+      "type": "create_structure",
+      "name": "Lingual artery (L)",
+      "id": "BAP_0021986",
+      "parent_name": "Lingual artery",
+      "parent_id": "BAP_0002000",
+      "definition": "Branch of external carotid supplying the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Lingual artery (R)",
+      "id": "BAP_0021987",
+      "parent_name": "Lingual artery",
+      "parent_id": "BAP_0002000",
+      "definition": "Branch of external carotid supplying the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Maxillary artery (L)",
+      "id": "BAP_0021988",
+      "parent_name": "Maxillary artery",
+      "parent_id": "BAP_0002001",
+      "definition": "Terminal branch of external carotid, supplies deep face structures"
+    },
+    {
+      "type": "create_structure",
+      "name": "Maxillary artery (R)",
+      "id": "BAP_0021989",
+      "parent_name": "Maxillary artery",
+      "parent_id": "BAP_0002001",
+      "definition": "Terminal branch of external carotid, supplies deep face structures"
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporal artery (L)",
+      "id": "BAP_0021990",
+      "parent_name": "Temporal artery",
+      "parent_id": "BAP_0002002",
+      "definition": "Superficial temporal artery supplying temporal region"
+    },
+    {
+      "type": "create_structure",
+      "name": "Temporal artery (R)",
+      "id": "BAP_0021991",
+      "parent_name": "Temporal artery",
+      "parent_id": "BAP_0002002",
+      "definition": "Superficial temporal artery supplying temporal region"
+    }
+  ],
+  "warnings": []
+}

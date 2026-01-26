@@ -11,173 +11,207 @@ relationships:
   # ============================================================================
   # TRIGEMINAL NERVE (CN V) INNERVATION - Mastication muscles
   # ============================================================================
-  
-  - subject: BAP_0000013  # Mylohyoideus
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000014  # Digastricus anterior
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000015  # Masseter
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000016  # Superficial masseter
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000017  # Deep masseter
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000018  # Zygomaticomandibularis
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000019  # Temporalis
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000020  # Pterygoideus lateralis
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  - subject: BAP_0000021  # Pterygoideus medialis
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  # BAP_0000022 (Tensor tympani) removed - structure deleted
-    
-  - subject: BAP_0000023  # Tensor veli palatini
-    predicate: innervated_by
-    object: BAP_0001004   # Trigeminal nerve
-    
-  # ============================================================================
-  # FACIAL NERVE (CN VII) INNERVATION - Facial expression muscles
-  # ============================================================================
-  
-  - subject: BAP_0000024  # Stylohyoideus
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000025  # Digastricus posterior
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000026  # Stapedius
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000027  # Platysma cervicale
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000028  # Platysma myoides
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000029  # Occipitalis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000030  # Mandibuloauricularis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000031  # Sphincter colli superficialis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000032  # Sphincter colli profundus
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000033  # Interscutularis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000034  # Zygomaticus major
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000035  # Zygomaticus minor
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000036  # Orbito-temporo-auricularis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000037  # Orbicularis oculi
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000038  # Levator labii superioris alaeque nasi
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000039  # Levator labii superioris
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000040  # Buccinatorius
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000041  # Dilatator nasi
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000042  # Nasalis
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000043  # Depressor septi nasi
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000044  # Depressor rhinarii
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000045  # Levator rhinarii
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000046  # Levator anguli oris
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  - subject: BAP_0000047  # Orbicularis oris
-    predicate: innervated_by
-    object: BAP_0001000   # Facial nerve
-    
-  # ============================================================================
-  # GLOSSOPHARYNGEAL NERVE (CN IX) INNERVATION
-  # ============================================================================
-  
-  - subject: BAP_0000048  # Stylopharyngeus
-    predicate: innervated_by
-    object: BAP_0001001   # Glossopharyngeal nerve
-    
-  # ============================================================================
-  # ACCESSORY NERVE (CN XI) INNERVATION
-  # ============================================================================
-  
-  - subject: BAP_0000050  # Trapezius
-    predicate: innervated_by
-    object: BAP_0001003   # Accessory nerve
-    
-  # ============================================================================
-  # HYPOGLOSSAL NERVE (CN XII) INNERVATION - Tongue muscles
-  # ============================================================================
-  
-  - subject: BAP_0000071  # Genioglossus
-    predicate: innervated_by
-    object: BAP_0001002   # Hypoglossal nerve
-    
-  - subject: BAP_0000072  # Hyoglossus
-    predicate: innervated_by
-    object: BAP_0001002   # Hypoglossal nerve
+- subject: BAP_0021814
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021815
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021816
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021817
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021800
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021801
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021802
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021803
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021804
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021805
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021810
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021811
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021812
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021813
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021818
+  predicate: innervated_by
+  object: BAP_0021970
+- subject: BAP_0021819
+  predicate: innervated_by
+  object: BAP_0021971
+- subject: BAP_0021820
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021821
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021822
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021823
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021824
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021825
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021828
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021829
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021830
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021831
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021832
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021833
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021834
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021835
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021836
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021837
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021838
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021839
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021840
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021841
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021842
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021843
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021844
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021845
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021846
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021847
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021848
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021849
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021850
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021851
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021852
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021853
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021854
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021855
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021856
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021857
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021858
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021859
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021860
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021861
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021862
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021863
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021864
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021865
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021866
+  predicate: innervated_by
+  object: BAP_0021974
+- subject: BAP_0021867
+  predicate: innervated_by
+  object: BAP_0021975
+- subject: BAP_0021886
+  predicate: innervated_by
+  object: BAP_0021978
+- subject: BAP_0021887
+  predicate: innervated_by
+  object: BAP_0021979
+- subject: BAP_0021870
+  predicate: innervated_by
+  object: BAP_0021984
+- subject: BAP_0021871
+  predicate: innervated_by
+  object: BAP_0021985
+- subject: BAP_0021872
+  predicate: innervated_by
+  object: BAP_0021984
+- subject: BAP_0021873
+  predicate: innervated_by
+  object: BAP_0021985

@@ -94,54 +94,14 @@ structures:
   name: Brain
   parent: BAP_0020202
   definition: Central nervous system organ in the head
-- id: BAP_0000008
-  name: Eye
-  parent: BAP_0020003
-  definition: Visual organ
-- id: BAP_0020301
-  name: Inner ear
-  parent: BAP_0020003
-  definition: Auditory and vestibular organ
-- id: BAP_0020302
-  name: Whisker barrels
-  parent: BAP_0020003
-  definition: Somatosensory cortical structures for whisker sensation
-- id: BAP_0020303
-  name: Olfactory epithelium
-  parent: BAP_0020003
-  definition: Sensory epithelium for smell
-- id: BAP_0020304
-  name: Gustatory epithelium
-  parent: BAP_0020003
-  definition: Sensory epithelium for taste
 - id: BAP_0020401
   name: Arteries
   parent: BAP_0020004
   definition: Arterial blood supply to the head
-- id: BAP_0020402
-  name: Veins
-  parent: BAP_0020004
-  definition: Venous drainage of the head
-- id: BAP_0020403
-  name: Lymphatics
-  parent: BAP_0020004
-  definition: Lymphatic structures of the head
-- id: BAP_0020501
-  name: Parotid glands
-  parent: BAP_0020005
-  definition: Major salivary glands near the ear
-- id: BAP_0020502
-  name: Palatal submucosa
-  parent: BAP_0020005
-  definition: Submucosal glandular tissue of the palate
 - id: BAP_0020601
   name: Oral cavity
   parent: BAP_0020006
   definition: Mouth cavity
-- id: BAP_0020602
-  name: Paranasal sinuses
-  parent: BAP_0020006
-  definition: Paranasal sinus cavities
 - id: BAP_0000010
   name: Nasal cavity
   parent: BAP_0020006
@@ -150,14 +110,6 @@ structures:
   name: Ear Cavities
   parent: BAP_0020006
   definition: Anatomical passages and spaces of the ear
-- id: BAP_0020701
-  name: Skin
-  parent: BAP_0020007
-  definition: Skin covering the head
-- id: BAP_0000012
-  name: Whiskers
-  parent: BAP_0020007
-  definition: Vibrissae - tactile hairs
 - id: BAP_0020702
   name: External ear
   parent: BAP_0020007
@@ -202,10 +154,6 @@ structures:
   name: Peripheral nervous system
   parent: BAP_0021002
   definition: Peripheral nerves of the neck
-- id: BAP_0021202
-  name: Cervical nerves
-  parent: BAP_0021201
-  definition: Spinal nerves of the cervical region
 - id: BAP_0021203
   name: Central nervous system
   parent: BAP_0021002
@@ -214,18 +162,6 @@ structures:
   name: Spinal Cord
   parent: BAP_0021203
   definition: Central nervous system structure extending from brain
-- id: BAP_0021301
-  name: Arteries
-  parent: BAP_0021003
-  definition: Arterial blood supply to the neck
-- id: BAP_0021302
-  name: Veins
-  parent: BAP_0021003
-  definition: Venous drainage of the neck
-- id: BAP_0021303
-  name: Lymphatics
-  parent: BAP_0021003
-  definition: Lymphatic structures of the neck
 - id: BAP_0021401
   name: Thyroid gland
   parent: BAP_0021004
@@ -238,26 +174,11 @@ structures:
   name: Larynx
   parent: BAP_0021005
   definition: Laryngeal passage and voice box
-- id: BAP_0021601
-  name: Skin
-  parent: BAP_0021006
-  definition: Skin covering the neck
 - id: BAP_0000003
   name: Thorax
   parent: BAP_0012001
-- id: BAP_0012002
-  name: Abdomen
-  parent: BAP_0012001
-  definition: Abdominal region of the trunk
-- id: BAP_0012003
-  name: Pelvis
-  parent: BAP_0012001
-  definition: Pelvic region of the trunk
 - id: BAP_0000004
   name: Forelimb
-  parent: BAP_0000006
-- id: BAP_0000005
-  name: Hindlimb
   parent: BAP_0000006
 - id: BAP_0000011
   name: Tail
@@ -278,3 +199,605 @@ structures:
   name: Inner ear
   parent: BAP_0020101
   definition: Inner ear
+- id: BAP_0021708
+  name: Eye (L)
+  parent: BAP_0020003
+  definition: Visual organ
+- id: BAP_0021709
+  name: Eye (R)
+  parent: BAP_0020003
+  definition: Visual organ
+- id: BAP_0021710
+  name: Inner ear (L)
+  parent: BAP_0020003
+  definition: Auditory and vestibular organ
+- id: BAP_0021711
+  name: Inner ear (R)
+  parent: BAP_0020003
+  definition: Auditory and vestibular organ
+- id: BAP_0021712
+  name: Whisker barrels (L)
+  parent: BAP_0020003
+  definition: Somatosensory cortical structures for whisker sensation
+- id: BAP_0021713
+  name: Whisker barrels (R)
+  parent: BAP_0020003
+  definition: Somatosensory cortical structures for whisker sensation
+- id: BAP_0021714
+  name: Olfactory epithelium (L)
+  parent: BAP_0020003
+  definition: Sensory epithelium for smell
+- id: BAP_0021715
+  name: Olfactory epithelium (R)
+  parent: BAP_0020003
+  definition: Sensory epithelium for smell
+- id: BAP_0021716
+  name: Gustatory epithelium (L)
+  parent: BAP_0020003
+  definition: Sensory epithelium for taste
+- id: BAP_0021717
+  name: Gustatory epithelium (R)
+  parent: BAP_0020003
+  definition: Sensory epithelium for taste
+- id: BAP_0021720
+  name: Lymphatics (L)
+  parent: BAP_0020004
+  definition: Lymphatic structures of the head
+- id: BAP_0021721
+  name: Lymphatics (R)
+  parent: BAP_0020004
+  definition: Lymphatic structures of the head
+- id: BAP_0021722
+  name: Parotid glands (L)
+  parent: BAP_0020005
+  definition: Major salivary glands near the ear
+- id: BAP_0021723
+  name: Parotid glands (R)
+  parent: BAP_0020005
+  definition: Major salivary glands near the ear
+- id: BAP_0021724
+  name: Palatal submucosa (L)
+  parent: BAP_0020005
+  definition: Submucosal glandular tissue of the palate
+- id: BAP_0021725
+  name: Palatal submucosa (R)
+  parent: BAP_0020005
+  definition: Submucosal glandular tissue of the palate
+- id: BAP_0021728
+  name: Skin (L)
+  parent: BAP_0020007
+  definition: Skin covering the head
+- id: BAP_0021729
+  name: Skin (R)
+  parent: BAP_0020007
+  definition: Skin covering the head
+- id: BAP_0021730
+  name: Whiskers (L)
+  parent: BAP_0020007
+  definition: Vibrissae - tactile hairs
+- id: BAP_0021731
+  name: Whiskers (R)
+  parent: BAP_0020007
+  definition: Vibrissae - tactile hairs
+- id: BAP_0021734
+  name: Arteries (L)
+  parent: BAP_0021003
+  definition: Arterial blood supply to the neck
+- id: BAP_0021735
+  name: Arteries (R)
+  parent: BAP_0021003
+  definition: Arterial blood supply to the neck
+- id: BAP_0021738
+  name: Lymphatics (L)
+  parent: BAP_0021003
+  definition: Lymphatic structures of the neck
+- id: BAP_0021739
+  name: Lymphatics (R)
+  parent: BAP_0021003
+  definition: Lymphatic structures of the neck
+- id: BAP_0021740
+  name: Skin (L)
+  parent: BAP_0021006
+  definition: Skin covering the neck
+- id: BAP_0021741
+  name: Skin (R)
+  parent: BAP_0021006
+  definition: Skin covering the neck
+- id: BAP_0021742
+  name: Abdomen (L)
+  parent: BAP_0012001
+  definition: Abdominal region of the trunk
+- id: BAP_0021743
+  name: Abdomen (R)
+  parent: BAP_0012001
+  definition: Abdominal region of the trunk
+- id: BAP_0021744
+  name: Pelvis (L)
+  parent: BAP_0012001
+  definition: Pelvic region of the trunk
+- id: BAP_0021745
+  name: Pelvis (R)
+  parent: BAP_0012001
+  definition: Pelvic region of the trunk
+- id: BAP_0021746
+  name: Hindlimb (L)
+  parent: BAP_0000006
+- id: BAP_0021747
+  name: Hindlimb (R)
+  parent: BAP_0000006
+- id: BAP_0021748
+  name: parietal (L)
+  parent: BAP_0000138
+- id: BAP_0021749
+  name: parietal (R)
+  parent: BAP_0000138
+- id: BAP_0021750
+  name: interparietal (L)
+  parent: BAP_0000138
+- id: BAP_0021751
+  name: interparietal (R)
+  parent: BAP_0000138
+- id: BAP_0021752
+  name: basisphenoid (L)
+  parent: BAP_0000138
+- id: BAP_0021753
+  name: basisphenoid (R)
+  parent: BAP_0000138
+- id: BAP_0021754
+  name: ethmoid (L)
+  parent: BAP_0000138
+- id: BAP_0021755
+  name: ethmoid (R)
+  parent: BAP_0000138
+- id: BAP_0021756
+  name: presphenoid (L)
+  parent: BAP_0000138
+- id: BAP_0021757
+  name: presphenoid (R)
+  parent: BAP_0000138
+- id: BAP_0021758
+  name: squamosal (L)
+  parent: BAP_0000139
+- id: BAP_0021759
+  name: squamosal (R)
+  parent: BAP_0000139
+- id: BAP_0021760
+  name: mandible (L)
+  parent: BAP_0000007
+- id: BAP_0021761
+  name: mandible (R)
+  parent: BAP_0000007
+- id: BAP_0021762
+  name: zygomatic (L)
+  parent: BAP_0000139
+- id: BAP_0021763
+  name: zygomatic (R)
+  parent: BAP_0000139
+- id: BAP_0021764
+  name: lacrimal (L)
+  parent: BAP_0000139
+- id: BAP_0021765
+  name: lacrimal (R)
+  parent: BAP_0000139
+- id: BAP_0021770
+  name: palatine (L)
+  parent: BAP_0000139
+- id: BAP_0021771
+  name: palatine (R)
+  parent: BAP_0000139
+- id: BAP_0021774
+  name: Pinna (L)
+  parent: BAP_0020702
+- id: BAP_0021775
+  name: Pinna (R)
+  parent: BAP_0020702
+- id: BAP_0021776
+  name: external acoustic meatus (L)
+  parent: BAP_0020603
+- id: BAP_0021777
+  name: external acoustic meatus (R)
+  parent: BAP_0020603
+- id: BAP_0021778
+  name: internal acoustic meatus (L)
+  parent: BAP_0020603
+- id: BAP_0021779
+  name: internal acoustic meatus (R)
+  parent: BAP_0020603
+- id: BAP_0021780
+  name: stapes (L)
+  parent: BAP_0021707
+- id: BAP_0021781
+  name: stapes (R)
+  parent: BAP_0021707
+- id: BAP_0021782
+  name: incus (L)
+  parent: BAP_0021707
+- id: BAP_0021783
+  name: incus (R)
+  parent: BAP_0021707
+- id: BAP_0021784
+  name: malleus (L)
+  parent: BAP_0021707
+- id: BAP_0021785
+  name: malleus (R)
+  parent: BAP_0021707
+- id: BAP_0021786
+  name: tympanic membrane (L)
+  parent: BAP_0000138
+- id: BAP_0021787
+  name: tympanic membrane (R)
+  parent: BAP_0000138
+- id: BAP_0021788
+  name: arytenoid cartilage (L)
+  parent: BAP_0021704
+- id: BAP_0021789
+  name: arytenoid cartilage (R)
+  parent: BAP_0021704
+- id: BAP_0021790
+  name: laryngeal alar cartilage (L)
+  parent: BAP_0021704
+- id: BAP_0021791
+  name: laryngeal alar cartilage (R)
+  parent: BAP_0021704
+- id: BAP_0021792
+  name: cricoid cartilage (L)
+  parent: BAP_0021704
+- id: BAP_0021793
+  name: cricoid cartilage (R)
+  parent: BAP_0021704
+- id: BAP_0021794
+  name: sternum (L)
+  parent: BAP_0000003
+- id: BAP_0021795
+  name: sternum (R)
+  parent: BAP_0000003
+- id: BAP_0021796
+  name: clavicle (L)
+  parent: BAP_0000004
+- id: BAP_0021797
+  name: clavicle (R)
+  parent: BAP_0000004
+- id: BAP_0021798
+  name: scapula (L)
+  parent: BAP_0000004
+- id: BAP_0021799
+  name: scapula (R)
+  parent: BAP_0000004
+- id: BAP_0021800
+  name: Superficial masseter (L)
+  parent: BAP_0000016
+  definition: Superficial portion of masseter; elevates and protrudes mandible
+- id: BAP_0021801
+  name: Superficial masseter (R)
+  parent: BAP_0000016
+  definition: Superficial portion of masseter; elevates and protrudes mandible
+- id: BAP_0021802
+  name: Deep masseter (L)
+  parent: BAP_0000017
+  definition: Deep portion of masseter; elevates mandible with vertical force
+- id: BAP_0021803
+  name: Deep masseter (R)
+  parent: BAP_0000017
+  definition: Deep portion of masseter; elevates mandible with vertical force
+- id: BAP_0021806
+  name: Temporalis lateralis (L)
+  parent: BAP_0000019
+- id: BAP_0021807
+  name: Temporalis lateralis (R)
+  parent: BAP_0000019
+- id: BAP_0021808
+  name: Temporalis medialis (L)
+  parent: BAP_0000019
+- id: BAP_0021809
+  name: Temporalis medialis (R)
+  parent: BAP_0000019
+- id: BAP_0021814
+  name: Mylohyoideus (L)
+  parent: BAP_0000013
+  definition: Elevate floor of oral cavity
+- id: BAP_0021815
+  name: Mylohyoideus (R)
+  parent: BAP_0000013
+  definition: Elevate floor of oral cavity
+- id: BAP_0021816
+  name: Digastricus anterior (L)
+  parent: BAP_0000014
+  definition: Depress mandible
+- id: BAP_0021817
+  name: Digastricus anterior (R)
+  parent: BAP_0000014
+  definition: Depress mandible
+- id: BAP_0021832
+  name: Occipitalis (L)
+  parent: BAP_0000029
+  definition: Scalp movment
+- id: BAP_0021833
+  name: Occipitalis (R)
+  parent: BAP_0000029
+  definition: Scalp movment
+- id: BAP_0021834
+  name: Mandibuloauricularis (L)
+  parent: BAP_0000030
+- id: BAP_0021835
+  name: Mandibuloauricularis (R)
+  parent: BAP_0000030
+- id: BAP_0021836
+  name: Sphincter colli superficialis (L)
+  parent: BAP_0000031
+- id: BAP_0021837
+  name: Sphincter colli superficialis (R)
+  parent: BAP_0000031
+- id: BAP_0021838
+  name: Sphincter colli profundus (L)
+  parent: BAP_0000032
+- id: BAP_0021839
+  name: Sphincter colli profundus (R)
+  parent: BAP_0000032
+- id: BAP_0021840
+  name: Interscutularis (L)
+  parent: BAP_0000033
+- id: BAP_0021841
+  name: Interscutularis (R)
+  parent: BAP_0000033
+- id: BAP_0021842
+  name: Zygomaticus major (L)
+  parent: BAP_0000034
+- id: BAP_0021843
+  name: Zygomaticus major (R)
+  parent: BAP_0000034
+- id: BAP_0021844
+  name: Zygomaticus minor (L)
+  parent: BAP_0000035
+- id: BAP_0021845
+  name: Zygomaticus minor (R)
+  parent: BAP_0000035
+- id: BAP_0021846
+  name: Orbito-temporo-auricularis (L)
+  parent: BAP_0000036
+- id: BAP_0021847
+  name: Orbito-temporo-auricularis (R)
+  parent: BAP_0000036
+- id: BAP_0021848
+  name: Orbicularis oculi (L)
+  parent: BAP_0000037
+- id: BAP_0021849
+  name: Orbicularis oculi (R)
+  parent: BAP_0000037
+- id: BAP_0021854
+  name: Buccinatorius (L)
+  parent: BAP_0000040
+- id: BAP_0021855
+  name: Buccinatorius (R)
+  parent: BAP_0000040
+- id: BAP_0021856
+  name: Dilatator nasi (L)
+  parent: BAP_0000041
+- id: BAP_0021857
+  name: Dilatator nasi (R)
+  parent: BAP_0000041
+- id: BAP_0021860
+  name: Depressor septi nasi (L)
+  parent: BAP_0000043
+- id: BAP_0021861
+  name: Depressor septi nasi (R)
+  parent: BAP_0000043
+- id: BAP_0021862
+  name: Depressor rhinarii (L)
+  parent: BAP_0000044
+- id: BAP_0021863
+  name: Depressor rhinarii (R)
+  parent: BAP_0000044
+- id: BAP_0021868
+  name: Frontalis (L)
+  parent: BAP_0012007
+- id: BAP_0021869
+  name: Frontalis (R)
+  parent: BAP_0012007
+- id: BAP_0021876
+  name: Palatoglossus (L)
+  parent: BAP_0021701
+- id: BAP_0021877
+  name: Palatoglossus (R)
+  parent: BAP_0021701
+- id: BAP_0021878
+  name: Superior longitudinal (L)
+  parent: BAP_0021702
+- id: BAP_0021879
+  name: Superior longitudinal (R)
+  parent: BAP_0021702
+- id: BAP_0021880
+  name: Inferior longitudinal (L)
+  parent: BAP_0021702
+- id: BAP_0021881
+  name: Inferior longitudinal (R)
+  parent: BAP_0021702
+- id: BAP_0021882
+  name: Transverse (L)
+  parent: BAP_0021702
+- id: BAP_0021883
+  name: Transverse (R)
+  parent: BAP_0021702
+- id: BAP_0021884
+  name: Vertical (L)
+  parent: BAP_0021702
+- id: BAP_0021885
+  name: Vertical (R)
+  parent: BAP_0021702
+- id: BAP_0021886
+  name: Stylopharyngeus (L)
+  parent: BAP_0000048
+- id: BAP_0021887
+  name: Stylopharyngeus (R)
+  parent: BAP_0000048
+- id: BAP_0021888
+  name: Ceratohyoideus (L)
+  parent: BAP_0012007
+- id: BAP_0021889
+  name: Ceratohyoideus (R)
+  parent: BAP_0012007
+- id: BAP_0021890
+  name: Constrictor pharyngis superior (L)
+  parent: BAP_0021705
+- id: BAP_0021891
+  name: Constrictor pharyngis superior (R)
+  parent: BAP_0021705
+- id: BAP_0021892
+  name: Constrictor pharyngis medius (L)
+  parent: BAP_0021705
+- id: BAP_0021893
+  name: Constrictor pharyngis medius (R)
+  parent: BAP_0021705
+- id: BAP_0021894
+  name: Constrictor pharyngis inferior (L)
+  parent: BAP_0021705
+- id: BAP_0021895
+  name: Constrictor pharyngis inferior (R)
+  parent: BAP_0021705
+- id: BAP_0021896
+  name: Pterygopharyngeus (L)
+  parent: BAP_0021705
+- id: BAP_0021897
+  name: Pterygopharyngeus (R)
+  parent: BAP_0021705
+- id: BAP_0021898
+  name: Palatopharyngeus (L)
+  parent: BAP_0021705
+- id: BAP_0021899
+  name: Palatopharyngeus (R)
+  parent: BAP_0021705
+- id: BAP_0021902
+  name: Salpingopharyngeus (L)
+  parent: BAP_0021705
+- id: BAP_0021903
+  name: Salpingopharyngeus (R)
+  parent: BAP_0021705
+- id: BAP_0021904
+  name: sternofacialis left (L)
+  parent: BAP_0000079
+- id: BAP_0021905
+  name: sternofacialis left (R)
+  parent: BAP_0000079
+- id: BAP_0021906
+  name: Thyroarytenoideus (L)
+  parent: BAP_0021703
+- id: BAP_0021907
+  name: Thyroarytenoideus (R)
+  parent: BAP_0021703
+- id: BAP_0021908
+  name: Cricoarytenoideus alaris (L)
+  parent: BAP_0021703
+- id: BAP_0021909
+  name: Cricoarytenoideus alaris (R)
+  parent: BAP_0021703
+- id: BAP_0021910
+  name: Cricoarytenoideus lateralis (L)
+  parent: BAP_0021703
+- id: BAP_0021911
+  name: Cricoarytenoideus lateralis (R)
+  parent: BAP_0021703
+- id: BAP_0021912
+  name: Cricoarytenoideus posterior (L)
+  parent: BAP_0021703
+- id: BAP_0021913
+  name: Cricoarytenoideus posterior (R)
+  parent: BAP_0021703
+- id: BAP_0021914
+  name: Arytenoideus (L)
+  parent: BAP_0021703
+- id: BAP_0021915
+  name: Arytenoideus (R)
+  parent: BAP_0021703
+- id: BAP_0021916
+  name: Acromiotrapezius (L)
+  parent: BAP_0000050
+- id: BAP_0021917
+  name: Acromiotrapezius (R)
+  parent: BAP_0000050
+- id: BAP_0021918
+  name: Spinotrapezius (L)
+  parent: BAP_0000050
+- id: BAP_0021919
+  name: Spinotrapezius (R)
+  parent: BAP_0000050
+- id: BAP_0021920
+  name: Cleidooccipitalis (L)
+  parent: BAP_0021101
+- id: BAP_0021921
+  name: Cleidooccipitalis (R)
+  parent: BAP_0021101
+- id: BAP_0021922
+  name: Cleidomastoideus (L)
+  parent: BAP_0021101
+- id: BAP_0021923
+  name: Cleidomastoideus (R)
+  parent: BAP_0021101
+- id: BAP_0021924
+  name: Sternomastoideus (L)
+  parent: BAP_0021101
+- id: BAP_0021925
+  name: Sternomastoideus (R)
+  parent: BAP_0021101
+- id: BAP_0021926
+  name: Cricothyroideus (L)
+  parent: BAP_0021101
+- id: BAP_0021927
+  name: Cricothyroideus (R)
+  parent: BAP_0021101
+- id: BAP_0021928
+  name: Jugulohyoideus (L)
+  parent: BAP_0021101
+- id: BAP_0021929
+  name: Jugulohyoideus (R)
+  parent: BAP_0021101
+- id: BAP_0021930
+  name: Geniohyoideus (L)
+  parent: BAP_0012007
+- id: BAP_0021931
+  name: Geniohyoideus (R)
+  parent: BAP_0012007
+- id: BAP_0021936
+  name: Sternothyroideus (L)
+  parent: BAP_0021101
+  definition: Thyroid cartilage depression
+- id: BAP_0021937
+  name: Sternothyroideus (R)
+  parent: BAP_0021101
+  definition: Thyroid cartilage depression
+- id: BAP_0021938
+  name: Thyrohyoideus (L)
+  parent: BAP_0021101
+  definition: Hyoid depression, thyroid elevation
+- id: BAP_0021939
+  name: Thyrohyoideus (R)
+  parent: BAP_0021101
+  definition: Hyoid depression, thyroid elevation
+- id: BAP_0021942
+  name: trochlea (L)
+  parent: BAP_0000087
+- id: BAP_0021943
+  name: trochlea (R)
+  parent: BAP_0000087
+- id: BAP_0021952
+  name: retractor bulbi (L)
+  parent: BAP_0012008
+- id: BAP_0021953
+  name: retractor bulbi (R)
+  parent: BAP_0012008
+- id: BAP_0021954
+  name: Auricularis posterior (L)
+  parent: BAP_0012010
+- id: BAP_0021955
+  name: Auricularis posterior (R)
+  parent: BAP_0012010
+- id: BAP_0021956
+  name: Auricularis anterior (L)
+  parent: BAP_0012010
+- id: BAP_0021957
+  name: Auricularis anterior (R)
+  parent: BAP_0012010
+- id: BAP_0021958
+  name: Auricularis superior (L)
+  parent: BAP_0012010
+- id: BAP_0021959
+  name: Auricularis superior (R)
+  parent: BAP_0012010

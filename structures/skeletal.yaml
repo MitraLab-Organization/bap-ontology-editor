@@ -15,70 +15,12 @@ structures:
   name: occipital
   parent: BAP_0000138
 
-- id: BAP_0000116
-  name: parietal
-  parent: BAP_0000138
-
 - id: BAP_0000122
   name: frontal
   parent: BAP_0000138
 
-- id: BAP_0000125
-  name: interparietal
-  parent: BAP_0000138
-
-- id: BAP_0000133
-  name: basisphenoid
-  parent: BAP_0000138
-
-- id: BAP_0000134
-  name: ethmoid
-  parent: BAP_0000138
-
-- id: BAP_0000136
-  name: presphenoid
-  parent: BAP_0000138
-
-  # ============================================================================
-  # VISCEROCRANIUM BONES (under Cranium -> Viscerocranium)
-  # ============================================================================
 - id: BAP_0000111
   name: sphenoid
-  parent: BAP_0000139
-
-- id: BAP_0000117
-  name: squamosal
-  parent: BAP_0000139
-
-- id: BAP_0000118
-  name: mandible
-  parent: BAP_0000007
-
-- id: BAP_0000119
-  name: zygomatic
-  parent: BAP_0000139
-
-- id: BAP_0000120
-  name: lacrimal
-  parent: BAP_0000139
-
-- id: BAP_0000121
-  name: maxilla
-  parent: BAP_0000007
-
-- id: BAP_0000124
-  name: premaxilla
-  parent: BAP_0000139
-
-- id: BAP_0000135
-  name: palatine
-  parent: BAP_0000139
-
-  # ============================================================================
-  # NASAL STRUCTURES (under Nasal cavity)
-  # ============================================================================
-- id: BAP_0000123
-  name: nasal
   parent: BAP_0000139
 
 - id: BAP_0000137
@@ -88,63 +30,14 @@ structures:
   # ============================================================================
   # EXTERNAL EAR STRUCTURES (under Head integumentary -> External ear)
   # ============================================================================
-- id: BAP_0000095
-  name: Pinna
-  parent: BAP_0020702
-
-- id: BAP_0000096
-  name: external acoustic meatus
-  parent: BAP_0020603
-
-  # ============================================================================
-  # INNER EAR / MIDDLE EAR STRUCTURES (under Sense organs -> Inner ear)
-  # ============================================================================
-- id: BAP_0000097
-  name: internal acoustic meatus
-  parent: BAP_0020603
-
-- id: BAP_0000108
-  name: stapes
-  parent: BAP_0021707
-
-- id: BAP_0000112
-  name: incus
-  parent: BAP_0021707
-
-- id: BAP_0000113
-  name: malleus
-  parent: BAP_0021707
-
-- id: BAP_0000114
-  name: tympanic membrane
-  parent: BAP_0000138
-
-  # ============================================================================
-  # LARYNGEAL CARTILAGES (under Larynx)
-  # ============================================================================
 - id: BAP_0000107
   name: epiglottis
-  parent: BAP_0021704
-
-- id: BAP_0000109
-  name: arytenoid cartilage
-  parent: BAP_0021704
-
-- id: BAP_0000110
-  name: laryngeal alar cartilage
   parent: BAP_0021704
 
 - id: BAP_0000127
   name: thyroid cartilage
   parent: BAP_0021704
 
-- id: BAP_0000128
-  name: cricoid cartilage
-  parent: BAP_0021704
-
-  # ============================================================================
-  # PHARYNGEAL STRUCTURES
-  # ============================================================================
 - id: BAP_0000126
   name: hyoid bone
   parent: BAP_0021706
@@ -152,19 +45,55 @@ structures:
   # ============================================================================
   # THORAX / NECK / LIMB BONES
   # ============================================================================
-- id: BAP_0000129
-  name: sternum
-  parent: BAP_0000003
-
-- id: BAP_0000130
-  name: clavicle
-  parent: BAP_0000004
-
-- id: BAP_0000131
-  name: scapula
-  parent: BAP_0000004
-
 - id: BAP_0000132
   name: cervical vertebra
   parent: BAP_0021102
   definition: Vertebrae of the cervical spine
+- id: BAP_0021726
+  name: Paranasal sinuses (L)
+  parent: BAP_0020006
+  definition: Paranasal sinus cavities
+- id: BAP_0021727
+  name: Paranasal sinuses (R)
+  parent: BAP_0020006
+  definition: Paranasal sinus cavities
+- id: BAP_0021766
+  name: maxilla (L)
+  parent: BAP_0000007
+- id: BAP_0021767
+  name: maxilla (R)
+  parent: BAP_0000007
+- id: BAP_0021768
+  name: premaxilla (L)
+  parent: BAP_0000139
+- id: BAP_0021769
+  name: premaxilla (R)
+  parent: BAP_0000139
+- id: BAP_0021772
+  name: nasal (L)
+  parent: BAP_0000139
+- id: BAP_0021773
+  name: nasal (R)
+  parent: BAP_0000139
+- id: BAP_0021824
+  name: Stapedius (L)
+  parent: BAP_0000026
+  definition: Stabelize stapes bone
+- id: BAP_0021825
+  name: Stapedius (R)
+  parent: BAP_0000026
+  definition: Stabelize stapes bone
+- id: BAP_0021858
+  name: Nasalis (L)
+  parent: BAP_0000042
+- id: BAP_0021859
+  name: Nasalis (R)
+  parent: BAP_0000042
+- id: BAP_0021988
+  name: Maxillary artery (L)
+  parent: BAP_0002001
+  definition: Terminal branch of external carotid, supplies deep face structures
+- id: BAP_0021989
+  name: Maxillary artery (R)
+  parent: BAP_0002001
+  definition: Terminal branch of external carotid, supplies deep face structures

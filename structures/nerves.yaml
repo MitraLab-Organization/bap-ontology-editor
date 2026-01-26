@@ -11,76 +11,113 @@ structures:
   # ============================================================================
   # CRANIAL NERVES
   # ============================================================================
-  
-  - id: BAP_0012020
-    name: Terminal nerve
-    parent: BAP_0012006
-    abbreviation: CN 0
-    definition: Cranial nerve zero, associated with pheromone detection
-    
-  - id: BAP_0012021
-    name: Olfactory nerve
-    parent: BAP_0012006
-    abbreviation: CN I
-    definition: First cranial nerve, sensory for smell
-    
-  - id: BAP_0012022
-    name: Optic nerve
-    parent: BAP_0012006
-    abbreviation: CN II
-    definition: Second cranial nerve, sensory for vision
-    
-  - id: BAP_0012023
-    name: Oculomotor nerve
-    parent: BAP_0012006
-    abbreviation: CN III
-    definition: Third cranial nerve, motor for eye movement
-    
-  - id: BAP_0012024
-    name: Trochlear nerve
-    parent: BAP_0012006
-    abbreviation: CN IV
-    definition: Fourth cranial nerve, motor for superior oblique muscle
-    
-  - id: BAP_0001004
-    name: Trigeminal nerve
-    parent: BAP_0012006
-    abbreviation: CN V
-    
-  - id: BAP_0012025
-    name: Abducens nerve
-    parent: BAP_0012006
-    abbreviation: CN VI
-    definition: Sixth cranial nerve, motor for lateral rectus muscle
-    
-  - id: BAP_0001000
-    name: Facial nerve
-    parent: BAP_0012006
-    abbreviation: CN VII
-    
-  - id: BAP_0012026
-    name: Vestibulocochlear nerve
-    parent: BAP_0012006
-    abbreviation: CN VIII
-    definition: Eighth cranial nerve, sensory for hearing and balance
-    
-  - id: BAP_0001001
-    name: Glossopharyngeal nerve
-    parent: BAP_0012006
-    abbreviation: CN IX
-    
-  - id: BAP_0012027
-    name: Vagus nerve
-    parent: BAP_0012006
-    abbreviation: CN X
-    definition: Tenth cranial nerve, mixed nerve for visceral functions
-    
-  - id: BAP_0001003
-    name: Accessory nerve
-    parent: BAP_0012006
-    abbreviation: CN XI
-    
-  - id: BAP_0001002
-    name: Hypoglossal nerve
-    parent: BAP_0012006
-    abbreviation: CN XII
+- id: BAP_0001004
+  name: Trigeminal nerve
+  parent: BAP_0012006
+  abbreviation: CN V
+
+- id: BAP_0001000
+  name: Facial nerve
+  parent: BAP_0012006
+  abbreviation: CN VII
+
+- id: BAP_0001001
+  name: Glossopharyngeal nerve
+  parent: BAP_0012006
+  abbreviation: CN IX
+
+- id: BAP_0001003
+  name: Accessory nerve
+  parent: BAP_0012006
+  abbreviation: CN XI
+
+- id: BAP_0001002
+  name: Hypoglossal nerve
+  parent: BAP_0012006
+  abbreviation: CN XII
+- id: BAP_0021732
+  name: Cervical nerves (L)
+  parent: BAP_0021201
+  definition: Spinal nerves of the cervical region
+- id: BAP_0021733
+  name: Cervical nerves (R)
+  parent: BAP_0021201
+  definition: Spinal nerves of the cervical region
+- id: BAP_0021960
+  name: Terminal nerve (L)
+  parent: BAP_0012006
+  definition: Cranial nerve zero, associated with pheromone detection
+- id: BAP_0021961
+  name: Terminal nerve (R)
+  parent: BAP_0012006
+  definition: Cranial nerve zero, associated with pheromone detection
+- id: BAP_0021962
+  name: Olfactory nerve (L)
+  parent: BAP_0012006
+  definition: First cranial nerve, sensory for smell
+- id: BAP_0021963
+  name: Olfactory nerve (R)
+  parent: BAP_0012006
+  definition: First cranial nerve, sensory for smell
+- id: BAP_0021964
+  name: Optic nerve (L)
+  parent: BAP_0012006
+  definition: Second cranial nerve, sensory for vision
+- id: BAP_0021965
+  name: Optic nerve (R)
+  parent: BAP_0012006
+  definition: Second cranial nerve, sensory for vision
+- id: BAP_0021966
+  name: Oculomotor nerve (L)
+  parent: BAP_0012006
+  definition: Third cranial nerve, motor for eye movement
+- id: BAP_0021967
+  name: Oculomotor nerve (R)
+  parent: BAP_0012006
+  definition: Third cranial nerve, motor for eye movement
+- id: BAP_0021970
+  name: Trigeminal nerve (L)
+  parent: BAP_0001004
+- id: BAP_0021971
+  name: Trigeminal nerve (R)
+  parent: BAP_0001004
+- id: BAP_0021974
+  name: Facial nerve (L)
+  parent: BAP_0001000
+- id: BAP_0021975
+  name: Facial nerve (R)
+  parent: BAP_0001000
+- id: BAP_0021976
+  name: Vestibulocochlear nerve (L)
+  parent: BAP_0012006
+  definition: Eighth cranial nerve, sensory for hearing and balance
+- id: BAP_0021977
+  name: Vestibulocochlear nerve (R)
+  parent: BAP_0012006
+  definition: Eighth cranial nerve, sensory for hearing and balance
+- id: BAP_0021978
+  name: Glossopharyngeal nerve (L)
+  parent: BAP_0001001
+- id: BAP_0021979
+  name: Glossopharyngeal nerve (R)
+  parent: BAP_0001001
+- id: BAP_0021980
+  name: Vagus nerve (L)
+  parent: BAP_0012006
+  definition: Tenth cranial nerve, mixed nerve for visceral functions
+- id: BAP_0021981
+  name: Vagus nerve (R)
+  parent: BAP_0012006
+  definition: Tenth cranial nerve, mixed nerve for visceral functions
+- id: BAP_0021982
+  name: Accessory nerve (L)
+  parent: BAP_0001003
+- id: BAP_0021983
+  name: Accessory nerve (R)
+  parent: BAP_0001003
+- id: BAP_0021984
+  name: Hypoglossal nerve (L)
+  parent: BAP_0001002
+- id: BAP_0021985
+  name: Hypoglossal nerve (R)
+  parent: BAP_0001002

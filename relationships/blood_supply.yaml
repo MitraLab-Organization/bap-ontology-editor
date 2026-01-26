@@ -11,27 +11,15 @@ relationships:
   # ============================================================================
   # MAXILLARY ARTERY SUPPLY
   # ============================================================================
-  
-  - subject: BAP_0000015  # Masseter
-    predicate: supplied_by
-    object: BAP_0002001   # Maxillary artery
-    
-  # ============================================================================
-  # TEMPORAL ARTERY SUPPLY
-  # ============================================================================
-  
-  - subject: BAP_0000019  # Temporalis
-    predicate: supplied_by
-    object: BAP_0002002   # Temporal artery
-    
-  # ============================================================================
-  # LINGUAL ARTERY SUPPLY
-  # ============================================================================
-  
-  - subject: BAP_0000071  # Genioglossus
-    predicate: supplied_by
-    object: BAP_0002000   # Lingual artery
-    
-  - subject: BAP_0000072  # Hyoglossus
-    predicate: supplied_by
-    object: BAP_0002000   # Lingual artery
+- subject: BAP_0021870
+  predicate: supplied_by
+  object: BAP_0021986
+- subject: BAP_0021871
+  predicate: supplied_by
+  object: BAP_0021987
+- subject: BAP_0021872
+  predicate: supplied_by
+  object: BAP_0021986
+- subject: BAP_0021873
+  predicate: supplied_by
+  object: BAP_0021987
