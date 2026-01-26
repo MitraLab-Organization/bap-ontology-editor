@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 208
+├── Structures: 210
 ├── Hierarchy depth: 7 levels
 └── Relationships: 45
     ├── Innervated By: 38
@@ -134,9 +134,9 @@ Body
 │   │       │   └── presphenoid
 │   │       └── Viscerocranium
 │   │           ├── Jaw apparatus
+│   │           │   ├── mandible
+│   │           │   └── maxilla
 │   │           ├── lacrimal
-│   │           ├── mandible
-│   │           ├── maxilla
 │   │           ├── nasal
 │   │           ├── palatine
 │   │           ├── premaxilla
@@ -183,16 +183,7 @@ Body
 │   ├── Cavities and passages
 │   │   ├── Larynx
 │   │   └── Pharynx
-│   │       ├── Constrictor pharyngis inferior
-│   │       ├── Constrictor pharyngis medius
-│   │       ├── Constrictor pharyngis superior
 │   │       ├── Esophagus
-│   │       ├── Levator veli palatini
-│   │       ├── Palatopharyngeus
-│   │       ├── Pterygopharyngeus
-│   │       ├── Salpingopharyngeus
-│   │       ├── Tensor veli palatini
-│   │       ├── hyoid bone
 │   │       └── sternofacialis left
 │   ├── Endocrine and exocrine system
 │   │   └── Thyroid gland
@@ -211,6 +202,15 @@ Body
 │   │   │   │   ├── Cricoarytenoideus posterior
 │   │   │   │   └── Thyroarytenoideus
 │   │   │   ├── Omohyoideus
+│   │   │   ├── Pharyngeal muscles
+│   │   │   │   ├── Constrictor pharyngis inferior
+│   │   │   │   ├── Constrictor pharyngis medius
+│   │   │   │   ├── Constrictor pharyngis superior
+│   │   │   │   ├── Levator veli palatini
+│   │   │   │   ├── Palatopharyngeus
+│   │   │   │   ├── Pterygopharyngeus
+│   │   │   │   ├── Salpingopharyngeus
+│   │   │   │   └── Tensor veli palatini
 │   │   │   ├── Sternomastoideus
 │   │   │   ├── Sternothyroideus
 │   │   │   ├── Thyrohyoideus
@@ -224,6 +224,8 @@ Body
 │   │       │   ├── epiglottis
 │   │       │   ├── laryngeal alar cartilage
 │   │       │   └── thyroid cartilage
+│   │       ├── Pharyngeal skeleton
+│   │       │   └── hyoid bone
 │   │       └── cervical vertebra
 │   ├── Nervous system
 │   │   ├── Central nervous system
