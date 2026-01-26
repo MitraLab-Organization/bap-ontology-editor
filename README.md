@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 395
+├── Structures: 353
 ├── Hierarchy depth: 7 levels
 └── Relationships: 75
     ├── Innervated By: 68
@@ -67,26 +67,20 @@ Body
 │   │   └── Whiskers (R)
 │   ├── Musculoskeletal system
 │   │   ├── Cranial muscles
-│   │   │   ├── Buccinatorius
-│   │   │   │   ├── Buccinatorius (L)
-│   │   │   │   └── Buccinatorius (R)
+│   │   │   ├── Buccinatorius (L)
+│   │   │   ├── Buccinatorius (R)
 │   │   │   ├── Ceratohyoideus (L)
 │   │   │   ├── Ceratohyoideus (R)
-│   │   │   ├── Depressor rhinarii
-│   │   │   │   ├── Depressor rhinarii (L)
-│   │   │   │   └── Depressor rhinarii (R)
-│   │   │   ├── Depressor septi nasi
-│   │   │   │   ├── Depressor septi nasi (L)
-│   │   │   │   └── Depressor septi nasi (R)
-│   │   │   ├── Digastricus anterior
-│   │   │   │   ├── Digastricus anterior (L)
-│   │   │   │   └── Digastricus anterior (R)
-│   │   │   ├── Digastricus posterior
-│   │   │   │   ├── Digastricus posterior (L)
-│   │   │   │   └── Digastricus posterior (R)
-│   │   │   ├── Dilatator nasi
-│   │   │   │   ├── Dilatator nasi (L)
-│   │   │   │   └── Dilatator nasi (R)
+│   │   │   ├── Depressor rhinarii (L)
+│   │   │   ├── Depressor rhinarii (R)
+│   │   │   ├── Depressor septi nasi (L)
+│   │   │   ├── Depressor septi nasi (R)
+│   │   │   ├── Digastricus anterior (L)
+│   │   │   ├── Digastricus anterior (R)
+│   │   │   ├── Digastricus posterior (L)
+│   │   │   ├── Digastricus posterior (R)
+│   │   │   ├── Dilatator nasi (L)
+│   │   │   ├── Dilatator nasi (R)
 │   │   │   ├── External Ear Muscles
 │   │   │   │   ├── Auricularis anterior (L)
 │   │   │   │   ├── Auricularis anterior (R)
@@ -116,81 +110,58 @@ Body
 │   │   │   ├── Geniohyoideus (L)
 │   │   │   ├── Geniohyoideus (R)
 │   │   │   ├── Inner Ear Muscles
-│   │   │   │   ├── Stapedius
-│   │   │   │   │   ├── Stapedius (L)
-│   │   │   │   │   └── Stapedius (R)
+│   │   │   │   ├── Stapedius (L)
+│   │   │   │   ├── Stapedius (R)
 │   │   │   │   ├── Tensor tympani (L)
 │   │   │   │   └── Tensor tympani (R)
-│   │   │   ├── Interscutularis
-│   │   │   │   ├── Interscutularis (L)
-│   │   │   │   └── Interscutularis (R)
-│   │   │   ├── Levator anguli oris
-│   │   │   │   ├── Levator anguli oris (L)
-│   │   │   │   └── Levator anguli oris (R)
-│   │   │   ├── Levator labii superioris
-│   │   │   │   ├── Levator labii superioris (L)
-│   │   │   │   └── Levator labii superioris (R)
-│   │   │   ├── Levator labii superioris alaeque nasi
-│   │   │   │   ├── Levator labii superioris alaeque nasi (L)
-│   │   │   │   └── Levator labii superioris alaeque nasi (R)
-│   │   │   ├── Levator rhinarii
-│   │   │   │   ├── Levator rhinarii (L)
-│   │   │   │   └── Levator rhinarii (R)
-│   │   │   ├── Mandibuloauricularis
-│   │   │   │   ├── Mandibuloauricularis (L)
-│   │   │   │   └── Mandibuloauricularis (R)
+│   │   │   ├── Interscutularis (L)
+│   │   │   ├── Interscutularis (R)
+│   │   │   ├── Levator anguli oris (L)
+│   │   │   ├── Levator anguli oris (R)
+│   │   │   ├── Levator labii superioris (L)
+│   │   │   ├── Levator labii superioris (R)
+│   │   │   ├── Levator labii superioris alaeque nasi (L)
+│   │   │   ├── Levator labii superioris alaeque nasi (R)
+│   │   │   ├── Levator rhinarii (L)
+│   │   │   ├── Levator rhinarii (R)
+│   │   │   ├── Mandibuloauricularis (L)
+│   │   │   ├── Mandibuloauricularis (R)
 │   │   │   ├── Masseter
-│   │   │   │   ├── Deep masseter
-│   │   │   │   │   ├── Deep masseter (L)
-│   │   │   │   │   └── Deep masseter (R)
-│   │   │   │   ├── Superficial masseter
-│   │   │   │   │   ├── Superficial masseter (L)
-│   │   │   │   │   └── Superficial masseter (R)
-│   │   │   │   └── Zygomaticomandibularis
-│   │   │   │       ├── Zygomaticomandibularis (L)
-│   │   │   │       └── Zygomaticomandibularis (R)
-│   │   │   ├── Mylohyoideus
-│   │   │   │   ├── Mylohyoideus (L)
-│   │   │   │   └── Mylohyoideus (R)
-│   │   │   ├── Nasalis
-│   │   │   │   ├── Nasalis (L)
-│   │   │   │   └── Nasalis (R)
-│   │   │   ├── Occipitalis
-│   │   │   │   ├── Occipitalis (L)
-│   │   │   │   └── Occipitalis (R)
-│   │   │   ├── Orbicularis oculi
-│   │   │   │   ├── Orbicularis oculi (L)
-│   │   │   │   └── Orbicularis oculi (R)
+│   │   │   │   ├── Deep masseter (L)
+│   │   │   │   ├── Deep masseter (R)
+│   │   │   │   ├── Superficial masseter (L)
+│   │   │   │   ├── Superficial masseter (R)
+│   │   │   │   ├── Zygomaticomandibularis (L)
+│   │   │   │   └── Zygomaticomandibularis (R)
+│   │   │   ├── Mylohyoideus (L)
+│   │   │   ├── Mylohyoideus (R)
+│   │   │   ├── Nasalis (L)
+│   │   │   ├── Nasalis (R)
+│   │   │   ├── Occipitalis (L)
+│   │   │   ├── Occipitalis (R)
+│   │   │   ├── Orbicularis oculi (L)
+│   │   │   ├── Orbicularis oculi (R)
 │   │   │   ├── Orbicularis oris
-│   │   │   ├── Orbito-temporo-auricularis
-│   │   │   │   ├── Orbito-temporo-auricularis (L)
-│   │   │   │   └── Orbito-temporo-auricularis (R)
-│   │   │   ├── Platysma cervicale
-│   │   │   │   ├── Platysma cervicale (L)
-│   │   │   │   └── Platysma cervicale (R)
-│   │   │   ├── Platysma myoides
-│   │   │   │   ├── Platysma myoides (L)
-│   │   │   │   └── Platysma myoides (R)
-│   │   │   ├── Pterygoideus lateralis
-│   │   │   │   ├── Pterygoideus lateralis (L)
-│   │   │   │   └── Pterygoideus lateralis (R)
-│   │   │   ├── Pterygoideus medialis
-│   │   │   │   ├── Pterygoideus medialis (L)
-│   │   │   │   └── Pterygoideus medialis (R)
-│   │   │   ├── Sphincter colli profundus
-│   │   │   │   ├── Sphincter colli profundus (L)
-│   │   │   │   └── Sphincter colli profundus (R)
-│   │   │   ├── Sphincter colli superficialis
-│   │   │   │   ├── Sphincter colli superficialis (L)
-│   │   │   │   └── Sphincter colli superficialis (R)
+│   │   │   ├── Orbito-temporo-auricularis (L)
+│   │   │   ├── Orbito-temporo-auricularis (R)
+│   │   │   ├── Platysma cervicale (L)
+│   │   │   ├── Platysma cervicale (R)
+│   │   │   ├── Platysma myoides (L)
+│   │   │   ├── Platysma myoides (R)
+│   │   │   ├── Pterygoideus lateralis (L)
+│   │   │   ├── Pterygoideus lateralis (R)
+│   │   │   ├── Pterygoideus medialis (L)
+│   │   │   ├── Pterygoideus medialis (R)
+│   │   │   ├── Sphincter colli profundus (L)
+│   │   │   ├── Sphincter colli profundus (R)
+│   │   │   ├── Sphincter colli superficialis (L)
+│   │   │   ├── Sphincter colli superficialis (R)
 │   │   │   ├── Sternohyoideus (L)
 │   │   │   ├── Sternohyoideus (R)
-│   │   │   ├── Stylohyoideus
-│   │   │   │   ├── Stylohyoideus (L)
-│   │   │   │   └── Stylohyoideus (R)
-│   │   │   ├── Stylopharyngeus
-│   │   │   │   ├── Stylopharyngeus (L)
-│   │   │   │   └── Stylopharyngeus (R)
+│   │   │   ├── Stylohyoideus (L)
+│   │   │   ├── Stylohyoideus (R)
+│   │   │   ├── Stylopharyngeus (L)
+│   │   │   ├── Stylopharyngeus (R)
 │   │   │   ├── Temporalis
 │   │   │   │   ├── Temporalis lateralis (L)
 │   │   │   │   ├── Temporalis lateralis (R)
@@ -198,12 +169,10 @@ Body
 │   │   │   │   └── Temporalis medialis (R)
 │   │   │   ├── Tongue muscles
 │   │   │   │   ├── Extrinsic tongue muscles
-│   │   │   │   │   ├── Genioglossus
-│   │   │   │   │   │   ├── Genioglossus (L)
-│   │   │   │   │   │   └── Genioglossus (R)
-│   │   │   │   │   ├── Hyoglossus
-│   │   │   │   │   │   ├── Hyoglossus (L)
-│   │   │   │   │   │   └── Hyoglossus (R)
+│   │   │   │   │   ├── Genioglossus (L)
+│   │   │   │   │   ├── Genioglossus (R)
+│   │   │   │   │   ├── Hyoglossus (L)
+│   │   │   │   │   ├── Hyoglossus (R)
 │   │   │   │   │   ├── Palatoglossus (L)
 │   │   │   │   │   ├── Palatoglossus (R)
 │   │   │   │   │   ├── Styloglossus (L)
@@ -217,12 +186,10 @@ Body
 │   │   │   │       ├── Transverse (R)
 │   │   │   │       ├── Vertical (L)
 │   │   │   │       └── Vertical (R)
-│   │   │   ├── Zygomaticus major
-│   │   │   │   ├── Zygomaticus major (L)
-│   │   │   │   └── Zygomaticus major (R)
-│   │   │   └── Zygomaticus minor
-│   │   │       ├── Zygomaticus minor (L)
-│   │   │       └── Zygomaticus minor (R)
+│   │   │   ├── Zygomaticus major (L)
+│   │   │   ├── Zygomaticus major (R)
+│   │   │   ├── Zygomaticus minor (L)
+│   │   │   └── Zygomaticus minor (R)
 │   │   └── Cranium
 │   │       ├── Inner ear
 │   │       │   ├── incus (L)
@@ -273,18 +240,14 @@ Body
 │   │       └── Cranial Nerves
 │   │           ├── Abducens nerve (L)
 │   │           ├── Abducens nerve (R)
-│   │           ├── Accessory nerve
-│   │           │   ├── Accessory nerve (L)
-│   │           │   └── Accessory nerve (R)
-│   │           ├── Facial nerve
-│   │           │   ├── Facial nerve (L)
-│   │           │   └── Facial nerve (R)
-│   │           ├── Glossopharyngeal nerve
-│   │           │   ├── Glossopharyngeal nerve (L)
-│   │           │   └── Glossopharyngeal nerve (R)
-│   │           ├── Hypoglossal nerve
-│   │           │   ├── Hypoglossal nerve (L)
-│   │           │   └── Hypoglossal nerve (R)
+│   │           ├── Accessory nerve (L)
+│   │           ├── Accessory nerve (R)
+│   │           ├── Facial nerve (L)
+│   │           ├── Facial nerve (R)
+│   │           ├── Glossopharyngeal nerve (L)
+│   │           ├── Glossopharyngeal nerve (R)
+│   │           ├── Hypoglossal nerve (L)
+│   │           ├── Hypoglossal nerve (R)
 │   │           ├── Oculomotor nerve (L)
 │   │           ├── Oculomotor nerve (R)
 │   │           ├── Olfactory nerve (L)
@@ -293,9 +256,8 @@ Body
 │   │           ├── Optic nerve (R)
 │   │           ├── Terminal nerve (L)
 │   │           ├── Terminal nerve (R)
-│   │           ├── Trigeminal nerve
-│   │           │   ├── Trigeminal nerve (L)
-│   │           │   └── Trigeminal nerve (R)
+│   │           ├── Trigeminal nerve (L)
+│   │           ├── Trigeminal nerve (R)
 │   │           ├── Trochlear nerve (L)
 │   │           ├── Trochlear nerve (R)
 │   │           ├── Vagus nerve (L)
@@ -315,15 +277,12 @@ Body
 │   │   └── Whisker barrels (R)
 │   └── Vascular system
 │       ├── Arteries
-│       │   ├── Lingual artery
-│       │   │   ├── Lingual artery (L)
-│       │   │   └── Lingual artery (R)
-│       │   ├── Maxillary artery
-│       │   │   ├── Maxillary artery (L)
-│       │   │   └── Maxillary artery (R)
-│       │   └── Temporal artery
-│       │       ├── Temporal artery (L)
-│       │       └── Temporal artery (R)
+│       │   ├── Lingual artery (L)
+│       │   ├── Lingual artery (R)
+│       │   ├── Maxillary artery (L)
+│       │   ├── Maxillary artery (R)
+│       │   ├── Temporal artery (L)
+│       │   └── Temporal artery (R)
 │       ├── Lymphatics (L)
 │       ├── Lymphatics (R)
 │       ├── Veins (L)
@@ -378,9 +337,8 @@ Body
 │   │   │   │   ├── Pterygopharyngeus (R)
 │   │   │   │   ├── Salpingopharyngeus (L)
 │   │   │   │   ├── Salpingopharyngeus (R)
-│   │   │   │   └── Tensor veli palatini
-│   │   │   │       ├── Tensor veli palatini (L)
-│   │   │   │       └── Tensor veli palatini (R)
+│   │   │   │   ├── Tensor veli palatini (L)
+│   │   │   │   └── Tensor veli palatini (R)
 │   │   │   ├── Sternomastoideus (L)
 │   │   │   ├── Sternomastoideus (R)
 │   │   │   ├── Sternothyroideus (L)
