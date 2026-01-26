@@ -266,3 +266,7 @@ structures:
   name: Tongue muscles
   parent: BAP_0012007
   definition: Muscular organ in the mouth
+- id: BAP_0021704
+  name: Laryngeal skeletal system
+  parent: BAP_0021102
+  definition: Laryngeal skeletal system

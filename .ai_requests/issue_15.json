@@ -1,0 +1,92 @@
+{
+  "understood": "Reorganization with 12 actions",
+  "actions": [
+    {
+      "type": "create_structure",
+      "name": "Laryngeal muscles",
+      "id": "BAP_0021703",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Laryngeal muscles"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Arytenoideus",
+      "structure_id": "BAP_0000069",
+      "new_parent_name": "Laryngeal muscles",
+      "new_parent_id": "BAP_0021703"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Cricoarytenoideus alaris",
+      "structure_id": "BAP_0000066",
+      "new_parent_name": "Laryngeal muscles",
+      "new_parent_id": "BAP_0021703"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Cricoarytenoideus lateralis",
+      "structure_id": "BAP_0000067",
+      "new_parent_name": "Laryngeal muscles",
+      "new_parent_id": "BAP_0021703"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Cricoarytenoideus posterior",
+      "structure_id": "BAP_0000068",
+      "new_parent_name": "Laryngeal muscles",
+      "new_parent_id": "BAP_0021703"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Thyroarytenoideus",
+      "structure_id": "BAP_0000065",
+      "new_parent_name": "Laryngeal muscles",
+      "new_parent_id": "BAP_0021703"
+    },
+    {
+      "type": "create_structure",
+      "name": "Laryngeal skeletal system",
+      "id": "BAP_0021704",
+      "parent_name": "Neck Skeletal System",
+      "parent_id": "BAP_0021102",
+      "definition": "Laryngeal skeletal system"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "arytenoid cartilage",
+      "structure_id": "BAP_0000109",
+      "new_parent_name": "Laryngeal skeletal system",
+      "new_parent_id": "BAP_0021704"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "cricoid cartilage",
+      "structure_id": "BAP_0000128",
+      "new_parent_name": "Laryngeal skeletal system",
+      "new_parent_id": "BAP_0021704"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "epiglottis",
+      "structure_id": "BAP_0000107",
+      "new_parent_name": "Laryngeal skeletal system",
+      "new_parent_id": "BAP_0021704"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "laryngeal alar cartilage",
+      "structure_id": "BAP_0000110",
+      "new_parent_name": "Laryngeal skeletal system",
+      "new_parent_id": "BAP_0021704"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "thyroid cartilage",
+      "structure_id": "BAP_0000127",
+      "new_parent_name": "Laryngeal skeletal system",
+      "new_parent_id": "BAP_0021704"
+    }
+  ],
+  "warnings": []
+}

@@ -19,12 +19,43 @@ You can use these action types:
 
 ## CRITICAL REASONING RULES
 
-### 1. DEPENDENCY ORDERING
-- Always CREATE parent structures BEFORE MOVE operations that depend on them
-- Always MOVE children away BEFORE DELETE operations
-- Execute actions in this order: CREATE → MOVE → UPDATE → DELETE → ADD_RELATIONSHIP
+### 1. MOVE vs RELATIONSHIP - MOST IMPORTANT DISTINCTION!
 
-### 2. HIERARCHY DEPTH AWARENESS
+**THIS IS THE #1 SOURCE OF ERRORS - PAY CLOSE ATTENTION:**
+
+**REORGANIZATION = USE move_structure (changes hierarchy tree)**
+- "Move X to Y" → Use move_structure to change X's parent field
+- "Put structures under new group" → Use move_structure 
+- "Reorganize", "restructure", "group together" → Use move_structure
+- These change the hierarchy tree structure in structures/*.yaml
+
+**BIOLOGICAL FACTS = USE add_relationship (adds metadata)**  
+- "X is innervated by Y" → Use add_relationship with predicate: innervated_by
+- "X is supplied by Y" → Use add_relationship with predicate: supplied_by
+- "X develops from Y" → Use add_relationship with predicate: develops_from
+- These add facts to relationships/*.yaml WITHOUT changing the tree
+
+**CRITICAL EXAMPLES:**
+
+✅ CORRECT:
+User: "Move all tongue muscles to new subgroups"
+→ Use move_structure for each muscle
+
+✅ CORRECT:  
+User: "Masseter is innervated by trigeminal nerve"
+→ Use add_relationship with innervated_by
+
+❌ WRONG:
+User: "Move laryngeal muscles to new group"
+→ DON'T use add_relationship with part_of
+→ DO use move_structure to change parent
+
+### 2. DEPENDENCY ORDERING
+- Always CREATE parent structures BEFORE MOVE operations that depend on them
+- Always MOVE children away BEFORE DELETE operations  
+- Execute actions in this order: UPDATE (renames) → CREATE → MOVE → DELETE → ADD_RELATIONSHIP
+
+### 3. HIERARCHY DEPTH AWARENESS
 - "Move everything under X" means DIRECT children only (depth = 1)
 - Sub-structures (depth > 1) stay with their immediate parent
 - Example: Moving "Eye muscles" doesn't move "superior oblique tendon" (which is under "superior oblique muscle")

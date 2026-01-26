@@ -197,19 +197,19 @@ structures:
   parent: BAP_0000079
 - id: BAP_0000065
   name: Thyroarytenoideus
-  parent: BAP_0000078
+  parent: BAP_0021703
 - id: BAP_0000066
   name: Cricoarytenoideus alaris
-  parent: BAP_0000078
+  parent: BAP_0021703
 - id: BAP_0000067
   name: Cricoarytenoideus lateralis
-  parent: BAP_0000078
+  parent: BAP_0021703
 - id: BAP_0000068
   name: Cricoarytenoideus posterior
-  parent: BAP_0000078
+  parent: BAP_0021703
 - id: BAP_0000069
   name: Arytenoideus
-  parent: BAP_0000078
+  parent: BAP_0021703
 - id: BAP_0000050
   name: Trapezius
   parent: BAP_0021101
@@ -297,3 +297,7 @@ structures:
   name: Intrinsic tongue muscles
   parent: BAP_0000102
   definition: Tongue muscles that originate within the tongue
+- id: BAP_0021703
+  name: Laryngeal muscles
+  parent: BAP_0021101
+  definition: Laryngeal muscles
