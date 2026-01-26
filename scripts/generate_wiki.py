@@ -403,11 +403,11 @@ This page maps all neural innervation relationships between nerves and muscles.
     md += "\n\n## Visual Diagram\n\n```mermaid\ngraph LR\n"
     
     for nerve, muscles in sorted(by_nerve.items())[:10]:  # Top 10 nerves
-        nerve_id = nerve.replace(' ', '_').replace('-', '_')
+        nerve_id = nerve.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
         md += f"    {nerve_id}[{nerve}]\n"
         
         for muscle, _ in sorted(muscles, key=lambda x: x[0])[:8]:
-            muscle_id = muscle.replace(' ', '_').replace('-', '_')
+            muscle_id = muscle.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
             md += f"    {nerve_id} -->|innervates| {muscle_id}[{muscle}]\n"
         
         if len(muscles) > 8:

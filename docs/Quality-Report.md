@@ -1,13 +1,13 @@
 # Quality Report
 
-**Generated:** 2026-01-26 15:18:18 UTC
+**Generated:** 2026-01-26 12:43:58 UTC
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| ✅ **Structures Validated** | 210 |
-| ✅ **Relationships Validated** | 45 |
+| ✅ **Structures Validated** | 395 |
+| ✅ **Relationships Validated** | 75 |
 | ⚠️ **Warnings** | 2 |
 | ❌ **Issues** | 0 |
 
@@ -17,35 +17,35 @@
 
 ## Warnings
 
-- ⚠️ 107 structures missing definitions
-- ⚠️ 12 duplicate structure names found
+- ⚠️ 220 structures missing definitions
+- ⚠️ 14 duplicate structure names found
 
-### Structures Missing Definitions (107)
+### Structures Missing Definitions (220)
 
 - `BAP_0000002`: Neck
 - `BAP_0000006`: Appendages
 - `BAP_0000003`: Thorax
 - `BAP_0000004`: Forelimb
-- `BAP_0000005`: Hindlimb
 - `BAP_0000011`: Tail
-- `BAP_0000080`: Temporalis lateralis
-- `BAP_0000081`: Temporalis medialis
-- `BAP_0000030`: Mandibuloauricularis
-- `BAP_0000031`: Sphincter colli superficialis
-- `BAP_0000032`: Sphincter colli profundus
-- `BAP_0000033`: Interscutularis
-- `BAP_0000034`: Zygomaticus major
-- `BAP_0000035`: Zygomaticus minor
-- `BAP_0000036`: Orbito-temporo-auricularis
-- `BAP_0000037`: Orbicularis oculi
-- `BAP_0000038`: Levator labii superioris alaeque nasi
-- `BAP_0000039`: Levator labii superioris
-- `BAP_0000040`: Buccinatorius
-- `BAP_0000041`: Dilatator nasi
+- `BAP_0021746`: Hindlimb (L)
+- `BAP_0021747`: Hindlimb (R)
+- `BAP_0021748`: parietal (L)
+- `BAP_0021749`: parietal (R)
+- `BAP_0021750`: interparietal (L)
+- `BAP_0021751`: interparietal (R)
+- `BAP_0021752`: basisphenoid (L)
+- `BAP_0021753`: basisphenoid (R)
+- `BAP_0021754`: ethmoid (L)
+- `BAP_0021755`: ethmoid (R)
+- `BAP_0021756`: presphenoid (L)
+- `BAP_0021757`: presphenoid (R)
+- `BAP_0021758`: squamosal (L)
+- `BAP_0021759`: squamosal (R)
+- `BAP_0021760`: mandible (L)
 
-*...and 87 more*
+*...and 200 more*
 
-### Duplicate Names (12)
+### Duplicate Names (14)
 
 - **Musculoskeletal system**: `BAP_0020001`, `BAP_0021001`
 - **Nervous system**: `BAP_0020002`, `BAP_0021002`
@@ -55,10 +55,12 @@
 - **Integumentary system**: `BAP_0020007`, `BAP_0021006`
 - **Peripheral nervous system**: `BAP_0020201`, `BAP_0021201`
 - **Central nervous system**: `BAP_0020202`, `BAP_0021203`
-- **Arteries**: `BAP_0020401`, `BAP_0021301`
-- **Veins**: `BAP_0020402`, `BAP_0021302`
-- **Lymphatics**: `BAP_0020403`, `BAP_0021303`
-- **Skin**: `BAP_0020701`, `BAP_0021601`
+- **Lymphatics (L)**: `BAP_0021720`, `BAP_0021738`
+- **Lymphatics (R)**: `BAP_0021721`, `BAP_0021739`
+- **Skin (L)**: `BAP_0021728`, `BAP_0021740`
+- **Skin (R)**: `BAP_0021729`, `BAP_0021741`
+- **Veins (L)**: `BAP_0021718`, `BAP_0021736`
+- **Veins (R)**: `BAP_0021719`, `BAP_0021737`
 
 
 ---

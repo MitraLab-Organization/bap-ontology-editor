@@ -6,42 +6,42 @@ Comprehensive analytics and metrics for the BAP ontology.
 
 | Metric | Value |
 |--------|-------|
-| Total Structures | 210 |
-| Total Relationships | 45 |
-| Average Children per Parent | 4.10 |
+| Total Structures | 395 |
+| Total Relationships | 75 |
+| Average Children per Parent | 4.19 |
 
 ## Most Connected Structures
 
 | Structure | Connections |
 |-----------|-------------|
-| Facial nerve | 24 |
-| Trigeminal nerve | 10 |
+| Facial nerve (L) | 23 |
+| Facial nerve (R) | 23 |
+| Trigeminal nerve (L) | 8 |
+| Trigeminal nerve (R) | 8 |
 | Tongue muscles | 3 |
-| Masseter | 2 |
-| Temporalis | 2 |
-| Genioglossus | 2 |
-| Lingual artery | 2 |
-| Hyoglossus | 2 |
-| Hypoglossal nerve | 2 |
-| Maxillary artery | 1 |
+| Genioglossus (L) | 2 |
+| Lingual artery (L) | 2 |
+| Genioglossus (R) | 2 |
+| Lingual artery (R) | 2 |
+| Hyoglossus (L) | 2 |
 
 ## Relationships by Type
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| Innervated By | 38 | 84.4% |
-| Supplied By | 4 | 8.9% |
-| Part Of | 3 | 6.7% |
+| Innervated By | 68 | 90.7% |
+| Supplied By | 4 | 5.3% |
+| Part Of | 3 | 4.0% |
 
 ## Structures by File
 
 | File | Count | Percentage |
 |------|-------|------------|
-| `muscles.yaml` | 91 | 43.3% |
-| `body_regions.yaml` | 69 | 32.9% |
-| `skeletal.yaml` | 34 | 16.2% |
-| `nerves.yaml` | 13 | 6.2% |
-| `vessels.yaml` | 3 | 1.4% |
+| `body_regions.yaml` | 236 | 59.7% |
+| `muscles.yaml` | 97 | 24.6% |
+| `nerves.yaml` | 29 | 7.3% |
+| `skeletal.yaml` | 22 | 5.6% |
+| `vessels.yaml` | 11 | 2.8% |
 
 
 ---
