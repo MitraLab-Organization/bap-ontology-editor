@@ -6,9 +6,9 @@ Comprehensive analytics and metrics for the BAP ontology.
 
 | Metric | Value |
 |--------|-------|
-| Total Structures | 200 |
+| Total Structures | 210 |
 | Total Relationships | 45 |
-| Average Children per Parent | 4.42 |
+| Average Children per Parent | 4.10 |
 
 ## Most Connected Structures
 
@@ -16,7 +16,7 @@ Comprehensive analytics and metrics for the BAP ontology.
 |-----------|-------------|
 | Facial nerve | 24 |
 | Trigeminal nerve | 10 |
-| Tongue | 3 |
+| Tongue muscles | 3 |
 | Masseter | 2 |
 | Temporalis | 2 |
 | Genioglossus | 2 |
@@ -37,11 +37,11 @@ Comprehensive analytics and metrics for the BAP ontology.
 
 | File | Count | Percentage |
 |------|-------|------------|
-| `muscles.yaml` | 86 | 43.0% |
-| `body_regions.yaml` | 64 | 32.0% |
-| `skeletal.yaml` | 34 | 17.0% |
-| `nerves.yaml` | 13 | 6.5% |
-| `vessels.yaml` | 3 | 1.5% |
+| `muscles.yaml` | 91 | 43.3% |
+| `body_regions.yaml` | 69 | 32.9% |
+| `skeletal.yaml` | 34 | 16.2% |
+| `nerves.yaml` | 13 | 6.2% |
+| `vessels.yaml` | 3 | 1.4% |
 
 
 ---

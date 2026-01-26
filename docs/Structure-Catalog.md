@@ -1,13 +1,13 @@
 # Complete Structure Catalog
 
-**Total Structures:** 200
+**Total Structures:** 210
 
 This page lists all anatomical structures in the BAP ontology with complete details.
 
 ## Structures by System
 
 
-### Body Regions (64 structures)
+### Body Regions (69 structures)
 
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
@@ -25,19 +25,23 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0012006` | **Cranial Nerves** | Peripheral nervous system | Group of nerves emerging directly from the brain |
 | `BAP_0012007` | **Cranial muscles** | Musculoskeletal system | Muscles of the head region |
 | `BAP_0020101` | **Cranium** | Musculoskeletal system | Bony skull structure |
-| `BAP_0000009` | **Ear** | Sense organs | Auditory organ (to be deprecated - use Inner ear / External ear) |
+| `BAP_0020603` | **Ear Cavities** | Cavities and passages | Anatomical passages and spaces of the ear |
 | `BAP_0020005` | **Endocrine and exocrine system** | Head | Glandular structures of the head |
 | `BAP_0021004` | **Endocrine and exocrine system** | Neck | Glandular structures of the neck |
+| `BAP_0012010` | **External Ear Muscles** | Cranial muscles | Muscles controlling pinna movement and positioning |
 | `BAP_0020702` | **External ear** | Integumentary system | Pinna and external acoustic structures |
 | `BAP_0000008` | **Eye** | Sense organs | Visual organ |
+| `BAP_0012008` | **Eye Muscles** | Cranial muscles | Extraocular and eyelid muscles controlling eye movement and eyelid function |
 | `BAP_0000004` | **Forelimb** | Appendages |  |
 | `BAP_0020304` | **Gustatory epithelium** | Sense organs | Sensory epithelium for taste |
 | `BAP_0000001` | **Head** | Body | Head region of the mouse |
 | `BAP_0000005` | **Hindlimb** | Appendages |  |
+| `BAP_0012009` | **Inner Ear Muscles** | Cranial muscles | Muscles of the middle ear controlling ossicle movement |
 | `BAP_0020301` | **Inner ear** | Sense organs | Auditory and vestibular organ |
 | `BAP_0020007` | **Integumentary system** | Head | Skin and external structures of the head |
 | `BAP_0021006` | **Integumentary system** | Neck | Skin of the neck |
 | `BAP_0000007` | **Jaw apparatus** | Viscerocranium | Jaw structures |
+| `BAP_0021704` | **Laryngeal skeletal system** | Neck skeletal system | Laryngeal skeletal system |
 | `BAP_0000078` | **Larynx** | Cavities and passages | Laryngeal passage and voice box |
 | `BAP_0020403` | **Lymphatics** | Vascular system | Lymphatic structures of the head |
 | `BAP_0021303` | **Lymphatics** | Vascular system | Lymphatic structures of the neck |
@@ -58,6 +62,7 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0012003` | **Pelvis** | Trunk | Pelvic region of the trunk |
 | `BAP_0020201` | **Peripheral nervous system** | Nervous system | Peripheral nerves of the head |
 | `BAP_0021201` | **Peripheral nervous system** | Nervous system | Peripheral nerves of the neck |
+| `BAP_0021706` | **Pharyngeal skeleton** | Neck skeletal system | Pharyngeal skeleton |
 | `BAP_0000079` | **Pharynx** | Cavities and passages | Pharyngeal passage |
 | `BAP_0020003` | **Sense organs** | Head | Sensory organs and structures of the head |
 | `BAP_0020701` | **Skin** | Integumentary system | Skin covering the head |
@@ -66,7 +71,7 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000011` | **Tail** | Appendages |  |
 | `BAP_0000003` | **Thorax** | Trunk |  |
 | `BAP_0021401` | **Thyroid gland** | Endocrine and exocrine system | Endocrine gland in the anterior neck |
-| `BAP_0000102` | **Tongue** | Cranial muscles | Muscular organ in the mouth |
+| `BAP_0000102` | **Tongue muscles** | Cranial muscles | Muscular organ in the mouth |
 | `BAP_0012001` | **Trunk** | Body | Central body region containing thorax, abdomen, and pelvis |
 | `BAP_0020004` | **Vascular system** | Head | Blood vessels and lymphatics of the head |
 | `BAP_0021003` | **Vascular system** | Neck | Blood vessels and lymphatics of the neck |
@@ -76,25 +81,25 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0020302` | **Whisker barrels** | Sense organs | Somatosensory cortical structures for whisker sensation |
 | `BAP_0000012` | **Whiskers** | Integumentary system | Vibrissae - tactile hairs |
 
-### Muscles (86 structures)
+### Muscles (91 structures)
 
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
 | `BAP_0000051` | **Acromiotrapezius** | Trapezius |  |
-| `BAP_0000069` | **Arytenoideus** | Larynx |  |
-| `BAP_0000099` | **Auricularis anterior** | Ear |  |
-| `BAP_0000098` | **Auricularis posterior** | Ear |  |
-| `BAP_0000100` | **Auricularis superior** | Ear |  |
+| `BAP_0000069` | **Arytenoideus** | Laryngeal muscles |  |
+| `BAP_0000099` | **Auricularis anterior** | External Ear Muscles |  |
+| `BAP_0000098` | **Auricularis posterior** | External Ear Muscles |  |
+| `BAP_0000100` | **Auricularis superior** | External Ear Muscles |  |
 | `BAP_0000040` | **Buccinatorius** | Cranial muscles |  |
 | `BAP_0000049` | **Ceratohyoideus** | Cranial muscles |  |
 | `BAP_0000054` | **Cleidomastoideus** | Neck muscles |  |
 | `BAP_0000053` | **Cleidooccipitalis** | Neck muscles |  |
-| `BAP_0000058` | **Constrictor pharyngis inferior** | Pharynx |  |
-| `BAP_0000057` | **Constrictor pharyngis medius** | Pharynx |  |
-| `BAP_0000056` | **Constrictor pharyngis superior** | Pharynx |  |
-| `BAP_0000066` | **Cricoarytenoideus alaris** | Larynx |  |
-| `BAP_0000067` | **Cricoarytenoideus lateralis** | Larynx |  |
-| `BAP_0000068` | **Cricoarytenoideus posterior** | Larynx |  |
+| `BAP_0000058` | **Constrictor pharyngis inferior** | Pharyngeal muscles |  |
+| `BAP_0000057` | **Constrictor pharyngis medius** | Pharyngeal muscles |  |
+| `BAP_0000056` | **Constrictor pharyngis superior** | Pharyngeal muscles |  |
+| `BAP_0000066` | **Cricoarytenoideus alaris** | Laryngeal muscles |  |
+| `BAP_0000067` | **Cricoarytenoideus lateralis** | Laryngeal muscles |  |
+| `BAP_0000068` | **Cricoarytenoideus posterior** | Laryngeal muscles |  |
 | `BAP_0000059` | **Cricothyroideus** | Neck muscles |  |
 | `BAP_0000017` | **Deep masseter** | Masseter | Deep portion of masseter; elevates mandible with vertical force |
 | `BAP_0000044` | **Depressor rhinarii** | Cranial muscles |  |
@@ -103,18 +108,21 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000025` | **Digastricus posterior** | Cranial muscles | Suprahyoid muscle; elevates hyoid bone and assists jaw opening |
 | `BAP_0000041` | **Dilatator nasi** | Cranial muscles |  |
 | `BAP_0000083` | **Esophagus** | Pharynx |  |
+| `BAP_0021701` | **Extrinsic tongue muscles** | Tongue muscles | Tongue muscles that originate outside the tongue |
 | `BAP_0000082` | **Frontalis** | Cranial muscles |  |
-| `BAP_0000071` | **Genioglossus** | Tongue | Extrinsic tongue muscle; protrudes and depresses the tongue |
+| `BAP_0000071` | **Genioglossus** | Extrinsic tongue muscles | Extrinsic tongue muscle; protrudes and depresses the tongue |
 | `BAP_0000070` | **Geniohyoideus** | Cranial muscles |  |
-| `BAP_0000072` | **Hyoglossus** | Tongue | Extrinsic tongue muscle; depresses and retracts the tongue |
-| `BAP_0000104` | **Inferior longitudinal** | Tongue |  |
+| `BAP_0000072` | **Hyoglossus** | Extrinsic tongue muscles | Extrinsic tongue muscle; depresses and retracts the tongue |
+| `BAP_0000104` | **Inferior longitudinal** | Intrinsic tongue muscles |  |
 | `BAP_0000033` | **Interscutularis** | Cranial muscles |  |
+| `BAP_0021702` | **Intrinsic tongue muscles** | Tongue muscles | Tongue muscles that originate within the tongue |
 | `BAP_0000062` | **Jugulohyoideus** | Neck muscles |  |
+| `BAP_0021703` | **Laryngeal muscles** | Neck muscles | Laryngeal muscles |
 | `BAP_0000046` | **Levator anguli oris** | Cranial muscles |  |
 | `BAP_0000039` | **Levator labii superioris** | Cranial muscles |  |
 | `BAP_0000038` | **Levator labii superioris alaeque nasi** | Cranial muscles |  |
 | `BAP_0000045` | **Levator rhinarii** | Cranial muscles |  |
-| `BAP_0000063` | **Levator veli palatini** | Pharynx |  |
+| `BAP_0000063` | **Levator veli palatini** | Pharyngeal muscles |  |
 | `BAP_0000030` | **Mandibuloauricularis** | Cranial muscles |  |
 | `BAP_0000015` | **Masseter** | Cranial muscles | Primary muscle of mastication; elevates and protrudes the mandible |
 | `BAP_0000013` | **Mylohyoideus** | Cranial muscles | Elevate floor of oral cavity |
@@ -124,47 +132,49 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000037` | **Orbicularis oculi** | Cranial muscles |  |
 | `BAP_0000047` | **Orbicularis oris** | Cranial muscles |  |
 | `BAP_0000036` | **Orbito-temporo-auricularis** | Cranial muscles |  |
-| `BAP_0000101` | **Palatoglossus** | Tongue |  |
-| `BAP_0000061` | **Palatopharyngeus** | Pharynx |  |
+| `BAP_0000101` | **Palatoglossus** | Extrinsic tongue muscles |  |
+| `BAP_0000061` | **Palatopharyngeus** | Pharyngeal muscles |  |
+| `BAP_0021705` | **Pharyngeal muscles** | Neck muscles | Pharyngeal muscles |
 | `BAP_0000027` | **Platysma cervicale** | Cranial muscles | Superficial cervical muscle; tenses skin of the anterior neck |
 | `BAP_0000028` | **Platysma myoides** | Cranial muscles | Superficial facial muscle; tenses skin of the lower face and neck |
 | `BAP_0000020` | **Pterygoideus lateralis** | Cranial muscles | Muscle of mastication; protrudes mandible and assists lateral movement |
 | `BAP_0000021` | **Pterygoideus medialis** | Cranial muscles | Muscle of mastication; elevates mandible and assists grinding motion |
-| `BAP_0000060` | **Pterygopharyngeus** | Pharynx |  |
-| `BAP_0000064` | **Salpingopharyngeus** | Pharynx |  |
+| `BAP_0000060` | **Pterygopharyngeus** | Pharyngeal muscles |  |
+| `BAP_0000064` | **Salpingopharyngeus** | Pharyngeal muscles |  |
 | `BAP_0000032` | **Sphincter colli profundus** | Cranial muscles |  |
 | `BAP_0000031` | **Sphincter colli superficialis** | Cranial muscles |  |
 | `BAP_0000052` | **Spinotrapezius** | Trapezius |  |
-| `BAP_0000026` | **Stapedius** | Ear | Stabelize stapes bone |
+| `BAP_0000026` | **Stapedius** | Inner Ear Muscles | Stabelize stapes bone |
 | `BAP_0000074` | **Sternohyoideus** | Cranial muscles | Infrahyoid muscle; depresses hyoid bone after swallowing |
 | `BAP_0000055` | **Sternomastoideus** | Neck muscles |  |
 | `BAP_0000076` | **Sternothyroideus** | Neck muscles | Thyroid cartilage depression |
-| `BAP_0000073` | **Styloglossus** | Tongue | Extrinsic tongue muscle; retracts and elevates the tongue |
+| `BAP_0000073` | **Styloglossus** | Extrinsic tongue muscles | Extrinsic tongue muscle; retracts and elevates the tongue |
 | `BAP_0000024` | **Stylohyoideus** | Cranial muscles | Suprahyoid muscle; elevates and retracts the hyoid bone |
 | `BAP_0000048` | **Stylopharyngeus** | Cranial muscles |  |
 | `BAP_0000016` | **Superficial masseter** | Masseter | Superficial portion of masseter; elevates and protrudes mandible |
-| `BAP_0000103` | **Superior longitudinal** | Tongue |  |
+| `BAP_0000103` | **Superior longitudinal** | Intrinsic tongue muscles |  |
 | `BAP_0000019` | **Temporalis** | Cranial muscles | Muscle of mastication; elevates and retracts the mandible |
 | `BAP_0000080` | **Temporalis lateralis** | Temporalis |  |
 | `BAP_0000081` | **Temporalis medialis** | Temporalis |  |
-| `BAP_0000023` | **Tensor veli palatini** | Pharynx | Tenses soft palate |
-| `BAP_0000065` | **Thyroarytenoideus** | Larynx |  |
+| `BAP_0000022` | **Tensor tympani** | Inner Ear Muscles | Muscle that tenses the tympanic membrane |
+| `BAP_0000023` | **Tensor veli palatini** | Pharyngeal muscles | Tenses soft palate |
+| `BAP_0000065` | **Thyroarytenoideus** | Laryngeal muscles |  |
 | `BAP_0000077` | **Thyrohyoideus** | Neck muscles | Hyoid depression, thyroid elevation |
-| `BAP_0000105` | **Transverse** | Tongue |  |
+| `BAP_0000105` | **Transverse** | Intrinsic tongue muscles |  |
 | `BAP_0000050` | **Trapezius** | Neck muscles |  |
-| `BAP_0000106` | **Vertical** | Tongue |  |
+| `BAP_0000106` | **Vertical** | Intrinsic tongue muscles |  |
 | `BAP_0000018` | **Zygomaticomandibularis** | Masseter | Accessory masticatory muscle; assists in jaw elevation |
 | `BAP_0000034` | **Zygomaticus major** | Cranial muscles |  |
 | `BAP_0000035` | **Zygomaticus minor** | Cranial muscles |  |
-| `BAP_0000089` | **inferior oblique** | Eye |  |
-| `BAP_0000090` | **lateral rectus** | Eye |  |
-| `BAP_0000085` | **levator palpebrae superioris** | Eye |  |
-| `BAP_0000091` | **medial rectus** | Eye |  |
-| `BAP_0000093` | **retractor bulbi** | Eye |  |
+| `BAP_0000089` | **inferior oblique** | Eye Muscles |  |
+| `BAP_0000090` | **lateral rectus** | Eye Muscles |  |
+| `BAP_0000085` | **levator palpebrae superioris** | Eye Muscles |  |
+| `BAP_0000091` | **medial rectus** | Eye Muscles |  |
+| `BAP_0000093` | **retractor bulbi** | Eye Muscles |  |
 | `BAP_0000084` | **sternofacialis left** | Pharynx |  |
-| `BAP_0000086` | **superior oblique muscle** | Eye |  |
+| `BAP_0000086` | **superior oblique muscle** | Eye Muscles |  |
 | `BAP_0000087` | **superior oblique tendon** | superior oblique muscle |  |
-| `BAP_0000092` | **superior rectus** | Eye |  |
+| `BAP_0000092` | **superior rectus** | Eye Muscles |  |
 | `BAP_0000088` | **trochlea** | superior oblique tendon |  |
 
 ### Nerves (13 structures)
@@ -190,25 +200,25 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
 | `BAP_0000095` | **Pinna** | External ear |  |
-| `BAP_0000109` | **arytenoid cartilage** | Larynx |  |
+| `BAP_0000109` | **arytenoid cartilage** | Laryngeal skeletal system |  |
 | `BAP_0000133` | **basisphenoid** | Neurocranium |  |
 | `BAP_0000132` | **cervical vertebra** | Neck skeletal system | Vertebrae of the cervical spine |
 | `BAP_0000130` | **clavicle** | Forelimb |  |
-| `BAP_0000128` | **cricoid cartilage** | Larynx |  |
-| `BAP_0000107` | **epiglottis** | Larynx |  |
+| `BAP_0000128` | **cricoid cartilage** | Laryngeal skeletal system |  |
+| `BAP_0000107` | **epiglottis** | Laryngeal skeletal system |  |
 | `BAP_0000134` | **ethmoid** | Neurocranium |  |
-| `BAP_0000096` | **external acoustic meatus** | External ear |  |
+| `BAP_0000096` | **external acoustic meatus** | Ear Cavities |  |
 | `BAP_0000122` | **frontal** | Neurocranium |  |
-| `BAP_0000126` | **hyoid bone** | Pharynx |  |
+| `BAP_0000126` | **hyoid bone** | Pharyngeal skeleton |  |
 | `BAP_0000112` | **incus** | Inner ear |  |
-| `BAP_0000097` | **internal acoustic meatus** | Inner ear |  |
+| `BAP_0000097` | **internal acoustic meatus** | Ear Cavities |  |
 | `BAP_0000125` | **interparietal** | Neurocranium |  |
 | `BAP_0000120` | **lacrimal** | Viscerocranium |  |
-| `BAP_0000110` | **laryngeal alar cartilage** | Larynx |  |
+| `BAP_0000110` | **laryngeal alar cartilage** | Laryngeal skeletal system |  |
 | `BAP_0000113` | **malleus** | Inner ear |  |
 | `BAP_0000118` | **mandible** | Viscerocranium |  |
 | `BAP_0000121` | **maxilla** | Viscerocranium |  |
-| `BAP_0000123` | **nasal** | Nasal cavity |  |
+| `BAP_0000123` | **nasal** | Viscerocranium |  |
 | `BAP_0000115` | **occipital** | Neurocranium |  |
 | `BAP_0000135` | **palatine** | Viscerocranium |  |
 | `BAP_0000116` | **parietal** | Neurocranium |  |
@@ -219,9 +229,9 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000117` | **squamosal** | Viscerocranium |  |
 | `BAP_0000108` | **stapes** | Inner ear |  |
 | `BAP_0000129` | **sternum** | Thorax |  |
-| `BAP_0000127` | **thyroid cartilage** | Larynx |  |
+| `BAP_0000127` | **thyroid cartilage** | Laryngeal skeletal system |  |
 | `BAP_0000114` | **tympanic** | Inner ear |  |
-| `BAP_0000137` | **vomer** | Nasal cavity |  |
+| `BAP_0000137` | **vomer** | Viscerocranium |  |
 | `BAP_0000119` | **zygomatic** | Viscerocranium |  |
 
 ### Vessels (3 structures)
