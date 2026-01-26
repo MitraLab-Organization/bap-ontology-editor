@@ -105,19 +105,19 @@ structures:
 
 - id: BAP_0000108
   name: stapes
-  parent: BAP_0020301
+  parent: BAP_0021707
 
 - id: BAP_0000112
   name: incus
-  parent: BAP_0020301
+  parent: BAP_0021707
 
 - id: BAP_0000113
   name: malleus
-  parent: BAP_0020301
+  parent: BAP_0021707
 
 - id: BAP_0000114
-  name: tympanic
-  parent: BAP_0020301
+  name: tympanic membrane
+  parent: BAP_0000138
 
   # ============================================================================
   # LARYNGEAL CARTILAGES (under Larynx)

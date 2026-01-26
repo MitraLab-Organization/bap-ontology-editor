@@ -1,0 +1,50 @@
+{
+  "understood": "Reorganization with 6 actions",
+  "actions": [
+    {
+      "type": "create_structure",
+      "name": "Inner ear",
+      "id": "BAP_0021707",
+      "parent_name": "Cranium",
+      "parent_id": "BAP_0020101",
+      "definition": "Inner ear"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "incus",
+      "structure_id": "BAP_0000112",
+      "new_parent_name": "Inner ear",
+      "new_parent_id": "BAP_0021707"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "malleus",
+      "structure_id": "BAP_0000113",
+      "new_parent_name": "Inner ear",
+      "new_parent_id": "BAP_0021707"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "stapes",
+      "structure_id": "BAP_0000108",
+      "new_parent_name": "Inner ear",
+      "new_parent_id": "BAP_0021707"
+    },
+    {
+      "type": "update_structure",
+      "structure_name": "tympanic",
+      "structure_id": "BAP_0000114",
+      "changes": {
+        "name": "tympanic membrane"
+      }
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "tympanic",
+      "structure_id": "BAP_0000114",
+      "new_parent_name": "Neurocranium",
+      "new_parent_id": "BAP_0000138"
+    }
+  ],
+  "warnings": []
+}

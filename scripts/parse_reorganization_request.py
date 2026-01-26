@@ -134,7 +134,7 @@ def parse_reorganization_text(text: str, structures: Dict = None, context: Dict 
         
         # Pattern: Rename "X" to "Y"
         rename_match = re.search(
-            r'[Rr]ename\s+["\']?([^"\']+?)["\']?(?:\s*\(([^)]+)\))?\s+to\s+["\']?([^"\']+?)["\']?',
+            r'[Rr]ename\s+["\']([^"\']+)["\'](?:\s*\(([^)]+)\))?\s+to\s+["\']([^"\']+)["\']',
             line
         )
         

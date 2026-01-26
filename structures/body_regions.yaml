@@ -274,3 +274,7 @@ structures:
   name: Pharyngeal skeleton
   parent: BAP_0021102
   definition: Pharyngeal skeleton
+- id: BAP_0021707
+  name: Inner ear
+  parent: BAP_0020101
+  definition: Inner ear

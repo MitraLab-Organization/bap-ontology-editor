@@ -1,0 +1,6 @@
+Create "Inner ear" under "Cranium"
+Move "incus" to "Inner ear"
+Move "malleus" to "Inner ear"
+Move "stapes" to "Inner ear"
+Rename "tympanic" to "tympanic membrane"
+Move "tympanic membrane" to "Neurocranium"
