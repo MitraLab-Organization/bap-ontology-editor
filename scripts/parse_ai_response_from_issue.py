@@ -26,9 +26,33 @@ def parse_ai_comment(comment_text: str) -> dict:
     if understood_match:
         parsed['understood'] = understood_match.group(1).strip()
     
+    # Extract structure updates/renames
+    updates_section = re.search(
+        r'### ✏️ Structure Updates/Renames\s+(.+?)(?=\n###|\n---|\Z)',
+        comment_text,
+        re.DOTALL
+    )
+    if updates_section:
+        for line in updates_section.group(1).strip().split('\n'):
+            # Format: "- Rename **OldName** (`ID`) to **NewName**"
+            match = re.search(r'Rename\s+\*\*(.+?)\*\*\s*\(`(.+?)`\)\s+to\s+\*\*(.+?)\*\*', line)
+            if match:
+                old_name = match.group(1)
+                struct_id = match.group(2)
+                new_name = match.group(3)
+                
+                parsed['actions'].append({
+                    'type': 'update_structure',
+                    'structure_name': old_name,
+                    'structure_id': struct_id,
+                    'changes': {
+                        'name': new_name
+                    }
+                })
+    
     # Extract NEW structures (table format)
     struct_table = re.search(
-        r'### 📦 NEW Structures to Add\s+\|[^\n]+\|[^\n]+\|\s*\|(.*?)(?=\n###|\n\n---|\Z)',
+        r'### 📦 NEW Structures to (?:Create|Add)\s+\|[^\n]+\|[^\n]+\|\s*\|(.*?)(?=\n###|\n\n---|\Z)',
         comment_text,
         re.DOTALL
     )
@@ -57,7 +81,31 @@ def parse_ai_comment(comment_text: str) -> dict:
                         'definition': definition
                     })
     
-    # Extract existing structures being used/renamed
+    # Extract structure moves
+    moves_section = re.search(
+        r'### 🔄 Structure Moves \(Change Parent\)\s+(.+?)(?=\n###|\n---|\Z)',
+        comment_text,
+        re.DOTALL
+    )
+    if moves_section:
+        for line in moves_section.group(1).strip().split('\n'):
+            # Format: "- Move **StructName** (`ID`) → **NewParent** (`ParentID`)"
+            match = re.search(r'Move\s+\*\*(.+?)\*\*\s*\(`(.+?)`\)\s+→\s+\*\*(.+?)\*\*\s*\(`(.+?)`\)', line)
+            if match:
+                struct_name = match.group(1)
+                struct_id = match.group(2)
+                new_parent_name = match.group(3)
+                new_parent_id = match.group(4)
+                
+                parsed['actions'].append({
+                    'type': 'move_structure',
+                    'structure_name': struct_name,
+                    'structure_id': struct_id,
+                    'new_parent_name': new_parent_name,
+                    'new_parent_id': new_parent_id
+                })
+    
+    # Extract existing structures being used (backwards compatibility)
     existing_section = re.search(
         r'### ✅ Using Existing Structures\s+(.+?)(?=\n###|\n---|\Z)',
         comment_text,

@@ -1,0 +1,86 @@
+{
+  "understood": "Reorganize the tongue muscle hierarchy by renaming 'Tongue' to 'Tongue muscles', creating 'Extrinsic tongue muscles' and 'Intrinsic tongue muscles' subgroups, and moving specific muscles to these new subgroups",
+  "actions": [
+    {
+      "type": "update_structure",
+      "structure_name": "Tongue",
+      "structure_id": "BAP_0000102",
+      "changes": {
+        "name": "Tongue muscles"
+      }
+    },
+    {
+      "type": "create_structure",
+      "name": "Extrinsic tongue muscles",
+      "id": "BAP_21701",
+      "parent_name": "Tongue muscles",
+      "parent_id": "BAP_0000102",
+      "definition": "Tongue muscles that originate outside the tongue"
+    },
+    {
+      "type": "create_structure",
+      "name": "Intrinsic tongue muscles",
+      "id": "BAP_21702",
+      "parent_name": "Tongue muscles",
+      "parent_id": "BAP_0000102",
+      "definition": "Tongue muscles that originate within the tongue"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Genioglossus",
+      "structure_id": "BAP_0000071",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_21701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Hyoglossus",
+      "structure_id": "BAP_0000072",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_21701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Styloglossus",
+      "structure_id": "BAP_0000073",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_21701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Palatoglossus",
+      "structure_id": "BAP_0000101",
+      "new_parent_name": "Extrinsic tongue muscles",
+      "new_parent_id": "BAP_21701"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Superior longitudinal",
+      "structure_id": "BAP_0000103",
+      "new_parent_name": "Intrinsic tongue muscles",
+      "new_parent_id": "BAP_21702"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Inferior longitudinal",
+      "structure_id": "BAP_0000104",
+      "new_parent_name": "Intrinsic tongue muscles",
+      "new_parent_id": "BAP_21702"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Transverse",
+      "structure_id": "BAP_0000105",
+      "new_parent_name": "Intrinsic tongue muscles",
+      "new_parent_id": "BAP_21702"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Vertical",
+      "structure_id": "BAP_0000106",
+      "new_parent_name": "Intrinsic tongue muscles",
+      "new_parent_id": "BAP_21702"
+    }
+  ],
+  "warnings": []
+}

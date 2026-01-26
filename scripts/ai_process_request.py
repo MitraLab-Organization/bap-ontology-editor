@@ -343,9 +343,55 @@ def generate_response_markdown(parsed: dict, issue_number: str) -> str:
     md = "## 🤖 AI Analysis\n\n"
     md += f"**Understood:** {parsed.get('understood', 'Unable to parse')}\n\n"
     
-    # Structures
+    # Group actions by type for better display
+    actions = parsed.get('actions', [])
+    
+    # Handle different action types
+    creates = [a for a in actions if a.get('type') == 'create_structure']
+    updates = [a for a in actions if a.get('type') == 'update_structure']
+    moves = [a for a in actions if a.get('type') == 'move_structure']
+    deletes = [a for a in actions if a.get('type') == 'delete_structure']
+    add_rels = [a for a in actions if a.get('type') == 'add_relationship']
+    
+    # Show updates (renames)
+    if updates:
+        md += "### ✏️ Structure Updates/Renames\n\n"
+        for u in updates:
+            changes = u.get('changes', {})
+            old_name = u.get('structure_name', '?')
+            struct_id = u.get('structure_id', '?')
+            md += f"- Rename **{old_name}** (`{struct_id}`) to **{changes.get('name', '?')}**\n"
+        md += "\n"
+    
+    # Show creates
+    if creates:
+        md += "### 📦 NEW Structures to Create\n\n"
+        md += "| Name | ID | Parent | Definition |\n"
+        md += "|------|-----|--------|------------|\n"
+        for s in creates:
+            parent = s.get('parent_name', '?')
+            if s.get('parent_id'):
+                parent += f" (`{s['parent_id']}`)"
+            definition = s.get('definition', '-')
+            if len(definition) > 50:
+                definition = definition[:50] + "..."
+            md += f"| {s.get('name', '?')} | `{s.get('id', '?')}` | {parent} | {definition} |\n"
+        md += "\n"
+    
+    # Show moves
+    if moves:
+        md += "### 🔄 Structure Moves (Change Parent)\n\n"
+        for m in moves:
+            struct_name = m.get('structure_name', '?')
+            struct_id = m.get('structure_id', '?')
+            new_parent = m.get('new_parent_name', '?')
+            new_parent_id = m.get('new_parent_id', '?')
+            md += f"- Move **{struct_name}** (`{struct_id}`) → **{new_parent}** (`{new_parent_id}`)\n"
+        md += "\n"
+    
+    # Backwards compatibility: handle old format
     structures = parsed.get('structures', [])
-    if structures:
+    if structures and not creates and not updates:
         new_structures = [s for s in structures if s.get('is_new', True)]
         existing_refs = [s for s in structures if not s.get('is_new', True)]
         
@@ -366,9 +412,48 @@ def generate_response_markdown(parsed: dict, issue_number: str) -> str:
                 md += f"- **{s.get('name')}** (`{s.get('id')}`)\n"
             md += "\n"
     
-    # Relationships
+    # Show deletes
+    if deletes:
+        md += "### 🗑️ Structure Deletions\n\n"
+        for d in deletes:
+            struct_name = d.get('structure_name', '?')
+            struct_id = d.get('structure_id', '?')
+            reason = d.get('reason', 'user request')
+            md += f"- Delete **{struct_name}** (`{struct_id}`) - {reason}\n"
+        md += "\n"
+    
+    # Show relationships
+    if add_rels:
+        # Separate duplicates from new
+        new_rels = [r for r in add_rels if not r.get('_is_duplicate')]
+        dup_rels = [r for r in add_rels if r.get('_is_duplicate')]
+        
+        if new_rels:
+            md += "### 🔗 Relationships to Add\n\n"
+            for r in new_rels:
+                predicate = r.get('predicate', '?').replace('_', ' ')
+                subject = r.get('subject_name', '?')
+                obj = r.get('object_name', '?')
+                
+                # Add IDs if known
+                if r.get('subject_id'):
+                    subject += f" (`{r['subject_id']}`)"
+                if r.get('object_id'):
+                    obj += f" (`{r['object_id']}`)"
+                
+                md += f"- **{subject}** {predicate} **{obj}**\n"
+            md += "\n"
+        
+        if dup_rels:
+            md += "### ⚠️ Already Exists (will be skipped)\n\n"
+            for r in dup_rels:
+                predicate = r.get('predicate', '?').replace('_', ' ')
+                md += f"- ~~{r.get('subject_name', '?')} {predicate} {r.get('object_name', '?')}~~ (duplicate)\n"
+            md += "\n"
+    
+    # Backwards compatibility: handle old relationships format
     relationships = parsed.get('relationships', [])
-    if relationships:
+    if relationships and not add_rels:
         # Separate duplicates from new
         new_rels = [r for r in relationships if not r.get('_is_duplicate')]
         dup_rels = [r for r in relationships if r.get('_is_duplicate')]
