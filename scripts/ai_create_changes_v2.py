@@ -89,13 +89,16 @@ def action_create_structure(action: dict, context: dict) -> bool:
     name = action.get('name')
     struct_id = action.get('id')
     parent_name = action.get('parent_name')
+    parent_id = action.get('parent_id')  # Check if ID is provided
     definition = action.get('definition', '')
     target_file = action.get('file')
     
     print(f"  Creating: {name} ({struct_id})")
     
-    # Find parent ID
-    parent_id = find_structure_id_by_name(parent_name, context)
+    # Find parent ID (use provided ID if available, otherwise look up by name)
+    if not parent_id and parent_name:
+        parent_id = find_structure_id_by_name(parent_name, context)
+    
     if not parent_id and parent_name:
         print(f"    ⚠️  Parent '{parent_name}' not found")
         return False

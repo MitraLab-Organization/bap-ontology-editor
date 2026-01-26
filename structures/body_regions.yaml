@@ -6,7 +6,7 @@ metadata:
 structures:
 - id: BAP_0012000
   name: Body
-  parent: null
+  parent:
   definition: Root structure for the entire body
 - id: BAP_0000001
   name: Head
@@ -263,6 +263,6 @@ structures:
   name: Tail
   parent: BAP_0000006
 - id: BAP_0000102
-  name: Tongue
+  name: Tongue muscles
   parent: BAP_0012007
   definition: Muscular organ in the mouth

@@ -137,31 +137,31 @@ structures:
   parent: BAP_0012007
 - id: BAP_0000071
   name: Genioglossus
-  parent: BAP_0000102
+  parent: BAP_0021701
   definition: Extrinsic tongue muscle; protrudes and depresses the tongue
 - id: BAP_0000072
   name: Hyoglossus
-  parent: BAP_0000102
+  parent: BAP_0021701
   definition: Extrinsic tongue muscle; depresses and retracts the tongue
 - id: BAP_0000073
   name: Styloglossus
-  parent: BAP_0000102
+  parent: BAP_0021701
   definition: Extrinsic tongue muscle; retracts and elevates the tongue
 - id: BAP_0000101
   name: Palatoglossus
-  parent: BAP_0000102
+  parent: BAP_0021701
 - id: BAP_0000103
   name: Superior longitudinal
-  parent: BAP_0000102
+  parent: BAP_0021702
 - id: BAP_0000104
   name: Inferior longitudinal
-  parent: BAP_0000102
+  parent: BAP_0021702
 - id: BAP_0000105
   name: Transverse
-  parent: BAP_0000102
+  parent: BAP_0021702
 - id: BAP_0000106
   name: Vertical
-  parent: BAP_0000102
+  parent: BAP_0021702
 - id: BAP_0000048
   name: Stylopharyngeus
   parent: BAP_0012007
@@ -289,3 +289,11 @@ structures:
 - id: BAP_0000100
   name: Auricularis superior
   parent: BAP_0012010
+- id: BAP_0021701
+  name: Extrinsic tongue muscles
+  parent: BAP_0000102
+  definition: Tongue muscles that originate outside the tongue
+- id: BAP_0021702
+  name: Intrinsic tongue muscles
+  parent: BAP_0000102
+  definition: Tongue muscles that originate within the tongue
