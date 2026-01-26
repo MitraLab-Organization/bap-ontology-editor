@@ -1,28 +1,70 @@
 # Change History
 
-**Last Updated:** 2026-01-26 15:18:18 UTC
+**Last Updated:** 2026-01-26 17:44:28 UTC
 
-**Period:** Last 11 commits
+**Period:** Last 15 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 11 |
+| **Total Commits** | 15 |
 | **Active Contributors** | 2 |
-| Structure Changes | 7 |
-| Other Changes | 3 |
+| Structure Changes | 9 |
+| Other Changes | 5 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 8 commit(s)
+- **Ken**: 12 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
 
 
-### 2026-01-26 (3 commits)
+### 2026-01-26 (7 commits)
+
+#### 📦 feat: complete lateralization of leaf structures and relationships
+
+*By Ken at 17:40 · [`5054fc5`](../../commit/5054fc58b0dc1156b0f4e47773d1331a87384da2)*
+
+- ✏️ Modified 7 file(s)
+
+**Files changed:**
+- `relationships/blood_supply.yaml`
+- `relationships/innervation.yaml`
+- `structures/body_regions.yaml`
+- `structures/muscles.yaml`
+- `structures/nerves.yaml`
+- *...and 2 more*
+
+#### 📝 feat: rename Nasal sinuses to Paranasal sinuses
+
+*By Ken at 15:27 · [`9daf106`](../../commit/9daf106830935ff0b0fcaf4604698ba1c86aab97)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+
+#### 📦 feat: reorganize inner ear structures and rename tympanic membrane
+
+*By Ken at 15:24 · [`417610f`](../../commit/417610f2324009b15ade434ccf3dd19913a1fa84)*
+
+- ✏️ Modified 2 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/skeletal.yaml`
+
+#### 📝 feat: move mandible and maxilla to Jaw apparatus group
+
+*By Ken at 15:19 · [`3c4722b`](../../commit/3c4722b1cc350106a8fd25f686aa9215e3712a64)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/skeletal.yaml`
 
 #### 📦 feat: reorganize pharyngeal structures into muscle and skeletal groups
 
