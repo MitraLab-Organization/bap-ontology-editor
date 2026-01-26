@@ -52,7 +52,7 @@ structures:
 
 - id: BAP_0000118
   name: mandible
-  parent: BAP_0000139
+  parent: BAP_0000007
 
 - id: BAP_0000119
   name: zygomatic
@@ -64,7 +64,7 @@ structures:
 
 - id: BAP_0000121
   name: maxilla
-  parent: BAP_0000139
+  parent: BAP_0000007
 
 - id: BAP_0000124
   name: premaxilla

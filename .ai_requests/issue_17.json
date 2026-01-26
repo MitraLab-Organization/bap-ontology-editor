@@ -1,0 +1,20 @@
+{
+  "understood": "Reorganization with 2 actions",
+  "actions": [
+    {
+      "type": "move_structure",
+      "structure_name": "mandible",
+      "structure_id": "BAP_0000118",
+      "new_parent_name": "Jaw apparatus",
+      "new_parent_id": "BAP_0000007"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "maxilla",
+      "structure_id": "BAP_0000121",
+      "new_parent_name": "Jaw apparatus",
+      "new_parent_id": "BAP_0000007"
+    }
+  ],
+  "warnings": []
+}
