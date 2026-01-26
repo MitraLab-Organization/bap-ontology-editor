@@ -1,0 +1,85 @@
+{
+  "understood": "Reorganization with 11 actions",
+  "actions": [
+    {
+      "type": "create_structure",
+      "name": "Pharyngeal muscles",
+      "id": "BAP_0021705",
+      "parent_name": "Neck muscles",
+      "parent_id": "BAP_0021101",
+      "definition": "Pharyngeal muscles"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Constrictor pharyngis inferior",
+      "structure_id": "BAP_0000058",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Constrictor pharyngis medius",
+      "structure_id": "BAP_0000057",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Constrictor pharyngis superior",
+      "structure_id": "BAP_0000056",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Levator veli palatini",
+      "structure_id": "BAP_0000063",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Palatopharyngeus",
+      "structure_id": "BAP_0000061",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Pterygopharyngeus",
+      "structure_id": "BAP_0000060",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Salpingopharyngeus",
+      "structure_id": "BAP_0000064",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "Tensor veli palatini",
+      "structure_id": "BAP_0000023",
+      "new_parent_name": "Pharyngeal muscles",
+      "new_parent_id": "BAP_0021705"
+    },
+    {
+      "type": "create_structure",
+      "name": "Pharyngeal skeleton",
+      "id": "BAP_0021706",
+      "parent_name": "Neck Skeletal System",
+      "parent_id": "BAP_0021102",
+      "definition": "Pharyngeal skeleton"
+    },
+    {
+      "type": "move_structure",
+      "structure_name": "hyoid bone",
+      "structure_id": "BAP_0000126",
+      "new_parent_name": "Pharyngeal skeleton",
+      "new_parent_id": "BAP_0021706"
+    }
+  ],
+  "warnings": []
+}

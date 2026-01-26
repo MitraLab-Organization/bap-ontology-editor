@@ -270,3 +270,7 @@ structures:
   name: Laryngeal skeletal system
   parent: BAP_0021102
   definition: Laryngeal skeletal system
+- id: BAP_0021706
+  name: Pharyngeal skeleton
+  parent: BAP_0021102
+  definition: Pharyngeal skeleton

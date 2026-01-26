@@ -48,7 +48,7 @@ structures:
   definition: Depress mandible
 - id: BAP_0000023
   name: Tensor veli palatini
-  parent: BAP_0000079
+  parent: BAP_0021705
   definition: Tenses soft palate
 - id: BAP_0000024
   name: Stylohyoideus
@@ -170,25 +170,25 @@ structures:
   parent: BAP_0012007
 - id: BAP_0000056
   name: Constrictor pharyngis superior
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000057
   name: Constrictor pharyngis medius
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000058
   name: Constrictor pharyngis inferior
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000060
   name: Pterygopharyngeus
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000061
   name: Palatopharyngeus
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000063
   name: Levator veli palatini
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000064
   name: Salpingopharyngeus
-  parent: BAP_0000079
+  parent: BAP_0021705
 - id: BAP_0000083
   name: Esophagus
   parent: BAP_0000079
@@ -301,3 +301,7 @@ structures:
   name: Laryngeal muscles
   parent: BAP_0021101
   definition: Laryngeal muscles
+- id: BAP_0021705
+  name: Pharyngeal muscles
+  parent: BAP_0021101
+  definition: Pharyngeal muscles
