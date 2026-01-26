@@ -373,11 +373,11 @@ def generate_mermaid_blood_supply(structures: Dict[str, dict], relationships: Di
     ]
     
     for artery, supplied in sorted(by_artery.items()):
-        artery_id = artery.replace(' ', '_').replace('-', '_')
+        artery_id = artery.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
         lines.append(f"    {artery_id}([{artery}])")
         
         for struct in sorted(supplied)[:6]:
-            struct_id = struct.replace(' ', '_').replace('-', '_')
+            struct_id = struct.replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '')
             lines.append(f"    {artery_id} -.->|supplies| {struct_id}[{struct}]")
     
     lines.append("```")
