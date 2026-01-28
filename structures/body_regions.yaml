@@ -23,11 +23,11 @@ structures:
   parent: BAP_0012000
   definition: Central body region containing thorax, abdomen, and pelvis
 - id: BAP_0020001
-  name: Musculoskeletal system
+  name: Head musculoskeletal system
   parent: BAP_0000001
   definition: Musculoskeletal structures of the head including muscles and cranium
 - id: BAP_0020002
-  name: Nervous system
+  name: Head nervous system
   parent: BAP_0000001
   definition: Neural structures of the head
 - id: BAP_0020003
@@ -39,11 +39,11 @@ structures:
   parent: BAP_0000001
   definition: Blood vessels and lymphatics of the head
 - id: BAP_0020005
-  name: Endocrine and exocrine system
+  name: Head endocrine and exocrine system
   parent: BAP_0000001
   definition: Glandular structures of the head
 - id: BAP_0020006
-  name: Cavities and passages
+  name: Head cavities and passages
   parent: BAP_0000001
   definition: Anatomical spaces and passages of the head
 - id: BAP_0020007
@@ -79,7 +79,7 @@ structures:
   parent: BAP_0020101
   definition: Facial skeleton bones
 - id: BAP_0020201
-  name: Peripheral nervous system
+  name: Head peripheral nervous system
   parent: BAP_0020002
   definition: Peripheral nerves of the head
 - id: BAP_0012006
@@ -87,7 +87,7 @@ structures:
   parent: BAP_0020201
   definition: Group of nerves emerging directly from the brain
 - id: BAP_0020202
-  name: Central nervous system
+  name: Head central nervous system
   parent: BAP_0020002
   definition: Central nervous system structures in the head
 - id: BAP_0012004
@@ -119,11 +119,11 @@ structures:
   parent: BAP_0000139
   definition: Jaw structures
 - id: BAP_0021001
-  name: Musculoskeletal system
+  name: Neck musculoskeletal system
   parent: BAP_0000002
   definition: Musculoskeletal structures of the neck
 - id: BAP_0021002
-  name: Nervous system
+  name: Neck nervous system
   parent: BAP_0000002
   definition: Neural structures of the neck
 - id: BAP_0021003
@@ -131,11 +131,11 @@ structures:
   parent: BAP_0000002
   definition: Blood vessels and lymphatics of the neck
 - id: BAP_0021004
-  name: Endocrine and exocrine system
+  name: Neck endocrine and exocrine system
   parent: BAP_0000002
   definition: Glandular structures of the neck
 - id: BAP_0021005
-  name: Cavities and passages
+  name: Neck cavities and passages
   parent: BAP_0000002
   definition: Anatomical passages of the neck
 - id: BAP_0021006
@@ -151,11 +151,11 @@ structures:
   parent: BAP_0021001
   definition: Skeletal structures of the neck
 - id: BAP_0021201
-  name: Peripheral nervous system
+  name: Neck peripheral nervous system
   parent: BAP_0021002
   definition: Peripheral nerves of the neck
 - id: BAP_0021203
-  name: Central nervous system
+  name: Neck central nervous system
   parent: BAP_0021002
   definition: Central nervous system structures in the neck
 - id: BAP_0012005
