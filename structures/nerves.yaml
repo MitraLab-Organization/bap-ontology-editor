@@ -14,86 +14,96 @@ structures:
 - id: BAP_0021732
   name: Cervical nerves (L)
   parent: BAP_0021201
-  definition: Spinal nerves of the cervical region
+  definition: Left spinal nerves of the cervical region
 - id: BAP_0021733
   name: Cervical nerves (R)
   parent: BAP_0021201
-  definition: Spinal nerves of the cervical region
+  definition: Right spinal nerves of the cervical region
 - id: BAP_0021960
   name: Terminal nerve (L)
   parent: BAP_0012006
-  definition: Cranial nerve zero, associated with pheromone detection
+  definition: Left cranial nerve zero, associated with pheromone detection
 - id: BAP_0021961
   name: Terminal nerve (R)
   parent: BAP_0012006
-  definition: Cranial nerve zero, associated with pheromone detection
+  definition: Right cranial nerve zero, associated with pheromone detection
 - id: BAP_0021962
   name: Olfactory nerve (L)
   parent: BAP_0012006
-  definition: First cranial nerve, sensory for smell
+  definition: Left first cranial nerve, sensory for smell
 - id: BAP_0021963
   name: Olfactory nerve (R)
   parent: BAP_0012006
-  definition: First cranial nerve, sensory for smell
+  definition: Right first cranial nerve, sensory for smell
 - id: BAP_0021964
   name: Optic nerve (L)
   parent: BAP_0012006
-  definition: Second cranial nerve, sensory for vision
+  definition: Left second cranial nerve, sensory for vision
 - id: BAP_0021965
   name: Optic nerve (R)
   parent: BAP_0012006
-  definition: Second cranial nerve, sensory for vision
+  definition: Right second cranial nerve, sensory for vision
 - id: BAP_0021966
   name: Oculomotor nerve (L)
   parent: BAP_0012006
-  definition: Third cranial nerve, motor for eye movement
+  definition: Left third cranial nerve, motor for eye movement
 - id: BAP_0021967
   name: Oculomotor nerve (R)
   parent: BAP_0012006
-  definition: Third cranial nerve, motor for eye movement
+  definition: Right third cranial nerve, motor for eye movement
 - id: BAP_0021970
   name: Trigeminal nerve (L)
   parent: BAP_0012006
+  definition: Left fifth cranial nerve, sensory and motor for face
 - id: BAP_0021971
   name: Trigeminal nerve (R)
   parent: BAP_0012006
+  definition: Right fifth cranial nerve, sensory and motor for face
 - id: BAP_0021974
   name: Facial nerve (L)
   parent: BAP_0012006
+  definition: Left seventh cranial nerve, motor for facial expression
 - id: BAP_0021975
   name: Facial nerve (R)
   parent: BAP_0012006
+  definition: Right seventh cranial nerve, motor for facial expression
 - id: BAP_0021976
   name: Vestibulocochlear nerve (L)
   parent: BAP_0012006
-  definition: Eighth cranial nerve, sensory for hearing and balance
+  definition: Left eighth cranial nerve, sensory for hearing and balance
 - id: BAP_0021977
   name: Vestibulocochlear nerve (R)
   parent: BAP_0012006
-  definition: Eighth cranial nerve, sensory for hearing and balance
+  definition: Right eighth cranial nerve, sensory for hearing and balance
 - id: BAP_0021978
   name: Glossopharyngeal nerve (L)
   parent: BAP_0012006
+  definition: Left ninth cranial nerve, sensory and motor for pharynx and tongue
 - id: BAP_0021979
   name: Glossopharyngeal nerve (R)
   parent: BAP_0012006
+  definition: Right ninth cranial nerve, sensory and motor for pharynx and tongue
 - id: BAP_0021980
   name: Vagus nerve (L)
   parent: BAP_0012006
-  definition: Tenth cranial nerve, mixed nerve for visceral functions
+  definition: Left tenth cranial nerve, mixed nerve for visceral functions
 - id: BAP_0021981
   name: Vagus nerve (R)
   parent: BAP_0012006
-  definition: Tenth cranial nerve, mixed nerve for visceral functions
+  definition: Right tenth cranial nerve, mixed nerve for visceral functions
 - id: BAP_0021982
   name: Accessory nerve (L)
   parent: BAP_0012006
+  definition: Left eleventh cranial nerve, motor for neck and shoulder muscles
 - id: BAP_0021983
   name: Accessory nerve (R)
   parent: BAP_0012006
+  definition: Right eleventh cranial nerve, motor for neck and shoulder muscles
 - id: BAP_0021984
   name: Hypoglossal nerve (L)
   parent: BAP_0012006
+  definition: Left twelfth cranial nerve, motor for tongue muscles
 - id: BAP_0021985
   name: Hypoglossal nerve (R)
   parent: BAP_0012006
+  definition: Right twelfth cranial nerve, motor for tongue muscles

@@ -46,188 +46,208 @@ structures:
 - id: BAP_0021804
   name: Zygomaticomandibularis (L)
   parent: BAP_0000015
-  definition: Accessory masticatory muscle; assists in jaw elevation
+  definition: Left accessory masticatory muscle; assists in jaw elevation
 - id: BAP_0021805
   name: Zygomaticomandibularis (R)
   parent: BAP_0000015
-  definition: Accessory masticatory muscle; assists in jaw elevation
+  definition: Right accessory masticatory muscle; assists in jaw elevation
 - id: BAP_0021810
   name: Pterygoideus lateralis (L)
   parent: BAP_0012007
-  definition: Muscle of mastication; protrudes mandible and assists lateral movement
+  definition: Left muscle of mastication; protrudes mandible and assists lateral movement
 - id: BAP_0021811
   name: Pterygoideus lateralis (R)
   parent: BAP_0012007
-  definition: Muscle of mastication; protrudes mandible and assists lateral movement
+  definition: Right muscle of mastication; protrudes mandible and assists lateral movement
 - id: BAP_0021812
   name: Pterygoideus medialis (L)
   parent: BAP_0012007
-  definition: Muscle of mastication; elevates mandible and assists grinding motion
+  definition: Left muscle of mastication; elevates mandible and assists grinding motion
 - id: BAP_0021813
   name: Pterygoideus medialis (R)
   parent: BAP_0012007
-  definition: Muscle of mastication; elevates mandible and assists grinding motion
+  definition: Right muscle of mastication; elevates mandible and assists grinding motion
 - id: BAP_0021818
   name: Tensor veli palatini (L)
   parent: BAP_0021705
-  definition: Tenses soft palate
+  definition: Left muscle that tenses the soft palate
 - id: BAP_0021819
   name: Tensor veli palatini (R)
   parent: BAP_0021705
-  definition: Tenses soft palate
+  definition: Right muscle that tenses the soft palate
 - id: BAP_0021820
   name: Stylohyoideus (L)
   parent: BAP_0012007
-  definition: Suprahyoid muscle; elevates and retracts the hyoid bone
+  definition: Left suprahyoid muscle; elevates and retracts the hyoid bone
 - id: BAP_0021821
   name: Stylohyoideus (R)
   parent: BAP_0012007
-  definition: Suprahyoid muscle; elevates and retracts the hyoid bone
+  definition: Right suprahyoid muscle; elevates and retracts the hyoid bone
 - id: BAP_0021822
   name: Digastricus posterior (L)
   parent: BAP_0012007
-  definition: Suprahyoid muscle; elevates hyoid bone and assists jaw opening
+  definition: Left suprahyoid muscle; elevates hyoid bone and assists jaw opening
 - id: BAP_0021823
   name: Digastricus posterior (R)
   parent: BAP_0012007
-  definition: Suprahyoid muscle; elevates hyoid bone and assists jaw opening
+  definition: Right suprahyoid muscle; elevates hyoid bone and assists jaw opening
 - id: BAP_0021826
   name: Tensor tympani (L)
   parent: BAP_0012009
-  definition: Muscle that tenses the tympanic membrane
+  definition: Left muscle that tenses the tympanic membrane
 - id: BAP_0021827
   name: Tensor tympani (R)
   parent: BAP_0012009
-  definition: Muscle that tenses the tympanic membrane
+  definition: Right muscle that tenses the tympanic membrane
 - id: BAP_0021828
   name: Platysma cervicale (L)
   parent: BAP_0012007
-  definition: Superficial cervical muscle; tenses skin of the anterior neck
+  definition: Left superficial cervical muscle; tenses skin of the anterior neck
 - id: BAP_0021829
   name: Platysma cervicale (R)
   parent: BAP_0012007
-  definition: Superficial cervical muscle; tenses skin of the anterior neck
+  definition: Right superficial cervical muscle; tenses skin of the anterior neck
 - id: BAP_0021830
   name: Platysma myoides (L)
   parent: BAP_0012007
-  definition: Superficial facial muscle; tenses skin of the lower face and neck
+  definition: Left superficial facial muscle; tenses skin of the lower face and neck
 - id: BAP_0021831
   name: Platysma myoides (R)
   parent: BAP_0012007
-  definition: Superficial facial muscle; tenses skin of the lower face and neck
+  definition: Right superficial facial muscle; tenses skin of the lower face and neck
 - id: BAP_0021850
   name: Levator labii superioris alaeque nasi (L)
   parent: BAP_0012007
+  definition: Left facial muscle; elevates upper lip and dilates nostril
 - id: BAP_0021851
   name: Levator labii superioris alaeque nasi (R)
   parent: BAP_0012007
+  definition: Right facial muscle; elevates upper lip and dilates nostril
 - id: BAP_0021852
   name: Levator labii superioris (L)
   parent: BAP_0012007
+  definition: Left facial muscle; elevates the upper lip
 - id: BAP_0021853
   name: Levator labii superioris (R)
   parent: BAP_0012007
+  definition: Right facial muscle; elevates the upper lip
 - id: BAP_0021864
   name: Levator rhinarii (L)
   parent: BAP_0012007
+  definition: Left facial muscle; elevates the rhinarium (nasal region)
 - id: BAP_0021865
   name: Levator rhinarii (R)
   parent: BAP_0012007
+  definition: Right facial muscle; elevates the rhinarium (nasal region)
 - id: BAP_0021866
   name: Levator anguli oris (L)
   parent: BAP_0012007
+  definition: Left facial muscle; elevates the corner of the mouth
 - id: BAP_0021867
   name: Levator anguli oris (R)
   parent: BAP_0012007
+  definition: Right facial muscle; elevates the corner of the mouth
 - id: BAP_0021870
   name: Genioglossus (L)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; protrudes and depresses the tongue
+  definition: Left extrinsic tongue muscle; protrudes and depresses the tongue
 - id: BAP_0021871
   name: Genioglossus (R)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; protrudes and depresses the tongue
+  definition: Right extrinsic tongue muscle; protrudes and depresses the tongue
 - id: BAP_0021872
   name: Hyoglossus (L)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; depresses and retracts the tongue
+  definition: Left extrinsic tongue muscle; depresses and retracts the tongue
 - id: BAP_0021873
   name: Hyoglossus (R)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; depresses and retracts the tongue
+  definition: Right extrinsic tongue muscle; depresses and retracts the tongue
 - id: BAP_0021874
   name: Styloglossus (L)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; retracts and elevates the tongue
+  definition: Left extrinsic tongue muscle; retracts and elevates the tongue
 - id: BAP_0021875
   name: Styloglossus (R)
   parent: BAP_0021701
-  definition: Extrinsic tongue muscle; retracts and elevates the tongue
+  definition: Right extrinsic tongue muscle; retracts and elevates the tongue
 - id: BAP_0021900
   name: Levator veli palatini (L)
   parent: BAP_0021705
+  definition: Left pharyngeal muscle; elevates the soft palate
 - id: BAP_0021901
   name: Levator veli palatini (R)
   parent: BAP_0021705
+  definition: Right pharyngeal muscle; elevates the soft palate
 - id: BAP_0021932
   name: Sternohyoideus (L)
   parent: BAP_0012007
-  definition: Infrahyoid muscle; depresses hyoid bone after swallowing
+  definition: Left infrahyoid muscle; depresses hyoid bone after swallowing
 - id: BAP_0021933
   name: Sternohyoideus (R)
   parent: BAP_0012007
-  definition: Infrahyoid muscle; depresses hyoid bone after swallowing
+  definition: Right infrahyoid muscle; depresses hyoid bone after swallowing
 - id: BAP_0021934
   name: Omohyoideus (L)
   parent: BAP_0021101
-  definition: Infrahyoid muscle; depresses hyoid bone and stabilizes during speech
+  definition: Left infrahyoid muscle; depresses hyoid bone and stabilizes during speech
 - id: BAP_0021935
   name: Omohyoideus (R)
   parent: BAP_0021101
-  definition: Infrahyoid muscle; depresses hyoid bone and stabilizes during speech
+  definition: Right infrahyoid muscle; depresses hyoid bone and stabilizes during speech
 - id: BAP_0021940
   name: levator palpebrae superioris (L)
   parent: BAP_0012008
+  definition: Left extraocular muscle; elevates the upper eyelid
 - id: BAP_0021941
   name: levator palpebrae superioris (R)
   parent: BAP_0012008
+  definition: Right extraocular muscle; elevates the upper eyelid
 - id: BAP_0021944
   name: inferior oblique (L)
   parent: BAP_0012008
+  definition: Left extraocular muscle; rotates eye upward and laterally
 - id: BAP_0021945
   name: inferior oblique (R)
   parent: BAP_0012008
+  definition: Right extraocular muscle; rotates eye upward and laterally
 - id: BAP_0021946
   name: lateral rectus (L)
   parent: BAP_0012008
+  definition: Left extraocular muscle; abducts the eye (moves laterally)
 - id: BAP_0021947
   name: lateral rectus (R)
   parent: BAP_0012008
+  definition: Right extraocular muscle; abducts the eye (moves laterally)
 - id: BAP_0021948
   name: medial rectus (L)
   parent: BAP_0012008
+  definition: Left extraocular muscle; adducts the eye (moves medially)
 - id: BAP_0021949
   name: medial rectus (R)
   parent: BAP_0012008
+  definition: Right extraocular muscle; adducts the eye (moves medially)
 - id: BAP_0021950
   name: superior rectus (L)
   parent: BAP_0012008
+  definition: Left extraocular muscle; elevates and adducts the eye
 - id: BAP_0021951
   name: superior rectus (R)
   parent: BAP_0012008
+  definition: Right extraocular muscle; elevates and adducts the eye
 - id: BAP_0021968
   name: Trochlear nerve (L)
   parent: BAP_0012006
-  definition: Fourth cranial nerve, motor for superior oblique muscle
+  definition: Left fourth cranial nerve, motor for superior oblique muscle
 - id: BAP_0021969
   name: Trochlear nerve (R)
   parent: BAP_0012006
-  definition: Fourth cranial nerve, motor for superior oblique muscle
+  definition: Right fourth cranial nerve, motor for superior oblique muscle
 - id: BAP_0021972
   name: Abducens nerve (L)
   parent: BAP_0012006
-  definition: Sixth cranial nerve, motor for lateral rectus muscle
+  definition: Left sixth cranial nerve, motor for lateral rectus muscle
 - id: BAP_0021973
   name: Abducens nerve (R)
   parent: BAP_0012006
-  definition: Sixth cranial nerve, motor for lateral rectus muscle
+  definition: Right sixth cranial nerve, motor for lateral rectus muscle

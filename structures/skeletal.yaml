@@ -52,48 +52,56 @@ structures:
 - id: BAP_0021726
   name: Paranasal sinuses (L)
   parent: BAP_0020006
-  definition: Paranasal sinus cavities
+  definition: Left paranasal sinus cavities
 - id: BAP_0021727
   name: Paranasal sinuses (R)
   parent: BAP_0020006
-  definition: Paranasal sinus cavities
+  definition: Right paranasal sinus cavities
 - id: BAP_0021766
   name: maxilla (L)
   parent: BAP_0000007
+  definition: Left upper jaw bone; forms floor of orbit and lateral wall of nasal cavity
 - id: BAP_0021767
   name: maxilla (R)
   parent: BAP_0000007
+  definition: Right upper jaw bone; forms floor of orbit and lateral wall of nasal cavity
 - id: BAP_0021768
   name: premaxilla (L)
   parent: BAP_0000139
+  definition: Left anterior bone of upper jaw; bears upper incisors
 - id: BAP_0021769
   name: premaxilla (R)
   parent: BAP_0000139
+  definition: Right anterior bone of upper jaw; bears upper incisors
 - id: BAP_0021772
   name: nasal (L)
   parent: BAP_0000139
+  definition: Left nasal bone; forms bridge of nose
 - id: BAP_0021773
   name: nasal (R)
   parent: BAP_0000139
+  definition: Right nasal bone; forms bridge of nose
 - id: BAP_0021824
   name: Stapedius (L)
   parent: BAP_0012009
-  definition: Stabelize stapes bone
+  definition: Left muscle that stabilizes stapes bone
 - id: BAP_0021825
   name: Stapedius (R)
   parent: BAP_0012009
-  definition: Stabelize stapes bone
+  definition: Right muscle that stabilizes stapes bone
 - id: BAP_0021858
   name: Nasalis (L)
   parent: BAP_0012007
+  definition: Left nasal muscle; compresses and dilates nostrils
 - id: BAP_0021859
   name: Nasalis (R)
   parent: BAP_0012007
+  definition: Right nasal muscle; compresses and dilates nostrils
 - id: BAP_0021988
   name: Maxillary artery (L)
   parent: BAP_0020401
-  definition: Terminal branch of external carotid, supplies deep face structures
+  definition: Left terminal branch of external carotid, supplies deep face structures
 - id: BAP_0021989
   name: Maxillary artery (R)
   parent: BAP_0020401
-  definition: Terminal branch of external carotid, supplies deep face structures
+  definition: Right terminal branch of external carotid, supplies deep face structures
