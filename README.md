@@ -57,14 +57,26 @@ Body
 │   │   ├── Palatal submucosa (R)
 │   │   ├── Parotid glands (L)
 │   │   └── Parotid glands (R)
-│   ├── Integumentary system
+│   ├── Head integumentary system
 │   │   ├── External ear
 │   │   │   ├── Pinna (L)
 │   │   │   └── Pinna (R)
-│   │   ├── Skin (L)
-│   │   ├── Skin (R)
+│   │   ├── Head skin (L)
+│   │   ├── Head skin (R)
 │   │   ├── Whiskers (L)
 │   │   └── Whiskers (R)
+│   ├── Head vascular system
+│   │   ├── Arteries
+│   │   │   ├── Lingual artery (L)
+│   │   │   ├── Lingual artery (R)
+│   │   │   ├── Maxillary artery (L)
+│   │   │   ├── Maxillary artery (R)
+│   │   │   ├── Temporal artery (L)
+│   │   │   └── Temporal artery (R)
+│   │   ├── Head lymphatics (L)
+│   │   ├── Head lymphatics (R)
+│   │   ├── Head veins (L)
+│   │   └── Head veins (R)
 │   ├── Musculoskeletal system
 │   │   ├── Cranial muscles
 │   │   │   ├── Buccinatorius (L)
@@ -264,29 +276,17 @@ Body
 │   │           ├── Vagus nerve (R)
 │   │           ├── Vestibulocochlear nerve (L)
 │   │           └── Vestibulocochlear nerve (R)
-│   ├── Sense organs
-│   │   ├── Eye (L)
-│   │   ├── Eye (R)
-│   │   ├── Gustatory epithelium (L)
-│   │   ├── Gustatory epithelium (R)
-│   │   ├── Inner ear (L)
-│   │   ├── Inner ear (R)
-│   │   ├── Olfactory epithelium (L)
-│   │   ├── Olfactory epithelium (R)
-│   │   ├── Whisker barrels (L)
-│   │   └── Whisker barrels (R)
-│   └── Vascular system
-│       ├── Arteries
-│       │   ├── Lingual artery (L)
-│       │   ├── Lingual artery (R)
-│       │   ├── Maxillary artery (L)
-│       │   ├── Maxillary artery (R)
-│       │   ├── Temporal artery (L)
-│       │   └── Temporal artery (R)
-│       ├── Lymphatics (L)
-│       ├── Lymphatics (R)
-│       ├── Veins (L)
-│       └── Veins (R)
+│   └── Sense organs
+│       ├── Eye (L)
+│       ├── Eye (R)
+│       ├── Gustatory epithelium (L)
+│       ├── Gustatory epithelium (R)
+│       ├── Inner ear (L)
+│       ├── Inner ear (R)
+│       ├── Olfactory epithelium (L)
+│       ├── Olfactory epithelium (R)
+│       ├── Whisker barrels (L)
+│       └── Whisker barrels (R)
 ├── Neck
 │   ├── Cavities and passages
 │   │   ├── Larynx
@@ -296,9 +296,6 @@ Body
 │   │       └── sternofacialis left (R)
 │   ├── Endocrine and exocrine system
 │   │   └── Thyroid gland
-│   ├── Integumentary system
-│   │   ├── Skin (L)
-│   │   └── Skin (R)
 │   ├── Musculoskeletal system
 │   │   ├── Neck muscles
 │   │   │   ├── Cleidomastoideus (L)
@@ -363,19 +360,22 @@ Body
 │   │       ├── Pharyngeal skeleton
 │   │       │   └── hyoid bone
 │   │       └── cervical vertebra
-│   ├── Nervous system
-│   │   ├── Central nervous system
-│   │   │   └── Spinal Cord
-│   │   └── Peripheral nervous system
-│   │       ├── Cervical nerves (L)
-│   │       └── Cervical nerves (R)
-│   └── Vascular system
-│       ├── Arteries (L)
-│       ├── Arteries (R)
-│       ├── Lymphatics (L)
-│       ├── Lymphatics (R)
-│       ├── Veins (L)
-│       └── Veins (R)
+│   ├── Neck integumentary system
+│   │   ├── Neck skin (L)
+│   │   └── Neck skin (R)
+│   ├── Neck vascular system
+│   │   ├── Neck arteries (L)
+│   │   ├── Neck arteries (R)
+│   │   ├── Neck lymphatics (L)
+│   │   ├── Neck lymphatics (R)
+│   │   ├── Neck veins (L)
+│   │   └── Neck veins (R)
+│   └── Nervous system
+│       ├── Central nervous system
+│       │   └── Spinal Cord
+│       └── Peripheral nervous system
+│           ├── Cervical nerves (L)
+│           └── Cervical nerves (R)
 └── Trunk
     ├── Abdomen (L)
     ├── Abdomen (R)
