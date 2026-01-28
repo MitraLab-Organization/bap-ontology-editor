@@ -35,7 +35,7 @@ structures:
   parent: BAP_0000001
   definition: Sensory organs and structures of the head
 - id: BAP_0020004
-  name: Vascular system
+  name: Head vascular system
   parent: BAP_0000001
   definition: Blood vessels and lymphatics of the head
 - id: BAP_0020005
@@ -47,7 +47,7 @@ structures:
   parent: BAP_0000001
   definition: Anatomical spaces and passages of the head
 - id: BAP_0020007
-  name: Integumentary system
+  name: Head integumentary system
   parent: BAP_0000001
   definition: Skin and external structures of the head
 - id: BAP_0012007
@@ -127,7 +127,7 @@ structures:
   parent: BAP_0000002
   definition: Neural structures of the neck
 - id: BAP_0021003
-  name: Vascular system
+  name: Neck vascular system
   parent: BAP_0000002
   definition: Blood vessels and lymphatics of the neck
 - id: BAP_0021004
@@ -139,7 +139,7 @@ structures:
   parent: BAP_0000002
   definition: Anatomical passages of the neck
 - id: BAP_0021006
-  name: Integumentary system
+  name: Neck integumentary system
   parent: BAP_0000002
   definition: Skin of the neck
 - id: BAP_0021101
@@ -240,11 +240,11 @@ structures:
   parent: BAP_0020003
   definition: Right sensory epithelium for taste
 - id: BAP_0021720
-  name: Lymphatics (L)
+  name: Head lymphatics (L)
   parent: BAP_0020004
   definition: Left lymphatic structures of the head
 - id: BAP_0021721
-  name: Lymphatics (R)
+  name: Head lymphatics (R)
   parent: BAP_0020004
   definition: Right lymphatic structures of the head
 - id: BAP_0021722
@@ -264,11 +264,11 @@ structures:
   parent: BAP_0020005
   definition: Right submucosal glandular tissue of the palate
 - id: BAP_0021728
-  name: Skin (L)
+  name: Head skin (L)
   parent: BAP_0020007
   definition: Left skin covering the head
 - id: BAP_0021729
-  name: Skin (R)
+  name: Head skin (R)
   parent: BAP_0020007
   definition: Right skin covering the head
 - id: BAP_0021730
@@ -280,27 +280,27 @@ structures:
   parent: BAP_0020007
   definition: Right vibrissae - tactile hairs
 - id: BAP_0021734
-  name: Arteries (L)
+  name: Neck arteries (L)
   parent: BAP_0021003
   definition: Left arterial blood supply to the neck
 - id: BAP_0021735
-  name: Arteries (R)
+  name: Neck arteries (R)
   parent: BAP_0021003
   definition: Right arterial blood supply to the neck
 - id: BAP_0021738
-  name: Lymphatics (L)
+  name: Neck lymphatics (L)
   parent: BAP_0021003
   definition: Left lymphatic structures of the neck
 - id: BAP_0021739
-  name: Lymphatics (R)
+  name: Neck lymphatics (R)
   parent: BAP_0021003
   definition: Right lymphatic structures of the neck
 - id: BAP_0021740
-  name: Skin (L)
+  name: Neck skin (L)
   parent: BAP_0021006
   definition: Left skin covering the neck
 - id: BAP_0021741
-  name: Skin (R)
+  name: Neck skin (R)
   parent: BAP_0021006
   definition: Right skin covering the neck
 - id: BAP_0021742

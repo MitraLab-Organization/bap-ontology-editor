@@ -12,19 +12,19 @@ structures:
   # ARTERIES - Under Head arteries (BAP_0020401)
   # ============================================================================
 - id: BAP_0021718
-  name: Veins (L)
+  name: Head veins (L)
   parent: BAP_0020004
   definition: Left venous drainage of the head
 - id: BAP_0021719
-  name: Veins (R)
+  name: Head veins (R)
   parent: BAP_0020004
   definition: Right venous drainage of the head
 - id: BAP_0021736
-  name: Veins (L)
+  name: Neck veins (L)
   parent: BAP_0021003
   definition: Left venous drainage of the neck
 - id: BAP_0021737
-  name: Veins (R)
+  name: Neck veins (R)
   parent: BAP_0021003
   definition: Right venous drainage of the neck
 - id: BAP_0021986
