@@ -1,13 +1,13 @@
 # Relationship Networks
 
-**Total Relationships:** 75
+**Total Relationships:** 89
 
 This page documents all cross-structure relationships in the ontology.
 
 ## Relationships by Type
 
 
-### Innervated By (68 relationships)
+### Innervated By (78 relationships)
 
 | Subject | → | Object | Confidence | Source |
 |---------|---|--------|------------|--------|
@@ -41,6 +41,8 @@ This page documents all cross-structure relationships in the ontology.
 | Levator rhinarii (R) | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
 | Mandibuloauricularis (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
 | Mandibuloauricularis (R) | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
+| Masseter | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
+| Masseter | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
 | Mylohyoideus (L) | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
 | Mylohyoideus (R) | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
 | Nasalis (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
@@ -49,6 +51,8 @@ This page documents all cross-structure relationships in the ontology.
 | Occipitalis (R) | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
 | Orbicularis oculi (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
 | Orbicularis oculi (R) | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
+| Orbicularis oris | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
+| Orbicularis oris | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
 | Orbito-temporo-auricularis (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
 | Orbito-temporo-auricularis (R) | innervated by | Facial nerve (R) | N/A | `innervation.yaml` |
 | Platysma cervicale (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
@@ -71,8 +75,14 @@ This page documents all cross-structure relationships in the ontology.
 | Stylopharyngeus (R) | innervated by | Glossopharyngeal nerve (R) | N/A | `innervation.yaml` |
 | Superficial masseter (L) | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
 | Superficial masseter (R) | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
+| Temporalis | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
+| Temporalis | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
+| Tensor tympani (L) | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
+| Tensor tympani (R) | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
 | Tensor veli palatini (L) | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
 | Tensor veli palatini (R) | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
+| Trapezius | innervated by | Accessory nerve (L) | N/A | `innervation.yaml` |
+| Trapezius | innervated by | Accessory nerve (R) | N/A | `innervation.yaml` |
 | Zygomaticomandibularis (L) | innervated by | Trigeminal nerve (L) | N/A | `innervation.yaml` |
 | Zygomaticomandibularis (R) | innervated by | Trigeminal nerve (R) | N/A | `innervation.yaml` |
 | Zygomaticus major (L) | innervated by | Facial nerve (L) | N/A | `innervation.yaml` |
@@ -88,7 +98,7 @@ This page documents all cross-structure relationships in the ontology.
 | Tongue muscles | part of | Head | N/A | `developmental.yaml` |
 | Tongue muscles | part of | Musculoskeletal system | N/A | `developmental.yaml` |
 
-### Supplied By (4 relationships)
+### Supplied By (8 relationships)
 
 | Subject | → | Object | Confidence | Source |
 |---------|---|--------|------------|--------|
@@ -96,6 +106,10 @@ This page documents all cross-structure relationships in the ontology.
 | Genioglossus (R) | supplied by | Lingual artery (R) | N/A | `blood_supply.yaml` |
 | Hyoglossus (L) | supplied by | Lingual artery (L) | N/A | `blood_supply.yaml` |
 | Hyoglossus (R) | supplied by | Lingual artery (R) | N/A | `blood_supply.yaml` |
+| Masseter | supplied by | Maxillary artery (L) | N/A | `blood_supply.yaml` |
+| Masseter | supplied by | Maxillary artery (R) | N/A | `blood_supply.yaml` |
+| Temporalis | supplied by | Temporal artery (L) | N/A | `blood_supply.yaml` |
+| Temporalis | supplied by | Temporal artery (R) | N/A | `blood_supply.yaml` |
 
 
 ---

@@ -1,28 +1,76 @@
 # Change History
 
-**Last Updated:** 2026-01-26 17:44:28 UTC
+**Last Updated:** 2026-01-28 18:05:15 UTC
 
-**Period:** Last 15 commits
+**Period:** Last 19 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 15 |
+| **Total Commits** | 19 |
 | **Active Contributors** | 2 |
-| Structure Changes | 9 |
+| Structure Changes | 13 |
 | Other Changes | 5 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 12 commit(s)
+- **Ken**: 16 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
 
 
-### 2026-01-26 (7 commits)
+### 2026-01-28 (1 commits)
+
+#### 📦 feat: update lateralized definitions for anatomical structures
+
+*By Ken at 18:04 · [`eacea0d`](../../commit/eacea0d3b786d3678c3e7e262f841239f479f38d)*
+
+- ✏️ Modified 5 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/muscles.yaml`
+- `structures/nerves.yaml`
+- `structures/skeletal.yaml`
+- `structures/vessels.yaml`
+
+
+### 2026-01-26 (10 commits)
+
+#### 📦 feat: add Tensor tympani lateralized relationships
+
+*By Ken at 18:06 · [`6eaa8fd`](../../commit/6eaa8fd110b6a4c80b02723d713a857422fcd2c6)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `relationships/innervation.yaml`
+
+#### 📦 feat: add parent structure relationships for non-leaf structures
+
+*By Ken at 18:05 · [`5f5f551`](../../commit/5f5f5516293ea8456c8081783e77563bcb0456e7)*
+
+- ✏️ Modified 2 file(s)
+
+**Files changed:**
+- `relationships/blood_supply.yaml`
+- `relationships/innervation.yaml`
+
+#### 📦 feat: remove lateralized parent structures and promote (L) and (R) children
+
+*By Ken at 17:56 · [`fb179f2`](../../commit/fb179f276633e5d80a8eb64bdc5de3aada8de0e0)*
+
+- ✏️ Modified 5 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/muscles.yaml`
+- `structures/nerves.yaml`
+- `structures/skeletal.yaml`
+- `structures/vessels.yaml`
 
 #### 📦 feat: complete lateralization of leaf structures and relationships
 

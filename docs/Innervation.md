@@ -1,13 +1,25 @@
 # Innervation Map
 
-**Total Innervation Relationships:** 68
+**Total Innervation Relationships:** 78
 
 This page maps all neural innervation relationships between nerves and muscles.
 
 ## By Nerve
 
 
-### Facial nerve (L) (23 targets)
+### Accessory nerve (L) (1 targets)
+
+| Muscle/Structure | Confidence | References | Notes |
+|------------------|------------|------------|-------|
+| Trapezius | N/A | N/A |  |
+
+### Accessory nerve (R) (1 targets)
+
+| Muscle/Structure | Confidence | References | Notes |
+|------------------|------------|------------|-------|
+| Trapezius | N/A | N/A |  |
+
+### Facial nerve (L) (24 targets)
 
 | Muscle/Structure | Confidence | References | Notes |
 |------------------|------------|------------|-------|
@@ -25,6 +37,7 @@ This page maps all neural innervation relationships between nerves and muscles.
 | Nasalis (L) | N/A | N/A |  |
 | Occipitalis (L) | N/A | N/A |  |
 | Orbicularis oculi (L) | N/A | N/A |  |
+| Orbicularis oris | N/A | N/A |  |
 | Orbito-temporo-auricularis (L) | N/A | N/A |  |
 | Platysma cervicale (L) | N/A | N/A |  |
 | Platysma myoides (L) | N/A | N/A |  |
@@ -35,7 +48,7 @@ This page maps all neural innervation relationships between nerves and muscles.
 | Zygomaticus major (L) | N/A | N/A |  |
 | Zygomaticus minor (L) | N/A | N/A |  |
 
-### Facial nerve (R) (23 targets)
+### Facial nerve (R) (24 targets)
 
 | Muscle/Structure | Confidence | References | Notes |
 |------------------|------------|------------|-------|
@@ -53,6 +66,7 @@ This page maps all neural innervation relationships between nerves and muscles.
 | Nasalis (R) | N/A | N/A |  |
 | Occipitalis (R) | N/A | N/A |  |
 | Orbicularis oculi (R) | N/A | N/A |  |
+| Orbicularis oris | N/A | N/A |  |
 | Orbito-temporo-auricularis (R) | N/A | N/A |  |
 | Platysma cervicale (R) | N/A | N/A |  |
 | Platysma myoides (R) | N/A | N/A |  |
@@ -89,29 +103,35 @@ This page maps all neural innervation relationships between nerves and muscles.
 | Genioglossus (R) | N/A | N/A |  |
 | Hyoglossus (R) | N/A | N/A |  |
 
-### Trigeminal nerve (L) (8 targets)
+### Trigeminal nerve (L) (11 targets)
 
 | Muscle/Structure | Confidence | References | Notes |
 |------------------|------------|------------|-------|
 | Deep masseter (L) | N/A | N/A |  |
 | Digastricus anterior (L) | N/A | N/A |  |
+| Masseter | N/A | N/A |  |
 | Mylohyoideus (L) | N/A | N/A |  |
 | Pterygoideus lateralis (L) | N/A | N/A |  |
 | Pterygoideus medialis (L) | N/A | N/A |  |
 | Superficial masseter (L) | N/A | N/A |  |
+| Temporalis | N/A | N/A |  |
+| Tensor tympani (L) | N/A | N/A |  |
 | Tensor veli palatini (L) | N/A | N/A |  |
 | Zygomaticomandibularis (L) | N/A | N/A |  |
 
-### Trigeminal nerve (R) (8 targets)
+### Trigeminal nerve (R) (11 targets)
 
 | Muscle/Structure | Confidence | References | Notes |
 |------------------|------------|------------|-------|
 | Deep masseter (R) | N/A | N/A |  |
 | Digastricus anterior (R) | N/A | N/A |  |
+| Masseter | N/A | N/A |  |
 | Mylohyoideus (R) | N/A | N/A |  |
 | Pterygoideus lateralis (R) | N/A | N/A |  |
 | Pterygoideus medialis (R) | N/A | N/A |  |
 | Superficial masseter (R) | N/A | N/A |  |
+| Temporalis | N/A | N/A |  |
+| Tensor tympani (R) | N/A | N/A |  |
 | Tensor veli palatini (R) | N/A | N/A |  |
 | Zygomaticomandibularis (R) | N/A | N/A |  |
 
@@ -120,6 +140,10 @@ This page maps all neural innervation relationships between nerves and muscles.
 
 ```mermaid
 graph LR
+    Accessory_nerve_L[Accessory nerve (L)]
+    Accessory_nerve_L -->|innervates| Trapezius[Trapezius]
+    Accessory_nerve_R[Accessory nerve (R)]
+    Accessory_nerve_R -->|innervates| Trapezius[Trapezius]
     Facial_nerve_L[Facial nerve (L)]
     Facial_nerve_L -->|innervates| Buccinatorius_L[Buccinatorius (L)]
     Facial_nerve_L -->|innervates| Depressor_rhinarii_L[Depressor rhinarii (L)]
@@ -129,7 +153,7 @@ graph LR
     Facial_nerve_L -->|innervates| Interscutularis_L[Interscutularis (L)]
     Facial_nerve_L -->|innervates| Levator_anguli_oris_L[Levator anguli oris (L)]
     Facial_nerve_L -->|innervates| Levator_labii_superioris_L[Levator labii superioris (L)]
-    Facial_nerve_L --> more_Facial_nerve_L[+15 more]
+    Facial_nerve_L --> more_Facial_nerve_L[+16 more]
     Facial_nerve_R[Facial nerve (R)]
     Facial_nerve_R -->|innervates| Buccinatorius_R[Buccinatorius (R)]
     Facial_nerve_R -->|innervates| Depressor_rhinarii_R[Depressor rhinarii (R)]
@@ -139,7 +163,7 @@ graph LR
     Facial_nerve_R -->|innervates| Interscutularis_R[Interscutularis (R)]
     Facial_nerve_R -->|innervates| Levator_anguli_oris_R[Levator anguli oris (R)]
     Facial_nerve_R -->|innervates| Levator_labii_superioris_R[Levator labii superioris (R)]
-    Facial_nerve_R --> more_Facial_nerve_R[+15 more]
+    Facial_nerve_R --> more_Facial_nerve_R[+16 more]
     Glossopharyngeal_nerve_L[Glossopharyngeal nerve (L)]
     Glossopharyngeal_nerve_L -->|innervates| Stylopharyngeus_L[Stylopharyngeus (L)]
     Glossopharyngeal_nerve_R[Glossopharyngeal nerve (R)]
@@ -153,21 +177,23 @@ graph LR
     Trigeminal_nerve_L[Trigeminal nerve (L)]
     Trigeminal_nerve_L -->|innervates| Deep_masseter_L[Deep masseter (L)]
     Trigeminal_nerve_L -->|innervates| Digastricus_anterior_L[Digastricus anterior (L)]
+    Trigeminal_nerve_L -->|innervates| Masseter[Masseter]
     Trigeminal_nerve_L -->|innervates| Mylohyoideus_L[Mylohyoideus (L)]
     Trigeminal_nerve_L -->|innervates| Pterygoideus_lateralis_L[Pterygoideus lateralis (L)]
     Trigeminal_nerve_L -->|innervates| Pterygoideus_medialis_L[Pterygoideus medialis (L)]
     Trigeminal_nerve_L -->|innervates| Superficial_masseter_L[Superficial masseter (L)]
-    Trigeminal_nerve_L -->|innervates| Tensor_veli_palatini_L[Tensor veli palatini (L)]
-    Trigeminal_nerve_L -->|innervates| Zygomaticomandibularis_L[Zygomaticomandibularis (L)]
+    Trigeminal_nerve_L -->|innervates| Temporalis[Temporalis]
+    Trigeminal_nerve_L --> more_Trigeminal_nerve_L[+3 more]
     Trigeminal_nerve_R[Trigeminal nerve (R)]
     Trigeminal_nerve_R -->|innervates| Deep_masseter_R[Deep masseter (R)]
     Trigeminal_nerve_R -->|innervates| Digastricus_anterior_R[Digastricus anterior (R)]
+    Trigeminal_nerve_R -->|innervates| Masseter[Masseter]
     Trigeminal_nerve_R -->|innervates| Mylohyoideus_R[Mylohyoideus (R)]
     Trigeminal_nerve_R -->|innervates| Pterygoideus_lateralis_R[Pterygoideus lateralis (R)]
     Trigeminal_nerve_R -->|innervates| Pterygoideus_medialis_R[Pterygoideus medialis (R)]
     Trigeminal_nerve_R -->|innervates| Superficial_masseter_R[Superficial masseter (R)]
-    Trigeminal_nerve_R -->|innervates| Tensor_veli_palatini_R[Tensor veli palatini (R)]
-    Trigeminal_nerve_R -->|innervates| Zygomaticomandibularis_R[Zygomaticomandibularis (R)]
+    Trigeminal_nerve_R -->|innervates| Temporalis[Temporalis]
+    Trigeminal_nerve_R --> more_Trigeminal_nerve_R[+3 more]
 ```
 
 

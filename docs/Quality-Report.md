@@ -1,13 +1,13 @@
 # Quality Report
 
-**Generated:** 2026-01-26 17:44:28 UTC
+**Generated:** 2026-01-28 18:05:15 UTC
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| ✅ **Structures Validated** | 395 |
-| ✅ **Relationships Validated** | 75 |
+| ✅ **Structures Validated** | 353 |
+| ✅ **Relationships Validated** | 89 |
 | ⚠️ **Warnings** | 2 |
 | ❌ **Issues** | 0 |
 
@@ -17,33 +17,28 @@
 
 ## Warnings
 
-- ⚠️ 220 structures missing definitions
+- ⚠️ 17 structures missing definitions
 - ⚠️ 14 duplicate structure names found
 
-### Structures Missing Definitions (220)
+### Structures Missing Definitions (17)
 
 - `BAP_0000002`: Neck
 - `BAP_0000006`: Appendages
 - `BAP_0000003`: Thorax
 - `BAP_0000004`: Forelimb
 - `BAP_0000011`: Tail
-- `BAP_0021746`: Hindlimb (L)
-- `BAP_0021747`: Hindlimb (R)
-- `BAP_0021748`: parietal (L)
-- `BAP_0021749`: parietal (R)
-- `BAP_0021750`: interparietal (L)
-- `BAP_0021751`: interparietal (R)
-- `BAP_0021752`: basisphenoid (L)
-- `BAP_0021753`: basisphenoid (R)
-- `BAP_0021754`: ethmoid (L)
-- `BAP_0021755`: ethmoid (R)
-- `BAP_0021756`: presphenoid (L)
-- `BAP_0021757`: presphenoid (R)
-- `BAP_0021758`: squamosal (L)
-- `BAP_0021759`: squamosal (R)
-- `BAP_0021760`: mandible (L)
-
-*...and 200 more*
+- `BAP_0000047`: Orbicularis oris
+- `BAP_0000083`: Esophagus
+- `BAP_0000050`: Trapezius
+- `BAP_0000086`: superior oblique muscle
+- `BAP_0000087`: superior oblique tendon
+- `BAP_0000115`: occipital
+- `BAP_0000122`: frontal
+- `BAP_0000111`: sphenoid
+- `BAP_0000137`: vomer
+- `BAP_0000107`: epiglottis
+- `BAP_0000127`: thyroid cartilage
+- `BAP_0000126`: hyoid bone
 
 ### Duplicate Names (14)
 
