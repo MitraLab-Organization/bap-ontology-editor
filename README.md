@@ -42,7 +42,7 @@ Body
 │   ├── Hindlimb (R)
 │   └── Tail
 ├── Head
-│   ├── Cavities and passages
+│   ├── Head cavities and passages
 │   │   ├── Ear Cavities
 │   │   │   ├── external acoustic meatus (L)
 │   │   │   ├── external acoustic meatus (R)
@@ -52,7 +52,7 @@ Body
 │   │   ├── Oral cavity
 │   │   ├── Paranasal sinuses (L)
 │   │   └── Paranasal sinuses (R)
-│   ├── Endocrine and exocrine system
+│   ├── Head endocrine and exocrine system
 │   │   ├── Palatal submucosa (L)
 │   │   ├── Palatal submucosa (R)
 │   │   ├── Parotid glands (L)
@@ -65,19 +65,7 @@ Body
 │   │   ├── Head skin (R)
 │   │   ├── Whiskers (L)
 │   │   └── Whiskers (R)
-│   ├── Head vascular system
-│   │   ├── Arteries
-│   │   │   ├── Lingual artery (L)
-│   │   │   ├── Lingual artery (R)
-│   │   │   ├── Maxillary artery (L)
-│   │   │   ├── Maxillary artery (R)
-│   │   │   ├── Temporal artery (L)
-│   │   │   └── Temporal artery (R)
-│   │   ├── Head lymphatics (L)
-│   │   ├── Head lymphatics (R)
-│   │   ├── Head veins (L)
-│   │   └── Head veins (R)
-│   ├── Musculoskeletal system
+│   ├── Head musculoskeletal system
 │   │   ├── Cranial muscles
 │   │   │   ├── Buccinatorius (L)
 │   │   │   ├── Buccinatorius (R)
@@ -245,10 +233,10 @@ Body
 │   │           ├── vomer
 │   │           ├── zygomatic (L)
 │   │           └── zygomatic (R)
-│   ├── Nervous system
-│   │   ├── Central nervous system
+│   ├── Head nervous system
+│   │   ├── Head central nervous system
 │   │   │   └── Brain
-│   │   └── Peripheral nervous system
+│   │   └── Head peripheral nervous system
 │   │       └── Cranial Nerves
 │   │           ├── Abducens nerve (L)
 │   │           ├── Abducens nerve (R)
@@ -276,6 +264,18 @@ Body
 │   │           ├── Vagus nerve (R)
 │   │           ├── Vestibulocochlear nerve (L)
 │   │           └── Vestibulocochlear nerve (R)
+│   ├── Head vascular system
+│   │   ├── Arteries
+│   │   │   ├── Lingual artery (L)
+│   │   │   ├── Lingual artery (R)
+│   │   │   ├── Maxillary artery (L)
+│   │   │   ├── Maxillary artery (R)
+│   │   │   ├── Temporal artery (L)
+│   │   │   └── Temporal artery (R)
+│   │   ├── Head lymphatics (L)
+│   │   ├── Head lymphatics (R)
+│   │   ├── Head veins (L)
+│   │   └── Head veins (R)
 │   └── Sense organs
 │       ├── Eye (L)
 │       ├── Eye (R)
@@ -288,15 +288,18 @@ Body
 │       ├── Whisker barrels (L)
 │       └── Whisker barrels (R)
 ├── Neck
-│   ├── Cavities and passages
+│   ├── Neck cavities and passages
 │   │   ├── Larynx
 │   │   └── Pharynx
 │   │       ├── Esophagus
 │   │       ├── sternofacialis left (L)
 │   │       └── sternofacialis left (R)
-│   ├── Endocrine and exocrine system
+│   ├── Neck endocrine and exocrine system
 │   │   └── Thyroid gland
-│   ├── Musculoskeletal system
+│   ├── Neck integumentary system
+│   │   ├── Neck skin (L)
+│   │   └── Neck skin (R)
+│   ├── Neck musculoskeletal system
 │   │   ├── Neck muscles
 │   │   │   ├── Cleidomastoideus (L)
 │   │   │   ├── Cleidomastoideus (R)
@@ -360,22 +363,19 @@ Body
 │   │       ├── Pharyngeal skeleton
 │   │       │   └── hyoid bone
 │   │       └── cervical vertebra
-│   ├── Neck integumentary system
-│   │   ├── Neck skin (L)
-│   │   └── Neck skin (R)
-│   ├── Neck vascular system
-│   │   ├── Neck arteries (L)
-│   │   ├── Neck arteries (R)
-│   │   ├── Neck lymphatics (L)
-│   │   ├── Neck lymphatics (R)
-│   │   ├── Neck veins (L)
-│   │   └── Neck veins (R)
-│   └── Nervous system
-│       ├── Central nervous system
-│       │   └── Spinal Cord
-│       └── Peripheral nervous system
-│           ├── Cervical nerves (L)
-│           └── Cervical nerves (R)
+│   ├── Neck nervous system
+│   │   ├── Neck central nervous system
+│   │   │   └── Spinal Cord
+│   │   └── Neck peripheral nervous system
+│   │       ├── Cervical nerves (L)
+│   │       └── Cervical nerves (R)
+│   └── Neck vascular system
+│       ├── Neck arteries (L)
+│       ├── Neck arteries (R)
+│       ├── Neck lymphatics (L)
+│       ├── Neck lymphatics (R)
+│       ├── Neck veins (L)
+│       └── Neck veins (R)
 └── Trunk
     ├── Abdomen (L)
     ├── Abdomen (R)
