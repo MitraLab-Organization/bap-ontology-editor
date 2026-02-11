@@ -5,7 +5,7 @@ metadata:
   category: bones
   description: Bones and cartilages of the mouse head and neck
   version: "2.0.0"
-  last_modified: "2026-01-08"
+  last_modified: "2026-02-04"
 
 structures:
   # ============================================================================
@@ -91,11 +91,11 @@ structures:
   definition: Right muscle that stabilizes stapes bone
 - id: BAP_0021858
   name: Nasalis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left nasal muscle; compresses and dilates nostrils
 - id: BAP_0021859
   name: Nasalis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right nasal muscle; compresses and dilates nostrils
 - id: BAP_0021988
   name: Maxillary artery (L)

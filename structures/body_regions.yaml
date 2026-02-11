@@ -62,9 +62,17 @@ structures:
   name: Middle ear muscles
   parent: BAP_0012007
   definition: Muscles of the middle ear controlling ossicle movement
+- id: BAP_0022022
+  name: Muscles of facial expression
+  parent: BAP_0012007
+  definition: Muscles that control facial expression and fine facial movements
+- id: BAP_0022023
+  name: Muscles of mastication
+  parent: BAP_0012007
+  definition: Muscles involved in chewing and jaw movement
 - id: BAP_0012010
   name: External Ear Muscles
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Muscles controlling pinna movement and positioning
 - id: BAP_0020101
   name: Cranium
@@ -637,131 +645,131 @@ structures:
   definition: Right medial portion of temporalis muscle
 - id: BAP_0021814
   name: Mylohyoideus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle that elevates floor of oral cavity
 - id: BAP_0021815
   name: Mylohyoideus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle that elevates floor of oral cavity
 - id: BAP_0021816
   name: Digastricus anterior (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle that depresses mandible
 - id: BAP_0021817
   name: Digastricus anterior (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle that depresses mandible
 - id: BAP_0021832
   name: Occipitalis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle for scalp movement
 - id: BAP_0021833
   name: Occipitalis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle for scalp movement
 - id: BAP_0021834
   name: Mandibuloauricularis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle connecting mandible to ear
 - id: BAP_0021835
   name: Mandibuloauricularis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle connecting mandible to ear
 - id: BAP_0021836
   name: Sphincter colli superficialis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left superficial cervical sphincter muscle
 - id: BAP_0021837
   name: Sphincter colli superficialis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right superficial cervical sphincter muscle
 - id: BAP_0021838
   name: Sphincter colli profundus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left deep cervical sphincter muscle
 - id: BAP_0021839
   name: Sphincter colli profundus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right deep cervical sphincter muscle
 - id: BAP_0021840
   name: Interscutularis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle between scutular regions
 - id: BAP_0021841
   name: Interscutularis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle between scutular regions
 - id: BAP_0021842
   name: Zygomaticus major (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left major zygomatic muscle; elevates corner of mouth
 - id: BAP_0021843
   name: Zygomaticus major (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right major zygomatic muscle; elevates corner of mouth
 - id: BAP_0021844
   name: Zygomaticus minor (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left minor zygomatic muscle; elevates upper lip
 - id: BAP_0021845
   name: Zygomaticus minor (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right minor zygomatic muscle; elevates upper lip
 - id: BAP_0021846
   name: Orbito-temporo-auricularis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle connecting orbit, temporal region, and ear
 - id: BAP_0021847
   name: Orbito-temporo-auricularis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle connecting orbit, temporal region, and ear
 - id: BAP_0021848
   name: Orbicularis oculi (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left circular muscle around eye; closes eyelids
 - id: BAP_0021849
   name: Orbicularis oculi (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right circular muscle around eye; closes eyelids
 - id: BAP_0021854
   name: Buccinatorius (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left cheek muscle; compresses cheek
 - id: BAP_0021855
   name: Buccinatorius (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right cheek muscle; compresses cheek
 - id: BAP_0021856
   name: Dilatator nasi (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left nasal dilator muscle; widens nostril
 - id: BAP_0021857
   name: Dilatator nasi (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right nasal dilator muscle; widens nostril
 - id: BAP_0021860
   name: Depressor septi nasi (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle that depresses nasal septum
 - id: BAP_0021861
   name: Depressor septi nasi (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle that depresses nasal septum
 - id: BAP_0021862
   name: Depressor rhinarii (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle that depresses rhinarium
 - id: BAP_0021863
   name: Depressor rhinarii (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle that depresses rhinarium
 - id: BAP_0021868
   name: Frontalis (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left frontal muscle; raises eyebrows
 - id: BAP_0021869
   name: Frontalis (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right frontal muscle; raises eyebrows
 - id: BAP_0021876
   name: Palatoglossus (L)
@@ -805,19 +813,19 @@ structures:
   definition: Right vertical intrinsic tongue muscle; flattens and broadens tongue
 - id: BAP_0021886
   name: Stylopharyngeus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle that elevates pharynx and larynx
 - id: BAP_0021887
   name: Stylopharyngeus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle that elevates pharynx and larynx
 - id: BAP_0021888
   name: Ceratohyoideus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle of hyoid apparatus
 - id: BAP_0021889
   name: Ceratohyoideus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle of hyoid apparatus
 - id: BAP_0021890
   name: Constrictor pharyngis superior (L)
@@ -973,11 +981,11 @@ structures:
   definition: Right muscle connecting jugular region to hyoid bone
 - id: BAP_0021930
   name: Geniohyoideus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left muscle connecting chin to hyoid bone; elevates hyoid
 - id: BAP_0021931
   name: Geniohyoideus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right muscle connecting chin to hyoid bone; elevates hyoid
 - id: BAP_0021936
   name: Sternothyroideus (L)

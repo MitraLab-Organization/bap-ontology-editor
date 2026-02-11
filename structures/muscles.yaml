@@ -2,19 +2,19 @@ metadata:
   category: muscles
   description: Muscles of the mouse head and neck region
   version: 1.0.0
-  last_modified: '2026-01-08'
+  last_modified: '2026-02-04'
 structures:
 - id: BAP_0000015
   name: Masseter
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Primary muscle of mastication; elevates and protrudes the mandible
 - id: BAP_0000019
   name: Temporalis
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Muscle of mastication; elevates and retracts the mandible
 - id: BAP_0000047
   name: Orbicularis oris
-  parent: BAP_0012007
+  parent: BAP_0022022
 - id: BAP_0000083
   name: Esophagus
   parent: BAP_0000079
@@ -53,19 +53,19 @@ structures:
   definition: Right accessory masticatory muscle; assists in jaw elevation
 - id: BAP_0021810
   name: Pterygoideus lateralis (L)
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Left muscle of mastication; protrudes mandible and assists lateral movement
 - id: BAP_0021811
   name: Pterygoideus lateralis (R)
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Right muscle of mastication; protrudes mandible and assists lateral movement
 - id: BAP_0021812
   name: Pterygoideus medialis (L)
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Left muscle of mastication; elevates mandible and assists grinding motion
 - id: BAP_0021813
   name: Pterygoideus medialis (R)
-  parent: BAP_0012007
+  parent: BAP_0022023
   definition: Right muscle of mastication; elevates mandible and assists grinding motion
 - id: BAP_0021818
   name: Tensor veli palatini (L)
@@ -77,19 +77,19 @@ structures:
   definition: Right muscle that tenses the soft palate
 - id: BAP_0021820
   name: Stylohyoideus (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left suprahyoid muscle; elevates and retracts the hyoid bone
 - id: BAP_0021821
   name: Stylohyoideus (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right suprahyoid muscle; elevates and retracts the hyoid bone
 - id: BAP_0021822
   name: Digastricus posterior (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left suprahyoid muscle; elevates hyoid bone and assists jaw opening
 - id: BAP_0021823
   name: Digastricus posterior (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right suprahyoid muscle; elevates hyoid bone and assists jaw opening
 - id: BAP_0021826
   name: Tensor tympani (L)
@@ -101,51 +101,51 @@ structures:
   definition: Right muscle that tenses the tympanic membrane
 - id: BAP_0021828
   name: Platysma cervicale (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left superficial cervical muscle; tenses skin of the anterior neck
 - id: BAP_0021829
   name: Platysma cervicale (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right superficial cervical muscle; tenses skin of the anterior neck
 - id: BAP_0021830
   name: Platysma myoides (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left superficial facial muscle; tenses skin of the lower face and neck
 - id: BAP_0021831
   name: Platysma myoides (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right superficial facial muscle; tenses skin of the lower face and neck
 - id: BAP_0021850
   name: Levator labii superioris alaeque nasi (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left facial muscle; elevates upper lip and dilates nostril
 - id: BAP_0021851
   name: Levator labii superioris alaeque nasi (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right facial muscle; elevates upper lip and dilates nostril
 - id: BAP_0021852
   name: Levator labii superioris (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left facial muscle; elevates the upper lip
 - id: BAP_0021853
   name: Levator labii superioris (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right facial muscle; elevates the upper lip
 - id: BAP_0021864
   name: Levator rhinarii (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left facial muscle; elevates the rhinarium (nasal region)
 - id: BAP_0021865
   name: Levator rhinarii (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right facial muscle; elevates the rhinarium (nasal region)
 - id: BAP_0021866
   name: Levator anguli oris (L)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Left facial muscle; elevates the corner of the mouth
 - id: BAP_0021867
   name: Levator anguli oris (R)
-  parent: BAP_0012007
+  parent: BAP_0022022
   definition: Right facial muscle; elevates the corner of the mouth
 - id: BAP_0021870
   name: Genioglossus (L)
