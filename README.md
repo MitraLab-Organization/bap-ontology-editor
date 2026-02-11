@@ -18,7 +18,7 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 353
+├── Structures: 374
 ├── Hierarchy depth: 7 levels
 └── Relationships: 89
     ├── Innervated By: 78
@@ -44,19 +44,31 @@ Body
 ├── Head
 │   ├── Head cavities and passages
 │   │   ├── Ear Cavities
+│   │   │   ├── Eustachian tube (L)
+│   │   │   ├── Eustachian tube (R)
 │   │   │   ├── External acoustic meatus (L)
 │   │   │   ├── External acoustic meatus (R)
 │   │   │   ├── Internal acoustic meatus (L)
-│   │   │   └── Internal acoustic meatus (R)
+│   │   │   ├── Internal acoustic meatus (R)
+│   │   │   ├── Tympanic cavity (L)
+│   │   │   └── Tympanic cavity (R)
 │   │   ├── Nasal cavity
 │   │   ├── Oral cavity
 │   │   ├── Paranasal sinuses (L)
 │   │   └── Paranasal sinuses (R)
 │   ├── Head endocrine and exocrine system
+│   │   ├── Lacrimal gland (L)
+│   │   ├── Lacrimal gland (R)
 │   │   ├── Palatal submucosa (L)
 │   │   ├── Palatal submucosa (R)
-│   │   ├── Parotid glands (L)
-│   │   └── Parotid glands (R)
+│   │   ├── Salivary glands
+│   │   │   ├── Parotid glands (L)
+│   │   │   ├── Parotid glands (R)
+│   │   │   ├── Sublingual glands (L)
+│   │   │   ├── Sublingual glands (R)
+│   │   │   ├── Submandibular glands (L)
+│   │   │   └── Submandibular glands (R)
+│   │   └── Sebaceous glands
 │   ├── Head integumentary system
 │   │   ├── External ear
 │   │   │   ├── Pinna (L)
@@ -191,6 +203,13 @@ Body
 │   │   │   ├── Zygomaticus minor (L)
 │   │   │   └── Zygomaticus minor (R)
 │   │   └── Cranium
+│   │       ├── Inner Ear
+│   │       │   ├── Cochlea (L)
+│   │       │   ├── Cochlea (R)
+│   │       │   ├── Semicircular canals (L)
+│   │       │   ├── Semicircular canals (R)
+│   │       │   ├── Vestibule (L)
+│   │       │   └── Vestibule (R)
 │   │       ├── Middle ear
 │   │       │   ├── Incus (L)
 │   │       │   ├── Incus (R)
@@ -215,6 +234,8 @@ Body
 │   │       │   └── Tympanic membrane (R)
 │   │       └── Viscerocranium
 │   │           ├── Jaw apparatus
+│   │           │   ├── Articular disk (L)
+│   │           │   ├── Articular disk (R)
 │   │           │   ├── Mandible (L)
 │   │           │   ├── Mandible (R)
 │   │           │   ├── Maxilla (L)
