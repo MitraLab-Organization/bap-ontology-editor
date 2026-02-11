@@ -59,7 +59,7 @@ structures:
   parent: BAP_0012007
   definition: Extraocular and eyelid muscles controlling eye movement and eyelid function
 - id: BAP_0012009
-  name: Inner Ear Muscles
+  name: Middle ear muscles
   parent: BAP_0012007
   definition: Muscles of the middle ear controlling ossicle movement
 - id: BAP_0012010
@@ -196,9 +196,9 @@ structures:
   parent: BAP_0021102
   definition: Pharyngeal skeleton
 - id: BAP_0021707
-  name: Inner ear
+  name: Middle ear
   parent: BAP_0020101
-  definition: Inner ear
+  definition: Middle ear containing ossicles (incus, malleus, stapes)
 - id: BAP_0021708
   name: Eye (L)
   parent: BAP_0020003
@@ -328,83 +328,83 @@ structures:
   parent: BAP_0000006
   definition: Right posterior limb
 - id: BAP_0021748
-  name: parietal (L)
+  name: Parietal (L)
   parent: BAP_0000138
   definition: Left parietal bone of neurocranium
 - id: BAP_0021749
-  name: parietal (R)
+  name: Parietal (R)
   parent: BAP_0000138
   definition: Right parietal bone of neurocranium
 - id: BAP_0021750
-  name: interparietal (L)
+  name: Interparietal (L)
   parent: BAP_0000138
   definition: Left interparietal bone of neurocranium
 - id: BAP_0021751
-  name: interparietal (R)
+  name: Interparietal (R)
   parent: BAP_0000138
   definition: Right interparietal bone of neurocranium
 - id: BAP_0021752
-  name: basisphenoid (L)
+  name: Basisphenoid (L)
   parent: BAP_0000138
   definition: Left basisphenoid bone; part of cranial base
 - id: BAP_0021753
-  name: basisphenoid (R)
+  name: Basisphenoid (R)
   parent: BAP_0000138
   definition: Right basisphenoid bone; part of cranial base
 - id: BAP_0021754
-  name: ethmoid (L)
+  name: Ethmoid (L)
   parent: BAP_0000138
   definition: Left ethmoid bone; forms part of nasal cavity and orbit
 - id: BAP_0021755
-  name: ethmoid (R)
+  name: Ethmoid (R)
   parent: BAP_0000138
   definition: Right ethmoid bone; forms part of nasal cavity and orbit
 - id: BAP_0021756
-  name: presphenoid (L)
+  name: Presphenoid (L)
   parent: BAP_0000138
   definition: Left presphenoid bone; anterior part of sphenoid complex
 - id: BAP_0021757
-  name: presphenoid (R)
+  name: Presphenoid (R)
   parent: BAP_0000138
   definition: Right presphenoid bone; anterior part of sphenoid complex
 - id: BAP_0021758
-  name: squamosal (L)
+  name: Squamosal (L)
   parent: BAP_0000139
   definition: Left squamosal bone; forms part of temporal region
 - id: BAP_0021759
-  name: squamosal (R)
+  name: Squamosal (R)
   parent: BAP_0000139
   definition: Right squamosal bone; forms part of temporal region
 - id: BAP_0021760
-  name: mandible (L)
+  name: Mandible (L)
   parent: BAP_0000007
   definition: Left lower jaw bone
 - id: BAP_0021761
-  name: mandible (R)
+  name: Mandible (R)
   parent: BAP_0000007
   definition: Right lower jaw bone
 - id: BAP_0021762
-  name: zygomatic (L)
+  name: Zygomatic (L)
   parent: BAP_0000139
   definition: Left zygomatic bone; forms cheek prominence
 - id: BAP_0021763
-  name: zygomatic (R)
+  name: Zygomatic (R)
   parent: BAP_0000139
   definition: Right zygomatic bone; forms cheek prominence
 - id: BAP_0021764
-  name: lacrimal (L)
+  name: Lacrimal (L)
   parent: BAP_0000139
   definition: Left lacrimal bone; forms medial wall of orbit
 - id: BAP_0021765
-  name: lacrimal (R)
+  name: Lacrimal (R)
   parent: BAP_0000139
   definition: Right lacrimal bone; forms medial wall of orbit
 - id: BAP_0021770
-  name: palatine (L)
+  name: Palatine (L)
   parent: BAP_0000139
   definition: Left palatine bone; forms posterior hard palate
 - id: BAP_0021771
-  name: palatine (R)
+  name: Palatine (R)
   parent: BAP_0000139
   definition: Right palatine bone; forms posterior hard palate
 - id: BAP_0021774
@@ -416,99 +416,99 @@ structures:
   parent: BAP_0020702
   definition: Right external ear structure
 - id: BAP_0021776
-  name: external acoustic meatus (L)
+  name: External acoustic meatus (L)
   parent: BAP_0020603
   definition: Left external ear canal
 - id: BAP_0021777
-  name: external acoustic meatus (R)
+  name: External acoustic meatus (R)
   parent: BAP_0020603
   definition: Right external ear canal
 - id: BAP_0021778
-  name: internal acoustic meatus (L)
+  name: Internal acoustic meatus (L)
   parent: BAP_0020603
   definition: Left internal ear canal through temporal bone
 - id: BAP_0021779
-  name: internal acoustic meatus (R)
+  name: Internal acoustic meatus (R)
   parent: BAP_0020603
   definition: Right internal ear canal through temporal bone
 - id: BAP_0021780
-  name: stapes (L)
+  name: Stapes (L)
   parent: BAP_0021707
   definition: Left stirrup-shaped middle ear ossicle
 - id: BAP_0021781
-  name: stapes (R)
+  name: Stapes (R)
   parent: BAP_0021707
   definition: Right stirrup-shaped middle ear ossicle
 - id: BAP_0021782
-  name: incus (L)
+  name: Incus (L)
   parent: BAP_0021707
   definition: Left anvil-shaped middle ear ossicle
 - id: BAP_0021783
-  name: incus (R)
+  name: Incus (R)
   parent: BAP_0021707
   definition: Right anvil-shaped middle ear ossicle
 - id: BAP_0021784
-  name: malleus (L)
+  name: Malleus (L)
   parent: BAP_0021707
   definition: Left hammer-shaped middle ear ossicle
 - id: BAP_0021785
-  name: malleus (R)
+  name: Malleus (R)
   parent: BAP_0021707
   definition: Right hammer-shaped middle ear ossicle
 - id: BAP_0021786
-  name: tympanic membrane (L)
+  name: Tympanic membrane (L)
   parent: BAP_0000138
   definition: Left eardrum; vibrates in response to sound waves
 - id: BAP_0021787
-  name: tympanic membrane (R)
+  name: Tympanic membrane (R)
   parent: BAP_0000138
   definition: Right eardrum; vibrates in response to sound waves
 - id: BAP_0021788
-  name: arytenoid cartilage (L)
+  name: Arytenoid cartilage (L)
   parent: BAP_0021704
   definition: Left laryngeal cartilage; anchors vocal folds
 - id: BAP_0021789
-  name: arytenoid cartilage (R)
+  name: Arytenoid cartilage (R)
   parent: BAP_0021704
   definition: Right laryngeal cartilage; anchors vocal folds
 - id: BAP_0021790
-  name: laryngeal alar cartilage (L)
+  name: Laryngeal alar cartilage (L)
   parent: BAP_0021704
   definition: Left wing-shaped laryngeal cartilage
 - id: BAP_0021791
-  name: laryngeal alar cartilage (R)
+  name: Laryngeal alar cartilage (R)
   parent: BAP_0021704
   definition: Right wing-shaped laryngeal cartilage
 - id: BAP_0021792
-  name: cricoid cartilage (L)
+  name: Cricoid cartilage (L)
   parent: BAP_0021704
   definition: Left ring-shaped laryngeal cartilage
 - id: BAP_0021793
-  name: cricoid cartilage (R)
+  name: Cricoid cartilage (R)
   parent: BAP_0021704
   definition: Right ring-shaped laryngeal cartilage
 - id: BAP_0021794
-  name: sternum (L)
+  name: Sternum (L)
   parent: BAP_0000003
   definition: Left breastbone
 - id: BAP_0021795
-  name: sternum (R)
+  name: Sternum (R)
   parent: BAP_0000003
   definition: Right breastbone
 - id: BAP_0021796
-  name: clavicle (L)
+  name: Clavicle (L)
   parent: BAP_0000004
   definition: Left collarbone
 - id: BAP_0021797
-  name: clavicle (R)
+  name: Clavicle (R)
   parent: BAP_0000004
   definition: Right collarbone
 - id: BAP_0021798
-  name: scapula (L)
+  name: Scapula (L)
   parent: BAP_0000004
   definition: Left shoulder blade
 - id: BAP_0021799
-  name: scapula (R)
+  name: Scapula (R)
   parent: BAP_0000004
   definition: Right shoulder blade
 - id: BAP_0021800
@@ -776,11 +776,11 @@ structures:
   parent: BAP_0021705
   definition: Right muscle connecting auditory tube to pharynx
 - id: BAP_0021904
-  name: sternofacialis left (L)
+  name: Sternofacialis left (L)
   parent: BAP_0000079
   definition: Left sternofacial muscle
 - id: BAP_0021905
-  name: sternofacialis left (R)
+  name: Sternofacialis left (R)
   parent: BAP_0000079
   definition: Right sternofacial muscle
 - id: BAP_0021906
@@ -904,19 +904,19 @@ structures:
   parent: BAP_0021101
   definition: Right muscle that depresses hyoid and elevates thyroid
 - id: BAP_0021942
-  name: trochlea (L)
+  name: Trochlea (L)
   parent: BAP_0000087
   definition: Left pulley for superior oblique tendon
 - id: BAP_0021943
-  name: trochlea (R)
+  name: Trochlea (R)
   parent: BAP_0000087
   definition: Right pulley for superior oblique tendon
 - id: BAP_0021952
-  name: retractor bulbi (L)
+  name: Retractor bulbi (L)
   parent: BAP_0012008
   definition: Left muscle that retracts eyeball
 - id: BAP_0021953
-  name: retractor bulbi (R)
+  name: Retractor bulbi (R)
   parent: BAP_0012008
   definition: Right muscle that retracts eyeball
 - id: BAP_0021954

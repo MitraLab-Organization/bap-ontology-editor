@@ -22,10 +22,10 @@ structures:
   name: Trapezius
   parent: BAP_0021101
 - id: BAP_0000086
-  name: superior oblique muscle
+  name: Superior oblique muscle
   parent: BAP_0012008
 - id: BAP_0000087
-  name: superior oblique tendon
+  name: Superior oblique tendon
   parent: BAP_0000086
 - id: BAP_0021701
   name: Extrinsic tongue muscles
@@ -196,43 +196,43 @@ structures:
   parent: BAP_0021101
   definition: Right infrahyoid muscle; depresses hyoid bone and stabilizes during speech
 - id: BAP_0021940
-  name: levator palpebrae superioris (L)
+  name: Levator palpebrae superioris (L)
   parent: BAP_0012008
   definition: Left extraocular muscle; elevates the upper eyelid
 - id: BAP_0021941
-  name: levator palpebrae superioris (R)
+  name: Levator palpebrae superioris (R)
   parent: BAP_0012008
   definition: Right extraocular muscle; elevates the upper eyelid
 - id: BAP_0021944
-  name: inferior oblique (L)
+  name: Inferior oblique (L)
   parent: BAP_0012008
   definition: Left extraocular muscle; rotates eye upward and laterally
 - id: BAP_0021945
-  name: inferior oblique (R)
+  name: Inferior oblique (R)
   parent: BAP_0012008
   definition: Right extraocular muscle; rotates eye upward and laterally
 - id: BAP_0021946
-  name: lateral rectus (L)
+  name: Lateral rectus (L)
   parent: BAP_0012008
   definition: Left extraocular muscle; abducts the eye (moves laterally)
 - id: BAP_0021947
-  name: lateral rectus (R)
+  name: Lateral rectus (R)
   parent: BAP_0012008
   definition: Right extraocular muscle; abducts the eye (moves laterally)
 - id: BAP_0021948
-  name: medial rectus (L)
+  name: Medial rectus (L)
   parent: BAP_0012008
   definition: Left extraocular muscle; adducts the eye (moves medially)
 - id: BAP_0021949
-  name: medial rectus (R)
+  name: Medial rectus (R)
   parent: BAP_0012008
   definition: Right extraocular muscle; adducts the eye (moves medially)
 - id: BAP_0021950
-  name: superior rectus (L)
+  name: Superior rectus (L)
   parent: BAP_0012008
   definition: Left extraocular muscle; elevates and adducts the eye
 - id: BAP_0021951
-  name: superior rectus (R)
+  name: Superior rectus (R)
   parent: BAP_0012008
   definition: Right extraocular muscle; elevates and adducts the eye
 - id: BAP_0021968

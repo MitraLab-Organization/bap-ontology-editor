@@ -12,41 +12,41 @@ structures:
   # NEUROCRANIUM BONES (under Cranium -> Neurocranium)
   # ============================================================================
 - id: BAP_0000115
-  name: occipital
+  name: Occipital
   parent: BAP_0000138
 
 - id: BAP_0000122
-  name: frontal
+  name: Frontal
   parent: BAP_0000138
 
 - id: BAP_0000111
-  name: sphenoid
+  name: Sphenoid
   parent: BAP_0000139
 
 - id: BAP_0000137
-  name: vomer
+  name: Vomer
   parent: BAP_0000139
 
   # ============================================================================
   # EXTERNAL EAR STRUCTURES (under Head integumentary -> External ear)
   # ============================================================================
 - id: BAP_0000107
-  name: epiglottis
+  name: Epiglottis
   parent: BAP_0021704
 
 - id: BAP_0000127
-  name: thyroid cartilage
+  name: Thyroid cartilage
   parent: BAP_0021704
 
 - id: BAP_0000126
-  name: hyoid bone
+  name: Hyoid bone
   parent: BAP_0021706
 
   # ============================================================================
   # THORAX / NECK / LIMB BONES
   # ============================================================================
 - id: BAP_0000132
-  name: cervical vertebra
+  name: Cervical vertebra
   parent: BAP_0021102
   definition: Vertebrae of the cervical spine
 - id: BAP_0021726
@@ -58,27 +58,27 @@ structures:
   parent: BAP_0020006
   definition: Right paranasal sinus cavities
 - id: BAP_0021766
-  name: maxilla (L)
+  name: Maxilla (L)
   parent: BAP_0000007
   definition: Left upper jaw bone; forms floor of orbit and lateral wall of nasal cavity
 - id: BAP_0021767
-  name: maxilla (R)
+  name: Maxilla (R)
   parent: BAP_0000007
   definition: Right upper jaw bone; forms floor of orbit and lateral wall of nasal cavity
 - id: BAP_0021768
-  name: premaxilla (L)
+  name: Premaxilla (L)
   parent: BAP_0000139
   definition: Left anterior bone of upper jaw; bears upper incisors
 - id: BAP_0021769
-  name: premaxilla (R)
+  name: Premaxilla (R)
   parent: BAP_0000139
   definition: Right anterior bone of upper jaw; bears upper incisors
 - id: BAP_0021772
-  name: nasal (L)
+  name: Nasal (L)
   parent: BAP_0000139
   definition: Left nasal bone; forms bridge of nose
 - id: BAP_0021773
-  name: nasal (R)
+  name: Nasal (R)
   parent: BAP_0000139
   definition: Right nasal bone; forms bridge of nose
 - id: BAP_0021824
