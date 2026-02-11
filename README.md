@@ -34,20 +34,20 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 Body
 ├── Appendages
 │   ├── Forelimb
-│   │   ├── clavicle (L)
-│   │   ├── clavicle (R)
-│   │   ├── scapula (L)
-│   │   └── scapula (R)
+│   │   ├── Clavicle (L)
+│   │   ├── Clavicle (R)
+│   │   ├── Scapula (L)
+│   │   └── Scapula (R)
 │   ├── Hindlimb (L)
 │   ├── Hindlimb (R)
 │   └── Tail
 ├── Head
 │   ├── Head cavities and passages
 │   │   ├── Ear Cavities
-│   │   │   ├── external acoustic meatus (L)
-│   │   │   ├── external acoustic meatus (R)
-│   │   │   ├── internal acoustic meatus (L)
-│   │   │   └── internal acoustic meatus (R)
+│   │   │   ├── External acoustic meatus (L)
+│   │   │   ├── External acoustic meatus (R)
+│   │   │   ├── Internal acoustic meatus (L)
+│   │   │   └── Internal acoustic meatus (R)
 │   │   ├── Nasal cavity
 │   │   ├── Oral cavity
 │   │   ├── Paranasal sinuses (L)
@@ -89,31 +89,26 @@ Body
 │   │   │   │   ├── Auricularis superior (L)
 │   │   │   │   └── Auricularis superior (R)
 │   │   │   ├── Eye Muscles
-│   │   │   │   ├── inferior oblique (L)
-│   │   │   │   ├── inferior oblique (R)
-│   │   │   │   ├── lateral rectus (L)
-│   │   │   │   ├── lateral rectus (R)
-│   │   │   │   ├── levator palpebrae superioris (L)
-│   │   │   │   ├── levator palpebrae superioris (R)
-│   │   │   │   ├── medial rectus (L)
-│   │   │   │   ├── medial rectus (R)
-│   │   │   │   ├── retractor bulbi (L)
-│   │   │   │   ├── retractor bulbi (R)
-│   │   │   │   ├── superior oblique muscle
-│   │   │   │   │   └── superior oblique tendon
-│   │   │   │   │       ├── trochlea (L)
-│   │   │   │   │       └── trochlea (R)
-│   │   │   │   ├── superior rectus (L)
-│   │   │   │   └── superior rectus (R)
+│   │   │   │   ├── Inferior oblique (L)
+│   │   │   │   ├── Inferior oblique (R)
+│   │   │   │   ├── Lateral rectus (L)
+│   │   │   │   ├── Lateral rectus (R)
+│   │   │   │   ├── Levator palpebrae superioris (L)
+│   │   │   │   ├── Levator palpebrae superioris (R)
+│   │   │   │   ├── Medial rectus (L)
+│   │   │   │   ├── Medial rectus (R)
+│   │   │   │   ├── Retractor bulbi (L)
+│   │   │   │   ├── Retractor bulbi (R)
+│   │   │   │   ├── Superior oblique muscle
+│   │   │   │   │   └── Superior oblique tendon
+│   │   │   │   │       ├── Trochlea (L)
+│   │   │   │   │       └── Trochlea (R)
+│   │   │   │   ├── Superior rectus (L)
+│   │   │   │   └── Superior rectus (R)
 │   │   │   ├── Frontalis (L)
 │   │   │   ├── Frontalis (R)
 │   │   │   ├── Geniohyoideus (L)
 │   │   │   ├── Geniohyoideus (R)
-│   │   │   ├── Inner Ear Muscles
-│   │   │   │   ├── Stapedius (L)
-│   │   │   │   ├── Stapedius (R)
-│   │   │   │   ├── Tensor tympani (L)
-│   │   │   │   └── Tensor tympani (R)
 │   │   │   ├── Interscutularis (L)
 │   │   │   ├── Interscutularis (R)
 │   │   │   ├── Levator anguli oris (L)
@@ -133,6 +128,11 @@ Body
 │   │   │   │   ├── Superficial masseter (R)
 │   │   │   │   ├── Zygomaticomandibularis (L)
 │   │   │   │   └── Zygomaticomandibularis (R)
+│   │   │   ├── Middle ear muscles
+│   │   │   │   ├── Stapedius (L)
+│   │   │   │   ├── Stapedius (R)
+│   │   │   │   ├── Tensor tympani (L)
+│   │   │   │   └── Tensor tympani (R)
 │   │   │   ├── Mylohyoideus (L)
 │   │   │   ├── Mylohyoideus (R)
 │   │   │   ├── Nasalis (L)
@@ -191,48 +191,48 @@ Body
 │   │   │   ├── Zygomaticus minor (L)
 │   │   │   └── Zygomaticus minor (R)
 │   │   └── Cranium
-│   │       ├── Inner ear
-│   │       │   ├── incus (L)
-│   │       │   ├── incus (R)
-│   │       │   ├── malleus (L)
-│   │       │   ├── malleus (R)
-│   │       │   ├── stapes (L)
-│   │       │   └── stapes (R)
+│   │       ├── Middle ear
+│   │       │   ├── Incus (L)
+│   │       │   ├── Incus (R)
+│   │       │   ├── Malleus (L)
+│   │       │   ├── Malleus (R)
+│   │       │   ├── Stapes (L)
+│   │       │   └── Stapes (R)
 │   │       ├── Neurocranium
-│   │       │   ├── basisphenoid (L)
-│   │       │   ├── basisphenoid (R)
-│   │       │   ├── ethmoid (L)
-│   │       │   ├── ethmoid (R)
-│   │       │   ├── frontal
-│   │       │   ├── interparietal (L)
-│   │       │   ├── interparietal (R)
-│   │       │   ├── occipital
-│   │       │   ├── parietal (L)
-│   │       │   ├── parietal (R)
-│   │       │   ├── presphenoid (L)
-│   │       │   ├── presphenoid (R)
-│   │       │   ├── tympanic membrane (L)
-│   │       │   └── tympanic membrane (R)
+│   │       │   ├── Basisphenoid (L)
+│   │       │   ├── Basisphenoid (R)
+│   │       │   ├── Ethmoid (L)
+│   │       │   ├── Ethmoid (R)
+│   │       │   ├── Frontal
+│   │       │   ├── Interparietal (L)
+│   │       │   ├── Interparietal (R)
+│   │       │   ├── Occipital
+│   │       │   ├── Parietal (L)
+│   │       │   ├── Parietal (R)
+│   │       │   ├── Presphenoid (L)
+│   │       │   ├── Presphenoid (R)
+│   │       │   ├── Tympanic membrane (L)
+│   │       │   └── Tympanic membrane (R)
 │   │       └── Viscerocranium
 │   │           ├── Jaw apparatus
-│   │           │   ├── mandible (L)
-│   │           │   ├── mandible (R)
-│   │           │   ├── maxilla (L)
-│   │           │   └── maxilla (R)
-│   │           ├── lacrimal (L)
-│   │           ├── lacrimal (R)
-│   │           ├── nasal (L)
-│   │           ├── nasal (R)
-│   │           ├── palatine (L)
-│   │           ├── palatine (R)
-│   │           ├── premaxilla (L)
-│   │           ├── premaxilla (R)
-│   │           ├── sphenoid
-│   │           ├── squamosal (L)
-│   │           ├── squamosal (R)
-│   │           ├── vomer
-│   │           ├── zygomatic (L)
-│   │           └── zygomatic (R)
+│   │           │   ├── Mandible (L)
+│   │           │   ├── Mandible (R)
+│   │           │   ├── Maxilla (L)
+│   │           │   └── Maxilla (R)
+│   │           ├── Lacrimal (L)
+│   │           ├── Lacrimal (R)
+│   │           ├── Nasal (L)
+│   │           ├── Nasal (R)
+│   │           ├── Palatine (L)
+│   │           ├── Palatine (R)
+│   │           ├── Premaxilla (L)
+│   │           ├── Premaxilla (R)
+│   │           ├── Sphenoid
+│   │           ├── Squamosal (L)
+│   │           ├── Squamosal (R)
+│   │           ├── Vomer
+│   │           ├── Zygomatic (L)
+│   │           └── Zygomatic (R)
 │   ├── Head nervous system
 │   │   ├── Head central nervous system
 │   │   │   └── Brain
@@ -292,8 +292,8 @@ Body
 │   │   ├── Larynx
 │   │   └── Pharynx
 │   │       ├── Esophagus
-│   │       ├── sternofacialis left (L)
-│   │       └── sternofacialis left (R)
+│   │       ├── Sternofacialis left (L)
+│   │       └── Sternofacialis left (R)
 │   ├── Neck endocrine and exocrine system
 │   │   └── Thyroid gland
 │   ├── Neck integumentary system
@@ -351,18 +351,18 @@ Body
 │   │   │       ├── Spinotrapezius (L)
 │   │   │       └── Spinotrapezius (R)
 │   │   └── Neck skeletal system
+│   │       ├── Cervical vertebra
 │   │       ├── Laryngeal skeletal system
-│   │       │   ├── arytenoid cartilage (L)
-│   │       │   ├── arytenoid cartilage (R)
-│   │       │   ├── cricoid cartilage (L)
-│   │       │   ├── cricoid cartilage (R)
-│   │       │   ├── epiglottis
-│   │       │   ├── laryngeal alar cartilage (L)
-│   │       │   ├── laryngeal alar cartilage (R)
-│   │       │   └── thyroid cartilage
-│   │       ├── Pharyngeal skeleton
-│   │       │   └── hyoid bone
-│   │       └── cervical vertebra
+│   │       │   ├── Arytenoid cartilage (L)
+│   │       │   ├── Arytenoid cartilage (R)
+│   │       │   ├── Cricoid cartilage (L)
+│   │       │   ├── Cricoid cartilage (R)
+│   │       │   ├── Epiglottis
+│   │       │   ├── Laryngeal alar cartilage (L)
+│   │       │   ├── Laryngeal alar cartilage (R)
+│   │       │   └── Thyroid cartilage
+│   │       └── Pharyngeal skeleton
+│   │           └── Hyoid bone
 │   ├── Neck nervous system
 │   │   ├── Neck central nervous system
 │   │   │   └── Spinal Cord
@@ -382,8 +382,8 @@ Body
     ├── Pelvis (L)
     ├── Pelvis (R)
     └── Thorax
-        ├── sternum (L)
-        └── sternum (R)
+        ├── Sternum (L)
+        └── Sternum (R)
 ```
 <!-- HIERARCHY_END -->
 
