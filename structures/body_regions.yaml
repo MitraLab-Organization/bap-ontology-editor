@@ -2,7 +2,7 @@ metadata:
   category: regions
   description: Major body regions and organ system hierarchy
   version: 2.0.0
-  last_modified: '2026-01-08'
+  last_modified: '2026-02-04'
 structures:
 - id: BAP_0012000
   name: Body
@@ -199,6 +199,34 @@ structures:
   name: Middle ear
   parent: BAP_0020101
   definition: Middle ear containing ossicles (incus, malleus, stapes)
+- id: BAP_0022013
+  name: Inner Ear
+  parent: BAP_0020101
+  definition: Sensory organ containing cochlea, semicircular canals, and vestibule
+- id: BAP_0022014
+  name: Cochlea (L)
+  parent: BAP_0022013
+  definition: Left spiral-shaped organ of hearing
+- id: BAP_0022015
+  name: Cochlea (R)
+  parent: BAP_0022013
+  definition: Right spiral-shaped organ of hearing
+- id: BAP_0022016
+  name: Semicircular canals (L)
+  parent: BAP_0022013
+  definition: Left vestibular structures for balance sensation
+- id: BAP_0022017
+  name: Semicircular canals (R)
+  parent: BAP_0022013
+  definition: Right vestibular structures for balance sensation
+- id: BAP_0022018
+  name: Vestibule (L)
+  parent: BAP_0022013
+  definition: Left central chamber of the bony labyrinth
+- id: BAP_0022019
+  name: Vestibule (R)
+  parent: BAP_0022013
+  definition: Right central chamber of the bony labyrinth
 - id: BAP_0021708
   name: Eye (L)
   parent: BAP_0020003
@@ -247,14 +275,46 @@ structures:
   name: Head lymphatics (R)
   parent: BAP_0020004
   definition: Right lymphatic structures of the head
+- id: BAP_0021992
+  name: Salivary glands
+  parent: BAP_0020005
+  definition: Glands that produce saliva; includes parotid, submandibular, and sublingual glands
 - id: BAP_0021722
   name: Parotid glands (L)
-  parent: BAP_0020005
+  parent: BAP_0021992
   definition: Left major salivary glands near the ear
 - id: BAP_0021723
   name: Parotid glands (R)
-  parent: BAP_0020005
+  parent: BAP_0021992
   definition: Right major salivary glands near the ear
+- id: BAP_0021993
+  name: Submandibular glands (L)
+  parent: BAP_0021992
+  definition: Left salivary glands beneath the mandible
+- id: BAP_0021994
+  name: Submandibular glands (R)
+  parent: BAP_0021992
+  definition: Right salivary glands beneath the mandible
+- id: BAP_0021995
+  name: Sublingual glands (L)
+  parent: BAP_0021992
+  definition: Left salivary glands beneath the tongue
+- id: BAP_0021996
+  name: Sublingual glands (R)
+  parent: BAP_0021992
+  definition: Right salivary glands beneath the tongue
+- id: BAP_0021997
+  name: Sebaceous glands
+  parent: BAP_0020005
+  definition: Glands that secrete sebum for skin lubrication
+- id: BAP_0021998
+  name: Lacrimal gland (L)
+  parent: BAP_0020005
+  definition: Left gland that produces tears
+- id: BAP_0021999
+  name: Lacrimal gland (R)
+  parent: BAP_0020005
+  definition: Right gland that produces tears
 - id: BAP_0021724
   name: Palatal submucosa (L)
   parent: BAP_0020005
@@ -383,6 +443,14 @@ structures:
   name: Mandible (R)
   parent: BAP_0000007
   definition: Right lower jaw bone
+- id: BAP_0022020
+  name: Articular disk (L)
+  parent: BAP_0000007
+  definition: Left fibrocartilaginous disc in temporomandibular joint
+- id: BAP_0022021
+  name: Articular disk (R)
+  parent: BAP_0000007
+  definition: Right fibrocartilaginous disc in temporomandibular joint
 - id: BAP_0021762
   name: Zygomatic (L)
   parent: BAP_0000139
@@ -431,6 +499,30 @@ structures:
   name: Internal acoustic meatus (R)
   parent: BAP_0020603
   definition: Right internal ear canal through temporal bone
+- id: BAP_0022009
+  name: Tympanic cavity (L)
+  parent: BAP_0020603
+  definition: Left middle ear cavity; alternative name Tympanum
+  synonyms:
+    - Tympanum (L)
+- id: BAP_0022010
+  name: Tympanic cavity (R)
+  parent: BAP_0020603
+  definition: Right middle ear cavity; alternative name Tympanum
+  synonyms:
+    - Tympanum (R)
+- id: BAP_0022011
+  name: Eustachian tube (L)
+  parent: BAP_0020603
+  definition: Left auditory tube connecting middle ear to nasopharynx
+  synonyms:
+    - Auditory tube (L)
+- id: BAP_0022012
+  name: Eustachian tube (R)
+  parent: BAP_0020603
+  definition: Right auditory tube connecting middle ear to nasopharynx
+  synonyms:
+    - Auditory tube (R)
 - id: BAP_0021780
   name: Stapes (L)
   parent: BAP_0021707
