@@ -315,14 +315,34 @@ structures:
   name: Sebaceous glands
   parent: BAP_0020005
   definition: Glands that secrete sebum for skin lubrication
+- id: BAP_0022024
+  name: Lacrimal gland
+  parent: BAP_0020005
+  definition: Tear-producing glands of the orbit
 - id: BAP_0021998
-  name: Lacrimal gland (L)
-  parent: BAP_0020005
-  definition: Left gland that produces tears
+  name: Extraorbital lacrimal gland (L)
+  parent: BAP_0022024
+  definition: Left extraorbital portion of the lacrimal gland that produces tears
 - id: BAP_0021999
-  name: Lacrimal gland (R)
-  parent: BAP_0020005
-  definition: Right gland that produces tears
+  name: Extraorbital lacrimal gland (R)
+  parent: BAP_0022024
+  definition: Right extraorbital portion of the lacrimal gland that produces tears
+- id: BAP_0022025
+  name: Intraorbital lacrimal gland (L)
+  parent: BAP_0022024
+  definition: Left intraorbital portion of the lacrimal gland within the orbit
+- id: BAP_0022026
+  name: Intraorbital lacrimal gland (R)
+  parent: BAP_0022024
+  definition: Right intraorbital portion of the lacrimal gland within the orbit
+- id: BAP_0022027
+  name: Harderian gland (L)
+  parent: BAP_0022024
+  definition: Left Harderian gland; orbital gland that lubricates the nictitating membrane
+- id: BAP_0022028
+  name: Harderian gland (R)
+  parent: BAP_0022024
+  definition: Right Harderian gland; orbital gland that lubricates the nictitating membrane
 - id: BAP_0021724
   name: Palatal submucosa (L)
   parent: BAP_0020005
