@@ -126,6 +126,10 @@ structures:
   name: Jaw apparatus
   parent: BAP_0000139
   definition: Jaw structures
+- id: BAP_0022029
+  name: Nasal septum
+  parent: BAP_0000139
+  definition: Median partition dividing the nasal cavity; bony and cartilaginous components
 - id: BAP_0021001
   name: Neck musculoskeletal system
   parent: BAP_0000002
