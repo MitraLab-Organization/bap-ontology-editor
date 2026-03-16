@@ -1,28 +1,118 @@
 # Change History
 
-**Last Updated:** 2026-01-28 18:05:15 UTC
+**Last Updated:** 2026-03-16 14:20:30 UTC
 
-**Period:** Last 19 commits
+**Period:** Last 27 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 19 |
+| **Total Commits** | 27 |
 | **Active Contributors** | 2 |
-| Structure Changes | 13 |
+| Structure Changes | 20 |
 | Other Changes | 5 |
+| Update Changes | 1 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 16 commit(s)
+- **Ken**: 24 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
 
 
-### 2026-01-28 (1 commits)
+### 2026-03-16 (1 commits)
+
+#### ♻️ feat: import brain nomenclature and update ontology statistics
+
+*By Ken at 14:20 · [`912ded0`](../../commit/912ded0e6a884d85c5398a2a7531a0600483b9af)*
+
+- ➕ Added 1 file(s)
+
+**Files changed:**
+- `structures/brain.yaml`
+
+
+### 2026-02-24 (1 commits)
+
+#### 📦 feat: add nasal septum structure to body regions
+
+*By Ken at 03:59 · [`6e62632`](../../commit/6e626324bad25d6669fc183c124edadb828555b4)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+
+
+### 2026-02-20 (1 commits)
+
+#### 📦 feat: enhance lacrimal gland structure definitions and hierarchy
+
+*By Ken at 02:20 · [`e5d24e0`](../../commit/e5d24e03309f9fe9671adac6cd5a97762299204d)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+
+
+### 2026-02-11 (3 commits)
+
+#### 📦 Apply Mouse Structure Tree Feb 10 2026: Blue & Pink (muscle categories)
+
+*By Ken at 01:41 · [`d34f489`](../../commit/d34f48987340e295e7e3f7fdf85ca3add769c4ab)*
+
+- ✏️ Modified 3 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/muscles.yaml`
+- `structures/skeletal.yaml`
+
+#### 📦 Apply Mouse Structure Tree Feb 10 2026: Yellow (NEW structures)
+
+*By Ken at 01:37 · [`15f8025`](../../commit/15f8025a7e6eecc6b3f253da76db64f92dfadeaf)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+
+#### 📦 Apply Mouse Structure Tree Feb 10 2026: Red (capitalization) + renames
+
+*By Ken at 01:33 · [`a5cfed8`](../../commit/a5cfed8a3263d29440f02e1ee2fe60cb0810d45d)*
+
+- ✏️ Modified 3 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/muscles.yaml`
+- `structures/skeletal.yaml`
+
+
+### 2026-01-28 (3 commits)
+
+#### 📦 feat: refine anatomical structure names for head and neck regions
+
+*By Ken at 18:21 · [`ea99f2b`](../../commit/ea99f2b100620666a4e6f3b6c629f6d66bf18540)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+
+#### 📦 feat: update anatomical structure names for clarity
+
+*By Ken at 18:15 · [`625bcd8`](../../commit/625bcd822e89e5482ea39c646c797c9730cc78c2)*
+
+- ✏️ Modified 2 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/vessels.yaml`
 
 #### 📦 feat: update lateralized definitions for anatomical structures
 

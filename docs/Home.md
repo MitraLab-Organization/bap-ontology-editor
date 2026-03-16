@@ -1,6 +1,6 @@
 # BAP Ontology Wiki
 
-**Last Updated:** 2026-03-16 10:13:50 UTC
+**Last Updated:** 2026-03-16 14:20:30 UTC
 
 ## 📊 Overview Statistics
 
