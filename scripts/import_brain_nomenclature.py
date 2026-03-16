@@ -40,6 +40,7 @@ def parse_excel(filepath: Path) -> list[dict]:
         parent_id = int(row[1]) if row[1] is not None and str(row[1]).strip() != "" else None
         name = str(row[2]).strip() if row[2] is not None else ""
         aba_id = row[3]
+        acronym = str(row[4]).strip() if len(row) > 4 and row[4] is not None else ""
 
         if not name:
             continue
@@ -53,6 +54,7 @@ def parse_excel(filepath: Path) -> list[dict]:
             "parent_id": parent_id,
             "name": name,
             "aba_id": aba_id,
+            "acronym": acronym,
         })
 
     return records
@@ -141,6 +143,9 @@ def main():
         xref = format_aba_xref(r["aba_id"])
         if xref:
             struct["xref"] = xref
+        acronym = r.get("acronym", "").strip()
+        if acronym:
+            struct["abbreviation"] = acronym[:20]  # Schema maxLength 20
         structures.append(struct)
 
     if args.dry_run:
