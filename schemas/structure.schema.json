@@ -47,6 +47,11 @@
           "pattern": "^[A-Z]+_[0-9]+$",
           "description": "Cross-reference to external ontology (e.g., UBERON_0001234)"
         },
+        "xref": {
+          "type": "string",
+          "pattern": "^[A-Za-z]+:[0-9]+$",
+          "description": "OBO-style cross-reference (e.g., ABA:8, UBERON:0001234)"
+        },
         "synonyms": {
           "type": "array",
           "items": { "type": "string" },
@@ -74,7 +79,7 @@
       "properties": {
         "category": {
           "type": "string",
-          "enum": ["muscles", "nerves", "vessels", "bones", "organs", "regions"]
+          "enum": ["muscles", "nerves", "vessels", "bones", "organs", "regions", "brain"]
         },
         "description": {
           "type": "string"

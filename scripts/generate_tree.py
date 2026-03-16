@@ -13,7 +13,7 @@ Usage:
 import sys
 import argparse
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set
 from collections import defaultdict
 
 import yaml
@@ -112,7 +112,8 @@ def generate_tree_lines(
     prefix: str = "",
     is_last: bool = True,
     max_depth: int = 10,
-    current_depth: int = 0
+    current_depth: int = 0,
+    collapse_node_ids: Optional[Set[str]] = None
 ) -> List[str]:
     """Generate tree lines for a node and its children."""
     if current_depth > max_depth:
@@ -132,6 +133,10 @@ def generate_tree_lines(
     
     lines.append(f"{prefix}{connector}{name}")
     
+    # Skip expanding children for collapsed nodes (e.g. Brain in README)
+    if collapse_node_ids and node_id in collapse_node_ids:
+        return lines
+    
     # Get children
     child_ids = children_map.get(node_id, [])
     
@@ -147,13 +152,18 @@ def generate_tree_lines(
             new_prefix,
             is_last_child,
             max_depth,
-            current_depth + 1
+            current_depth + 1,
+            collapse_node_ids
         ))
     
     return lines
 
 
-def generate_full_tree(structures: Dict[str, dict], max_depth: int = 10) -> str:
+def generate_full_tree(
+    structures: Dict[str, dict],
+    max_depth: int = 10,
+    collapse_node_ids: Optional[Set[str]] = None
+) -> str:
     """Generate the complete hierarchy tree."""
     children_map = build_children_map(structures)
     
@@ -169,7 +179,8 @@ def generate_full_tree(structures: Dict[str, dict], max_depth: int = 10) -> str:
             root_id,
             "",
             is_last,
-            max_depth
+            max_depth,
+            collapse_node_ids=collapse_node_ids
         )
         all_lines.extend(lines)
         if not is_last:
@@ -178,7 +189,12 @@ def generate_full_tree(structures: Dict[str, dict], max_depth: int = 10) -> str:
     return '\n'.join(all_lines)
 
 
-def generate_subtree(structures: Dict[str, dict], root_name: str, max_depth: int = 10) -> str:
+def generate_subtree(
+    structures: Dict[str, dict],
+    root_name: str,
+    max_depth: int = 10,
+    collapse_node_ids: Optional[Set[str]] = None
+) -> str:
     """Generate tree for a specific subtree by name."""
     children_map = build_children_map(structures)
     
@@ -192,7 +208,10 @@ def generate_subtree(structures: Dict[str, dict], root_name: str, max_depth: int
     if root_id is None:
         return f"Structure '{root_name}' not found"
     
-    lines = generate_tree_lines(structures, children_map, root_id, "", True, max_depth)
+    lines = generate_tree_lines(
+        structures, children_map, root_id, "", True, max_depth,
+        collapse_node_ids=collapse_node_ids
+    )
     return '\n'.join(lines)
 
 
@@ -466,11 +485,20 @@ def main():
         print()
     
     # Generate tree
+    # Collapse Brain subtree in README to avoid excessive length (~2500 children)
+    collapse_for_readme = {"BAP_0012004"} if args.update_readme else None
+
     if args.subtree:
-        tree = generate_subtree(structures, args.subtree, args.max_depth)
+        tree = generate_subtree(
+            structures, args.subtree, args.max_depth,
+            collapse_node_ids=collapse_for_readme
+        )
     else:
-        tree = generate_full_tree(structures, args.max_depth)
-    
+        tree = generate_full_tree(
+            structures, args.max_depth,
+            collapse_node_ids=collapse_for_readme
+        )
+
     # Output
     if args.output:
         with open(args.output, 'w', encoding='utf-8') as f:

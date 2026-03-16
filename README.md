@@ -18,8 +18,8 @@ Changes are validated automatically via GitHub Actions and generate OWL files fo
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 382
-├── Hierarchy depth: 7 levels
+├── Structures: 2861
+├── Hierarchy depth: 15 levels
 └── Relationships: 89
     ├── Innervated By: 78
     ├── Part Of: 3

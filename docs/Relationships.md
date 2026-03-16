@@ -96,7 +96,7 @@ This page documents all cross-structure relationships in the ontology.
 |---------|---|--------|------------|--------|
 | Tongue muscles | part of | Cranial muscles | N/A | `developmental.yaml` |
 | Tongue muscles | part of | Head | N/A | `developmental.yaml` |
-| Tongue muscles | part of | Musculoskeletal system | N/A | `developmental.yaml` |
+| Tongue muscles | part of | Head musculoskeletal system | N/A | `developmental.yaml` |
 
 ### Supplied By (8 relationships)
 

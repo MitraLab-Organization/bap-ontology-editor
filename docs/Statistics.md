@@ -6,9 +6,9 @@ Comprehensive analytics and metrics for the BAP ontology.
 
 | Metric | Value |
 |--------|-------|
-| Total Structures | 353 |
+| Total Structures | 2,861 |
 | Total Relationships | 89 |
-| Average Children per Parent | 6.77 |
+| Average Children per Parent | 4.81 |
 
 ## Most Connected Structures
 
@@ -37,11 +37,12 @@ Comprehensive analytics and metrics for the BAP ontology.
 
 | File | Count | Percentage |
 |------|-------|------------|
-| `body_regions.yaml` | 236 | 66.9% |
-| `muscles.yaml` | 63 | 17.8% |
-| `nerves.yaml` | 24 | 6.8% |
-| `skeletal.yaml` | 22 | 6.2% |
-| `vessels.yaml` | 8 | 2.3% |
+| `brain.yaml` | 2479 | 86.6% |
+| `body_regions.yaml` | 265 | 9.3% |
+| `muscles.yaml` | 63 | 2.2% |
+| `nerves.yaml` | 24 | 0.8% |
+| `skeletal.yaml` | 22 | 0.8% |
+| `vessels.yaml` | 8 | 0.3% |
 
 
 ---

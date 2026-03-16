@@ -13,6 +13,9 @@ psycopg2-binary>=2.9
 # AI processing (FREE with Groq)
 groq>=0.4
 
+# Excel import (brain nomenclature)
+openpyxl>=3.1
+
 # Testing
 pytest>=7.0
 
