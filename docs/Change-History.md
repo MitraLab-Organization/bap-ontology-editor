@@ -1,29 +1,38 @@
 # Change History
 
-**Last Updated:** 2026-03-16 14:20:30 UTC
+**Last Updated:** 2026-03-16 23:14:28 UTC
 
-**Period:** Last 27 commits
+**Period:** Last 28 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 27 |
+| **Total Commits** | 28 |
 | **Active Contributors** | 2 |
-| Structure Changes | 20 |
+| Structure Changes | 21 |
 | Other Changes | 5 |
 | Update Changes | 1 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 24 commit(s)
+- **Ken**: 25 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
 
 
-### 2026-03-16 (1 commits)
+### 2026-03-16 (2 commits)
+
+#### 📦 feat: enhance brain nomenclature import and structure representation
+
+*By Ken at 23:14 · [`e1cc40b`](../../commit/e1cc40b5eeae8dd5c370b02f313267e0bf7c21be)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/brain.yaml`
 
 #### ♻️ feat: import brain nomenclature and update ontology statistics
 
