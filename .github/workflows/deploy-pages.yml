@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+      - hand
+      - marmoset
     paths:
       - 'docs/**'
   workflow_dispatch:
