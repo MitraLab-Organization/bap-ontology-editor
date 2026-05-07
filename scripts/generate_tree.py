@@ -485,8 +485,7 @@ def main():
         print()
     
     # Generate tree
-    # Collapse Brain subtree in README to avoid excessive length (~2500 children)
-    collapse_for_readme = {"BAP_0012004"} if args.update_readme else None
+    collapse_for_readme = None
 
     if args.subtree:
         tree = generate_subtree(
