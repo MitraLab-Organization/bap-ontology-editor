@@ -1,35 +1,28 @@
 # BAP Ontology Wiki
 
-**Last Updated:** 2026-04-13 18:01:53 UTC
+**Last Updated:** 2026-05-07 03:24:35 UTC
 
 ## 📊 Overview Statistics
 
 | Metric | Count |
 |--------|-------|
-| **Total Structures** | 2,920 |
-| **Total Relationships** | 89 |
+| **Total Structures** | 805 |
+| **Total Relationships** | 0 |
 | **Root Structures** | 1 |
-| **Maximum Hierarchy Depth** | 15 levels |
-| **Source Files** | 6 YAML files |
+| **Maximum Hierarchy Depth** | 11 levels |
+| **Source Files** | 2 YAML files |
 
 ### Structures by File
 
 | File | Structures |
 |------|------------|
-| `body_regions.yaml` | 324 |
-| `brain.yaml` | 2479 |
-| `muscles.yaml` | 63 |
-| `nerves.yaml` | 24 |
-| `skeletal.yaml` | 22 |
-| `vessels.yaml` | 8 |
+| `body_regions.yaml` | 4 |
+| `brain.yaml` | 801 |
 
 ### Relationships by Type
 
 | Predicate | Count |
 |-----------|-------|
-| **Innervated By** | 78 |
-| **Part Of** | 3 |
-| **Supplied By** | 8 |
 
 
 ## 📚 Wiki Pages

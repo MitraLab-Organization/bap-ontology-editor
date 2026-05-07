@@ -1,26 +1,62 @@
 # Change History
 
-**Last Updated:** 2026-04-13 18:01:53 UTC
+**Last Updated:** 2026-05-07 03:24:35 UTC
 
-**Period:** Last 29 commits
+**Period:** Last 32 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 29 |
+| **Total Commits** | 32 |
 | **Active Contributors** | 2 |
 | Structure Changes | 22 |
-| Other Changes | 5 |
+| Other Changes | 6 |
+| Fix Changes | 2 |
 | Update Changes | 1 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 26 commit(s)
+- **Ken**: 29 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
+
+
+### 2026-05-07 (3 commits)
+
+#### 🐛 fix: quote abbreviations to prevent YAML boolean parsing
+
+*By Ken at 03:24 · [`86b57a6`](../../commit/86b57a61506099cdeaa81921ec0aae7ed8e59248)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/brain.yaml`
+
+#### 🐛 fix: sanitize non-ASCII characters in brain.yaml from CSV source
+
+*By Ken at 03:01 · [`014183f`](../../commit/014183f55b80be991538b83822bf8fd55e8a84a0)*
+
+- ✏️ Modified 1 file(s)
+
+**Files changed:**
+- `structures/brain.yaml`
+
+#### 📝 feat: bootstrap marmoset (Callithrix jacchus) ontology with brain atlas
+
+*By Ken at 02:57 · [`e74dab4`](../../commit/e74dab4c4ce8f8cb84eef4567a400c778aaf215c)*
+
+- ✏️ Modified 9 file(s)
+
+**Files changed:**
+- `relationships/blood_supply.yaml`
+- `relationships/developmental.yaml`
+- `relationships/innervation.yaml`
+- `structures/body_regions.yaml`
+- `structures/brain.yaml`
+- *...and 4 more*
 
 
 ### 2026-04-13 (1 commits)

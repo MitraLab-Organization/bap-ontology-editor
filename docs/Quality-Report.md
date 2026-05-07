@@ -1,14 +1,14 @@
 # Quality Report
 
-**Generated:** 2026-04-13 18:01:53 UTC
+**Generated:** 2026-05-07 03:24:35 UTC
 
 ## Summary
 
 | Status | Count |
 |--------|-------|
-| ✅ **Structures Validated** | 2920 |
-| ✅ **Relationships Validated** | 89 |
-| ⚠️ **Warnings** | 1 |
+| ✅ **Structures Validated** | 805 |
+| ✅ **Relationships Validated** | 0 |
+| ⚠️ **Warnings** | 2 |
 | ❌ **Issues** | 0 |
 
 ## Issues
@@ -17,32 +17,43 @@
 
 ## Warnings
 
-- ⚠️ 2496 structures missing definitions
+- ⚠️ 800 structures missing definitions
+- ⚠️ 7 duplicate structure names found
 
-### Structures Missing Definitions (2496)
+### Structures Missing Definitions (800)
 
-- `BAP_0000002`: Neck
-- `BAP_0000006`: Appendages
-- `BAP_0000003`: Thorax
-- `BAP_0000004`: Forelimb
-- `BAP_0000011`: Tail
-- `BAP_0022030`: Grey matter
-- `BAP_0022031`: Telencephalon
-- `BAP_0022032`: Cerebral cortex
-- `BAP_0022033`: Cortical plate
-- `BAP_0022034`: Cortical subplate
-- `BAP_0022035`: Cerebral nuclei
-- `BAP_0022036`: Striatum
-- `BAP_0022037`: Pallidum
-- `BAP_0022038`: Diencephalon
-- `BAP_0022039`: Thalamus
-- `BAP_0022040`: Hypothalamus
-- `BAP_0022058`: Brainstem
-- `BAP_0022041`: Midbrain
-- `BAP_0022042`: Pons
-- `BAP_0022043`: Medulla
+- `BAP_1010001`: WHOLE BRAIN
+- `BAP_1010002`: FOREBRAIN (TELENCEPHALON and DIENCEPHALON)
+- `BAP_1010003`: TELENCEPHALON
+- `BAP_1010019`: CEREBRUM;CEREBRAL CORTEX
+- `BAP_1010025`: Cortical areas
+- `BAP_1010787`: Anterior Cingulate Cortex
+- `BAP_1010057`: Area 24a of cortex
+- `BAP_1010058`: Area 24b of cortex
+- `BAP_1010059`: Area 24c of cortex
+- `BAP_1010060`: Area 24d of cortex
+- `BAP_1010788`: Auditory Cortex
+- `BAP_1010076`: Auditory cortex; anterolateral area
+- `BAP_1010077`: Auditory cortex; caudolateral area
+- `BAP_1010078`: Auditory cortex; caudomedial area
+- `BAP_1010079`: Auditory cortex; caudal parabelt area
+- `BAP_1010080`: Auditory cortex; middle lateral area
+- `BAP_1010081`: Auditory cortex; primary area
+- `BAP_1010082`: Auditory cortex; rostral area
+- `BAP_1010083`: Auditory cortex; rostral parabelt
+- `BAP_1010084`: Auditory cortex; rostromedial area
 
-*...and 2476 more*
+*...and 780 more*
+
+### Duplicate Names (7)
+
+- **Extended amygdala**: `BAP_1010183`, `BAP_1010184`
+- **Substantia nigra**: `BAP_1010219`, `BAP_1010461`
+- **Nucleus of the spinal trigeminal tract**: `BAP_1010582`, `BAP_1010503`
+- **Raphe nuclei**: `BAP_1010591`, `BAP_1010514`, `BAP_1010438`
+- **Reticular formation**: `BAP_1010594`, `BAP_1010522`, `BAP_1010447`
+- **Vestibular nuclei**: `BAP_1010624`, `BAP_1010544`
+- **Dorsal raphe nucleus; caudal part**: `BAP_1010440`, `BAP_1010516`
 
 
 ---
