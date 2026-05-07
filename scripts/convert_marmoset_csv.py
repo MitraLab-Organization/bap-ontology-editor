@@ -71,7 +71,7 @@ structures:
         entry = f"- id: {bap_id}\n"
         entry += f"  name: {name}\n"
         entry += f"  parent: {parent}\n"
-        entry += f"  abbreviation: {acronym}\n"
+        entry += f"  abbreviation: '{acronym}'\n"
         entry += f"  xref: MARMOSET:{rid}\n"
 
         if len(color_parts) == 3:

@@ -15,5246 +15,5246 @@ structures:
 - id: BAP_1010001
   name: WHOLE BRAIN
   parent: BAP_1010000
-  abbreviation: WHOLE
+  abbreviation: 'WHOLE'
   xref: MARMOSET:1
   color_rgb: '127,127,127'
 
 - id: BAP_1010002
   name: FOREBRAIN (TELENCEPHALON and DIENCEPHALON)
   parent: BAP_1010001
-  abbreviation: FORE
+  abbreviation: 'FORE'
   xref: MARMOSET:2
   color_rgb: '0,125,127'
 
 - id: BAP_1010003
   name: TELENCEPHALON
   parent: BAP_1010002
-  abbreviation: TEL
+  abbreviation: 'TEL'
   xref: MARMOSET:3
   color_rgb: '61,142,149'
 
 - id: BAP_1010019
   name: CEREBRUM;CEREBRAL CORTEX
   parent: BAP_1010003
-  abbreviation: CER
+  abbreviation: 'CER'
   xref: MARMOSET:19
   color_rgb: '151,182,77'
 
 - id: BAP_1010025
   name: Cortical areas
   parent: BAP_1010019
-  abbreviation: CorA
+  abbreviation: 'CorA'
   xref: MARMOSET:25
 
 - id: BAP_1010787
   name: Anterior Cingulate Cortex
   parent: BAP_1010025
-  abbreviation: AntC
+  abbreviation: 'AntC'
   xref: MARMOSET:787
 
 - id: BAP_1010057
   name: Area 24a of cortex
   parent: BAP_1010787
-  abbreviation: A24a
+  abbreviation: 'A24a'
   xref: MARMOSET:57
   color_rgb: '16,137,0'
 
 - id: BAP_1010058
   name: Area 24b of cortex
   parent: BAP_1010787
-  abbreviation: A24b
+  abbreviation: 'A24b'
   xref: MARMOSET:58
   color_rgb: '85,200,34'
 
 - id: BAP_1010059
   name: Area 24c of cortex
   parent: BAP_1010787
-  abbreviation: A24c
+  abbreviation: 'A24c'
   xref: MARMOSET:59
   color_rgb: '107,86,70'
 
 - id: BAP_1010060
   name: Area 24d of cortex
   parent: BAP_1010787
-  abbreviation: A24d
+  abbreviation: 'A24d'
   xref: MARMOSET:60
   color_rgb: '235,219,239'
 
 - id: BAP_1010788
   name: Auditory Cortex
   parent: BAP_1010025
-  abbreviation: A
+  abbreviation: 'A'
   xref: MARMOSET:788
 
 - id: BAP_1010076
   name: Auditory cortex; anterolateral area
   parent: BAP_1010788
-  abbreviation: AuAL
+  abbreviation: 'AuAL'
   xref: MARMOSET:76
   color_rgb: '219,123,149'
 
 - id: BAP_1010077
   name: Auditory cortex; caudolateral area
   parent: BAP_1010788
-  abbreviation: AuCL
+  abbreviation: 'AuCL'
   xref: MARMOSET:77
   color_rgb: '228,219,199'
 
 - id: BAP_1010078
   name: Auditory cortex; caudomedial area
   parent: BAP_1010788
-  abbreviation: AuCM
+  abbreviation: 'AuCM'
   xref: MARMOSET:78
   color_rgb: '88,164,66'
 
 - id: BAP_1010079
   name: Auditory cortex; caudal parabelt area
   parent: BAP_1010788
-  abbreviation: AuCPB
+  abbreviation: 'AuCPB'
   xref: MARMOSET:79
   color_rgb: '143,209,0'
 
 - id: BAP_1010080
   name: Auditory cortex; middle lateral area
   parent: BAP_1010788
-  abbreviation: AuML
+  abbreviation: 'AuML'
   xref: MARMOSET:80
   color_rgb: '176,152,186'
 
 - id: BAP_1010081
   name: Auditory cortex; primary area
   parent: BAP_1010788
-  abbreviation: AuA1
+  abbreviation: 'AuA1'
   xref: MARMOSET:81
   color_rgb: '204,18,154'
 
 - id: BAP_1010082
   name: Auditory cortex; rostral area
   parent: BAP_1010788
-  abbreviation: AuR
+  abbreviation: 'AuR'
   xref: MARMOSET:82
   color_rgb: '146,103,76'
 
 - id: BAP_1010083
   name: Auditory cortex; rostral parabelt
   parent: BAP_1010788
-  abbreviation: AuRPB
+  abbreviation: 'AuRPB'
   xref: MARMOSET:83
   color_rgb: '160,70,142'
 
 - id: BAP_1010084
   name: Auditory cortex; rostromedial area
   parent: BAP_1010788
-  abbreviation: AuRM
+  abbreviation: 'AuRM'
   xref: MARMOSET:84
   color_rgb: '94,78,229'
 
 - id: BAP_1010085
   name: Auditory cortex; rostrotemporal lateral area
   parent: BAP_1010788
-  abbreviation: AuRTL
+  abbreviation: 'AuRTL'
   xref: MARMOSET:85
   color_rgb: '44,146,211'
 
 - id: BAP_1010086
   name: Auditory cortex; rostrotemporal medial area
   parent: BAP_1010788
-  abbreviation: AuRTM
+  abbreviation: 'AuRTM'
   xref: MARMOSET:86
   color_rgb: '228,123,225'
 
 - id: BAP_1010087
   name: Auditory cortex; rostrotemporal part
   parent: BAP_1010788
-  abbreviation: AuRT
+  abbreviation: 'AuRT'
   xref: MARMOSET:87
   color_rgb: '208,222,151'
 
 - id: BAP_1010126
   name: Superior temporal rostral area
   parent: BAP_1010788
-  abbreviation: STR
+  abbreviation: 'STR'
   xref: MARMOSET:126
   color_rgb: '205,21,255'
 
 - id: BAP_1010140
   name: Temporoparietal transitional area
   parent: BAP_1010788
-  abbreviation: TPt
+  abbreviation: 'TPt'
   xref: MARMOSET:140
   color_rgb: '167,208,163'
 
 - id: BAP_1010789
   name: Dorsolateral Prefrontal Cortex
   parent: BAP_1010025
-  abbreviation: DP
+  abbreviation: 'DP'
   xref: MARMOSET:789
 
 - id: BAP_1010043
   name: Area 10 of cortex
   parent: BAP_1010789
-  abbreviation: A10
+  abbreviation: 'A10'
   xref: MARMOSET:43
   color_rgb: '62,128,28'
 
 - id: BAP_1010071
   name: Area 46 of cortex; dorsal part
   parent: BAP_1010789
-  abbreviation: A46D
+  abbreviation: 'A46D'
   xref: MARMOSET:71
   color_rgb: '0,140,231'
 
 - id: BAP_1010072
   name: Area 46 of cortex; ventral part
   parent: BAP_1010789
-  abbreviation: A46V
+  abbreviation: 'A46V'
   xref: MARMOSET:72
   color_rgb: '235,237,221'
 
 - id: BAP_1010038
   name: Area 8a of cortex; dorsal part
   parent: BAP_1010789
-  abbreviation: A8aD
+  abbreviation: 'A8aD'
   xref: MARMOSET:38
   color_rgb: '163,194,242'
 
 - id: BAP_1010039
   name: Area 8a of cortex; ventral part
   parent: BAP_1010789
-  abbreviation: A8aV
+  abbreviation: 'A8aV'
   xref: MARMOSET:39
   color_rgb: '197,147,253'
 
 - id: BAP_1010040
   name: Area 8b of cortex
   parent: BAP_1010789
-  abbreviation: A8b
+  abbreviation: 'A8b'
   xref: MARMOSET:40
   color_rgb: '190,96,29'
 
 - id: BAP_1010042
   name: Area 9 of cortex
   parent: BAP_1010789
-  abbreviation: A9
+  abbreviation: 'A9'
   xref: MARMOSET:42
   color_rgb: '227,193,224'
 
 - id: BAP_1010790
   name: Insular Cortex
   parent: BAP_1010025
-  abbreviation: Ins
+  abbreviation: 'Ins'
   xref: MARMOSET:790
 
 - id: BAP_1010026
   name: Agranular insular cortex
   parent: BAP_1010790
-  abbreviation: AI
+  abbreviation: 'AI'
   xref: MARMOSET:26
   color_rgb: '235,206,238'
 
 - id: BAP_1010088
   name: Dysgranular insular cortex
   parent: BAP_1010790
-  abbreviation: DI
+  abbreviation: 'DI'
   xref: MARMOSET:88
   color_rgb: '238,79,245'
 
 - id: BAP_1010092
   name: Granular insular cortex
   parent: BAP_1010790
-  abbreviation: GI
+  abbreviation: 'GI'
   xref: MARMOSET:92
   color_rgb: '160,70,142'
 
 - id: BAP_1010095
   name: Insular proisocortex
   parent: BAP_1010790
-  abbreviation: IPro
+  abbreviation: 'IPro'
   xref: MARMOSET:95
   color_rgb: '221,106,196'
 
 - id: BAP_1010103
   name: Parainsular cortex; lateral part
   parent: BAP_1010790
-  abbreviation: PaIL
+  abbreviation: 'PaIL'
   xref: MARMOSET:103
   color_rgb: '87,196,91'
 
 - id: BAP_1010104
   name: Parainsular cortex; medial part
   parent: BAP_1010790
-  abbreviation: PaIM
+  abbreviation: 'PaIM'
   xref: MARMOSET:104
   color_rgb: '178,145,0'
 
 - id: BAP_1010121
   name: Retroinsular area
   parent: BAP_1010790
-  abbreviation: ReI
+  abbreviation: 'ReI'
   xref: MARMOSET:121
   color_rgb: '122,179,138'
 
 - id: BAP_1010137
   name: Temporal proisocortex
   parent: BAP_1010790
-  abbreviation: TPro
+  abbreviation: 'TPro'
   xref: MARMOSET:137
   color_rgb: '74,165,112'
 
 - id: BAP_1010791
   name: Lateral and Inferior Temporal Cortical Region
   parent: BAP_1010025
-  abbreviation: LIT
+  abbreviation: 'LIT'
   xref: MARMOSET:791
 
 - id: BAP_1010111
   name: Parietal areas PGa and IPa (fundus of superior temporal ventral area)
   parent: BAP_1010791
-  abbreviation: PGa/IPa
+  abbreviation: 'PGa/IPa'
   xref: MARMOSET:111
   color_rgb: '57,151,138'
 
 - id: BAP_1010128
   name: Temporal area TE1
   parent: BAP_1010791
-  abbreviation: TE1
+  abbreviation: 'TE1'
   xref: MARMOSET:128
   color_rgb: '224,109,255'
 
 - id: BAP_1010129
   name: Temporal area TE2
   parent: BAP_1010791
-  abbreviation: TE2
+  abbreviation: 'TE2'
   xref: MARMOSET:129
   color_rgb: '171,0,218'
 
 - id: BAP_1010130
   name: Temporal area TE3
   parent: BAP_1010791
-  abbreviation: TE3
+  abbreviation: 'TE3'
   xref: MARMOSET:130
   color_rgb: '204,51,51'
 
 - id: BAP_1010131
   name: Temporal area TE; occipital part
   parent: BAP_1010791
-  abbreviation: TEO
+  abbreviation: 'TEO'
   xref: MARMOSET:131
   color_rgb: '79,179,176'
 
 - id: BAP_1010138
   name: Temporo-parieto-occipital association area (superior temporal polysensory cortex)
   parent: BAP_1010791
-  abbreviation: TPO
+  abbreviation: 'TPO'
   xref: MARMOSET:138
   color_rgb: '232,147,255'
 
 - id: BAP_1010139
   name: Temporopolar proisocortex
   parent: BAP_1010791
-  abbreviation: TPPro
+  abbreviation: 'TPPro'
   xref: MARMOSET:139
   color_rgb: '166,196,193'
 
 - id: BAP_1010792
   name: Medial Prefrontal Cortex
   parent: BAP_1010025
-  abbreviation: MedP
+  abbreviation: 'MedP'
   xref: MARMOSET:792
 
 - id: BAP_1010049
   name: Area 14 of cortex; caudal part
   parent: BAP_1010792
-  abbreviation: A14C
+  abbreviation: 'A14C'
   xref: MARMOSET:49
   color_rgb: '88,135,207'
 
 - id: BAP_1010050
   name: Area 14 of cortex; rostral part
   parent: BAP_1010792
-  abbreviation: A14R
+  abbreviation: 'A14R'
   xref: MARMOSET:50
   color_rgb: '244,218,244'
 
 - id: BAP_1010061
   name: Area 25 of cortex
   parent: BAP_1010792
-  abbreviation: A25
+  abbreviation: 'A25'
   xref: MARMOSET:61
   color_rgb: '54,142,189'
 
 - id: BAP_1010066
   name: Area 32 of cortex
   parent: BAP_1010792
-  abbreviation: A32
+  abbreviation: 'A32'
   xref: MARMOSET:66
   color_rgb: '85,193,125'
 
 - id: BAP_1010067
   name: Area 32 of cortex; ventral part
   parent: BAP_1010792
-  abbreviation: A32V
+  abbreviation: 'A32V'
   xref: MARMOSET:67
   color_rgb: '62,150,54'
 
 - id: BAP_1010793
   name: Orbital Frontal Cortex
   parent: BAP_1010025
-  abbreviation: OF
+  abbreviation: 'OF'
   xref: MARMOSET:793
 
 - id: BAP_1010044
   name: Area 11 of cortex
   parent: BAP_1010793
-  abbreviation: A11
+  abbreviation: 'A11'
   xref: MARMOSET:44
   color_rgb: '228,63,249'
 
 - id: BAP_1010045
   name: Area 13a of cortex
   parent: BAP_1010793
-  abbreviation: A13a
+  abbreviation: 'A13a'
   xref: MARMOSET:45
   color_rgb: '211,215,179'
 
 - id: BAP_1010046
   name: Area 13b of cortex
   parent: BAP_1010793
-  abbreviation: A13b
+  abbreviation: 'A13b'
   xref: MARMOSET:46
   color_rgb: '179,0,191'
 
 - id: BAP_1010047
   name: Area 13 of cortex; lateral part
   parent: BAP_1010793
-  abbreviation: A13L
+  abbreviation: 'A13L'
   xref: MARMOSET:47
   color_rgb: '184,77,0'
 
 - id: BAP_1010048
   name: Area 13 of cortex; medial part
   parent: BAP_1010793
-  abbreviation: A13M
+  abbreviation: 'A13M'
   xref: MARMOSET:48
   color_rgb: '106,105,102'
 
 - id: BAP_1010093
   name: Gustatory cortex
   parent: BAP_1010793
-  abbreviation: Gu
+  abbreviation: 'Gu'
   xref: MARMOSET:93
   color_rgb: '67,184,103'
 
 - id: BAP_1010101
   name: Orbital periallocortex
   parent: BAP_1010793
-  abbreviation: OPAl
+  abbreviation: 'OPAl'
   xref: MARMOSET:101
   color_rgb: '91,180,72'
 
 - id: BAP_1010102
   name: Orbital proisocortex
   parent: BAP_1010793
-  abbreviation: OPro
+  abbreviation: 'OPro'
   xref: MARMOSET:102
   color_rgb: '138,200,0'
 
 - id: BAP_1010794
   name: Posterior Cingulate Medial and Retrosplenial Cortical Regions
   parent: BAP_1010025
-  abbreviation: PCMR
+  abbreviation: 'PCMR'
   xref: MARMOSET:794
 
 - id: BAP_1010053
   name: Area 23a of cortex
   parent: BAP_1010794
-  abbreviation: A23a
+  abbreviation: 'A23a'
   xref: MARMOSET:53
   color_rgb: '125,109,110'
 
 - id: BAP_1010054
   name: Area 23b of cortex
   parent: BAP_1010794
-  abbreviation: A23b
+  abbreviation: 'A23b'
   xref: MARMOSET:54
   color_rgb: '139,213,193'
 
 - id: BAP_1010055
   name: Area 23c of cortex
   parent: BAP_1010794
-  abbreviation: A23c
+  abbreviation: 'A23c'
   xref: MARMOSET:55
   color_rgb: '79,82,73'
 
 - id: BAP_1010056
   name: Area 23 of cortex; ventral part
   parent: BAP_1010794
-  abbreviation: A23V
+  abbreviation: 'A23V'
   xref: MARMOSET:56
   color_rgb: '104,178,0'
 
 - id: BAP_1010062
   name: Area 29a-c of cortex
   parent: BAP_1010794
-  abbreviation: A29a-c
+  abbreviation: 'A29a-c'
   xref: MARMOSET:62
   color_rgb: '221,228,232'
 
 - id: BAP_1010063
   name: Area 29d of cortex
   parent: BAP_1010794
-  abbreviation: A29d
+  abbreviation: 'A29d'
   xref: MARMOSET:63
   color_rgb: '131,82,148'
 
 - id: BAP_1010064
   name: Area 30 of cortex
   parent: BAP_1010794
-  abbreviation: A30
+  abbreviation: 'A30'
   xref: MARMOSET:64
   color_rgb: '61,154,137'
 
 - id: BAP_1010065
   name: Area 31 of cortex
   parent: BAP_1010794
-  abbreviation: A31
+  abbreviation: 'A31'
   xref: MARMOSET:65
   color_rgb: '177,193,101'
 
 - id: BAP_1010112
   name: Parietal area PG; medial part
   parent: BAP_1010794
-  abbreviation: PGM
+  abbreviation: 'PGM'
   xref: MARMOSET:112
   color_rgb: '181,222,198'
 
 - id: BAP_1010119
   name: Prostriate area
   parent: BAP_1010794
-  abbreviation: ProSt
+  abbreviation: 'ProSt'
   xref: MARMOSET:119
   color_rgb: '105,199,209'
 
 - id: BAP_1010795
   name: Posterior Parietal Cortex
   parent: BAP_1010025
-  abbreviation: PostP
+  abbreviation: 'PostP'
   xref: MARMOSET:795
 
 - id: BAP_1010027
   name: Anterior intraparietal area of cortex
   parent: BAP_1010795
-  abbreviation: AIP
+  abbreviation: 'AIP'
   xref: MARMOSET:27
   color_rgb: '208,222,151'
 
 - id: BAP_1010096
   name: Lateral intrapartietal area of cortex
   parent: BAP_1010795
-  abbreviation: LIP
+  abbreviation: 'LIP'
   xref: MARMOSET:96
   color_rgb: '100,97,42'
 
 - id: BAP_1010097
   name: Medial intraparietal area of cortex
   parent: BAP_1010795
-  abbreviation: MIP
+  abbreviation: 'MIP'
   xref: MARMOSET:97
   color_rgb: '255,227,255'
 
 - id: BAP_1010100
   name: Occipito-parietal transitional area of cortex
   parent: BAP_1010795
-  abbreviation: OPt
+  abbreviation: 'OPt'
   xref: MARMOSET:100
   color_rgb: '104,74,0'
 
 - id: BAP_1010106
   name: Parietal area PE
   parent: BAP_1010795
-  abbreviation: PE
+  abbreviation: 'PE'
   xref: MARMOSET:106
   color_rgb: '24,4,237'
 
 - id: BAP_1010107
   name: Parietal area PE; caudal part
   parent: BAP_1010795
-  abbreviation: PEC
+  abbreviation: 'PEC'
   xref: MARMOSET:107
   color_rgb: '164,187,246'
 
 - id: BAP_1010108
   name: Parietal area PF
   parent: BAP_1010795
-  abbreviation: PF
+  abbreviation: 'PF'
   xref: MARMOSET:108
   color_rgb: '52,148,197'
 
 - id: BAP_1010109
   name: Parietal area PFG
   parent: BAP_1010795
-  abbreviation: PFG
+  abbreviation: 'PFG'
   xref: MARMOSET:109
   color_rgb: '85,169,184'
 
 - id: BAP_1010110
   name: Parietal area PG
   parent: BAP_1010795
-  abbreviation: PG
+  abbreviation: 'PG'
   xref: MARMOSET:110
   color_rgb: '225,0,254'
 
 - id: BAP_1010141
   name: Ventral intraparietal area of cortex
   parent: BAP_1010795
-  abbreviation: VIP
+  abbreviation: 'VIP'
   xref: MARMOSET:141
   color_rgb: '213,177,234'
 
 - id: BAP_1010796
   name: Motor and Premotor Cortical Regions
   parent: BAP_1010025
-  abbreviation: MotPre
+  abbreviation: 'MotPre'
   xref: MARMOSET:796
 
 - id: BAP_1010031
   name: Area 4 of cortex; parts a and b (primary motor)
   parent: BAP_1010796
-  abbreviation: A4ab
+  abbreviation: 'A4ab'
   xref: MARMOSET:31
   color_rgb: '145,162,111'
 
 - id: BAP_1010032
   name: Area 4 of cortex; part c (primary motor)
   parent: BAP_1010796
-  abbreviation: A4c
+  abbreviation: 'A4c'
   xref: MARMOSET:32
   color_rgb: '126,79,98'
 
 - id: BAP_1010033
   name: Area 6 of cortex; dorsocaudal part
   parent: BAP_1010796
-  abbreviation: A6DC
+  abbreviation: 'A6DC'
   xref: MARMOSET:33
   color_rgb: '86,86,170'
 
 - id: BAP_1010034
   name: Area 6 of cortex; dorsorostral part
   parent: BAP_1010796
-  abbreviation: A6DR
+  abbreviation: 'A6DR'
   xref: MARMOSET:34
   color_rgb: '211,180,149'
 
 - id: BAP_1010035
   name: Area 6 of cortex; medial (supplementary motor) part
   parent: BAP_1010796
-  abbreviation: A6M
+  abbreviation: 'A6M'
   xref: MARMOSET:35
   color_rgb: '93,100,255'
 
 - id: BAP_1010036
   name: Area 6 of cortex; ventral; part a
   parent: BAP_1010796
-  abbreviation: A6Va
+  abbreviation: 'A6Va'
   xref: MARMOSET:36
   color_rgb: '58,161,159'
 
 - id: BAP_1010037
   name: Area 6 of cortex; ventral; part b
   parent: BAP_1010796
-  abbreviation: A6Vb
+  abbreviation: 'A6Vb'
   xref: MARMOSET:37
   color_rgb: '152,71,255'
 
 - id: BAP_1010041
   name: Area 8 of cortex; caudal part
   parent: BAP_1010796
-  abbreviation: A8C
+  abbreviation: 'A8C'
   xref: MARMOSET:41
   color_rgb: '150,95,253'
 
 - id: BAP_1010797
   name: Somatosensory Cortex
   parent: BAP_1010025
-  abbreviation: Soma
+  abbreviation: 'Soma'
   xref: MARMOSET:797
 
 - id: BAP_1010028
   name: Areas 1 and 2 of cortex
   parent: BAP_1010797
-  abbreviation: A1/2
+  abbreviation: 'A1/2'
   xref: MARMOSET:28
   color_rgb: '188,221,158'
 
 - id: BAP_1010029
   name: Area 3a of cortex (primary somatosensory)
   parent: BAP_1010797
-  abbreviation: A3a
+  abbreviation: 'A3a'
   xref: MARMOSET:29
   color_rgb: '183,54,210'
 
 - id: BAP_1010030
   name: Area 3b of cortex (primary somatosensory)
   parent: BAP_1010797
-  abbreviation: A3b
+  abbreviation: 'A3b'
   xref: MARMOSET:30
   color_rgb: '107,102,100'
 
 - id: BAP_1010122
   name: Secondary somatosensory cortex; external part
   parent: BAP_1010797
-  abbreviation: S2E
+  abbreviation: 'S2E'
   xref: MARMOSET:122
   color_rgb: '149,132,146'
 
 - id: BAP_1010123
   name: Secondary somatosensory cortex; internal part
   parent: BAP_1010797
-  abbreviation: S2I
+  abbreviation: 'S2I'
   xref: MARMOSET:123
   color_rgb: '112,197,255'
 
 - id: BAP_1010124
   name: Secondary somatosensory cortex; parietal rostral area
   parent: BAP_1010797
-  abbreviation: S2PR
+  abbreviation: 'S2PR'
   xref: MARMOSET:124
   color_rgb: '184,160,158'
 
 - id: BAP_1010125
   name: Secondary somatosensory cortex; parietal ventral area
   parent: BAP_1010797
-  abbreviation: S2PV
+  abbreviation: 'S2PV'
   xref: MARMOSET:125
   color_rgb: '245,249,235'
 
 - id: BAP_1010798
   name: Visual Cortex
   parent: BAP_1010025
-  abbreviation: Vis
+  abbreviation: 'Vis'
   xref: MARMOSET:798
 
 - id: BAP_1010051
   name: Area 19 of cortex; dorsointermediate part
   parent: BAP_1010798
-  abbreviation: A19DI
+  abbreviation: 'A19DI'
   xref: MARMOSET:51
   color_rgb: '210,56,179'
 
 - id: BAP_1010052
   name: Area 19 of cortex; medial part
   parent: BAP_1010798
-  abbreviation: A19M
+  abbreviation: 'A19M'
   xref: MARMOSET:52
   color_rgb: '127,89,24'
 
 - id: BAP_1010091
   name: Fundus of superior temporal sulcus area of cortex
   parent: BAP_1010798
-  abbreviation: FST
+  abbreviation: 'FST'
   xref: MARMOSET:91
   color_rgb: '18,191,0'
 
 - id: BAP_1010098
   name: Medial superior temporal area of cortex
   parent: BAP_1010798
-  abbreviation: MST
+  abbreviation: 'MST'
   xref: MARMOSET:98
   color_rgb: '95,125,199'
 
 - id: BAP_1010142
   name: Visual area 1
   parent: BAP_1010798
-  abbreviation: V1
+  abbreviation: 'V1'
   xref: MARMOSET:142
   color_rgb: '40,152,42'
 
 - id: BAP_1010143
   name: Visual area 2
   parent: BAP_1010798
-  abbreviation: V2
+  abbreviation: 'V2'
   xref: MARMOSET:143
   color_rgb: '43,100,143'
 
 - id: BAP_1010144
   name: Visual area 3 (ventrolateral posterior area)
   parent: BAP_1010798
-  abbreviation: V3
+  abbreviation: 'V3'
   xref: MARMOSET:144
   color_rgb: '88,83,69'
 
 - id: BAP_1010145
   name: Visual area 3A (dorsoanterior area)
   parent: BAP_1010798
-  abbreviation: V3A
+  abbreviation: 'V3A'
   xref: MARMOSET:145
   color_rgb: '215,244,181'
 
 - id: BAP_1010146
   name: Visual area 4 (ventrolatereral anterior area)
   parent: BAP_1010798
-  abbreviation: V4
+  abbreviation: 'V4'
   xref: MARMOSET:146
   color_rgb: '111,244,93'
 
 - id: BAP_1010147
   name: Visual area 4; transitional part
   parent: BAP_1010798
-  abbreviation: V4T
+  abbreviation: 'V4T'
   xref: MARMOSET:147
   color_rgb: '192,1,252'
 
 - id: BAP_1010148
   name: Visual area 5 (middle temporal area)
   parent: BAP_1010798
-  abbreviation: V5
+  abbreviation: 'V5'
   xref: MARMOSET:148
   color_rgb: '170,141,181'
 
 - id: BAP_1010149
   name: Visual area 6 (dorsomedial area)
   parent: BAP_1010798
-  abbreviation: V6
+  abbreviation: 'V6'
   xref: MARMOSET:149
   color_rgb: '2,153,254'
 
 - id: BAP_1010150
   name: Visual area 6A (posterior parietal medial area)
   parent: BAP_1010798
-  abbreviation: V6A
+  abbreviation: 'V6A'
   xref: MARMOSET:150
   color_rgb: '2,153,0'
 
 - id: BAP_1010799
   name: Ventrolateral Prefrontal Cortex
   parent: BAP_1010025
-  abbreviation: VentPre
+  abbreviation: 'VentPre'
   xref: MARMOSET:799
 
 - id: BAP_1010070
   name: Area 45 of cortex
   parent: BAP_1010799
-  abbreviation: A45
+  abbreviation: 'A45'
   xref: MARMOSET:70
   color_rgb: '113,70,148'
 
 - id: BAP_1010073
   name: Area 47 (old 12) of cortex; lateral part
   parent: BAP_1010799
-  abbreviation: A47L
+  abbreviation: 'A47L'
   xref: MARMOSET:73
   color_rgb: '163,129,36'
 
 - id: BAP_1010074
   name: Area 47 (old 12) of cortex; medial part
   parent: BAP_1010799
-  abbreviation: A47M
+  abbreviation: 'A47M'
   xref: MARMOSET:74
   color_rgb: '81,142,232'
 
 - id: BAP_1010075
   name: Area 47 (old 12) of cortex; orbital part
   parent: BAP_1010799
-  abbreviation: A47O
+  abbreviation: 'A47O'
   xref: MARMOSET:75
   color_rgb: '226,221,204'
 
 - id: BAP_1010118
   name: Proisocortical motor region (precentral opercular cortex)
   parent: BAP_1010799
-  abbreviation: ProM
+  abbreviation: 'ProM'
   xref: MARMOSET:118
   color_rgb: '212,212,148'
 
 - id: BAP_1010800
   name: Ventral Areas of the Temporal Lobe
   parent: BAP_1010025
-  abbreviation: VT
+  abbreviation: 'VT'
   xref: MARMOSET:800
 
 - id: BAP_1010068
   name: Area 35 of cortex
   parent: BAP_1010800
-  abbreviation: A35
+  abbreviation: 'A35'
   xref: MARMOSET:68
   color_rgb: '173,175,119'
 
 - id: BAP_1010069
   name: Area 36 of cortex
   parent: BAP_1010800
-  abbreviation: A36
+  abbreviation: 'A36'
   xref: MARMOSET:69
   color_rgb: '119,38,227'
 
 - id: BAP_1010089
   name: Entorhinal cortex
   parent: BAP_1010800
-  abbreviation: Ent
+  abbreviation: 'Ent'
   xref: MARMOSET:89
   color_rgb: '122,136,83'
 
 - id: BAP_1010132
   name: Temporal area TF
   parent: BAP_1010800
-  abbreviation: TF
+  abbreviation: 'TF'
   xref: MARMOSET:132
   color_rgb: '131,82,148'
 
 - id: BAP_1010133
   name: Temporal area TF; occipital part
   parent: BAP_1010800
-  abbreviation: TFO
+  abbreviation: 'TFO'
   xref: MARMOSET:133
   color_rgb: '194,232,147'
 
 - id: BAP_1010134
   name: Temporal area TH
   parent: BAP_1010800
-  abbreviation: TH
+  abbreviation: 'TH'
   xref: MARMOSET:134
   color_rgb: '231,201,197'
 
 - id: BAP_1010135
   name: Temporal area TL
   parent: BAP_1010800
-  abbreviation: TL
+  abbreviation: 'TL'
   xref: MARMOSET:135
   color_rgb: '160,201,213'
 
 - id: BAP_1010136
   name: Temporal area TL; occipital part
   parent: BAP_1010800
-  abbreviation: TLO
+  abbreviation: 'TLO'
   xref: MARMOSET:136
   color_rgb: '160,119,213'
 
 - id: BAP_1010090
   name: Faciola cinereum
   parent: BAP_1010025
-  abbreviation: FC
+  abbreviation: 'FC'
   xref: MARMOSET:90
 
 - id: BAP_1010094
   name: Indusium griseum
   parent: BAP_1010025
-  abbreviation: IG
+  abbreviation: 'IG'
   xref: MARMOSET:94
   color_rgb: '243,231,64'
 
 - id: BAP_1010099
   name: Navicular nucleus of the basal forebrain
   parent: BAP_1010025
-  abbreviation: Nv
+  abbreviation: 'Nv'
   xref: MARMOSET:99
   color_rgb: '255,0,22'
 
 - id: BAP_1010105
   name: Parasubiculum
   parent: BAP_1010025
-  abbreviation: PaS
+  abbreviation: 'PaS'
   xref: MARMOSET:105
   color_rgb: '124,99,121'
 
 - id: BAP_1010113
   name: Piriform cortex
   parent: BAP_1010025
-  abbreviation: Pir
+  abbreviation: 'Pir'
   xref: MARMOSET:113
   color_rgb: '62,156,111'
 
 - id: BAP_1010114
   name: Piriform cortex; layer 1
   parent: BAP_1010025
-  abbreviation: Pir 1
+  abbreviation: 'Pir 1'
   xref: MARMOSET:114
 
 - id: BAP_1010115
   name: Piriform cortex; layer 2
   parent: BAP_1010025
-  abbreviation: Pir 2
+  abbreviation: 'Pir 2'
   xref: MARMOSET:115
 
 - id: BAP_1010116
   name: Piriform cortex; layer 3
   parent: BAP_1010025
-  abbreviation: Pir 3
+  abbreviation: 'Pir 3'
   xref: MARMOSET:116
 
 - id: BAP_1010117
   name: Presubiculum
   parent: BAP_1010025
-  abbreviation: PrS
+  abbreviation: 'PrS'
   xref: MARMOSET:117
   color_rgb: '162,159,153'
 
 - id: BAP_1010120
   name: Prosubiculum
   parent: BAP_1010025
-  abbreviation: ProS
+  abbreviation: 'ProS'
   xref: MARMOSET:120
   color_rgb: '117,69,106'
 
 - id: BAP_1010127
   name: Supracallosal subiculum
   parent: BAP_1010025
-  abbreviation: SS
+  abbreviation: 'SS'
   xref: MARMOSET:127
 
 - id: BAP_1010020
   name: Olfactory cortex
   parent: BAP_1010019
-  abbreviation: OlfC
+  abbreviation: 'OlfC'
   xref: MARMOSET:20
 
 - id: BAP_1010024
   name: Tenia tecta
   parent: BAP_1010020
-  abbreviation: TT
+  abbreviation: 'TT'
   xref: MARMOSET:24
   color_rgb: '214,201,73'
 
 - id: BAP_1010021
   name: Olfactry tubercle
   parent: BAP_1010020
-  abbreviation: Tu
+  abbreviation: 'Tu'
   xref: MARMOSET:21
   color_rgb: '255,255,0'
 
 - id: BAP_1010022
   name: Islands of Calleja
   parent: BAP_1010021
-  abbreviation: ICj
+  abbreviation: 'ICj'
   xref: MARMOSET:22
   color_rgb: '143,126,0'
 
 - id: BAP_1010023
   name: Islands of Calleja; major island
   parent: BAP_1010021
-  abbreviation: ICjM
+  abbreviation: 'ICjM'
   xref: MARMOSET:23
   color_rgb: '181,169,190'
 
 - id: BAP_1010151
   name: Hippocampal formation
   parent: BAP_1010019
-  abbreviation: HipF
+  abbreviation: 'HipF'
   xref: MARMOSET:151
   color_rgb: '0,169,204'
 
 - id: BAP_1010152
   name: Dentate gyrus
   parent: BAP_1010151
-  abbreviation: DG
+  abbreviation: 'DG'
   xref: MARMOSET:152
   color_rgb: '0,133,155'
 
 - id: BAP_1010153
   name: Granule cell layer of the dentate gyrus
   parent: BAP_1010152
-  abbreviation: GrDG
+  abbreviation: 'GrDG'
   xref: MARMOSET:153
 
 - id: BAP_1010154
   name: Molecular layer of the dentate gyrus
   parent: BAP_1010152
-  abbreviation: MoDG
+  abbreviation: 'MoDG'
   xref: MARMOSET:154
 
 - id: BAP_1010155
   name: Polymorph layer of the dentate gyrus
   parent: BAP_1010152
-  abbreviation: PoDG
+  abbreviation: 'PoDG'
   xref: MARMOSET:155
 
 - id: BAP_1010156
   name: Hippocampus
   parent: BAP_1010151
-  abbreviation: Hip
+  abbreviation: 'Hip'
   xref: MARMOSET:156
   color_rgb: '0,142,148'
 
 - id: BAP_1010160
   name: Lacunosum moleculare layer of the hippocampus
   parent: BAP_1010156
-  abbreviation: LMol
+  abbreviation: 'LMol'
   xref: MARMOSET:160
 
 - id: BAP_1010161
   name: Oriens layer of the hippocampus
   parent: BAP_1010156
-  abbreviation: Or
+  abbreviation: 'Or'
   xref: MARMOSET:161
 
 - id: BAP_1010162
   name: Pyramidal cell layer of the hippocampus
   parent: BAP_1010156
-  abbreviation: Py
+  abbreviation: 'Py'
   xref: MARMOSET:162
 
 - id: BAP_1010163
   name: Radiatum layer of the hippocampus
   parent: BAP_1010156
-  abbreviation: Rad
+  abbreviation: 'Rad'
   xref: MARMOSET:163
 
 - id: BAP_1010164
   name: Stratum lucidum of the hippocampus
   parent: BAP_1010156
-  abbreviation: SLu
+  abbreviation: 'SLu'
   xref: MARMOSET:164
 
 - id: BAP_1010157
   name: Field CA1 of the hippocampus
   parent: BAP_1010156
-  abbreviation: CA1
+  abbreviation: 'CA1'
   xref: MARMOSET:157
   color_rgb: '96,138,142'
 
 - id: BAP_1010158
   name: Field CA2 of the hippocampus
   parent: BAP_1010156
-  abbreviation: CA2
+  abbreviation: 'CA2'
   xref: MARMOSET:158
   color_rgb: '109,150,156'
 
 - id: BAP_1010159
   name: Field CA3 of the hippocampus
   parent: BAP_1010156
-  abbreviation: CA3
+  abbreviation: 'CA3'
   xref: MARMOSET:159
   color_rgb: '83,168,183'
 
 - id: BAP_1010165
   name: Subiculum
   parent: BAP_1010151
-  abbreviation: S
+  abbreviation: 'S'
   xref: MARMOSET:165
   color_rgb: '115,179,193'
 
 - id: BAP_1010004
   name: OLFACTORY BULB
   parent: BAP_1010003
-  abbreviation: OLB
+  abbreviation: 'OLB'
   xref: MARMOSET:4
   color_rgb: '204,187,0'
 
 - id: BAP_1010005
   name: Olfactory bulb
   parent: BAP_1010004
-  abbreviation: OB
+  abbreviation: 'OB'
   xref: MARMOSET:5
   color_rgb: '244,189,53'
 
 - id: BAP_1010006
   name: Accessory olfactory bulb
   parent: BAP_1010005
-  abbreviation: AOB
+  abbreviation: 'AOB'
   xref: MARMOSET:6
   color_rgb: '244,189,107'
 
 - id: BAP_1010007
   name: Anterior olfactory nucleus
   parent: BAP_1010005
-  abbreviation: AON
+  abbreviation: 'AON'
   xref: MARMOSET:7
   color_rgb: '170,122,64'
 
 - id: BAP_1010008
   name: Ependyma & subependymal layer
   parent: BAP_1010005
-  abbreviation: E
+  abbreviation: 'E'
   xref: MARMOSET:8
   color_rgb: '180,119,0'
 
 - id: BAP_1010009
   name: External plexiform layer of the accessory olfactory bulb
   parent: BAP_1010005
-  abbreviation: EPlA
+  abbreviation: 'EPlA'
   xref: MARMOSET:9
   color_rgb: '237,174,0'
 
 - id: BAP_1010010
   name: External plexiform layer of the olfactory bulb
   parent: BAP_1010005
-  abbreviation: EPl
+  abbreviation: 'EPl'
   xref: MARMOSET:10
   color_rgb: '255,187,0'
 
 - id: BAP_1010011
   name: Glomerular layer of the accessory olfactory bulb
   parent: BAP_1010005
-  abbreviation: GlA
+  abbreviation: 'GlA'
   xref: MARMOSET:11
 
 - id: BAP_1010012
   name: Glomerular layer of the olfactory bulb
   parent: BAP_1010005
-  abbreviation: Gl
+  abbreviation: 'Gl'
   xref: MARMOSET:12
   color_rgb: '197,182,158'
 
 - id: BAP_1010013
   name: Granule cell layer of the accessory olfactory bulb
   parent: BAP_1010005
-  abbreviation: GrA
+  abbreviation: 'GrA'
   xref: MARMOSET:13
   color_rgb: '227,199,0'
 
 - id: BAP_1010014
   name: Granule cell layer of the olfactory bulb
   parent: BAP_1010005
-  abbreviation: GrO
+  abbreviation: 'GrO'
   xref: MARMOSET:14
   color_rgb: '200,166,93'
 
 - id: BAP_1010015
   name: Internal plexiform layer of the olfactory bulb
   parent: BAP_1010005
-  abbreviation: IPl
+  abbreviation: 'IPl'
   xref: MARMOSET:15
   color_rgb: '227,199,0'
 
 - id: BAP_1010016
   name: Mitral cell layer of the accessory olfactory bulb
   parent: BAP_1010005
-  abbreviation: MiA
+  abbreviation: 'MiA'
   xref: MARMOSET:16
   color_rgb: '237,214,14'
 
 - id: BAP_1010017
   name: Mitral cell layer of the olfactory bulb
   parent: BAP_1010005
-  abbreviation: Mi
+  abbreviation: 'Mi'
   xref: MARMOSET:17
   color_rgb: '112,108,62'
 
 - id: BAP_1010018
   name: Olfactory nerve layer
   parent: BAP_1010005
-  abbreviation: ON
+  abbreviation: 'ON'
   xref: MARMOSET:18
   color_rgb: '234,213,107'
 
 - id: BAP_1010238
   name: SEPTUM
   parent: BAP_1010003
-  abbreviation: SEP
+  abbreviation: 'SEP'
   xref: MARMOSET:238
   color_rgb: '0,156,209'
 
 - id: BAP_1010239
   name: Nucleus of the horizontal limb of the diagonal band
   parent: BAP_1010238
-  abbreviation: HDB
+  abbreviation: 'HDB'
   xref: MARMOSET:239
   color_rgb: '133,12,255'
 
 - id: BAP_1010240
   name: Nucleus of the vertical limb of the diagonal band
   parent: BAP_1010238
-  abbreviation: VDB
+  abbreviation: 'VDB'
   xref: MARMOSET:240
   color_rgb: '0,141,186'
 
 - id: BAP_1010241
   name: Lambdoid spetal zone
   parent: BAP_1010238
-  abbreviation: Ld
+  abbreviation: 'Ld'
   xref: MARMOSET:241
 
 - id: BAP_1010242
   name: Lateral nucleus of the diagonal band
   parent: BAP_1010238
-  abbreviation: LDB
+  abbreviation: 'LDB'
   xref: MARMOSET:242
   color_rgb: '0,93,255'
 
 - id: BAP_1010243
   name: Lateral septal nuclei
   parent: BAP_1010238
-  abbreviation: LS
+  abbreviation: 'LS'
   xref: MARMOSET:243
   color_rgb: '126,126,219'
 
 - id: BAP_1010244
   name: Lateral septal nucleus;dorsal part
   parent: BAP_1010243
-  abbreviation: LSD
+  abbreviation: 'LSD'
   xref: MARMOSET:244
   color_rgb: '126,177,193'
 
 - id: BAP_1010245
   name: Lateral septal nucleus; intermediate part
   parent: BAP_1010243
-  abbreviation: LSI
+  abbreviation: 'LSI'
   xref: MARMOSET:245
   color_rgb: '156,227,222'
 
 - id: BAP_1010246
   name: Lateral septal nucleus; ventral part
   parent: BAP_1010243
-  abbreviation: LSV
+  abbreviation: 'LSV'
   xref: MARMOSET:246
   color_rgb: '220,213,193'
 
 - id: BAP_1010247
   name: Medial septal nucleus
   parent: BAP_1010238
-  abbreviation: MS
+  abbreviation: 'MS'
   xref: MARMOSET:247
   color_rgb: '157,204,224'
 
 - id: BAP_1010248
   name: Paradiagonal zone
   parent: BAP_1010238
-  abbreviation: PDZ
+  abbreviation: 'PDZ'
   xref: MARMOSET:248
 
 - id: BAP_1010249
   name: Septofimbrial nucleus
   parent: BAP_1010238
-  abbreviation: SFi
+  abbreviation: 'SFi'
   xref: MARMOSET:249
   color_rgb: '107,250,254'
 
 - id: BAP_1010250
   name: Septohippocampal nucleus
   parent: BAP_1010238
-  abbreviation: SHi
+  abbreviation: 'SHi'
   xref: MARMOSET:250
 
 - id: BAP_1010251
   name: Triangular septal nucleus
   parent: BAP_1010238
-  abbreviation: TS
+  abbreviation: 'TS'
   xref: MARMOSET:251
   color_rgb: '107,100,219'
 
 - id: BAP_1010166
   name: BASAL GANGLIA
   parent: BAP_1010003
-  abbreviation: BG
+  abbreviation: 'BG'
   xref: MARMOSET:166
   color_rgb: '0,115,162'
 
 - id: BAP_1010226
   name: Striatum
   parent: BAP_1010166
-  abbreviation: St
+  abbreviation: 'St'
   xref: MARMOSET:226
   color_rgb: '0,164,116'
 
 - id: BAP_1010233
   name: Caudate nucleus
   parent: BAP_1010226
-  abbreviation: Cd
+  abbreviation: 'Cd'
   xref: MARMOSET:233
   color_rgb: '0,165,83'
 
 - id: BAP_1010234
   name: Putamen
   parent: BAP_1010226
-  abbreviation: Pu
+  abbreviation: 'Pu'
   xref: MARMOSET:234
   color_rgb: '215,221,60'
 
 - id: BAP_1010227
   name: Accumbens nucleus
   parent: BAP_1010226
-  abbreviation: Acb
+  abbreviation: 'Acb'
   xref: MARMOSET:227
   color_rgb: '60,103,84'
 
 - id: BAP_1010228
   name: Accumbens nucleus; core
   parent: BAP_1010227
-  abbreviation: AcbC
+  abbreviation: 'AcbC'
   xref: MARMOSET:228
   color_rgb: '202,217,165'
 
 - id: BAP_1010229
   name: Accumbens nucleus;shell
   parent: BAP_1010227
-  abbreviation: AcbSh
+  abbreviation: 'AcbSh'
   xref: MARMOSET:229
   color_rgb: '161,226,182'
 
 - id: BAP_1010232
   name: Medial accumbens shell
   parent: BAP_1010229
-  abbreviation: MAcbSh
+  abbreviation: 'MAcbSh'
   xref: MARMOSET:232
 
 - id: BAP_1010230
   name: Dorsal accumbens shell
   parent: BAP_1010229
-  abbreviation: DAcbSh
+  abbreviation: 'DAcbSh'
   xref: MARMOSET:230
 
 - id: BAP_1010231
   name: Lateral accumbens shell
   parent: BAP_1010229
-  abbreviation: LAcbSh
+  abbreviation: 'LAcbSh'
   xref: MARMOSET:231
 
 - id: BAP_1010167
   name: Amygdala
   parent: BAP_1010166
-  abbreviation: AMG
+  abbreviation: 'AMG'
   xref: MARMOSET:167
   color_rgb: '133,88,150'
 
 - id: BAP_1010196
   name: Latero-basal nuclear complex (bassolateral group)
   parent: BAP_1010167
-  abbreviation: Lbn
+  abbreviation: 'Lbn'
   xref: MARMOSET:196
   color_rgb: '118,82,118'
 
 - id: BAP_1010209
   name: Lateral amygdaloid nucleus
   parent: BAP_1010196
-  abbreviation: La
+  abbreviation: 'La'
   xref: MARMOSET:209
   color_rgb: '71,57,70'
 
 - id: BAP_1010203
   name: Basomedial amygdaloid nucleus
   parent: BAP_1010196
-  abbreviation: BM
+  abbreviation: 'BM'
   xref: MARMOSET:203
   color_rgb: '197,115,178'
 
 - id: BAP_1010208
   name: Basomedial amygdaloid nucleus; vebtromedial part
   parent: BAP_1010203
-  abbreviation: BMVM
+  abbreviation: 'BMVM'
   xref: MARMOSET:208
 
 - id: BAP_1010204
   name: Basomedial amygdaloid nucleus; dorsal part
   parent: BAP_1010203
-  abbreviation: BMD
+  abbreviation: 'BMD'
   xref: MARMOSET:204
 
 - id: BAP_1010205
   name: Basomedial amygdaloid nucleus; magnocellular part
   parent: BAP_1010203
-  abbreviation: BMMC
+  abbreviation: 'BMMC'
   xref: MARMOSET:205
   color_rgb: '197,77,146'
 
 - id: BAP_1010206
   name: Basomedial amygdaloid nucleus; parvicellular part
   parent: BAP_1010203
-  abbreviation: BMPC
+  abbreviation: 'BMPC'
   xref: MARMOSET:206
   color_rgb: '230,102,134'
 
 - id: BAP_1010207
   name: Basomedial amygdaloid nucleus; ventral part
   parent: BAP_1010203
-  abbreviation: BMV
+  abbreviation: 'BMV'
   xref: MARMOSET:207
 
 - id: BAP_1010197
   name: Basolateral amygdaloid nucleus
   parent: BAP_1010196
-  abbreviation: BL
+  abbreviation: 'BL'
   xref: MARMOSET:197
   color_rgb: '66,44,65'
 
 - id: BAP_1010200
   name: Basolateral amygdaloid nucleus; intermediate part
   parent: BAP_1010197
-  abbreviation: BLI
+  abbreviation: 'BLI'
   xref: MARMOSET:200
 
 - id: BAP_1010201
   name: Basolateral amygdaloid nucleus; ventrolateral part
   parent: BAP_1010197
-  abbreviation: BLVL
+  abbreviation: 'BLVL'
   xref: MARMOSET:201
 
 - id: BAP_1010202
   name: Basolateral amygdaloid nucleus; ventromedial part
   parent: BAP_1010197
-  abbreviation: BLVM
+  abbreviation: 'BLVM'
   xref: MARMOSET:202
 
 - id: BAP_1010198
   name: Basolateral amygdaloid nucleus; dorsal part
   parent: BAP_1010197
-  abbreviation: BLD
+  abbreviation: 'BLD'
   xref: MARMOSET:198
 
 - id: BAP_1010199
   name: Basolateral amygdaloid nucleus; dorsolateral part
   parent: BAP_1010197
-  abbreviation: BLDL
+  abbreviation: 'BLDL'
   xref: MARMOSET:199
 
 - id: BAP_1010168
   name: Amygdalohippocampal area
   parent: BAP_1010167
-  abbreviation: AHi
+  abbreviation: 'AHi'
   xref: MARMOSET:168
   color_rgb: '125,87,141'
 
 - id: BAP_1010169
   name: Amygdalopiriform transition area
   parent: BAP_1010167
-  abbreviation: APir
+  abbreviation: 'APir'
   xref: MARMOSET:169
   color_rgb: '231,64,246'
 
 - id: BAP_1010170
   name: Amygdalostriatal transition area
   parent: BAP_1010167
-  abbreviation: ASt
+  abbreviation: 'ASt'
   xref: MARMOSET:170
 
 - id: BAP_1010171
   name: Cortical amygdaloid group (corticomedial group)
   parent: BAP_1010167
-  abbreviation: CoAG
+  abbreviation: 'CoAG'
   xref: MARMOSET:171
   color_rgb: '167,87,168'
 
 - id: BAP_1010176
   name: Cortical amugdaloid nucleus
   parent: BAP_1010171
-  abbreviation: Co
+  abbreviation: 'Co'
   xref: MARMOSET:176
 
 - id: BAP_1010177
   name: Anterior amygdaloid area
   parent: BAP_1010176
-  abbreviation: AA
+  abbreviation: 'AA'
   xref: MARMOSET:177
   color_rgb: '171,60,93'
 
 - id: BAP_1010178
   name: Anterior cortical amygdaloid nucleus
   parent: BAP_1010176
-  abbreviation: ACo
+  abbreviation: 'ACo'
   xref: MARMOSET:178
   color_rgb: '74,83,205'
 
 - id: BAP_1010179
   name: Nucleus of the lateral olfactry tract
   parent: BAP_1010176
-  abbreviation: LOT
+  abbreviation: 'LOT'
   xref: MARMOSET:179
   color_rgb: '44,0,147'
 
 - id: BAP_1010180
   name: Posterior cortical amygdaloid nucleus
   parent: BAP_1010176
-  abbreviation: PCo
+  abbreviation: 'PCo'
   xref: MARMOSET:180
   color_rgb: '0,187,168'
 
 - id: BAP_1010172
   name: Central amygdaloid nucleus
   parent: BAP_1010171
-  abbreviation: Ce
+  abbreviation: 'Ce'
   xref: MARMOSET:172
   color_rgb: '159,62,141'
 
 - id: BAP_1010173
   name: Central amygdaloid nucleus; capsular parts
   parent: BAP_1010172
-  abbreviation: CeC
+  abbreviation: 'CeC'
   xref: MARMOSET:173
 
 - id: BAP_1010174
   name: Central amygdaloid nucleus; lateral parts
   parent: BAP_1010172
-  abbreviation: CeL
+  abbreviation: 'CeL'
   xref: MARMOSET:174
 
 - id: BAP_1010175
   name: Central amygdaloid nucleus; medial parts
   parent: BAP_1010172
-  abbreviation: CeM
+  abbreviation: 'CeM'
   xref: MARMOSET:175
 
 - id: BAP_1010181
   name: Medial amygdaloid nucleus
   parent: BAP_1010171
-  abbreviation: Me
+  abbreviation: 'Me'
   xref: MARMOSET:181
   color_rgb: '246,226,148'
 
 - id: BAP_1010210
   name: Paralaminar amygdaloid nucleus
   parent: BAP_1010167
-  abbreviation: PaL
+  abbreviation: 'PaL'
   xref: MARMOSET:210
   color_rgb: '213,186,215'
 
 - id: BAP_1010182
   name: Cortex-amygdala transition zone
   parent: BAP_1010167
-  abbreviation: CxA
+  abbreviation: 'CxA'
   xref: MARMOSET:182
 
 - id: BAP_1010183
   name: Extended amygdala
   parent: BAP_1010167
-  abbreviation: EXA
+  abbreviation: 'EXA'
   xref: MARMOSET:183
 
 - id: BAP_1010184
   name: Extended amygdala
   parent: BAP_1010183
-  abbreviation: EA
+  abbreviation: 'EA'
   xref: MARMOSET:184
 
 - id: BAP_1010185
   name: Bed nucleus of the stria terminalis
   parent: BAP_1010184
-  abbreviation: ST
+  abbreviation: 'ST'
   xref: MARMOSET:185
   color_rgb: '221,235,134'
 
 - id: BAP_1010192
   name: Bed nucleus of the stria terminalis; medial division; ventral part
   parent: BAP_1010185
-  abbreviation: STMV
+  abbreviation: 'STMV'
   xref: MARMOSET:192
 
 - id: BAP_1010186
   name: Bed nucleus of the stria terminalis; fusiform part
   parent: BAP_1010185
-  abbreviation: Fu
+  abbreviation: 'Fu'
   xref: MARMOSET:186
 
 - id: BAP_1010187
   name: Bed nucleus of the stria terminalis; intraamygdaloid division
   parent: BAP_1010185
-  abbreviation: STIA
+  abbreviation: 'STIA'
   xref: MARMOSET:187
 
 - id: BAP_1010188
   name: Bed nucleus of the stria terminalis; lateral division; dorsal part
   parent: BAP_1010185
-  abbreviation: STLD
+  abbreviation: 'STLD'
   xref: MARMOSET:188
 
 - id: BAP_1010189
   name: Bed nucleus of the stria terminalis; lateral division; posterior part
   parent: BAP_1010185
-  abbreviation: STLP
+  abbreviation: 'STLP'
   xref: MARMOSET:189
 
 - id: BAP_1010190
   name: Bed nucleus of the stria terminalis; medial division; anterior part
   parent: BAP_1010185
-  abbreviation: STMA
+  abbreviation: 'STMA'
   xref: MARMOSET:190
 
 - id: BAP_1010191
   name: Bed nucleus of the stria terminalis; medial division; posterior part
   parent: BAP_1010185
-  abbreviation: STMP
+  abbreviation: 'STMP'
   xref: MARMOSET:191
 
 - id: BAP_1010193
   name: Intercalated nuclei of the amygdala
   parent: BAP_1010183
-  abbreviation: I
+  abbreviation: 'I'
   xref: MARMOSET:193
   color_rgb: '170,179,0'
 
 - id: BAP_1010194
   name: Intercalated amygdaloid nucleus; main part
   parent: BAP_1010183
-  abbreviation: IM
+  abbreviation: 'IM'
   xref: MARMOSET:194
 
 - id: BAP_1010195
   name: Interstitial nucleus of the posterior limb of the anterior commissure
   parent: BAP_1010183
-  abbreviation: IPAC
+  abbreviation: 'IPAC'
   xref: MARMOSET:195
   color_rgb: '197,185,0'
 
 - id: BAP_1010235
   name: Subthalamic nucleus
   parent: BAP_1010166
-  abbreviation: STh
+  abbreviation: 'STh'
   xref: MARMOSET:235
   color_rgb: '109,168,149'
 
 - id: BAP_1010236
   name: Ventral nucleus of the endopiriform claustrum
   parent: BAP_1010166
-  abbreviation: VEn
+  abbreviation: 'VEn'
   xref: MARMOSET:236
   color_rgb: '98,117,162'
 
 - id: BAP_1010237
   name: Ventral pallidum
   parent: BAP_1010166
-  abbreviation: VP
+  abbreviation: 'VP'
   xref: MARMOSET:237
   color_rgb: '72,86,41'
 
 - id: BAP_1010211
   name: Basal nucleus (Meynert)
   parent: BAP_1010166
-  abbreviation: B
+  abbreviation: 'B'
   xref: MARMOSET:211
   color_rgb: '0,83,62'
 
 - id: BAP_1010212
   name: Claustrum
   parent: BAP_1010166
-  abbreviation: Cl
+  abbreviation: 'Cl'
   xref: MARMOSET:212
   color_rgb: '0,123,80'
 
 - id: BAP_1010213
   name: Dorsal nucleus of the endopiriform claustrum
   parent: BAP_1010166
-  abbreviation: DEn
+  abbreviation: 'DEn'
   xref: MARMOSET:213
   color_rgb: '136,139,66'
 
 - id: BAP_1010214
   name: Globus pallidus
   parent: BAP_1010166
-  abbreviation: GP
+  abbreviation: 'GP'
   xref: MARMOSET:214
 
 - id: BAP_1010216
   name: Internal globus pallidus
   parent: BAP_1010214
-  abbreviation: IGP
+  abbreviation: 'IGP'
   xref: MARMOSET:216
   color_rgb: '0,153,133'
 
 - id: BAP_1010215
   name: External globus pallidus
   parent: BAP_1010214
-  abbreviation: EGP
+  abbreviation: 'EGP'
   xref: MARMOSET:215
   color_rgb: '130,255,232'
 
 - id: BAP_1010217
   name: Intermediate endopiriform nucleus
   parent: BAP_1010166
-  abbreviation: IEn
+  abbreviation: 'IEn'
   xref: MARMOSET:217
 
 - id: BAP_1010218
   name: Substania innominata; basal part
   parent: BAP_1010166
-  abbreviation: SIB
+  abbreviation: 'SIB'
   xref: MARMOSET:218
   color_rgb: '84,129,25'
 
 - id: BAP_1010219
   name: Substantia nigra
   parent: BAP_1010166
-  abbreviation: SNBG
+  abbreviation: 'SNBG'
   xref: MARMOSET:219
   color_rgb: '42,119,98'
 
 - id: BAP_1010224
   name: Substantia nigra; lateral part
   parent: BAP_1010219
-  abbreviation: SNL
+  abbreviation: 'SNL'
   xref: MARMOSET:224
   color_rgb: '150,175,169'
 
 - id: BAP_1010225
   name: Substantia nigra; reticular part
   parent: BAP_1010219
-  abbreviation: SNR
+  abbreviation: 'SNR'
   xref: MARMOSET:225
   color_rgb: '65,195,175'
 
 - id: BAP_1010220
   name: Substantia nigra; compact part
   parent: BAP_1010219
-  abbreviation: SNC
+  abbreviation: 'SNC'
   xref: MARMOSET:220
   color_rgb: '97,213,95'
 
 - id: BAP_1010221
   name: Substantia nigra; compact part; dorsal tier
   parent: BAP_1010220
-  abbreviation: SNCD
+  abbreviation: 'SNCD'
   xref: MARMOSET:221
 
 - id: BAP_1010222
   name: Substantia nigra; compact part; medial tier
   parent: BAP_1010220
-  abbreviation: SNCM
+  abbreviation: 'SNCM'
   xref: MARMOSET:222
 
 - id: BAP_1010223
   name: Substantia nigra; compact part; ventral tier
   parent: BAP_1010220
-  abbreviation: SNCV
+  abbreviation: 'SNCV'
   xref: MARMOSET:223
 
 - id: BAP_1010252
   name: DIENCEPHALON
   parent: BAP_1010002
-  abbreviation: DIEN
+  abbreviation: 'DIEN'
   xref: MARMOSET:252
   color_rgb: '37,42,53'
 
 - id: BAP_1010348
   name: HYPOTHALAMUS
   parent: BAP_1010252
-  abbreviation: HYPO
+  abbreviation: 'HYPO'
   xref: MARMOSET:348
   color_rgb: '67,49,113'
 
 - id: BAP_1010384
   name: Supraoptic nucleus
   parent: BAP_1010348
-  abbreviation: SO
+  abbreviation: 'SO'
   xref: MARMOSET:384
   color_rgb: '53,53,115'
 
 - id: BAP_1010385
   name: Supraoptic nucleus; retrochiasmatic part
   parent: BAP_1010348
-  abbreviation: SOR
+  abbreviation: 'SOR'
   xref: MARMOSET:385
 
 - id: BAP_1010386
   name: Ventral tuberomammillary nucleus
   parent: BAP_1010348
-  abbreviation: VTM
+  abbreviation: 'VTM'
   xref: MARMOSET:386
 
 - id: BAP_1010387
   name: Ventrolateral preoptic nucleus
   parent: BAP_1010348
-  abbreviation: VLPO
+  abbreviation: 'VLPO'
   xref: MARMOSET:387
 
 - id: BAP_1010388
   name: Ventromedial hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: VMH
+  abbreviation: 'VMH'
   xref: MARMOSET:388
   color_rgb: '87,109,122'
 
 - id: BAP_1010389
   name: Ventromedial preoptic nucleus
   parent: BAP_1010348
-  abbreviation: VMPO
+  abbreviation: 'VMPO'
   xref: MARMOSET:389
 
 - id: BAP_1010349
   name: Anterior hypothalamic area; anterior part
   parent: BAP_1010348
-  abbreviation: AHA
+  abbreviation: 'AHA'
   xref: MARMOSET:349
   color_rgb: '123,131,161'
 
 - id: BAP_1010350
   name: Anterior hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: AH
+  abbreviation: 'AH'
   xref: MARMOSET:350
   color_rgb: '93,66,181'
 
 - id: BAP_1010351
   name: Anteroventral periventricular nucleus
   parent: BAP_1010348
-  abbreviation: AVPe
+  abbreviation: 'AVPe'
   xref: MARMOSET:351
 
 - id: BAP_1010352
   name: Arcuate hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: Arc
+  abbreviation: 'Arc'
   xref: MARMOSET:352
   color_rgb: '144,66,181'
 
 - id: BAP_1010353
   name: DA11 dopamine cells
   parent: BAP_1010348
-  abbreviation: DA11
+  abbreviation: 'DA11'
   xref: MARMOSET:353
 
 - id: BAP_1010354
   name: DA12 dopamine cells
   parent: BAP_1010348
-  abbreviation: DA12
+  abbreviation: 'DA12'
   xref: MARMOSET:354
 
 - id: BAP_1010355
   name: DA14 dopamine cells
   parent: BAP_1010348
-  abbreviation: DA14
+  abbreviation: 'DA14'
   xref: MARMOSET:355
 
 - id: BAP_1010356
   name: Dorsomedial hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: DM
+  abbreviation: 'DM'
   xref: MARMOSET:356
   color_rgb: '86,89,186'
 
 - id: BAP_1010357
   name: Dorsomedial hypothalamic nucleus; compact part
   parent: BAP_1010348
-  abbreviation: DMC
+  abbreviation: 'DMC'
   xref: MARMOSET:357
 
 - id: BAP_1010358
   name: Juxtaparaventricular part of the lateral hypothalamus
   parent: BAP_1010348
-  abbreviation: JPLH
+  abbreviation: 'JPLH'
   xref: MARMOSET:358
 
 - id: BAP_1010359
   name: Lamina terminalis
   parent: BAP_1010348
-  abbreviation: Lter
+  abbreviation: 'Lter'
   xref: MARMOSET:359
 
 - id: BAP_1010360
   name: Lateral hypothalamic area
   parent: BAP_1010348
-  abbreviation: LH
+  abbreviation: 'LH'
   xref: MARMOSET:360
   color_rgb: '129,78,255'
 
 - id: BAP_1010361
   name: Mammillary body
   parent: BAP_1010348
-  abbreviation: MB
+  abbreviation: 'MB'
   xref: MARMOSET:361
   color_rgb: '102,89,113'
 
 - id: BAP_1010362
   name: Lateral mammillary nucleus
   parent: BAP_1010361
-  abbreviation: LM
+  abbreviation: 'LM'
   xref: MARMOSET:362
   color_rgb: '197,190,255'
 
 - id: BAP_1010363
   name: Medial mammillary nucleus; lateral part
   parent: BAP_1010361
-  abbreviation: ML
+  abbreviation: 'ML'
   xref: MARMOSET:363
   color_rgb: '157,101,105'
 
 - id: BAP_1010364
   name: Medial mammillary nucleus; medial part
   parent: BAP_1010361
-  abbreviation: MM
+  abbreviation: 'MM'
   xref: MARMOSET:364
   color_rgb: '143,102,159'
 
 - id: BAP_1010365
   name: Medial tuberal nucleus
   parent: BAP_1010348
-  abbreviation: MTu
+  abbreviation: 'MTu'
   xref: MARMOSET:365
   color_rgb: '117,69,225'
 
 - id: BAP_1010366
   name: Nucleus of the stria medullaris
   parent: BAP_1010348
-  abbreviation: SM
+  abbreviation: 'SM'
   xref: MARMOSET:366
 
 - id: BAP_1010367
   name: Paraventricular hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: Pa
+  abbreviation: 'Pa'
   xref: MARMOSET:367
   color_rgb: '97,72,118'
 
 - id: BAP_1010368
   name: Paraventricular hypothalamic nucleus; dorsal cap
   parent: BAP_1010367
-  abbreviation: PaDC
+  abbreviation: 'PaDC'
   xref: MARMOSET:368
 
 - id: BAP_1010369
   name: Paraventricular hypothalamic nucleus; lateral magnocellular part
   parent: BAP_1010367
-  abbreviation: PaLM
+  abbreviation: 'PaLM'
   xref: MARMOSET:369
 
 - id: BAP_1010370
   name: Paraventricular hypothalamic nucleus; posterior part
   parent: BAP_1010367
-  abbreviation: PaPo
+  abbreviation: 'PaPo'
   xref: MARMOSET:370
 
 - id: BAP_1010371
   name: Perifornical nucleus
   parent: BAP_1010348
-  abbreviation: PeF
+  abbreviation: 'PeF'
   xref: MARMOSET:371
 
 - id: BAP_1010372
   name: Periventricular hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: Pe
+  abbreviation: 'Pe'
   xref: MARMOSET:372
 
 - id: BAP_1010373
   name: Posterior hypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: PH
+  abbreviation: 'PH'
   xref: MARMOSET:373
   color_rgb: '71,44,117'
 
 - id: BAP_1010374
   name: Premammillary nucleus; dorsal part
   parent: BAP_1010348
-  abbreviation: PMD
+  abbreviation: 'PMD'
   xref: MARMOSET:374
 
 - id: BAP_1010375
   name: Premammillary nucleus; ventral part
   parent: BAP_1010348
-  abbreviation: PMV
+  abbreviation: 'PMV'
   xref: MARMOSET:375
 
 - id: BAP_1010376
   name: Preoptic area
   parent: BAP_1010348
-  abbreviation: PO
+  abbreviation: 'PO'
   xref: MARMOSET:376
   color_rgb: '116,75,152'
 
 - id: BAP_1010377
   name: Lateral preoptic area
   parent: BAP_1010376
-  abbreviation: LPO
+  abbreviation: 'LPO'
   xref: MARMOSET:377
   color_rgb: '221,210,226'
 
 - id: BAP_1010378
   name: Medial preoptic area
   parent: BAP_1010376
-  abbreviation: MPA
+  abbreviation: 'MPA'
   xref: MARMOSET:378
   color_rgb: '122,97,181'
 
 - id: BAP_1010379
   name: Medial preoptic nucleus
   parent: BAP_1010376
-  abbreviation: MPO
+  abbreviation: 'MPO'
   xref: MARMOSET:379
   color_rgb: '86,89,186'
 
 - id: BAP_1010380
   name: Median preoptic nucleus
   parent: BAP_1010376
-  abbreviation: MnPO
+  abbreviation: 'MnPO'
   xref: MARMOSET:380
 
 - id: BAP_1010381
   name: Retromammillary nucleus
   parent: BAP_1010348
-  abbreviation: RM
+  abbreviation: 'RM'
   xref: MARMOSET:381
 
 - id: BAP_1010382
   name: Striohypothalamic nucleus
   parent: BAP_1010348
-  abbreviation: StHy
+  abbreviation: 'StHy'
   xref: MARMOSET:382
 
 - id: BAP_1010383
   name: Suprachiasmatic nucleus
   parent: BAP_1010348
-  abbreviation: SCh
+  abbreviation: 'SCh'
   xref: MARMOSET:383
   color_rgb: '50,61,55'
 
 - id: BAP_1010253
   name: THALAMUS
   parent: BAP_1010252
-  abbreviation: THAL
+  abbreviation: 'THAL'
   xref: MARMOSET:253
   color_rgb: '56,77,152'
 
 - id: BAP_1010259
   name: Association nuclei
   parent: BAP_1010253
-  abbreviation: ASN
+  abbreviation: 'ASN'
   xref: MARMOSET:259
 
 - id: BAP_1010264
   name: Lateral nuclei
   parent: BAP_1010259
-  abbreviation: LTN
+  abbreviation: 'LTN'
   xref: MARMOSET:264
 
 - id: BAP_1010265
   name: Laterodorsal thalamic nucleus
   parent: BAP_1010264
-  abbreviation: LD
+  abbreviation: 'LD'
   xref: MARMOSET:265
   color_rgb: '56,77,152'
 
 - id: BAP_1010266
   name: Lateral posterior thalamic nucleus
   parent: BAP_1010264
-  abbreviation: LP
+  abbreviation: 'LP'
   xref: MARMOSET:266
   color_rgb: '0,81,154'
 
 - id: BAP_1010272
   name: Pulvinar
   parent: BAP_1010259
-  abbreviation: Pul
+  abbreviation: 'Pul'
   xref: MARMOSET:272
   color_rgb: '152,131,118'
 
 - id: BAP_1010273
   name: Anterior pulvinar
   parent: BAP_1010272
-  abbreviation: APul
+  abbreviation: 'APul'
   xref: MARMOSET:273
   color_rgb: '200,177,153'
 
 - id: BAP_1010274
   name: Inferior pulvinar
   parent: BAP_1010272
-  abbreviation: IPul
+  abbreviation: 'IPul'
   xref: MARMOSET:274
   color_rgb: '196,197,173'
 
 - id: BAP_1010275
   name: Inferior pulvinar; caudolateral part
   parent: BAP_1010272
-  abbreviation: IPulCL
+  abbreviation: 'IPulCL'
   xref: MARMOSET:275
 
 - id: BAP_1010276
   name: Inferior pulvinar; caudomedial part
   parent: BAP_1010272
-  abbreviation: IPulCM
+  abbreviation: 'IPulCM'
   xref: MARMOSET:276
 
 - id: BAP_1010277
   name: Inferior pulvinar; medial part
   parent: BAP_1010272
-  abbreviation: IPulM
+  abbreviation: 'IPulM'
   xref: MARMOSET:277
 
 - id: BAP_1010278
   name: Inferior pulvinar; posterior part
   parent: BAP_1010272
-  abbreviation: IPulP
+  abbreviation: 'IPulP'
   xref: MARMOSET:278
 
 - id: BAP_1010279
   name: Lateral pulvinar
   parent: BAP_1010272
-  abbreviation: LPul
+  abbreviation: 'LPul'
   xref: MARMOSET:279
   color_rgb: '220,158,180'
 
 - id: BAP_1010280
   name: Medial pulvinar
   parent: BAP_1010272
-  abbreviation: MPul
+  abbreviation: 'MPul'
   xref: MARMOSET:280
   color_rgb: '155,146,204'
 
 - id: BAP_1010267
   name: Mediodorsal thalamic nucleus
   parent: BAP_1010259
-  abbreviation: MD
+  abbreviation: 'MD'
   xref: MARMOSET:267
   color_rgb: '52,61,85'
 
 - id: BAP_1010268
   name: Mediodorsal thalamic nucleus; central part
   parent: BAP_1010267
-  abbreviation: MDC
+  abbreviation: 'MDC'
   xref: MARMOSET:268
   color_rgb: '53,56,126'
 
 - id: BAP_1010269
   name: Mediodorsal thalamic nucleus; lateral part
   parent: BAP_1010267
-  abbreviation: MDL
+  abbreviation: 'MDL'
   xref: MARMOSET:269
   color_rgb: '161,164,213'
 
 - id: BAP_1010270
   name: Mediodorsal thalamic nucleus; medial part
   parent: BAP_1010267
-  abbreviation: MDM
+  abbreviation: 'MDM'
   xref: MARMOSET:270
 
 - id: BAP_1010260
   name: Anterior nuclei
   parent: BAP_1010259
-  abbreviation: ANN
+  abbreviation: 'ANN'
   xref: MARMOSET:260
   color_rgb: '58,72,97'
 
 - id: BAP_1010261
   name: Anterodorsal thalamic nucleus
   parent: BAP_1010260
-  abbreviation: AD
+  abbreviation: 'AD'
   xref: MARMOSET:261
   color_rgb: '67,90,160'
 
 - id: BAP_1010262
   name: Anteromedial thalamic nucleus
   parent: BAP_1010260
-  abbreviation: AM
+  abbreviation: 'AM'
   xref: MARMOSET:262
   color_rgb: '58,60,79'
 
 - id: BAP_1010263
   name: Anteroventral thalamic nucleus
   parent: BAP_1010260
-  abbreviation: AV
+  abbreviation: 'AV'
   xref: MARMOSET:263
   color_rgb: '0,134,168'
 
 - id: BAP_1010271
   name: Paratenial nucleus
   parent: BAP_1010259
-  abbreviation: PT
+  abbreviation: 'PT'
   xref: MARMOSET:271
   color_rgb: '93,40,66'
 
 - id: BAP_1010297
   name: Motor thalamus
   parent: BAP_1010253
-  abbreviation: MTT
+  abbreviation: 'MTT'
   xref: MARMOSET:297
   color_rgb: '0,82,107'
 
 - id: BAP_1010298
   name: Ventral anterior thalamic nucleus
   parent: BAP_1010297
-  abbreviation: VA
+  abbreviation: 'VA'
   xref: MARMOSET:298
   color_rgb: '76,100,183'
 
 - id: BAP_1010299
   name: Ventral anterior thalamic nucleus; lateral part
   parent: BAP_1010298
-  abbreviation: VAL
+  abbreviation: 'VAL'
   xref: MARMOSET:299
   color_rgb: '15,79,148'
 
 - id: BAP_1010300
   name: Ventral anterior thalamic nucleus; magnocellular part
   parent: BAP_1010298
-  abbreviation: VAMC
+  abbreviation: 'VAMC'
   xref: MARMOSET:300
   color_rgb: '120,131,212'
 
 - id: BAP_1010301
   name: Ventral anterior thalamic nucleus; medial part
   parent: BAP_1010298
-  abbreviation: VAM
+  abbreviation: 'VAM'
   xref: MARMOSET:301
   color_rgb: '212,137,247'
 
 - id: BAP_1010302
   name: Ventral lateral thalamic nucleus
   parent: BAP_1010297
-  abbreviation: VL
+  abbreviation: 'VL'
   xref: MARMOSET:302
 
 - id: BAP_1010304
   name: Ventral lateral thalamic nucleus; medial part
   parent: BAP_1010302
-  abbreviation: VLM
+  abbreviation: 'VLM'
   xref: MARMOSET:304
   color_rgb: '139,148,186'
 
 - id: BAP_1010305
   name: Ventrolateral thalamic nucleus; dorsal part
   parent: BAP_1010302
-  abbreviation: VLD
+  abbreviation: 'VLD'
   xref: MARMOSET:305
   color_rgb: '0,107,143'
 
 - id: BAP_1010306
   name: Ventrolateral thalamic nucleus; ventral part
   parent: BAP_1010302
-  abbreviation: VLV
+  abbreviation: 'VLV'
   xref: MARMOSET:306
   color_rgb: '107,173,187'
 
 - id: BAP_1010303
   name: Ventral lateral thalamic nucleus; lateral part
   parent: BAP_1010302
-  abbreviation: VLLa
+  abbreviation: 'VLLa'
   xref: MARMOSET:303
   color_rgb: '95,92,101'
 
 - id: BAP_1010330
   name: Visual thalamus
   parent: BAP_1010253
-  abbreviation: VST
+  abbreviation: 'VST'
   xref: MARMOSET:330
   color_rgb: '0,110,123'
 
 - id: BAP_1010331
   name: Dorsal lateral geniculate nucleus
   parent: BAP_1010330
-  abbreviation: DLG
+  abbreviation: 'DLG'
   xref: MARMOSET:331
   color_rgb: '43,97,143'
 
 - id: BAP_1010332
   name: External magnocellular layer of the dorsal lateral geniculate
   parent: BAP_1010331
-  abbreviation: ExMC
+  abbreviation: 'ExMC'
   xref: MARMOSET:332
 
 - id: BAP_1010333
   name: External parvicellular layer of the dorsal lateral geniculate
   parent: BAP_1010331
-  abbreviation: ExPC
+  abbreviation: 'ExPC'
   xref: MARMOSET:333
 
 - id: BAP_1010334
   name: Internal magnocellular layer of the dorsal lateral geniculate
   parent: BAP_1010331
-  abbreviation: InMC
+  abbreviation: 'InMC'
   xref: MARMOSET:334
 
 - id: BAP_1010335
   name: Internal parvicellular layer of the dorsal lateral geniculate
   parent: BAP_1010331
-  abbreviation: InPC
+  abbreviation: 'InPC'
   xref: MARMOSET:335
 
 - id: BAP_1010336
   name: Koniocellular layer of dorsal latral geniculate K1
   parent: BAP_1010331
-  abbreviation: K1
+  abbreviation: 'K1'
   xref: MARMOSET:336
 
 - id: BAP_1010337
   name: Koniocellular layer of dorsal latral geniculate K2
   parent: BAP_1010331
-  abbreviation: K2
+  abbreviation: 'K2'
   xref: MARMOSET:337
 
 - id: BAP_1010338
   name: Koniocellular layer of dorsal latral geniculate K3
   parent: BAP_1010331
-  abbreviation: K3
+  abbreviation: 'K3'
   xref: MARMOSET:338
 
 - id: BAP_1010339
   name: Koniocellular layer of dorsal latral geniculate K4
   parent: BAP_1010331
-  abbreviation: K4
+  abbreviation: 'K4'
   xref: MARMOSET:339
 
 - id: BAP_1010340
   name: Pregeniculate nucleus
   parent: BAP_1010331
-  abbreviation: PrG
+  abbreviation: 'PrG'
   xref: MARMOSET:340
 
 - id: BAP_1010307
   name: Somatosensory thalamus
   parent: BAP_1010253
-  abbreviation: SST
+  abbreviation: 'SST'
   xref: MARMOSET:307
   color_rgb: '0,157,191'
 
 - id: BAP_1010308
   name: Posterior thalamic nuclear group
   parent: BAP_1010307
-  abbreviation: Po
+  abbreviation: 'Po'
   xref: MARMOSET:308
   color_rgb: '0,123,195'
 
 - id: BAP_1010309
   name: Ethmoid thalamic nucleus
   parent: BAP_1010307
-  abbreviation: Eth
+  abbreviation: 'Eth'
   xref: MARMOSET:309
   color_rgb: '151,208,184'
 
 - id: BAP_1010310
   name: Posterior thalamic nuclear group; triangular part
   parent: BAP_1010307
-  abbreviation: PoT
+  abbreviation: 'PoT'
   xref: MARMOSET:310
 
 - id: BAP_1010311
   name: Suprageniculate thalamic nucleus
   parent: BAP_1010307
-  abbreviation: SG
+  abbreviation: 'SG'
   xref: MARMOSET:311
   color_rgb: '0,179,190'
 
 - id: BAP_1010312
   name: Ventral posterior thalamic nucleus; inferior part
   parent: BAP_1010307
-  abbreviation: VPI
+  abbreviation: 'VPI'
   xref: MARMOSET:312
   color_rgb: '125,202,255'
 
 - id: BAP_1010313
   name: Ventral posterior thalamic nucleus; superior part
   parent: BAP_1010307
-  abbreviation: VPS
+  abbreviation: 'VPS'
   xref: MARMOSET:313
 
 - id: BAP_1010314
   name: Ventoposterior complex
   parent: BAP_1010307
-  abbreviation: VPC
+  abbreviation: 'VPC'
   xref: MARMOSET:314
 
 - id: BAP_1010315
   name: Ventral posterior nucleus of the thalamus; parvicellular
   parent: BAP_1010314
-  abbreviation: VPPC
+  abbreviation: 'VPPC'
   xref: MARMOSET:315
   color_rgb: '33,55,189'
 
 - id: BAP_1010316
   name: Ventral posterolateral thalamic nucleus
   parent: BAP_1010314
-  abbreviation: VPL
+  abbreviation: 'VPL'
   xref: MARMOSET:316
   color_rgb: '34,53,70'
 
 - id: BAP_1010317
   name: Ventral posteromedial thalamic nucleus
   parent: BAP_1010314
-  abbreviation: VPM
+  abbreviation: 'VPM'
   xref: MARMOSET:317
   color_rgb: '137,172,215'
 
 - id: BAP_1010254
   name: Auditory thalamus
   parent: BAP_1010253
-  abbreviation: AuT
+  abbreviation: 'AuT'
   xref: MARMOSET:254
   color_rgb: '31,71,122'
 
 - id: BAP_1010255
   name: Medial geniculate nucleus
   parent: BAP_1010254
-  abbreviation: MG
+  abbreviation: 'MG'
   xref: MARMOSET:255
   color_rgb: '31,71,122'
 
 - id: BAP_1010256
   name: Medial geniculate nucleus; dorsal part
   parent: BAP_1010255
-  abbreviation: MGD
+  abbreviation: 'MGD'
   xref: MARMOSET:256
 
 - id: BAP_1010257
   name: Medial geniculate nucleus; medial part
   parent: BAP_1010255
-  abbreviation: MGM
+  abbreviation: 'MGM'
   xref: MARMOSET:257
 
 - id: BAP_1010258
   name: Medial geniculate nucleus; ventral part
   parent: BAP_1010255
-  abbreviation: MGV
+  abbreviation: 'MGV'
   xref: MARMOSET:258
 
 - id: BAP_1010281
   name: Midline and intralaminar nuclei
   parent: BAP_1010253
-  abbreviation: MIN
+  abbreviation: 'MIN'
   xref: MARMOSET:281
 
 - id: BAP_1010288
   name: Oval paracentral thalamic nucleus
   parent: BAP_1010281
-  abbreviation: OPC
+  abbreviation: 'OPC'
   xref: MARMOSET:288
 
 - id: BAP_1010289
   name: Paracentral thalamic nucleus
   parent: BAP_1010281
-  abbreviation: PC
+  abbreviation: 'PC'
   xref: MARMOSET:289
   color_rgb: '159,76,133'
 
 - id: BAP_1010290
   name: Parafascicular thalamic nucleus
   parent: BAP_1010281
-  abbreviation: PaF
+  abbreviation: 'PaF'
   xref: MARMOSET:290
 
 - id: BAP_1010291
   name: Posterior intralaminar thalamic nucleus
   parent: BAP_1010281
-  abbreviation: PIL
+  abbreviation: 'PIL'
   xref: MARMOSET:291
 
 - id: BAP_1010292
   name: Posterior limitans thalamic nucleus
   parent: BAP_1010281
-  abbreviation: PLi
+  abbreviation: 'PLi'
   xref: MARMOSET:292
 
 - id: BAP_1010293
   name: Retroreuniens nucleus
   parent: BAP_1010281
-  abbreviation: RRe
+  abbreviation: 'RRe'
   xref: MARMOSET:293
   color_rgb: '130,73,177'
 
 - id: BAP_1010294
   name: Reuniens thalamic nucleus
   parent: BAP_1010281
-  abbreviation: Re
+  abbreviation: 'Re'
   xref: MARMOSET:294
   color_rgb: '103,0,212'
 
 - id: BAP_1010295
   name: Rhomboid thalamic nucleus
   parent: BAP_1010281
-  abbreviation: Rh
+  abbreviation: 'Rh'
   xref: MARMOSET:295
 
 - id: BAP_1010296
   name: Xiphoid thalamic nucleus
   parent: BAP_1010281
-  abbreviation: Xi
+  abbreviation: 'Xi'
   xref: MARMOSET:296
 
 - id: BAP_1010282
   name: Angular thalamic nucleus
   parent: BAP_1010281
-  abbreviation: Ang
+  abbreviation: 'Ang'
   xref: MARMOSET:282
   color_rgb: '177,127,209'
 
 - id: BAP_1010283
   name: Central medial thalamic nucleus
   parent: BAP_1010281
-  abbreviation: CM
+  abbreviation: 'CM'
   xref: MARMOSET:283
   color_rgb: '170,173,75'
 
 - id: BAP_1010284
   name: Centrolateral thalamic nucleus
   parent: BAP_1010281
-  abbreviation: CL
+  abbreviation: 'CL'
   xref: MARMOSET:284
   color_rgb: '0,122,197'
 
 - id: BAP_1010285
   name: Centromedian thalamic nucleus
   parent: BAP_1010281
-  abbreviation: CMn
+  abbreviation: 'CMn'
   xref: MARMOSET:285
   color_rgb: '214,113,164'
 
 - id: BAP_1010286
   name: Interanteromedial thalamic nucleus
   parent: BAP_1010281
-  abbreviation: IAM
+  abbreviation: 'IAM'
   xref: MARMOSET:286
   color_rgb: '157,204,216'
 
 - id: BAP_1010287
   name: Intermediodorsal thalamic nucleus
   parent: BAP_1010281
-  abbreviation: IMD
+  abbreviation: 'IMD'
   xref: MARMOSET:287
   color_rgb: '92,80,159'
 
 - id: BAP_1010318
   name: Ventral thalamus
   parent: BAP_1010253
-  abbreviation: VNT
+  abbreviation: 'VNT'
   xref: MARMOSET:318
 
 - id: BAP_1010320
   name: Reticular nucleus
   parent: BAP_1010318
-  abbreviation: Rt
+  abbreviation: 'Rt'
   xref: MARMOSET:320
   color_rgb: '105,99,154'
 
 - id: BAP_1010321
   name: Subgeniculate nucleus of prethalamus
   parent: BAP_1010318
-  abbreviation: SubG
+  abbreviation: 'SubG'
   xref: MARMOSET:321
   color_rgb: '11,164,210'
 
 - id: BAP_1010322
   name: Subincertal nucleus
   parent: BAP_1010318
-  abbreviation: SubI
+  abbreviation: 'SubI'
   xref: MARMOSET:322
 
 - id: BAP_1010323
   name: Subparafiscicular thalamic nucleus
   parent: BAP_1010318
-  abbreviation: SPF
+  abbreviation: 'SPF'
   xref: MARMOSET:323
 
 - id: BAP_1010324
   name: Subparafiscicular thalamic nucleus; parvicellular part
   parent: BAP_1010318
-  abbreviation: SPFPC
+  abbreviation: 'SPFPC'
   xref: MARMOSET:324
 
 - id: BAP_1010325
   name: Zona incerta
   parent: BAP_1010318
-  abbreviation: ZI
+  abbreviation: 'ZI'
   xref: MARMOSET:325
   color_rgb: '68,25,132'
 
 - id: BAP_1010328
   name: Zuna incerta; rostral part
   parent: BAP_1010325
-  abbreviation: ZIR
+  abbreviation: 'ZIR'
   xref: MARMOSET:328
 
 - id: BAP_1010329
   name: Zuna incerta; ventral part
   parent: BAP_1010325
-  abbreviation: ZIV
+  abbreviation: 'ZIV'
   xref: MARMOSET:329
 
 - id: BAP_1010326
   name: Zuna incerta; caudal part
   parent: BAP_1010325
-  abbreviation: ZIC
+  abbreviation: 'ZIC'
   xref: MARMOSET:326
 
 - id: BAP_1010327
   name: Zuna incerta; dorsal part
   parent: BAP_1010325
-  abbreviation: ZID
+  abbreviation: 'ZID'
   xref: MARMOSET:327
 
 - id: BAP_1010319
   name: Parasubthalamic nucleus
   parent: BAP_1010318
-  abbreviation: PSTh
+  abbreviation: 'PSTh'
   xref: MARMOSET:319
 
 - id: BAP_1010390
   name: PRETECTUM
   parent: BAP_1010252
-  abbreviation: Pt
+  abbreviation: 'Pt'
   xref: MARMOSET:390
   color_rgb: '67,71,162'
 
 - id: BAP_1010391
   name: Anterior pretectal nucleus
   parent: BAP_1010390
-  abbreviation: APT
+  abbreviation: 'APT'
   xref: MARMOSET:391
   color_rgb: '170,200,255'
 
 - id: BAP_1010392
   name: Magnocellular nucleus of the posterior commissure
   parent: BAP_1010390
-  abbreviation: MCPC
+  abbreviation: 'MCPC'
   xref: MARMOSET:392
 
 - id: BAP_1010393
   name: Medial pretectal area
   parent: BAP_1010390
-  abbreviation: MPT
+  abbreviation: 'MPT'
   xref: MARMOSET:393
   color_rgb: '72,89,129'
 
 - id: BAP_1010394
   name: Nucleus of the optic tract
   parent: BAP_1010390
-  abbreviation: OT
+  abbreviation: 'OT'
   xref: MARMOSET:394
   color_rgb: '0,173,220'
 
 - id: BAP_1010395
   name: Olivary pretectal nucleus
   parent: BAP_1010390
-  abbreviation: OPT
+  abbreviation: 'OPT'
   xref: MARMOSET:395
   color_rgb: '42,49,109'
 
 - id: BAP_1010396
   name: Precommissural nucleus
   parent: BAP_1010390
-  abbreviation: PrC
+  abbreviation: 'PrC'
   xref: MARMOSET:396
 
 - id: BAP_1010397
   name: Retrocommissural nucleus
   parent: BAP_1010390
-  abbreviation: ReC
+  abbreviation: 'ReC'
   xref: MARMOSET:397
 
 - id: BAP_1010341
   name: EPITHALAMUS
   parent: BAP_1010252
-  abbreviation: EPI
+  abbreviation: 'EPI'
   xref: MARMOSET:341
   color_rgb: '136,101,178'
 
 - id: BAP_1010345
   name: Paraventricular thalamic nucleus
   parent: BAP_1010341
-  abbreviation: PV
+  abbreviation: 'PV'
   xref: MARMOSET:345
   color_rgb: '162,148,200'
 
 - id: BAP_1010346
   name: Paraventricular thalamic nucleus; anterior part
   parent: BAP_1010345
-  abbreviation: PVA
+  abbreviation: 'PVA'
   xref: MARMOSET:346
   color_rgb: '138,83,162'
 
 - id: BAP_1010347
   name: Paraventricular thalamic nucleus; posterior part
   parent: BAP_1010345
-  abbreviation: PVP
+  abbreviation: 'PVP'
   xref: MARMOSET:347
   color_rgb: '41,41,52'
 
 - id: BAP_1010342
   name: Habenular nucleus
   parent: BAP_1010341
-  abbreviation: Hb
+  abbreviation: 'Hb'
   xref: MARMOSET:342
   color_rgb: '121,103,195'
 
 - id: BAP_1010344
   name: Medial habenular nucleus
   parent: BAP_1010342
-  abbreviation: MHb
+  abbreviation: 'MHb'
   xref: MARMOSET:344
   color_rgb: '116,69,170'
 
 - id: BAP_1010343
   name: Lateral habenular nucleus
   parent: BAP_1010342
-  abbreviation: LHb
+  abbreviation: 'LHb'
   xref: MARMOSET:343
   color_rgb: '152,131,201'
 
 - id: BAP_1010771
   name: SULCUS
   parent: BAP_1010001
-  abbreviation: SUL
+  abbreviation: 'SUL'
   xref: MARMOSET:771
 
 - id: BAP_1010772
   name: Calcarine sulcus
   parent: BAP_1010771
-  abbreviation: cal
+  abbreviation: 'cal'
   xref: MARMOSET:772
 
 - id: BAP_1010773
   name: Hippocampal fissure
   parent: BAP_1010771
-  abbreviation: hif
+  abbreviation: 'hif'
   xref: MARMOSET:773
 
 - id: BAP_1010774
   name: Intraparietal sulcus
   parent: BAP_1010771
-  abbreviation: ips
+  abbreviation: 'ips'
   xref: MARMOSET:774
 
 - id: BAP_1010775
   name: Lateral fissure
   parent: BAP_1010771
-  abbreviation: lf
+  abbreviation: 'lf'
   xref: MARMOSET:775
 
 - id: BAP_1010776
   name: Occipitotemporal sulcus
   parent: BAP_1010771
-  abbreviation: ots
+  abbreviation: 'ots'
   xref: MARMOSET:776
 
 - id: BAP_1010777
   name: Orbital sulcus
   parent: BAP_1010771
-  abbreviation: orbs
+  abbreviation: 'orbs'
   xref: MARMOSET:777
 
 - id: BAP_1010778
   name: Posterolateral fissure
   parent: BAP_1010771
-  abbreviation: plf
+  abbreviation: 'plf'
   xref: MARMOSET:778
 
 - id: BAP_1010779
   name: Preculminate fissure
   parent: BAP_1010771
-  abbreviation: pcuf
+  abbreviation: 'pcuf'
   xref: MARMOSET:779
 
 - id: BAP_1010780
   name: Prepyramidal fissure
   parent: BAP_1010771
-  abbreviation: ppf
+  abbreviation: 'ppf'
   xref: MARMOSET:780
 
 - id: BAP_1010781
   name: Primary fissure
   parent: BAP_1010771
-  abbreviation: prf
+  abbreviation: 'prf'
   xref: MARMOSET:781
 
 - id: BAP_1010782
   name: Rhinal fissure
   parent: BAP_1010771
-  abbreviation: rf
+  abbreviation: 'rf'
   xref: MARMOSET:782
 
 - id: BAP_1010783
   name: Secondary fissure
   parent: BAP_1010771
-  abbreviation: sf
+  abbreviation: 'sf'
   xref: MARMOSET:783
 
 - id: BAP_1010784
   name: Superior temporal sulcus
   parent: BAP_1010771
-  abbreviation: sts
+  abbreviation: 'sts'
   xref: MARMOSET:784
 
 - id: BAP_1010785
   name: Ventromedian fissure
   parent: BAP_1010771
-  abbreviation: vmf
+  abbreviation: 'vmf'
   xref: MARMOSET:785
 
 - id: BAP_1010740
   name: CRANIAL NERVE
   parent: BAP_1010001
-  abbreviation: CN
+  abbreviation: 'CN'
   xref: MARMOSET:740
   color_rgb: '110,121,114'
 
 - id: BAP_1010741
   name: Abducens nerve
   parent: BAP_1010740
-  abbreviation: 6n
+  abbreviation: '6n'
   xref: MARMOSET:741
   color_rgb: '110,121,114'
 
 - id: BAP_1010742
   name: Cochlear root of the vestibulocochlear nerve
   parent: BAP_1010740
-  abbreviation: 8cn
+  abbreviation: '8cn'
   xref: MARMOSET:742
 
 - id: BAP_1010743
   name: Facial nerve
   parent: BAP_1010740
-  abbreviation: 7n
+  abbreviation: '7n'
   xref: MARMOSET:743
   color_rgb: '110,121,114'
 
 - id: BAP_1010744
   name: Hypoglossal nerve
   parent: BAP_1010740
-  abbreviation: 12n
+  abbreviation: '12n'
   xref: MARMOSET:744
 
 - id: BAP_1010745
   name: Nervus intermedius component of facial nerve
   parent: BAP_1010740
-  abbreviation: 7ni
+  abbreviation: '7ni'
   xref: MARMOSET:745
 
 - id: BAP_1010746
   name: Occulomotor nerve
   parent: BAP_1010740
-  abbreviation: 3n
+  abbreviation: '3n'
   xref: MARMOSET:746
   color_rgb: '110,121,114'
 
 - id: BAP_1010747
   name: Optic nerve
   parent: BAP_1010740
-  abbreviation: 2n
+  abbreviation: '2n'
   xref: MARMOSET:747
   color_rgb: '110,121,114'
 
 - id: BAP_1010748
   name: Trigeminal nerve
   parent: BAP_1010740
-  abbreviation: 5n
+  abbreviation: '5n'
   xref: MARMOSET:748
   color_rgb: '110,121,114'
 
 - id: BAP_1010749
   name: Trochlear nerve
   parent: BAP_1010740
-  abbreviation: 4n
+  abbreviation: '4n'
   xref: MARMOSET:749
   color_rgb: '110,121,114'
 
 - id: BAP_1010750
   name: Vestibular root of the vestibulocochlear nerve
   parent: BAP_1010740
-  abbreviation: 8vn
+  abbreviation: '8vn'
   xref: MARMOSET:750
 
 - id: BAP_1010751
   name: Vestibulocochlear nerve
   parent: BAP_1010740
-  abbreviation: 8n
+  abbreviation: '8n'
   xref: MARMOSET:751
   color_rgb: '110,121,114'
 
 - id: BAP_1010398
   name: BRAIN STEM (MIDBRAIN+PONS+MEDULLA OBLONGATA)
   parent: BAP_1010001
-  abbreviation: STEM
+  abbreviation: 'STEM'
   xref: MARMOSET:398
   color_rgb: '185,11,80'
 
 - id: BAP_1010545
   name: MEDULLA OBLONGATA (MYELENCEPHALON)
   parent: BAP_1010398
-  abbreviation: MED
+  abbreviation: 'MED'
   xref: MARMOSET:545
   color_rgb: '223,51,78'
 
 - id: BAP_1010546
   name: Accessory nerve nucleus
   parent: BAP_1010545
-  abbreviation: 11N
+  abbreviation: '11N'
   xref: MARMOSET:546
 
 - id: BAP_1010547
   name: Ad1 adrenalin cells
   parent: BAP_1010545
-  abbreviation: Ad1
+  abbreviation: 'Ad1'
   xref: MARMOSET:547
 
 - id: BAP_1010548
   name: Ambiguus nucleus
   parent: BAP_1010545
-  abbreviation: Amb
+  abbreviation: 'Amb'
   xref: MARMOSET:548
   color_rgb: '239,198,195'
 
 - id: BAP_1010549
   name: Ambiguus nucleus; compact part
   parent: BAP_1010548
-  abbreviation: AmbC
+  abbreviation: 'AmbC'
   xref: MARMOSET:549
 
 - id: BAP_1010550
   name: Ambiguus nucleus; loose part
   parent: BAP_1010548
-  abbreviation: AmbL
+  abbreviation: 'AmbL'
   xref: MARMOSET:550
 
 - id: BAP_1010551
   name: Botzinger complex
   parent: BAP_1010545
-  abbreviation: Bo
+  abbreviation: 'Bo'
   xref: MARMOSET:551
 
 - id: BAP_1010552
   name: Conterminal nucleus
   parent: BAP_1010545
-  abbreviation: Ct
+  abbreviation: 'Ct'
   xref: MARMOSET:552
 
 - id: BAP_1010553
   name: Cuneate nucleus
   parent: BAP_1010545
-  abbreviation: Cu
+  abbreviation: 'Cu'
   xref: MARMOSET:553
   color_rgb: '206,89,106'
 
 - id: BAP_1010554
   name: Dorsal motor nucleus of vagus; caudal part
   parent: BAP_1010545
-  abbreviation: 10Ca
+  abbreviation: '10Ca'
   xref: MARMOSET:554
 
 - id: BAP_1010555
   name: Epifacicular nucleus
   parent: BAP_1010545
-  abbreviation: EF
+  abbreviation: 'EF'
   xref: MARMOSET:555
 
 - id: BAP_1010556
   name: External cuneate nucleus
   parent: BAP_1010545
-  abbreviation: ECu
+  abbreviation: 'ECu'
   xref: MARMOSET:556
   color_rgb: '171,0,85'
 
 - id: BAP_1010557
   name: Gracile nucleus
   parent: BAP_1010545
-  abbreviation: Gr
+  abbreviation: 'Gr'
   xref: MARMOSET:557
   color_rgb: '154,59,109'
 
 - id: BAP_1010558
   name: Hypoglossal nucleus
   parent: BAP_1010545
-  abbreviation: 12N
+  abbreviation: '12N'
   xref: MARMOSET:558
   color_rgb: '158,65,63'
 
 - id: BAP_1010559
   name: Hypoglossal nucleus; geniohyyoid part
   parent: BAP_1010545
-  abbreviation: 12GH
+  abbreviation: '12GH'
   xref: MARMOSET:559
 
 - id: BAP_1010560
   name: Inferior olive
   parent: BAP_1010545
-  abbreviation: IO
+  abbreviation: 'IO'
   xref: MARMOSET:560
 
 - id: BAP_1010561
   name: Inferior olive; beta subnucleus of the medial nucleus
   parent: BAP_1010560
-  abbreviation: IOBe
+  abbreviation: 'IOBe'
   xref: MARMOSET:561
   color_rgb: '72,90,65'
 
 - id: BAP_1010562
   name: Inferior olive; cap of Kooy of the medial nucleus
   parent: BAP_1010560
-  abbreviation: IOK
+  abbreviation: 'IOK'
   xref: MARMOSET:562
   color_rgb: '223,242,99'
 
 - id: BAP_1010563
   name: Inferior olive; dorsal nucleus
   parent: BAP_1010560
-  abbreviation: IOD
+  abbreviation: 'IOD'
   xref: MARMOSET:563
   color_rgb: '121,140,88'
 
 - id: BAP_1010564
   name: Inferior olive; medial nucleus
   parent: BAP_1010560
-  abbreviation: IOM
+  abbreviation: 'IOM'
   xref: MARMOSET:564
   color_rgb: '142,179,159'
 
 - id: BAP_1010565
   name: Inferior olive; principal nucleus
   parent: BAP_1010560
-  abbreviation: IOPr
+  abbreviation: 'IOPr'
   xref: MARMOSET:565
   color_rgb: '156,159,84'
 
 - id: BAP_1010566
   name: Inferior olive; subnucleus A of medial nucleus
   parent: BAP_1010560
-  abbreviation: IOA
+  abbreviation: 'IOA'
   xref: MARMOSET:566
 
 - id: BAP_1010567
   name: Inferior olive; subnucleus B of medial nucleus
   parent: BAP_1010560
-  abbreviation: IOB
+  abbreviation: 'IOB'
   xref: MARMOSET:567
 
 - id: BAP_1010568
   name: Inferior olive; subnucleus C of medial nucleus
   parent: BAP_1010560
-  abbreviation: IOC
+  abbreviation: 'IOC'
   xref: MARMOSET:568
 
 - id: BAP_1010569
   name: Inferior salivatory nucleus
   parent: BAP_1010545
-  abbreviation: IS
+  abbreviation: 'IS'
   xref: MARMOSET:569
   color_rgb: '186,67,150'
 
 - id: BAP_1010570
   name: Intercalated nucleus
   parent: BAP_1010545
-  abbreviation: In
+  abbreviation: 'In'
   xref: MARMOSET:570
 
 - id: BAP_1010571
   name: Interstitial nucleus of the vestibular part of the 8th nerve
   parent: BAP_1010545
-  abbreviation: I8
+  abbreviation: 'I8'
   xref: MARMOSET:571
   color_rgb: '86,78,240'
 
 - id: BAP_1010572
   name: Kolliker-Fuse nucleus
   parent: BAP_1010545
-  abbreviation: KF
+  abbreviation: 'KF'
   xref: MARMOSET:572
 
 - id: BAP_1010573
   name: Lateral pericuneate nucleus
   parent: BAP_1010545
-  abbreviation: LPCu
+  abbreviation: 'LPCu'
   xref: MARMOSET:573
 
 - id: BAP_1010574
   name: Lateral terminal nucleus of the accessory optic tract
   parent: BAP_1010545
-  abbreviation: LT
+  abbreviation: 'LT'
   xref: MARMOSET:574
   color_rgb: '220,115,152'
 
 - id: BAP_1010575
   name: Linear nucleus of the hindbrain
   parent: BAP_1010545
-  abbreviation: Li
+  abbreviation: 'Li'
   xref: MARMOSET:575
 
 - id: BAP_1010576
   name: Matrix region of the medulla
   parent: BAP_1010545
-  abbreviation: Mx
+  abbreviation: 'Mx'
   xref: MARMOSET:576
 
 - id: BAP_1010577
   name: Median accessory nucleus of the medulla
   parent: BAP_1010545
-  abbreviation: MnA
+  abbreviation: 'MnA'
   xref: MARMOSET:577
 
 - id: BAP_1010578
   name: NA1 noradrenalin cells
   parent: BAP_1010545
-  abbreviation: NA1
+  abbreviation: 'NA1'
   xref: MARMOSET:578
 
 - id: BAP_1010579
   name: NA2 noradrenalin cells
   parent: BAP_1010545
-  abbreviation: NA2
+  abbreviation: 'NA2'
   xref: MARMOSET:579
 
 - id: BAP_1010580
   name: Noto cuneate nucleus
   parent: BAP_1010545
-  abbreviation: Nt
+  abbreviation: 'Nt'
   xref: MARMOSET:580
 
 - id: BAP_1010581
   name: Nucleus of Roller
   parent: BAP_1010545
-  abbreviation: Ro
+  abbreviation: 'Ro'
   xref: MARMOSET:581
 
 - id: BAP_1010582
   name: Nucleus of the spinal trigeminal tract
   parent: BAP_1010545
-  abbreviation: Sp5MED
+  abbreviation: 'Sp5MED'
   xref: MARMOSET:582
   color_rgb: '122,69,61'
 
 - id: BAP_1010584
   name: Spinal trigeminal nucleus; interpolar part
   parent: BAP_1010582
-  abbreviation: Sp5I
+  abbreviation: 'Sp5I'
   xref: MARMOSET:584
 
 - id: BAP_1010585
   name: Spinal trigeminal nucleus; oral part
   parent: BAP_1010582
-  abbreviation: Sp5O
+  abbreviation: 'Sp5O'
   xref: MARMOSET:585
 
 - id: BAP_1010583
   name: Spinal trigeminal nucleus; caudal part
   parent: BAP_1010582
-  abbreviation: Sp5C
+  abbreviation: 'Sp5C'
   xref: MARMOSET:583
 
 - id: BAP_1010586
   name: Nucleus X
   parent: BAP_1010545
-  abbreviation: X
+  abbreviation: 'X'
   xref: MARMOSET:586
   color_rgb: '255,142,162'
 
 - id: BAP_1010587
   name: Parasolitary nucleus
   parent: BAP_1010545
-  abbreviation: PSol
+  abbreviation: 'PSol'
   xref: MARMOSET:587
 
 - id: BAP_1010588
   name: Paratrigeminal nucleus
   parent: BAP_1010545
-  abbreviation: Pa5
+  abbreviation: 'Pa5'
   xref: MARMOSET:588
 
 - id: BAP_1010589
   name: Prepositus nucleus
   parent: BAP_1010545
-  abbreviation: Pr
+  abbreviation: 'Pr'
   xref: MARMOSET:589
   color_rgb: '177,21,158'
 
 - id: BAP_1010590
   name: Prepositus nucleus; magnocellular part
   parent: BAP_1010589
-  abbreviation: PrMC
+  abbreviation: 'PrMC'
   xref: MARMOSET:590
 
 - id: BAP_1010591
   name: Raphe nuclei
   parent: BAP_1010545
-  abbreviation: RaMED
+  abbreviation: 'RaMED'
   xref: MARMOSET:591
   color_rgb: '230,75,107'
 
 - id: BAP_1010592
   name: Raphe obscurus nucleus
   parent: BAP_1010591
-  abbreviation: ROb
+  abbreviation: 'ROb'
   xref: MARMOSET:592
 
 - id: BAP_1010593
   name: Raphe pallidus nucleus
   parent: BAP_1010591
-  abbreviation: RPa
+  abbreviation: 'RPa'
   xref: MARMOSET:593
 
 - id: BAP_1010594
   name: Reticular formation
   parent: BAP_1010545
-  abbreviation: RtMED
+  abbreviation: 'RtMED'
   xref: MARMOSET:594
   color_rgb: '223,130,138'
 
 - id: BAP_1010608
   name: Parvicellular reticular nucleus; alpha part
   parent: BAP_1010594
-  abbreviation: PCRtA
+  abbreviation: 'PCRtA'
   xref: MARMOSET:608
 
 - id: BAP_1010609
   name: Rostroventrolateral reticular nucleus
   parent: BAP_1010594
-  abbreviation: RVL
+  abbreviation: 'RVL'
   xref: MARMOSET:609
 
 - id: BAP_1010595
   name: Caudoventrolateral reticular nucleus
   parent: BAP_1010594
-  abbreviation: CVL
+  abbreviation: 'CVL'
   xref: MARMOSET:595
 
 - id: BAP_1010596
   name: Dorsal paragigantocellular nucleus
   parent: BAP_1010594
-  abbreviation: DPGi
+  abbreviation: 'DPGi'
   xref: MARMOSET:596
 
 - id: BAP_1010597
   name: Gigantocellular reticular nucleus
   parent: BAP_1010594
-  abbreviation: Gi
+  abbreviation: 'Gi'
   xref: MARMOSET:597
 
 - id: BAP_1010598
   name: Gigantocellular reticular nucleus; alpha part
   parent: BAP_1010597
-  abbreviation: GiA
+  abbreviation: 'GiA'
   xref: MARMOSET:598
 
 - id: BAP_1010599
   name: Gigantocellular reticular nucleus; ventral part
   parent: BAP_1010597
-  abbreviation: GiV
+  abbreviation: 'GiV'
   xref: MARMOSET:599
 
 - id: BAP_1010600
   name: Intermediate reticular nucleus
   parent: BAP_1010594
-  abbreviation: IRt
+  abbreviation: 'IRt'
   xref: MARMOSET:600
 
 - id: BAP_1010601
   name: Lateral paragigantocellular nucleus
   parent: BAP_1010594
-  abbreviation: LPGi
+  abbreviation: 'LPGi'
   xref: MARMOSET:601
 
 - id: BAP_1010602
   name: Lateral reticular nucleus
   parent: BAP_1010594
-  abbreviation: LRt
+  abbreviation: 'LRt'
   xref: MARMOSET:602
   color_rgb: '149,43,209'
 
 - id: BAP_1010603
   name: Lateral reticular nucleus; parvicellular part
   parent: BAP_1010602
-  abbreviation: LRtPC
+  abbreviation: 'LRtPC'
   xref: MARMOSET:603
 
 - id: BAP_1010604
   name: Lateral reticular nucleus; subtrigeminal part
   parent: BAP_1010602
-  abbreviation: LRtS5
+  abbreviation: 'LRtS5'
   xref: MARMOSET:604
 
 - id: BAP_1010605
   name: Medullary reticular nucleus; dorsal part
   parent: BAP_1010594
-  abbreviation: MdD
+  abbreviation: 'MdD'
   xref: MARMOSET:605
 
 - id: BAP_1010606
   name: Medullary reticular nucleus; ventral part
   parent: BAP_1010594
-  abbreviation: MdV
+  abbreviation: 'MdV'
   xref: MARMOSET:606
 
 - id: BAP_1010607
   name: Parvicellular reticular nucleus
   parent: BAP_1010594
-  abbreviation: PCRt
+  abbreviation: 'PCRt'
   xref: MARMOSET:607
 
 - id: BAP_1010610
   name: Retroambiguus nucleus
   parent: BAP_1010545
-  abbreviation: RAmb
+  abbreviation: 'RAmb'
   xref: MARMOSET:610
 
 - id: BAP_1010611
   name: Rostral ventral respiratory group
   parent: BAP_1010545
-  abbreviation: RVRG
+  abbreviation: 'RVRG'
   xref: MARMOSET:611
 
 - id: BAP_1010612
   name: Solitary nucleus
   parent: BAP_1010545
-  abbreviation: Sol
+  abbreviation: 'Sol'
   xref: MARMOSET:612
   color_rgb: '121,63,63'
 
 - id: BAP_1010613
   name: Solitary nucleus; commissural part
   parent: BAP_1010612
-  abbreviation: SolC
+  abbreviation: 'SolC'
   xref: MARMOSET:613
 
 - id: BAP_1010614
   name: Solitary nucleus; dorsolateral part
   parent: BAP_1010612
-  abbreviation: SolDL
+  abbreviation: 'SolDL'
   xref: MARMOSET:614
 
 - id: BAP_1010615
   name: Solitary nucleus; gelatinous part
   parent: BAP_1010612
-  abbreviation: SolG
+  abbreviation: 'SolG'
   xref: MARMOSET:615
 
 - id: BAP_1010616
   name: Solitary nucleus; intermediate part
   parent: BAP_1010612
-  abbreviation: SolIM
+  abbreviation: 'SolIM'
   xref: MARMOSET:616
 
 - id: BAP_1010617
   name: Solitary nucleus; interstitial part
   parent: BAP_1010612
-  abbreviation: SolI
+  abbreviation: 'SolI'
   xref: MARMOSET:617
 
 - id: BAP_1010618
   name: Solitary nucleus; medial part
   parent: BAP_1010612
-  abbreviation: SolM
+  abbreviation: 'SolM'
   xref: MARMOSET:618
 
 - id: BAP_1010619
   name: Solitary nucleus; paracommissural part
   parent: BAP_1010612
-  abbreviation: SolPaC
+  abbreviation: 'SolPaC'
   xref: MARMOSET:619
 
 - id: BAP_1010620
   name: Solitary nucleus; rostrolateral part
   parent: BAP_1010612
-  abbreviation: SolRL
+  abbreviation: 'SolRL'
   xref: MARMOSET:620
 
 - id: BAP_1010621
   name: Solitary nucleus; ventral part
   parent: BAP_1010612
-  abbreviation: SolV
+  abbreviation: 'SolV'
   xref: MARMOSET:621
 
 - id: BAP_1010622
   name: Solitary nucleus; ventrolateral part
   parent: BAP_1010612
-  abbreviation: SolVL
+  abbreviation: 'SolVL'
   xref: MARMOSET:622
 
 - id: BAP_1010623
   name: Superior salivatory nucleus
   parent: BAP_1010545
-  abbreviation: SuS
+  abbreviation: 'SuS'
   xref: MARMOSET:623
   color_rgb: '254,179,190'
 
 - id: BAP_1010624
   name: Vestibular nuclei
   parent: BAP_1010545
-  abbreviation: VeMED
+  abbreviation: 'VeMED'
   xref: MARMOSET:624
   color_rgb: '105,60,52'
 
 - id: BAP_1010625
   name: Lateral vestibular nucleus
   parent: BAP_1010624
-  abbreviation: LVe
+  abbreviation: 'LVe'
   xref: MARMOSET:625
   color_rgb: '186,72,93'
 
 - id: BAP_1010626
   name: Medial vestibular nucleus
   parent: BAP_1010624
-  abbreviation: MVe
+  abbreviation: 'MVe'
   xref: MARMOSET:626
   color_rgb: '230,213,198'
 
 - id: BAP_1010627
   name: Medial vestibular nucleus; magnocellular part
   parent: BAP_1010626
-  abbreviation: MVeMC
+  abbreviation: 'MVeMC'
   xref: MARMOSET:627
 
 - id: BAP_1010628
   name: Medial vestibular nucleus; parvicellular part
   parent: BAP_1010626
-  abbreviation: MVePC
+  abbreviation: 'MVePC'
   xref: MARMOSET:628
 
 - id: BAP_1010629
   name: Nucleus Y of the vestibular complex
   parent: BAP_1010624
-  abbreviation: Y
+  abbreviation: 'Y'
   xref: MARMOSET:629
   color_rgb: '206,187,178'
 
 - id: BAP_1010630
   name: Spinal vestibular nucleus
   parent: BAP_1010624
-  abbreviation: SpVe
+  abbreviation: 'SpVe'
   xref: MARMOSET:630
   color_rgb: '141,57,39'
 
 - id: BAP_1010631
   name: Superior vestibular nucleus
   parent: BAP_1010624
-  abbreviation: SuVe
+  abbreviation: 'SuVe'
   xref: MARMOSET:631
   color_rgb: '235,105,64'
 
 - id: BAP_1010632
   name: Vagus nerve nucleus
   parent: BAP_1010545
-  abbreviation: 10N
+  abbreviation: '10N'
   xref: MARMOSET:632
   color_rgb: '255,173,184'
 
 - id: BAP_1010466
   name: PONS (METENCEPHALON)
   parent: BAP_1010398
-  abbreviation: PONS
+  abbreviation: 'PONS'
   xref: MARMOSET:466
   color_rgb: '222,56,56'
 
 - id: BAP_1010514
   name: Raphe nuclei
   parent: BAP_1010466
-  abbreviation: RaPONS
+  abbreviation: 'RaPONS'
   xref: MARMOSET:514
   color_rgb: '230,75,107'
 
 - id: BAP_1010515
   name: Caudal linear nucleus of the raphe
   parent: BAP_1010514
-  abbreviation: CLi
+  abbreviation: 'CLi'
   xref: MARMOSET:515
   color_rgb: '224,58,127'
 
 - id: BAP_1010440
   name: Dorsal raphe nucleus; caudal part
   parent: BAP_1010514
-  abbreviation: DRC
+  abbreviation: 'DRC'
   xref: MARMOSET:440
 
 - id: BAP_1010517
   name: Median raphe nucleus
   parent: BAP_1010514
-  abbreviation: MnR
+  abbreviation: 'MnR'
   xref: MARMOSET:517
 
 - id: BAP_1010518
   name: Paramedian raphe nucleus
   parent: BAP_1010514
-  abbreviation: PMnR
+  abbreviation: 'PMnR'
   xref: MARMOSET:518
 
 - id: BAP_1010519
   name: Raphe interpositus nucleus
   parent: BAP_1010514
-  abbreviation: RIP
+  abbreviation: 'RIP'
   xref: MARMOSET:519
 
 - id: BAP_1010520
   name: Raphe magnus nucleus
   parent: BAP_1010514
-  abbreviation: RMg
+  abbreviation: 'RMg'
   xref: MARMOSET:520
 
 - id: BAP_1010521
   name: Rhabdoid nucleus
   parent: BAP_1010466
-  abbreviation: Rbd
+  abbreviation: 'Rbd'
   xref: MARMOSET:521
 
 - id: BAP_1010522
   name: Reticular formation
   parent: BAP_1010466
-  abbreviation: RtPONS
+  abbreviation: 'RtPONS'
   xref: MARMOSET:522
   color_rgb: '223,130,138'
 
 - id: BAP_1010523
   name: Pontine reticular nucleus; caudal part
   parent: BAP_1010522
-  abbreviation: PnC
+  abbreviation: 'PnC'
   xref: MARMOSET:523
 
 - id: BAP_1010524
   name: Pontine reticular nucleus; oral part
   parent: BAP_1010522
-  abbreviation: PnO
+  abbreviation: 'PnO'
   xref: MARMOSET:524
 
 - id: BAP_1010525
   name: Pontine reticular nucleus; ventral part
   parent: BAP_1010522
-  abbreviation: PnV
+  abbreviation: 'PnV'
   xref: MARMOSET:525
 
 - id: BAP_1010526
   name: Reticulotegmental nucleus of the pons
   parent: BAP_1010522
-  abbreviation: RtTg
+  abbreviation: 'RtTg'
   xref: MARMOSET:526
   color_rgb: '185,120,122'
 
 - id: BAP_1010527
   name: Reticulotegmental nucleus of the pons; lateral part
   parent: BAP_1010522
-  abbreviation: RtTgL
+  abbreviation: 'RtTgL'
   xref: MARMOSET:527
 
 - id: BAP_1010528
   name: Retroisthmic nucleus
   parent: BAP_1010466
-  abbreviation: RIs
+  abbreviation: 'RIs'
   xref: MARMOSET:528
 
 - id: BAP_1010529
   name: Retrolemniscal nucleus
   parent: BAP_1010466
-  abbreviation: RL
+  abbreviation: 'RL'
   xref: MARMOSET:529
 
 - id: BAP_1010530
   name: Sagulum nucleus
   parent: BAP_1010466
-  abbreviation: Sag
+  abbreviation: 'Sag'
   xref: MARMOSET:530
   color_rgb: '121,72,101'
 
 - id: BAP_1010531
   name: Subcoeruleus nucleus; dorsal part
   parent: BAP_1010466
-  abbreviation: SubCD
+  abbreviation: 'SubCD'
   xref: MARMOSET:531
 
 - id: BAP_1010532
   name: Subcoeruleus nucleus; ventral part
   parent: BAP_1010466
-  abbreviation: SubCV
+  abbreviation: 'SubCV'
   xref: MARMOSET:532
 
 - id: BAP_1010533
   name: Subpeduncular tegmental nucleus
   parent: BAP_1010466
-  abbreviation: SPTg
+  abbreviation: 'SPTg'
   xref: MARMOSET:533
 
 - id: BAP_1010534
   name: Superior olive
   parent: BAP_1010466
-  abbreviation: SOl
+  abbreviation: 'SOl'
   xref: MARMOSET:534
 
 - id: BAP_1010535
   name: Dorsal periolivary region
   parent: BAP_1010534
-  abbreviation: DPO
+  abbreviation: 'DPO'
   xref: MARMOSET:535
 
 - id: BAP_1010536
   name: Lateral superior olive
   parent: BAP_1010534
-  abbreviation: LSO
+  abbreviation: 'LSO'
   xref: MARMOSET:536
   color_rgb: '124,61,83'
 
 - id: BAP_1010537
   name: Lateroventral periolivary nucleus
   parent: BAP_1010534
-  abbreviation: LVPO
+  abbreviation: 'LVPO'
   xref: MARMOSET:537
 
 - id: BAP_1010538
   name: Medial superior olive
   parent: BAP_1010534
-  abbreviation: MSO
+  abbreviation: 'MSO'
   xref: MARMOSET:538
   color_rgb: '148,107,158'
 
 - id: BAP_1010539
   name: Medioventral periolivary nucleus
   parent: BAP_1010534
-  abbreviation: MVPO
+  abbreviation: 'MVPO'
   xref: MARMOSET:539
 
 - id: BAP_1010540
   name: Superior paraolivary nucleus
   parent: BAP_1010534
-  abbreviation: SPO
+  abbreviation: 'SPO'
   xref: MARMOSET:540
 
 - id: BAP_1010541
   name: Supratrigeminal nucleus
   parent: BAP_1010466
-  abbreviation: Su5
+  abbreviation: 'Su5'
   xref: MARMOSET:541
 
 - id: BAP_1010542
   name: Triangular nucleus of the lateral lemniscus
   parent: BAP_1010466
-  abbreviation: TrLL
+  abbreviation: 'TrLL'
   xref: MARMOSET:542
 
 - id: BAP_1010543
   name: Ventral nucleus of the lateral lemniscus
   parent: BAP_1010466
-  abbreviation: VLL
+  abbreviation: 'VLL'
   xref: MARMOSET:543
   color_rgb: '131,75,93'
 
 - id: BAP_1010544
   name: Vestibular nuclei
   parent: BAP_1010466
-  abbreviation: VePONS
+  abbreviation: 'VePONS'
   xref: MARMOSET:544
   color_rgb: '105,60,52'
 
 - id: BAP_1010467
   name: Abducens nucleus
   parent: BAP_1010466
-  abbreviation: 6N
+  abbreviation: '6N'
   xref: MARMOSET:467
   color_rgb: '148,71,75'
 
 - id: BAP_1010468
   name: Anterior tegmental nucleus
   parent: BAP_1010466
-  abbreviation: ATg
+  abbreviation: 'ATg'
   xref: MARMOSET:468
 
 - id: BAP_1010469
   name: B9 serotonin cells
   parent: BAP_1010466
-  abbreviation: B9
+  abbreviation: 'B9'
   xref: MARMOSET:469
 
 - id: BAP_1010470
   name: Barrington's nucleus
   parent: BAP_1010466
-  abbreviation: Bar
+  abbreviation: 'Bar'
   xref: MARMOSET:470
 
 - id: BAP_1010471
   name: Central gray
   parent: BAP_1010466
-  abbreviation: CG
+  abbreviation: 'CG'
   xref: MARMOSET:471
   color_rgb: '158,34,54'
 
 - id: BAP_1010472
   name: Cochlear nuclei
   parent: BAP_1010466
-  abbreviation: C
+  abbreviation: 'C'
   xref: MARMOSET:472
   color_rgb: '190,0,50'
 
 - id: BAP_1010473
   name: Dorsal cochlear nucleus
   parent: BAP_1010472
-  abbreviation: DC
+  abbreviation: 'DC'
   xref: MARMOSET:473
   color_rgb: '173,147,147'
 
 - id: BAP_1010474
   name: Granule cell layer of the cochlear nuclei
   parent: BAP_1010472
-  abbreviation: GrC
+  abbreviation: 'GrC'
   xref: MARMOSET:474
 
 - id: BAP_1010475
   name: Ventral cochlear nucleus; anterior part
   parent: BAP_1010472
-  abbreviation: VCA
+  abbreviation: 'VCA'
   xref: MARMOSET:475
   color_rgb: '204,138,106'
 
 - id: BAP_1010476
   name: Ventral cochlear nucleus; posterior part
   parent: BAP_1010472
-  abbreviation: VCP
+  abbreviation: 'VCP'
   xref: MARMOSET:476
   color_rgb: '194,193,100'
 
 - id: BAP_1010477
   name: Dorsal nucleus of the lateral lemniscus
   parent: BAP_1010466
-  abbreviation: DLL
+  abbreviation: 'DLL'
   xref: MARMOSET:477
   color_rgb: '156,81,80'
 
 - id: BAP_1010478
   name: Dorsal tegmental nucleus
   parent: BAP_1010466
-  abbreviation: DTg
+  abbreviation: 'DTg'
   xref: MARMOSET:478
 
 - id: BAP_1010479
   name: Facial nucleus
   parent: BAP_1010466
-  abbreviation: 7N
+  abbreviation: '7N'
   xref: MARMOSET:479
   color_rgb: '239,69,74'
 
 - id: BAP_1010480
   name: Facial motor nucleus; stylohyoid part
   parent: BAP_1010466
-  abbreviation: 7SH
+  abbreviation: '7SH'
   xref: MARMOSET:480
 
 - id: BAP_1010481
   name: Intermediate nucleus of the lateral lemniscus
   parent: BAP_1010466
-  abbreviation: ILL
+  abbreviation: 'ILL'
   xref: MARMOSET:481
   color_rgb: '161,126,84'
 
 - id: BAP_1010482
   name: Locus coeruleus
   parent: BAP_1010466
-  abbreviation: LC
+  abbreviation: 'LC'
   xref: MARMOSET:482
   color_rgb: '209,72,62'
 
 - id: BAP_1010483
   name: Laterodorsal tegmental nucleus
   parent: BAP_1010466
-  abbreviation: LDTg
+  abbreviation: 'LDTg'
   xref: MARMOSET:483
 
 - id: BAP_1010484
   name: Laterodorsal tegmental nucleus; ventral part
   parent: BAP_1010466
-  abbreviation: LDTgV
+  abbreviation: 'LDTgV'
   xref: MARMOSET:484
 
 - id: BAP_1010485
   name: Parabrachial nuclei
   parent: BAP_1010466
-  abbreviation: PB
+  abbreviation: 'PB'
   xref: MARMOSET:485
   color_rgb: '251,227,0'
 
 - id: BAP_1010494
   name: Medial parabrachial nucleus
   parent: BAP_1010485
-  abbreviation: MPB
+  abbreviation: 'MPB'
   xref: MARMOSET:494
 
 - id: BAP_1010486
   name: Lateral parabrachial nucleus
   parent: BAP_1010485
-  abbreviation: LPB
+  abbreviation: 'LPB'
   xref: MARMOSET:486
 
 - id: BAP_1010487
   name: Lateral parabrachial nucleus; central part
   parent: BAP_1010486
-  abbreviation: LPBC
+  abbreviation: 'LPBC'
   xref: MARMOSET:487
 
 - id: BAP_1010488
   name: Lateral parabrachial nucleus; crescent part
   parent: BAP_1010486
-  abbreviation: LPBCr
+  abbreviation: 'LPBCr'
   xref: MARMOSET:488
 
 - id: BAP_1010489
   name: Lateral parabrachial nucleus; dorsal part
   parent: BAP_1010486
-  abbreviation: LPBD
+  abbreviation: 'LPBD'
   xref: MARMOSET:489
 
 - id: BAP_1010490
   name: Lateral parabrachial nucleus; external part
   parent: BAP_1010486
-  abbreviation: LPBE
+  abbreviation: 'LPBE'
   xref: MARMOSET:490
 
 - id: BAP_1010491
   name: Lateral parabrachial nucleus; internal part
   parent: BAP_1010486
-  abbreviation: LPBI
+  abbreviation: 'LPBI'
   xref: MARMOSET:491
 
 - id: BAP_1010492
   name: Lateral parabrachial nucleus; superior part
   parent: BAP_1010486
-  abbreviation: LPBS
+  abbreviation: 'LPBS'
   xref: MARMOSET:492
 
 - id: BAP_1010493
   name: Lateral parabrachial nucleus; ventral part
   parent: BAP_1010486
-  abbreviation: LPBV
+  abbreviation: 'LPBV'
   xref: MARMOSET:493
 
 - id: BAP_1010495
   name: Medial parabrachial nucleus external part
   parent: BAP_1010485
-  abbreviation: MPBE
+  abbreviation: 'MPBE'
   xref: MARMOSET:495
 
 - id: BAP_1010496
   name: Medial paralemniscial nucleus
   parent: BAP_1010466
-  abbreviation: MPL
+  abbreviation: 'MPL'
   xref: MARMOSET:496
 
 - id: BAP_1010497
   name: Microcellular tegmental nucleus
   parent: BAP_1010466
-  abbreviation: MiTg
+  abbreviation: 'MiTg'
   xref: MARMOSET:497
 
 - id: BAP_1010498
   name: Motor trigeminal nucleus
   parent: BAP_1010466
-  abbreviation: 5N
+  abbreviation: '5N'
   xref: MARMOSET:498
   color_rgb: '109,58,51'
 
 - id: BAP_1010499
   name: Motor trigeminal nucleus; parvicellular part
   parent: BAP_1010466
-  abbreviation: 5PC
+  abbreviation: '5PC'
   xref: MARMOSET:499
 
 - id: BAP_1010500
   name: NA5 noradrenalin cells
   parent: BAP_1010466
-  abbreviation: NA5
+  abbreviation: 'NA5'
   xref: MARMOSET:500
   color_rgb: '117,0,49'
 
 - id: BAP_1010501
   name: NA7 noradrenalin cells
   parent: BAP_1010466
-  abbreviation: NA7
+  abbreviation: 'NA7'
   xref: MARMOSET:501
   color_rgb: '66,47,70'
 
 - id: BAP_1010502
   name: Nucleus of the central acoustic tract
   parent: BAP_1010466
-  abbreviation: CAT
+  abbreviation: 'CAT'
   xref: MARMOSET:502
 
 - id: BAP_1010503
   name: Nucleus of the spinal trigeminal tract
   parent: BAP_1010466
-  abbreviation: Sp5PONS
+  abbreviation: 'Sp5PONS'
   xref: MARMOSET:503
   color_rgb: '122,69,61'
 
 - id: BAP_1010504
   name: Nucleus of the trapezoid body
   parent: BAP_1010466
-  abbreviation: Tz
+  abbreviation: 'Tz'
   xref: MARMOSET:504
   color_rgb: '127,96,87'
 
 - id: BAP_1010505
   name: Parabigeminal nucleus
   parent: BAP_1010466
-  abbreviation: PBG
+  abbreviation: 'PBG'
   xref: MARMOSET:505
   color_rgb: '175,131,189'
 
 - id: BAP_1010506
   name: Paralemniscal nucleus
   parent: BAP_1010466
-  abbreviation: PL
+  abbreviation: 'PL'
   xref: MARMOSET:506
 
 - id: BAP_1010507
   name: Pedunculotegmental nucleus
   parent: BAP_1010466
-  abbreviation: PTg
+  abbreviation: 'PTg'
   xref: MARMOSET:507
   color_rgb: '142,37,143'
 
 - id: BAP_1010508
   name: Peritrigeminal zone
   parent: BAP_1010466
-  abbreviation: P5
+  abbreviation: 'P5'
   xref: MARMOSET:508
 
 - id: BAP_1010509
   name: Pontine nuclei
   parent: BAP_1010466
-  abbreviation: Pn
+  abbreviation: 'Pn'
   xref: MARMOSET:509
   color_rgb: '134,62,51'
 
 - id: BAP_1010510
   name: Posterodorsal tegmental nucleus
   parent: BAP_1010466
-  abbreviation: PDTg
+  abbreviation: 'PDTg'
   xref: MARMOSET:510
 
 - id: BAP_1010511
   name: Principal sensory trigeminal nucleus
   parent: BAP_1010466
-  abbreviation: Pr5
+  abbreviation: 'Pr5'
   xref: MARMOSET:511
   color_rgb: '112,99,82'
 
 - id: BAP_1010512
   name: Principal sensory trigeminal nucleus; dorsomedial part
   parent: BAP_1010511
-  abbreviation: Pr5DM
+  abbreviation: 'Pr5DM'
   xref: MARMOSET:512
 
 - id: BAP_1010513
   name: Principal sensory trigeminal nucleus; ventrolateral part
   parent: BAP_1010511
-  abbreviation: Pr5VL
+  abbreviation: 'Pr5VL'
   xref: MARMOSET:513
 
 - id: BAP_1010399
   name: MIDBRAIN (MESENCEPHALON)
   parent: BAP_1010398
-  abbreviation: MID
+  abbreviation: 'MID'
   xref: MARMOSET:399
   color_rgb: '187,0,75'
 
 - id: BAP_1010400
   name: Commissural nucleus of the inferior colliculus
   parent: BAP_1010399
-  abbreviation: Com
+  abbreviation: 'Com'
   xref: MARMOSET:400
 
 - id: BAP_1010401
   name: DA8 dopamine cells
   parent: BAP_1010399
-  abbreviation: DA8
+  abbreviation: 'DA8'
   xref: MARMOSET:401
 
 - id: BAP_1010402
   name: Nucleus of Darkschewitsch
   parent: BAP_1010399
-  abbreviation: Dk
+  abbreviation: 'Dk'
   xref: MARMOSET:402
   color_rgb: '146,77,75'
 
 - id: BAP_1010403
   name: Edinger-Westphal nucleus
   parent: BAP_1010399
-  abbreviation: EW
+  abbreviation: 'EW'
   xref: MARMOSET:403
 
 - id: BAP_1010404
   name: Interoculomotor nucleus
   parent: BAP_1010399
-  abbreviation: I3
+  abbreviation: 'I3'
   xref: MARMOSET:404
 
 - id: BAP_1010405
   name: Inferior colliculus
   parent: BAP_1010399
-  abbreviation: IC
+  abbreviation: 'IC'
   xref: MARMOSET:405
   color_rgb: '250,156,184'
 
 - id: BAP_1010408
   name: External cortex of the inferior colliculus
   parent: BAP_1010405
-  abbreviation: ECIC
+  abbreviation: 'ECIC'
   xref: MARMOSET:408
   color_rgb: '218,120,184'
 
 - id: BAP_1010406
   name: Central nucleus of the inferior colliculus
   parent: BAP_1010405
-  abbreviation: CIC
+  abbreviation: 'CIC'
   xref: MARMOSET:406
   color_rgb: '251,181,184'
 
 - id: BAP_1010407
   name: Dorsal cortex of the inferior colliculus
   parent: BAP_1010405
-  abbreviation: DCIC
+  abbreviation: 'DCIC'
   xref: MARMOSET:407
   color_rgb: '198,185,184'
 
 - id: BAP_1010409
   name: Interstitial nucleus of Cajal
   parent: BAP_1010399
-  abbreviation: InC
+  abbreviation: 'InC'
   xref: MARMOSET:409
   color_rgb: '127,135,184'
 
 - id: BAP_1010410
   name: Interpeduncular nucleus
   parent: BAP_1010399
-  abbreviation: IP
+  abbreviation: 'IP'
   xref: MARMOSET:410
   color_rgb: '89,58,184'
 
 - id: BAP_1010411
   name: Interpeduncular nucleus; apical subnucleus
   parent: BAP_1010410
-  abbreviation: IPA
+  abbreviation: 'IPA'
   xref: MARMOSET:411
 
 - id: BAP_1010412
   name: Interpeduncular nucleus; caudal subnucleus
   parent: BAP_1010410
-  abbreviation: IPC
+  abbreviation: 'IPC'
   xref: MARMOSET:412
 
 - id: BAP_1010413
   name: Interpeduncular nucleus; intermediate subnucleus
   parent: BAP_1010410
-  abbreviation: IPI
+  abbreviation: 'IPI'
   xref: MARMOSET:413
 
 - id: BAP_1010414
   name: Interpeduncular nucleus; lateral subnucleus
   parent: BAP_1010410
-  abbreviation: IPL
+  abbreviation: 'IPL'
   xref: MARMOSET:414
 
 - id: BAP_1010415
   name: Interpeduncular nucleus; rostral subnucleus
   parent: BAP_1010410
-  abbreviation: IPR
+  abbreviation: 'IPR'
   xref: MARMOSET:415
 
 - id: BAP_1010416
   name: Medial accessory oculomotor nucleus
   parent: BAP_1010399
-  abbreviation: MA3
+  abbreviation: 'MA3'
   xref: MARMOSET:416
 
 - id: BAP_1010417
   name: Mesencephalic trigeminal nucleus
   parent: BAP_1010399
-  abbreviation: Me5
+  abbreviation: 'Me5'
   xref: MARMOSET:417
   color_rgb: '207,64,120'
 
 - id: BAP_1010418
   name: Nucleus of the brachium of the inferior colliculus
   parent: BAP_1010399
-  abbreviation: BIC
+  abbreviation: 'BIC'
   xref: MARMOSET:418
   color_rgb: '180,65,118'
 
 - id: BAP_1010419
   name: Nucleus of the posterior commissure
   parent: BAP_1010399
-  abbreviation: PCom
+  abbreviation: 'PCom'
   xref: MARMOSET:419
   color_rgb: '173,159,187'
 
 - id: BAP_1010420
   name: Occulomotor nucleus
   parent: BAP_1010399
-  abbreviation: 3N
+  abbreviation: '3N'
   xref: MARMOSET:420
   color_rgb: '201,64,147'
 
 - id: BAP_1010421
   name: Occulomotor nucleus; parvicellular part
   parent: BAP_1010399
-  abbreviation: 3PC
+  abbreviation: '3PC'
   xref: MARMOSET:421
 
 - id: BAP_1010422
   name: Periaqueductal gray
   parent: BAP_1010399
-  abbreviation: PAG
+  abbreviation: 'PAG'
   xref: MARMOSET:422
   color_rgb: '213,62,98'
 
 - id: BAP_1010423
   name: Dorsolateral periaqueductal gray
   parent: BAP_1010422
-  abbreviation: DLPAG
+  abbreviation: 'DLPAG'
   xref: MARMOSET:423
 
 - id: BAP_1010424
   name: Dorsomedial periaqueductal gray
   parent: BAP_1010422
-  abbreviation: DMPAG
+  abbreviation: 'DMPAG'
   xref: MARMOSET:424
 
 - id: BAP_1010425
   name: Lateral periaqueductal gray
   parent: BAP_1010422
-  abbreviation: LPAG
+  abbreviation: 'LPAG'
   xref: MARMOSET:425
 
 - id: BAP_1010426
   name: Pleioglia periaqueductal gray
   parent: BAP_1010422
-  abbreviation: PlPAG
+  abbreviation: 'PlPAG'
   xref: MARMOSET:426
 
 - id: BAP_1010427
   name: Supraoculomotor cap
   parent: BAP_1010422
-  abbreviation: Su3C
+  abbreviation: 'Su3C'
   xref: MARMOSET:427
 
 - id: BAP_1010428
   name: Supraoculomotor periaqueductal gray
   parent: BAP_1010422
-  abbreviation: Su3
+  abbreviation: 'Su3'
   xref: MARMOSET:428
 
 - id: BAP_1010429
   name: Ventrolateral periaqueductal gray
   parent: BAP_1010422
-  abbreviation: VLPAG
+  abbreviation: 'VLPAG'
   xref: MARMOSET:429
 
 - id: BAP_1010430
   name: Parabrachial pigmented nucleus of the VTA
   parent: BAP_1010399
-  abbreviation: PBP
+  abbreviation: 'PBP'
   xref: MARMOSET:430
 
 - id: BAP_1010431
   name: Parainterfascicular nucleus of the ventral tegmental area
   parent: BAP_1010399
-  abbreviation: PIF
+  abbreviation: 'PIF'
   xref: MARMOSET:431
 
 - id: BAP_1010432
   name: Paranigral nucleus of the VTA
   parent: BAP_1010399
-  abbreviation: PN
+  abbreviation: 'PN'
   xref: MARMOSET:432
 
 - id: BAP_1010433
   name: Peripeduncular nucleus
   parent: BAP_1010399
-  abbreviation: PP
+  abbreviation: 'PP'
   xref: MARMOSET:433
 
 - id: BAP_1010434
   name: Prerubral field
   parent: BAP_1010399
-  abbreviation: PR
+  abbreviation: 'PR'
   xref: MARMOSET:434
 
 - id: BAP_1010435
   name: Red nucleus
   parent: BAP_1010399
-  abbreviation: R
+  abbreviation: 'R'
   xref: MARMOSET:435
   color_rgb: '255,127,143'
 
 - id: BAP_1010436
   name: Red nucleus; magnocellular part
   parent: BAP_1010435
-  abbreviation: RMC
+  abbreviation: 'RMC'
   xref: MARMOSET:436
 
 - id: BAP_1010437
   name: Red nucleus; parvicellular part
   parent: BAP_1010435
-  abbreviation: RPC
+  abbreviation: 'RPC'
   xref: MARMOSET:437
 
 - id: BAP_1010438
   name: Raphe nuclei
   parent: BAP_1010399
-  abbreviation: RaMID
+  abbreviation: 'RaMID'
   xref: MARMOSET:438
   color_rgb: '230,75,107'
 
 - id: BAP_1010446
   name: Rostral linear nucleus
   parent: BAP_1010438
-  abbreviation: RLi
+  abbreviation: 'RLi'
   xref: MARMOSET:446
   color_rgb: '222,24,131'
 
 - id: BAP_1010439
   name: Dorsal raphe nucleus
   parent: BAP_1010438
-  abbreviation: DR
+  abbreviation: 'DR'
   xref: MARMOSET:439
   color_rgb: '184,142,145'
 
 - id: BAP_1010516
   name: Dorsal raphe nucleus; caudal part
   parent: BAP_1010439
-  abbreviation: DRC
+  abbreviation: 'DRC'
   xref: MARMOSET:516
 
 - id: BAP_1010441
   name: Dorsal raphe nucleus; dorsal part
   parent: BAP_1010439
-  abbreviation: DRD
+  abbreviation: 'DRD'
   xref: MARMOSET:441
 
 - id: BAP_1010442
   name: Dorsal raphe nucleus; interfascicular part
   parent: BAP_1010439
-  abbreviation: DRI
+  abbreviation: 'DRI'
   xref: MARMOSET:442
 
 - id: BAP_1010443
   name: Dorsal raphe nucleus; lateral part
   parent: BAP_1010439
-  abbreviation: DRL
+  abbreviation: 'DRL'
   xref: MARMOSET:443
 
 - id: BAP_1010444
   name: Dorsal raphe nucleus; ventral part
   parent: BAP_1010439
-  abbreviation: DRV
+  abbreviation: 'DRV'
   xref: MARMOSET:444
 
 - id: BAP_1010445
   name: Dorsal raphe nucleus; ventrolateral part
   parent: BAP_1010439
-  abbreviation: DRVL
+  abbreviation: 'DRVL'
   xref: MARMOSET:445
 
 - id: BAP_1010447
   name: Reticular formation
   parent: BAP_1010399
-  abbreviation: RtMID
+  abbreviation: 'RtMID'
   xref: MARMOSET:447
   color_rgb: '223,130,138'
 
 - id: BAP_1010448
   name: Cuneinform nucleus
   parent: BAP_1010447
-  abbreviation: CnF
+  abbreviation: 'CnF'
   xref: MARMOSET:448
 
 - id: BAP_1010449
   name: Mesencephlic reticular formation
   parent: BAP_1010447
-  abbreviation: mRt
+  abbreviation: 'mRt'
   xref: MARMOSET:449
 
 - id: BAP_1010450
   name: Precuneiform area
   parent: BAP_1010447
-  abbreviation: PrCnF
+  abbreviation: 'PrCnF'
   xref: MARMOSET:450
 
 - id: BAP_1010451
   name: Rostral interstitial nucleus of the medial longitudinal fasciculus
   parent: BAP_1010399
-  abbreviation: RI
+  abbreviation: 'RI'
   xref: MARMOSET:451
 
 - id: BAP_1010452
   name: Superior colliculus
   parent: BAP_1010399
-  abbreviation: SC
+  abbreviation: 'SC'
   xref: MARMOSET:452
   color_rgb: '190,0,63'
 
 - id: BAP_1010453
   name: Deep gray layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: DpG
+  abbreviation: 'DpG'
   xref: MARMOSET:453
   color_rgb: '126,49,118'
 
 - id: BAP_1010454
   name: Deep white layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: DpWh
+  abbreviation: 'DpWh'
   xref: MARMOSET:454
 
 - id: BAP_1010455
   name: Intermediate gray layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: InG
+  abbreviation: 'InG'
   xref: MARMOSET:455
   color_rgb: '83,49,125'
 
 - id: BAP_1010456
   name: Intermediate white layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: InWh
+  abbreviation: 'InWh'
   xref: MARMOSET:456
 
 - id: BAP_1010457
   name: Optic nerve layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: Op
+  abbreviation: 'Op'
   xref: MARMOSET:457
 
 - id: BAP_1010458
   name: Superficial gray layer of the superior colliculcus
   parent: BAP_1010452
-  abbreviation: SuG
+  abbreviation: 'SuG'
   xref: MARMOSET:458
   color_rgb: '161,142,138'
 
 - id: BAP_1010459
   name: Zonal layer of the superior colliculus
   parent: BAP_1010452
-  abbreviation: Zo
+  abbreviation: 'Zo'
   xref: MARMOSET:459
   color_rgb: '192,42,117'
 
 - id: BAP_1010460
   name: Subbrachial nucleus
   parent: BAP_1010399
-  abbreviation: SubB
+  abbreviation: 'SubB'
   xref: MARMOSET:460
 
 - id: BAP_1010461
   name: Substantia nigra
   parent: BAP_1010399
-  abbreviation: SNMID
+  abbreviation: 'SNMID'
   xref: MARMOSET:461
   color_rgb: '227,128,137'
 
 - id: BAP_1010462
   name: Trochlear nucleus
   parent: BAP_1010399
-  abbreviation: 4N
+  abbreviation: '4N'
   xref: MARMOSET:462
   color_rgb: '184,26,62'
 
 - id: BAP_1010463
   name: Ventral tegmental area
   parent: BAP_1010399
-  abbreviation: VTA
+  abbreviation: 'VTA'
   xref: MARMOSET:463
   color_rgb: '253,160,129'
 
 - id: BAP_1010464
   name: Ventral tegmental area; caudal part
   parent: BAP_1010463
-  abbreviation: VTAC
+  abbreviation: 'VTAC'
   xref: MARMOSET:464
 
 - id: BAP_1010465
   name: Ventral tegmental area; rostral part
   parent: BAP_1010463
-  abbreviation: VTAR
+  abbreviation: 'VTAR'
   xref: MARMOSET:465
 
 - id: BAP_1010752
   name: CIRCUMVENTRICULAR ORGAN
   parent: BAP_1010001
-  abbreviation: CvO
+  abbreviation: 'CvO'
   xref: MARMOSET:752
 
 - id: BAP_1010753
   name: Area postrema
   parent: BAP_1010752
-  abbreviation: AP
+  abbreviation: 'AP'
   xref: MARMOSET:753
 
 - id: BAP_1010754
   name: Median eminence
   parent: BAP_1010752
-  abbreviation: ME
+  abbreviation: 'ME'
   xref: MARMOSET:754
 
 - id: BAP_1010755
   name: Neurohypophysis
   parent: BAP_1010752
-  abbreviation: Nhyp
+  abbreviation: 'Nhyp'
   xref: MARMOSET:755
 
 - id: BAP_1010756
   name: Pineal gland
   parent: BAP_1010752
-  abbreviation: Pi
+  abbreviation: 'Pi'
   xref: MARMOSET:756
 
 - id: BAP_1010757
   name: Subcommissural organ
   parent: BAP_1010752
-  abbreviation: SCO
+  abbreviation: 'SCO'
   xref: MARMOSET:757
 
 - id: BAP_1010758
   name: Subfornical organ
   parent: BAP_1010752
-  abbreviation: SFO
+  abbreviation: 'SFO'
   xref: MARMOSET:758
 
 - id: BAP_1010759
   name: Vascular organ of the lamina terminalis
   parent: BAP_1010752
-  abbreviation: VOLT
+  abbreviation: 'VOLT'
   xref: MARMOSET:759
 
 - id: BAP_1010786
   name: SURFACE
   parent: BAP_1010001
-  abbreviation: GH
+  abbreviation: 'GH'
   xref: MARMOSET:786
   color_rgb: '214,201,73'
 
 - id: BAP_1010660
   name: FIBER BUNDLE
   parent: BAP_1010001
-  abbreviation: FB
+  abbreviation: 'FB'
   xref: MARMOSET:660
   color_rgb: '156,156,156'
 
 - id: BAP_1010661
   name: Ansa lenticularis
   parent: BAP_1010660
-  abbreviation: al
+  abbreviation: 'al'
   xref: MARMOSET:661
 
 - id: BAP_1010662
   name: Alveus of the hippocampus
   parent: BAP_1010660
-  abbreviation: alv
+  abbreviation: 'alv'
   xref: MARMOSET:662
 
 - id: BAP_1010663
   name: Anterior commissure
   parent: BAP_1010660
-  abbreviation: ac
+  abbreviation: 'ac'
   xref: MARMOSET:663
   color_rgb: '156,156,156'
 
 - id: BAP_1010664
   name: Anterior commissure; anterior part
   parent: BAP_1010660
-  abbreviation: aca
+  abbreviation: 'aca'
   xref: MARMOSET:664
   color_rgb: '156,156,156'
 
 - id: BAP_1010665
   name: Anterior commissure; intrabulbar part
   parent: BAP_1010660
-  abbreviation: aci
+  abbreviation: 'aci'
   xref: MARMOSET:665
 
 - id: BAP_1010666
   name: Anterior commissure; posterior limb
   parent: BAP_1010660
-  abbreviation: acp
+  abbreviation: 'acp'
   xref: MARMOSET:666
 
 - id: BAP_1010667
   name: Ascending fibers of the facial nerve
   parent: BAP_1010660
-  abbreviation: asc7
+  abbreviation: 'asc7'
   xref: MARMOSET:667
 
 - id: BAP_1010668
   name: Brachium of the inferior colliculus
   parent: BAP_1010660
-  abbreviation: bic
+  abbreviation: 'bic'
   xref: MARMOSET:668
   color_rgb: '156,156,156'
 
 - id: BAP_1010669
   name: Brachium of the superior colliculus
   parent: BAP_1010660
-  abbreviation: bsc
+  abbreviation: 'bsc'
   xref: MARMOSET:669
   color_rgb: '156,156,156'
 
 - id: BAP_1010670
   name: Cerebral peduncle
   parent: BAP_1010660
-  abbreviation: cp
+  abbreviation: 'cp'
   xref: MARMOSET:670
   color_rgb: '156,156,156'
 
 - id: BAP_1010671
   name: Cingulum
   parent: BAP_1010660
-  abbreviation: cg
+  abbreviation: 'cg'
   xref: MARMOSET:671
   color_rgb: '156,156,156'
 
 - id: BAP_1010672
   name: Corpus callosum
   parent: BAP_1010660
-  abbreviation: cc
+  abbreviation: 'cc'
   xref: MARMOSET:672
   color_rgb: '156,156,156'
 
 - id: BAP_1010673
   name: Commissural stria terminals
   parent: BAP_1010660
-  abbreviation: cst
+  abbreviation: 'cst'
   xref: MARMOSET:673
 
 - id: BAP_1010674
   name: Commissure of the inferior colliculus
   parent: BAP_1010660
-  abbreviation: cic
+  abbreviation: 'cic'
   xref: MARMOSET:674
 
 - id: BAP_1010675
   name: Commissure of the lateral leminiscus
   parent: BAP_1010660
-  abbreviation: cll
+  abbreviation: 'cll'
   xref: MARMOSET:675
 
 - id: BAP_1010676
   name: Commissure of the superior colliculus
   parent: BAP_1010660
-  abbreviation: csc
+  abbreviation: 'csc'
   xref: MARMOSET:676
 
 - id: BAP_1010677
   name: Cuneate fascicolus
   parent: BAP_1010660
-  abbreviation: cu
+  abbreviation: 'cu'
   xref: MARMOSET:677
   color_rgb: '156,156,156'
 
 - id: BAP_1010678
   name: Decussation of the medial lemniscus
   parent: BAP_1010660
-  abbreviation: xml
+  abbreviation: 'xml'
   xref: MARMOSET:678
 
 - id: BAP_1010679
   name: Decussation of the superior cerebellar peduncle
   parent: BAP_1010660
-  abbreviation: xscp
+  abbreviation: 'xscp'
   xref: MARMOSET:679
   color_rgb: '156,156,156'
 
 - id: BAP_1010680
   name: Dosal acoustic atria
   parent: BAP_1010660
-  abbreviation: das
+  abbreviation: 'das'
   xref: MARMOSET:680
 
 - id: BAP_1010681
   name: Dosal corticospinal tract
   parent: BAP_1010660
-  abbreviation: dcs
+  abbreviation: 'dcs'
   xref: MARMOSET:681
   color_rgb: '156,156,156'
 
 - id: BAP_1010682
   name: Dorsal spinocerebellar tract
   parent: BAP_1010660
-  abbreviation: dsc
+  abbreviation: 'dsc'
   xref: MARMOSET:682
 
 - id: BAP_1010683
   name: Dorsal tegmental decussation
   parent: BAP_1010660
-  abbreviation: dtgx
+  abbreviation: 'dtgx'
   xref: MARMOSET:683
 
 - id: BAP_1010684
   name: External capsule
   parent: BAP_1010660
-  abbreviation: ec
+  abbreviation: 'ec'
   xref: MARMOSET:684
   color_rgb: '156,156,156'
 
 - id: BAP_1010685
   name: External medullary lamina
   parent: BAP_1010660
-  abbreviation: eml
+  abbreviation: 'eml'
   xref: MARMOSET:685
 
 - id: BAP_1010686
   name: Extreme capsule
   parent: BAP_1010660
-  abbreviation: ex
+  abbreviation: 'ex'
   xref: MARMOSET:686
 
 - id: BAP_1010687
   name: Fasciculus retroflexus
   parent: BAP_1010660
-  abbreviation: fr
+  abbreviation: 'fr'
   xref: MARMOSET:687
   color_rgb: '156,156,156'
 
 - id: BAP_1010688
   name: Finbria of the hippocampus
   parent: BAP_1010660
-  abbreviation: fi
+  abbreviation: 'fi'
   xref: MARMOSET:688
   color_rgb: '156,156,156'
 
 - id: BAP_1010689
   name: Forceps minor corpus callosum
   parent: BAP_1010660
-  abbreviation: fmi
+  abbreviation: 'fmi'
   xref: MARMOSET:689
   color_rgb: '156,156,156'
 
 - id: BAP_1010690
   name: Fornix
   parent: BAP_1010660
-  abbreviation: f
+  abbreviation: 'f'
   xref: MARMOSET:690
   color_rgb: '156,156,156'
 
 - id: BAP_1010691
   name: Genu of the corpus callosum
   parent: BAP_1010660
-  abbreviation: gcc
+  abbreviation: 'gcc'
   xref: MARMOSET:691
   color_rgb: '156,156,156'
 
 - id: BAP_1010692
   name: Genu of the facial nerve
   parent: BAP_1010660
-  abbreviation: g7
+  abbreviation: 'g7'
   xref: MARMOSET:692
 
 - id: BAP_1010693
   name: Gracile fasciculus
   parent: BAP_1010660
-  abbreviation: gr
+  abbreviation: 'gr'
   xref: MARMOSET:693
   color_rgb: '156,156,156'
 
 - id: BAP_1010694
   name: h1 fasciculus (thalamic fasciculus)
   parent: BAP_1010660
-  abbreviation: h1
+  abbreviation: 'h1'
   xref: MARMOSET:694
 
 - id: BAP_1010695
   name: h2 fasciculus (lenticular fasciculus)
   parent: BAP_1010660
-  abbreviation: h2
+  abbreviation: 'h2'
   xref: MARMOSET:695
 
 - id: BAP_1010696
   name: Habenular commissure
   parent: BAP_1010660
-  abbreviation: hbc
+  abbreviation: 'hbc'
   xref: MARMOSET:696
 
 - id: BAP_1010697
   name: Inferior cerebellar peduncle
   parent: BAP_1010660
-  abbreviation: icp
+  abbreviation: 'icp'
   xref: MARMOSET:697
   color_rgb: '156,156,156'
 
 - id: BAP_1010698
   name: Internal capsule
   parent: BAP_1010660
-  abbreviation: ic
+  abbreviation: 'ic'
   xref: MARMOSET:698
   color_rgb: '156,156,156'
 
 - id: BAP_1010699
   name: Lateral corticospinal tract
   parent: BAP_1010660
-  abbreviation: lcs
+  abbreviation: 'lcs'
   xref: MARMOSET:699
   color_rgb: '156,156,156'
 
 - id: BAP_1010700
   name: Lateral lemniscus
   parent: BAP_1010660
-  abbreviation: ll
+  abbreviation: 'll'
   xref: MARMOSET:700
   color_rgb: '156,156,156'
 
 - id: BAP_1010701
   name: Lateral medullary lamina
   parent: BAP_1010660
-  abbreviation: lml
+  abbreviation: 'lml'
   xref: MARMOSET:701
 
 - id: BAP_1010702
   name: Lateral olfactory tract
   parent: BAP_1010660
-  abbreviation: lo
+  abbreviation: 'lo'
   xref: MARMOSET:702
   color_rgb: '156,156,156'
 
 - id: BAP_1010703
   name: Longitudinal fasciculs of the pons
   parent: BAP_1010660
-  abbreviation: lfp
+  abbreviation: 'lfp'
   xref: MARMOSET:703
   color_rgb: '156,156,156'
 
 - id: BAP_1010704
   name: Mammillary peduncle
   parent: BAP_1010660
-  abbreviation: mp
+  abbreviation: 'mp'
   xref: MARMOSET:704
 
 - id: BAP_1010705
   name: Mammillotegmental tract
   parent: BAP_1010660
-  abbreviation: mtg
+  abbreviation: 'mtg'
   xref: MARMOSET:705
   color_rgb: '156,156,156'
 
 - id: BAP_1010706
   name: Mammillothalamic tract
   parent: BAP_1010660
-  abbreviation: mt
+  abbreviation: 'mt'
   xref: MARMOSET:706
   color_rgb: '156,156,156'
 
 - id: BAP_1010707
   name: Medial forebrain bundle
   parent: BAP_1010660
-  abbreviation: mfb
+  abbreviation: 'mfb'
   xref: MARMOSET:707
   color_rgb: '156,156,156'
 
 - id: BAP_1010708
   name: Medial lemniscus
   parent: BAP_1010660
-  abbreviation: ml
+  abbreviation: 'ml'
   xref: MARMOSET:708
   color_rgb: '156,156,156'
 
 - id: BAP_1010709
   name: Medial longitudinal faciculcus
   parent: BAP_1010660
-  abbreviation: mlf
+  abbreviation: 'mlf'
   xref: MARMOSET:709
   color_rgb: '156,156,156'
 
 - id: BAP_1010710
   name: Medial medullar lamina
   parent: BAP_1010660
-  abbreviation: mml
+  abbreviation: 'mml'
   xref: MARMOSET:710
 
 - id: BAP_1010711
   name: Mesencephalic trigeminal tract
   parent: BAP_1010660
-  abbreviation: me5
+  abbreviation: 'me5'
   xref: MARMOSET:711
   color_rgb: '156,156,156'
 
 - id: BAP_1010712
   name: Middle cerebellar peduncle
   parent: BAP_1010660
-  abbreviation: mcp
+  abbreviation: 'mcp'
   xref: MARMOSET:712
   color_rgb: '156,156,156'
 
 - id: BAP_1010713
   name: Motor root of the trigeminal nerve
   parent: BAP_1010660
-  abbreviation: m5
+  abbreviation: 'm5'
   xref: MARMOSET:713
   color_rgb: '156,156,156'
 
 - id: BAP_1010714
   name: Nigrostriatal bundle
   parent: BAP_1010660
-  abbreviation: ns
+  abbreviation: 'ns'
   xref: MARMOSET:714
 
 - id: BAP_1010715
   name: Olivocerebellar tract
   parent: BAP_1010660
-  abbreviation: oc
+  abbreviation: 'oc'
   xref: MARMOSET:715
 
 - id: BAP_1010716
   name: Olivocochlear bundle
   parent: BAP_1010660
-  abbreviation: ocb
+  abbreviation: 'ocb'
   xref: MARMOSET:716
 
 - id: BAP_1010717
   name: Optic chiasm
   parent: BAP_1010660
-  abbreviation: och
+  abbreviation: 'och'
   xref: MARMOSET:717
   color_rgb: '156,156,156'
 
 - id: BAP_1010718
   name: Optic tract
   parent: BAP_1010660
-  abbreviation: opt
+  abbreviation: 'opt'
   xref: MARMOSET:718
   color_rgb: '156,156,156'
 
 - id: BAP_1010719
   name: Palidohypothalamic tract
   parent: BAP_1010660
-  abbreviation: palhy
+  abbreviation: 'palhy'
   xref: MARMOSET:719
 
 - id: BAP_1010720
   name: Posterior commissure
   parent: BAP_1010660
-  abbreviation: pc
+  abbreviation: 'pc'
   xref: MARMOSET:720
   color_rgb: '156,156,156'
 
 - id: BAP_1010721
   name: Pyramidal tract
   parent: BAP_1010660
-  abbreviation: py
+  abbreviation: 'py'
   xref: MARMOSET:721
   color_rgb: '156,156,156'
 
 - id: BAP_1010722
   name: Pyramidal decussation
   parent: BAP_1010660
-  abbreviation: pyx
+  abbreviation: 'pyx'
   xref: MARMOSET:722
   color_rgb: '156,156,156'
 
 - id: BAP_1010723
   name: Retromammillary decussation
   parent: BAP_1010660
-  abbreviation: rmx
+  abbreviation: 'rmx'
   xref: MARMOSET:723
 
 - id: BAP_1010724
   name: Rostrum of the corpus callosum
   parent: BAP_1010660
-  abbreviation: rcc
+  abbreviation: 'rcc'
   xref: MARMOSET:724
 
 - id: BAP_1010725
   name: Rubrospinal tract
   parent: BAP_1010660
-  abbreviation: rs
+  abbreviation: 'rs'
   xref: MARMOSET:725
   color_rgb: '156,156,156'
 
 - id: BAP_1010726
   name: Sensory root of the trigeminal nerve
   parent: BAP_1010660
-  abbreviation: s5
+  abbreviation: 's5'
   xref: MARMOSET:726
   color_rgb: '156,156,156'
 
 - id: BAP_1010727
   name: Solitary tract
   parent: BAP_1010660
-  abbreviation: sol
+  abbreviation: 'sol'
   xref: MARMOSET:727
   color_rgb: '156,156,156'
 
 - id: BAP_1010728
   name: Spinal trigeminal tract
   parent: BAP_1010660
-  abbreviation: sp5
+  abbreviation: 'sp5'
   xref: MARMOSET:728
   color_rgb: '156,156,156'
 
 - id: BAP_1010729
   name: Stria medullaris of the thalamus
   parent: BAP_1010660
-  abbreviation: sm
+  abbreviation: 'sm'
   xref: MARMOSET:729
   color_rgb: '156,156,156'
 
 - id: BAP_1010730
   name: Stria terminalis
   parent: BAP_1010660
-  abbreviation: st
+  abbreviation: 'st'
   xref: MARMOSET:730
   color_rgb: '156,156,156'
 
 - id: BAP_1010731
   name: Supraoptic decussation
   parent: BAP_1010660
-  abbreviation: sox
+  abbreviation: 'sox'
   xref: MARMOSET:731
 
 - id: BAP_1010732
   name: Superior cerebellar peduncle
   parent: BAP_1010660
-  abbreviation: scp
+  abbreviation: 'scp'
   xref: MARMOSET:732
   color_rgb: '156,156,156'
 
 - id: BAP_1010733
   name: Tectospinal tract
   parent: BAP_1010660
-  abbreviation: ts
+  abbreviation: 'ts'
   xref: MARMOSET:733
 
 - id: BAP_1010734
   name: Transverse fibers of the pons
   parent: BAP_1010660
-  abbreviation: tfp
+  abbreviation: 'tfp'
   xref: MARMOSET:734
   color_rgb: '156,156,156'
 
 - id: BAP_1010735
   name: Trapezoid body
   parent: BAP_1010660
-  abbreviation: tz
+  abbreviation: 'tz'
   xref: MARMOSET:735
 
 - id: BAP_1010736
   name: Ventral hippocampal commissure
   parent: BAP_1010660
-  abbreviation: vhc
+  abbreviation: 'vhc'
   xref: MARMOSET:736
 
 - id: BAP_1010737
   name: Ventral spinocerebellar tract
   parent: BAP_1010660
-  abbreviation: vsc
+  abbreviation: 'vsc'
   xref: MARMOSET:737
   color_rgb: '156,156,156'
 
 - id: BAP_1010738
   name: Ventral tegmental decussation
   parent: BAP_1010660
-  abbreviation: vtgx
+  abbreviation: 'vtgx'
   xref: MARMOSET:738
 
 - id: BAP_1010739
   name: Vestibulomesencephalic tract
   parent: BAP_1010660
-  abbreviation: veme
+  abbreviation: 'veme'
   xref: MARMOSET:739
 
 - id: BAP_1010760
   name: VENTRICLE
   parent: BAP_1010001
-  abbreviation: V
+  abbreviation: 'V'
   xref: MARMOSET:760
   color_rgb: '235,231,225'
 
 - id: BAP_1010768
   name: Mammillary recess of the 3rd ventricle
   parent: BAP_1010760
-  abbreviation: Mre
+  abbreviation: 'Mre'
   xref: MARMOSET:768
 
 - id: BAP_1010769
   name: Recess of the inferior colliculus
   parent: BAP_1010760
-  abbreviation: ReIC
+  abbreviation: 'ReIC'
   xref: MARMOSET:769
 
 - id: BAP_1010770
   name: Third ventricle
   parent: BAP_1010760
-  abbreviation: 3V
+  abbreviation: '3V'
   xref: MARMOSET:770
   color_rgb: '137,189,222'
 
 - id: BAP_1010761
   name: Aqueduct
   parent: BAP_1010760
-  abbreviation: Aq
+  abbreviation: 'Aq'
   xref: MARMOSET:761
   color_rgb: '251,218,222'
 
 - id: BAP_1010762
   name: Central canal
   parent: BAP_1010760
-  abbreviation: CC
+  abbreviation: 'CC'
   xref: MARMOSET:762
 
 - id: BAP_1010763
   name: Dorsal 3rd ventricle
   parent: BAP_1010760
-  abbreviation: D3V
+  abbreviation: 'D3V'
   xref: MARMOSET:763
 
 - id: BAP_1010764
   name: Fourth ventricle
   parent: BAP_1010760
-  abbreviation: 4V
+  abbreviation: '4V'
   xref: MARMOSET:764
   color_rgb: '222,210,191'
 
 - id: BAP_1010765
   name: Interventricular foramen
   parent: BAP_1010760
-  abbreviation: IVF
+  abbreviation: 'IVF'
   xref: MARMOSET:765
 
 - id: BAP_1010766
   name: Lateral recess of the 4th ventricle
   parent: BAP_1010760
-  abbreviation: LR4V
+  abbreviation: 'LR4V'
   xref: MARMOSET:766
 
 - id: BAP_1010767
   name: Lateral ventricle
   parent: BAP_1010760
-  abbreviation: LV
+  abbreviation: 'LV'
   xref: MARMOSET:767
   color_rgb: '186,219,199'
 
 - id: BAP_1010633
   name: CEREBELLUM (METENCEPHALON)
   parent: BAP_1010001
-  abbreviation: CB
+  abbreviation: 'CB'
   xref: MARMOSET:633
   color_rgb: '240,150,41'
 
 - id: BAP_1010634
   name: Cerebellar cortex
   parent: BAP_1010633
-  abbreviation: Cb
+  abbreviation: 'Cb'
   xref: MARMOSET:634
   color_rgb: '162,85,60'
 
 - id: BAP_1010640
   name: Lobule 2 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 2Cb
+  abbreviation: '2Cb'
   xref: MARMOSET:640
   color_rgb: '145,76,53'
 
 - id: BAP_1010641
   name: Lobule 3 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 3Cb
+  abbreviation: '3Cb'
   xref: MARMOSET:641
   color_rgb: '98,64,53'
 
 - id: BAP_1010642
   name: Lobule 4 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 4Cb
+  abbreviation: '4Cb'
   xref: MARMOSET:642
   color_rgb: '134,92,75'
 
 - id: BAP_1010643
   name: Lobule 5 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 5Cb
+  abbreviation: '5Cb'
   xref: MARMOSET:643
   color_rgb: '112,75,56'
 
 - id: BAP_1010644
   name: Lobule 6 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 6Cb
+  abbreviation: '6Cb'
   xref: MARMOSET:644
   color_rgb: '216,96,17'
 
 - id: BAP_1010645
   name: Lobule 7 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 7Cb
+  abbreviation: '7Cb'
   xref: MARMOSET:645
   color_rgb: '178,98,53'
 
 - id: BAP_1010646
   name: Lobule 8 of cerebellar vermis
   parent: BAP_1010634
-  abbreviation: 8Cb
+  abbreviation: '8Cb'
   xref: MARMOSET:646
   color_rgb: '176,118,79'
 
 - id: BAP_1010647
   name: Lobule 9 of cerebellar vermis (uvula)
   parent: BAP_1010634
-  abbreviation: 9Cb
+  abbreviation: '9Cb'
   xref: MARMOSET:647
   color_rgb: '177,99,42'
 
 - id: BAP_1010648
   name: Lobule 10 of cerebellar vermis (nodule)
   parent: BAP_1010634
-  abbreviation: 10Cb
+  abbreviation: '10Cb'
   xref: MARMOSET:648
   color_rgb: '241,187,147'
 
 - id: BAP_1010649
   name: Paraflocculus
   parent: BAP_1010634
-  abbreviation: PFl
+  abbreviation: 'PFl'
   xref: MARMOSET:649
 
 - id: BAP_1010650
   name: Paramedian lobule
   parent: BAP_1010634
-  abbreviation: PM
+  abbreviation: 'PM'
   xref: MARMOSET:650
 
 - id: BAP_1010651
   name: Simple lobule
   parent: BAP_1010634
-  abbreviation: Sim
+  abbreviation: 'Sim'
   xref: MARMOSET:651
 
 - id: BAP_1010635
   name: Copula of the pyramis
   parent: BAP_1010634
-  abbreviation: Cop
+  abbreviation: 'Cop'
   xref: MARMOSET:635
 
 - id: BAP_1010636
   name: Crus1 of the ansiform lobule
   parent: BAP_1010634
-  abbreviation: Crus1
+  abbreviation: 'Crus1'
   xref: MARMOSET:636
 
 - id: BAP_1010637
   name: Crus2 of the ansiform lobule
   parent: BAP_1010634
-  abbreviation: Crus2
+  abbreviation: 'Crus2'
   xref: MARMOSET:637
 
 - id: BAP_1010638
   name: Flocculus
   parent: BAP_1010634
-  abbreviation: Fl
+  abbreviation: 'Fl'
   xref: MARMOSET:638
 
 - id: BAP_1010639
   name: Lobule 1 of cerebellar vermis (lingula)
   parent: BAP_1010634
-  abbreviation: 1Cb
+  abbreviation: '1Cb'
   xref: MARMOSET:639
   color_rgb: '182,72,38'
 
 - id: BAP_1010659
   name: Superior medullary velum
   parent: BAP_1010633
-  abbreviation: SMV
+  abbreviation: 'SMV'
   xref: MARMOSET:659
 
 - id: BAP_1010652
   name: Deep cerebellar nuclei
   parent: BAP_1010633
-  abbreviation: Dc
+  abbreviation: 'Dc'
   xref: MARMOSET:652
   color_rgb: '170,122,64'
 
 - id: BAP_1010653
   name: Anterior interposed cerebellar nucleus
   parent: BAP_1010652
-  abbreviation: IntA
+  abbreviation: 'IntA'
   xref: MARMOSET:653
   color_rgb: '239,129,15'
 
 - id: BAP_1010654
   name: Lateral (dentate) cerebellar nucleus
   parent: BAP_1010652
-  abbreviation: Lat
+  abbreviation: 'Lat'
   xref: MARMOSET:654
   color_rgb: '129,101,81'
 
 - id: BAP_1010655
   name: Lateral cerebellar nucleus; parvicellular part
   parent: BAP_1010652
-  abbreviation: LatPC
+  abbreviation: 'LatPC'
   xref: MARMOSET:655
 
 - id: BAP_1010656
   name: Medial cerebellar nucleus
   parent: BAP_1010652
-  abbreviation: Med
+  abbreviation: 'Med'
   xref: MARMOSET:656
   color_rgb: '109,76,51'
 
 - id: BAP_1010657
   name: Posterior interposed cerebellar nucleus
   parent: BAP_1010652
-  abbreviation: IntP
+  abbreviation: 'IntP'
   xref: MARMOSET:657
   color_rgb: '227,156,132'
 
 - id: BAP_1010658
   name: Vestibulocerebellar nucleus
   parent: BAP_1010652
-  abbreviation: VeCb
+  abbreviation: 'VeCb'
   xref: MARMOSET:658
   color_rgb: '224,109,106'
 

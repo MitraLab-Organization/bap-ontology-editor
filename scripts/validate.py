@@ -323,7 +323,7 @@ def check_data_quality(structures: Dict[str, dict], report: ValidationReport):
             report.add_warning("DataQuality", f"Very short name: '{name}' ({struct_id})", source_file)
         
         # Check for very long abbreviations (might be swapped with name)
-        if abbrev and len(abbrev) > 15:
+        if abbrev and isinstance(abbrev, str) and len(abbrev) > 15:
             report.add_warning("DataQuality", f"Long abbreviation ({len(abbrev)} chars): {struct_id}", source_file)
         
         # Check ID format
