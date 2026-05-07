@@ -28,9 +28,9 @@ for use in WebProtégé and other tools.
 <!-- STATS_START -->
 📊 **Ontology Statistics**
 ```
-├── Structures: 0 (initial setup)
-├── Hierarchy depth: 1 level
-└── Relationships: 0 (initial setup)
+├── Structures: 805
+├── Hierarchy depth: 11 levels
+└── Relationships: 0
 ```
 <!-- STATS_END -->
 
