@@ -1,45 +1,7 @@
-# BAP Blood Vessels
-# Updated to align with organ system hierarchy
-
 metadata:
   category: vessels
-  description: Arteries of the mouse head region
-  version: "2.0.0"
-  last_modified: "2026-01-08"
-
-structures:
-  # ============================================================================
-  # ARTERIES - Under Head arteries (BAP_0020401)
-  # ============================================================================
-- id: BAP_0021718
-  name: Head veins (L)
-  parent: BAP_0020004
-  definition: Left venous drainage of the head
-- id: BAP_0021719
-  name: Head veins (R)
-  parent: BAP_0020004
-  definition: Right venous drainage of the head
-- id: BAP_0021736
-  name: Neck veins (L)
-  parent: BAP_0021003
-  definition: Left venous drainage of the neck
-- id: BAP_0021737
-  name: Neck veins (R)
-  parent: BAP_0021003
-  definition: Right venous drainage of the neck
-- id: BAP_0021986
-  name: Lingual artery (L)
-  parent: BAP_0020401
-  definition: Left branch of external carotid supplying the tongue
-- id: BAP_0021987
-  name: Lingual artery (R)
-  parent: BAP_0020401
-  definition: Right branch of external carotid supplying the tongue
-- id: BAP_0021990
-  name: Temporal artery (L)
-  parent: BAP_0020401
-  definition: Left superficial temporal artery supplying temporal region
-- id: BAP_0021991
-  name: Temporal artery (R)
-  parent: BAP_0020401
-  definition: Right superficial temporal artery supplying temporal region
+  description: Marmoset vessels
+  version: 1.0.0
+  last_modified: '2026-05-06'
+  species: Callithrix jacchus
+structures: []
