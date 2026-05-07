@@ -9,6 +9,7 @@ all marmoset atlas structures are placed under it.
 """
 
 import csv
+import re
 from datetime import date
 
 CSV_PATH = "marmosetlist.csv"
@@ -50,7 +51,8 @@ structures:
     for row in rows:
         rid = int(row["RegionID"])
         pid = int(row["ParentID"])
-        name = row["Region"].strip()
+        name = re.sub(r'[^\x20-\x7E]', ' ', row["Region"]).strip()
+        name = re.sub(r' {2,}', ' ', name)
         acronym = row["RegionAcronym"].strip()
 
         bap_id = make_bap_id(rid)

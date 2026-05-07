@@ -3100,7 +3100,7 @@ structures:
   color_rgb: '186,67,150'
 
 - id: BAP_1010570
-  name: IntercalatedÃ£â¬â¬nucleus
+  name: Intercalated nucleus
   parent: BAP_1010545
   abbreviation: In
   xref: MARMOSET:570
