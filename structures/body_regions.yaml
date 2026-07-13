@@ -2,7 +2,7 @@ metadata:
   category: regions
   description: Major body regions and organ system hierarchy
   version: 2.0.0
-  last_modified: '2026-02-04'
+  last_modified: '2026-07-13'
 structures:
 - id: BAP_0012000
   name: Body
@@ -50,6 +50,10 @@ structures:
   name: Head integumentary system
   parent: BAP_0000001
   definition: Skin and external structures of the head
+- id: BAP_0099061
+  name: Teeth
+  parent: BAP_0000001
+  definition: Dentition of the mouse head
 - id: BAP_0012007
   name: Cranial muscles
   parent: BAP_0020001
@@ -86,6 +90,10 @@ structures:
   name: Viscerocranium
   parent: BAP_0020101
   definition: Facial skeleton bones
+- id: BAP_0099078
+  name: Ear
+  parent: BAP_0020101
+  definition: Ear structures of the cranium including tympanic bulla, middle ear, and inner ear
 - id: BAP_0020201
   name: Head peripheral nervous system
   parent: BAP_0020002
@@ -209,11 +217,11 @@ structures:
   definition: Pharyngeal skeleton
 - id: BAP_0021707
   name: Middle ear
-  parent: BAP_0020101
+  parent: BAP_0099078
   definition: Middle ear containing ossicles (incus, malleus, stapes)
 - id: BAP_0022013
   name: Inner Ear
-  parent: BAP_0020101
+  parent: BAP_0099078
   definition: Sensory organ containing cochlea, semicircular canals, and vestibule
 - id: BAP_0022014
   name: Cochlea (L)
@@ -671,6 +679,14 @@ structures:
   name: Interparietal (R)
   parent: BAP_0000138
   definition: Right interparietal bone of neurocranium
+- id: BAP_0099081
+  name: Alisphenoid (L)
+  parent: BAP_0000138
+  definition: Left alisphenoid bone; forms part of the sphenoid complex and cranial base
+- id: BAP_0099082
+  name: Alisphenoid (R)
+  parent: BAP_0000138
+  definition: Right alisphenoid bone; forms part of the sphenoid complex and cranial base
 - id: BAP_0021752
   name: Basisphenoid (L)
   parent: BAP_0000138

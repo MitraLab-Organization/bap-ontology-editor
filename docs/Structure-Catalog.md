@@ -1,13 +1,13 @@
 # Complete Structure Catalog
 
-**Total Structures:** 2,920
+**Total Structures:** 2,942
 
 This page lists all anatomical structures in the BAP ontology with complete details.
 
 ## Structures by System
 
 
-### Body Regions (324 structures)
+### Body Regions (328 structures)
 
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
@@ -25,6 +25,8 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0021743` | **Abdomen (R)** | Trunk | Right abdominal region of the trunk |
 | `BAP_0021916` | **Acromiotrapezius (L)** | Trapezius | Left acromial part of trapezius muscle |
 | `BAP_0021917` | **Acromiotrapezius (R)** | Trapezius | Right acromial part of trapezius muscle |
+| `BAP_0099081` | **Alisphenoid (L)** | Neurocranium | Left alisphenoid bone; forms part of the sphenoid complex and cranial base |
+| `BAP_0099082` | **Alisphenoid (R)** | Neurocranium | Right alisphenoid bone; forms part of the sphenoid complex and cranial base |
 | `BAP_0000006` | **Appendages** | Body |  |
 | `BAP_0020401` | **Arteries** | Head vascular system | Arterial blood supply to the head |
 | `BAP_0022020` | **Articular disk (L)** | Jaw apparatus | Left fibrocartilaginous disc in temporomandibular joint |
@@ -109,10 +111,8 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0099043` | **D5 (L)** | Whiskers | Left D5 whisker |
 | `BAP_0099044` | **D5 (R)** | Whiskers | Right D5 whisker |
 | `BAP_0099045` | **D6 (L)** | Whiskers | Left D6 whisker |
-| `BAP_0099046` | **D6 (R)** | Whiskers | Right D6 whisker |
-| `BAP_0099047` | **D7 (L)** | Whiskers | Left D7 whisker |
 
-*...and 224 more*
+*...and 228 more*
 
 ### Brain (2479 structures)
 
@@ -318,7 +318,7 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0021976` | **Vestibulocochlear nerve (L)** | Cranial Nerves | Left eighth cranial nerve, sensory for hearing and balance |
 | `BAP_0021977` | **Vestibulocochlear nerve (R)** | Cranial Nerves | Right eighth cranial nerve, sensory for hearing and balance |
 
-### Skeletal (22 structures)
+### Skeletal (40 structures)
 
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
@@ -326,6 +326,14 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0000107` | **Epiglottis** | Laryngeal skeletal system |  |
 | `BAP_0000122` | **Frontal** | Neurocranium |  |
 | `BAP_0000126` | **Hyoid bone** | Pharyngeal skeleton |  |
+| `BAP_0099064` | **Lower incisor (L)** | Teeth | Left lower incisor tooth |
+| `BAP_0099065` | **Lower incisor (R)** | Teeth | Right lower incisor tooth |
+| `BAP_0099072` | **Lower molar 1 (L)** | Teeth | Left first lower molar tooth |
+| `BAP_0099073` | **Lower molar 1 (R)** | Teeth | Right first lower molar tooth |
+| `BAP_0099074` | **Lower molar 2 (L)** | Teeth | Left second lower molar tooth |
+| `BAP_0099075` | **Lower molar 2 (R)** | Teeth | Right second lower molar tooth |
+| `BAP_0099076` | **Lower molar 3 (L)** | Teeth | Left third lower molar tooth |
+| `BAP_0099077` | **Lower molar 3 (R)** | Teeth | Right third lower molar tooth |
 | `BAP_0021766` | **Maxilla (L)** | Jaw apparatus | Left upper jaw bone; forms floor of orbit and lateral wall of nasal cavity |
 | `BAP_0021767` | **Maxilla (R)** | Jaw apparatus | Right upper jaw bone; forms floor of orbit and lateral wall of nasal cavity |
 | `BAP_0021988` | **Maxillary artery (L)** | Arteries | Left terminal branch of external carotid, supplies deep face structures |
@@ -343,6 +351,16 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0021824` | **Stapedius (L)** | Middle ear muscles | Left muscle that stabilizes stapes bone |
 | `BAP_0021825` | **Stapedius (R)** | Middle ear muscles | Right muscle that stabilizes stapes bone |
 | `BAP_0000127` | **Thyroid cartilage** | Laryngeal skeletal system |  |
+| `BAP_0099079` | **Tympanic bulla (L)** | Ear | Left bony bulbous expansion of the temporal bone enclosing the middle ear |
+| `BAP_0099080` | **Tympanic bulla (R)** | Ear | Right bony bulbous expansion of the temporal bone enclosing the middle ear |
+| `BAP_0099062` | **Upper incisor (L)** | Teeth | Left upper incisor tooth |
+| `BAP_0099063` | **Upper incisor (R)** | Teeth | Right upper incisor tooth |
+| `BAP_0099066` | **Upper molar 1 (L)** | Teeth | Left first upper molar tooth |
+| `BAP_0099067` | **Upper molar 1 (R)** | Teeth | Right first upper molar tooth |
+| `BAP_0099068` | **Upper molar 2 (L)** | Teeth | Left second upper molar tooth |
+| `BAP_0099069` | **Upper molar 2 (R)** | Teeth | Right second upper molar tooth |
+| `BAP_0099070` | **Upper molar 3 (L)** | Teeth | Left third upper molar tooth |
+| `BAP_0099071` | **Upper molar 3 (R)** | Teeth | Right third upper molar tooth |
 | `BAP_0000137` | **Vomer** | Viscerocranium |  |
 
 ### Vessels (8 structures)

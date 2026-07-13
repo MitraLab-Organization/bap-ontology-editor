@@ -5,7 +5,7 @@ metadata:
   category: bones
   description: Bones and cartilages of the mouse head and neck
   version: "2.0.0"
-  last_modified: "2026-02-04"
+  last_modified: "2026-07-13"
 
 structures:
   # ============================================================================
@@ -19,6 +19,9 @@ structures:
   name: Frontal
   parent: BAP_0000138
 
+  # ============================================================================
+  # VISCEROCRANIUM BONES (under Cranium -> Viscerocranium)
+  # ============================================================================
 - id: BAP_0000111
   name: Sphenoid
   parent: BAP_0000139
@@ -105,3 +108,83 @@ structures:
   name: Maxillary artery (R)
   parent: BAP_0020401
   definition: Right terminal branch of external carotid, supplies deep face structures
+
+  # ============================================================================
+  # EAR BONES (under Cranium -> Ear)
+  # ============================================================================
+- id: BAP_0099079
+  name: Tympanic bulla (L)
+  parent: BAP_0099078
+  definition: Left bony bulbous expansion of the temporal bone enclosing the middle ear
+- id: BAP_0099080
+  name: Tympanic bulla (R)
+  parent: BAP_0099078
+  definition: Right bony bulbous expansion of the temporal bone enclosing the middle ear
+
+  # ============================================================================
+  # TEETH (under Head -> Teeth)
+  # ============================================================================
+- id: BAP_0099062
+  name: Upper incisor (L)
+  parent: BAP_0099061
+  definition: Left upper incisor tooth
+- id: BAP_0099063
+  name: Upper incisor (R)
+  parent: BAP_0099061
+  definition: Right upper incisor tooth
+- id: BAP_0099064
+  name: Lower incisor (L)
+  parent: BAP_0099061
+  definition: Left lower incisor tooth
+- id: BAP_0099065
+  name: Lower incisor (R)
+  parent: BAP_0099061
+  definition: Right lower incisor tooth
+- id: BAP_0099066
+  name: Upper molar 1 (L)
+  parent: BAP_0099061
+  definition: Left first upper molar tooth
+- id: BAP_0099067
+  name: Upper molar 1 (R)
+  parent: BAP_0099061
+  definition: Right first upper molar tooth
+- id: BAP_0099068
+  name: Upper molar 2 (L)
+  parent: BAP_0099061
+  definition: Left second upper molar tooth
+- id: BAP_0099069
+  name: Upper molar 2 (R)
+  parent: BAP_0099061
+  definition: Right second upper molar tooth
+- id: BAP_0099070
+  name: Upper molar 3 (L)
+  parent: BAP_0099061
+  definition: Left third upper molar tooth
+- id: BAP_0099071
+  name: Upper molar 3 (R)
+  parent: BAP_0099061
+  definition: Right third upper molar tooth
+- id: BAP_0099072
+  name: Lower molar 1 (L)
+  parent: BAP_0099061
+  definition: Left first lower molar tooth
+- id: BAP_0099073
+  name: Lower molar 1 (R)
+  parent: BAP_0099061
+  definition: Right first lower molar tooth
+- id: BAP_0099074
+  name: Lower molar 2 (L)
+  parent: BAP_0099061
+  definition: Left second lower molar tooth
+- id: BAP_0099075
+  name: Lower molar 2 (R)
+  parent: BAP_0099061
+  definition: Right second lower molar tooth
+- id: BAP_0099076
+  name: Lower molar 3 (L)
+  parent: BAP_0099061
+  definition: Left third lower molar tooth
+- id: BAP_0099077
+  name: Lower molar 3 (R)
+  parent: BAP_0099061
+  definition: Right third lower molar tooth
