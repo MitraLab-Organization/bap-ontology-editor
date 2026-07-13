@@ -1,26 +1,39 @@
 # Change History
 
-**Last Updated:** 2026-04-13 18:01:53 UTC
+**Last Updated:** 2026-07-13 14:27:08 UTC
 
-**Period:** Last 29 commits
+**Period:** Last 30 commits
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| **Total Commits** | 29 |
+| **Total Commits** | 30 |
 | **Active Contributors** | 2 |
-| Structure Changes | 22 |
+| Structure Changes | 23 |
 | Other Changes | 5 |
 | Update Changes | 1 |
 | Relationship Changes | 1 |
 
 ## Contributors
 
-- **Ken**: 26 commit(s)
+- **Ken**: 27 commit(s)
 - **Mivangod**: 3 commit(s)
 
 ## Recent Changes
+
+
+### 2026-07-13 (1 commits)
+
+#### 📦 Add teeth, ear grouping, alisphenoid, and regenerate ontology exports.
+
+*By Ken at 14:26 · [`8d1eac3`](../../commit/8d1eac3bf1952197fb00b7f49b75565f730a4c4e)*
+
+- ✏️ Modified 2 file(s)
+
+**Files changed:**
+- `structures/body_regions.yaml`
+- `structures/skeletal.yaml`
 
 
 ### 2026-04-13 (1 commits)
