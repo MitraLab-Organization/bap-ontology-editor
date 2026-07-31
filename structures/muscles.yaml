@@ -20,7 +20,7 @@ structures:
   parent: BAP_0000079
 - id: BAP_0000050
   name: Trapezius
-  parent: BAP_0021101
+  parent: BAP_0099114
 - id: BAP_0000086
   name: Superior oblique muscle
   parent: BAP_0012008
@@ -37,11 +37,11 @@ structures:
   definition: Tongue muscles that originate within the tongue
 - id: BAP_0021703
   name: Laryngeal muscles
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Laryngeal muscles
 - id: BAP_0021705
   name: Pharyngeal muscles
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Pharyngeal muscles
 - id: BAP_0021804
   name: Zygomaticomandibularis (L)
@@ -147,6 +147,46 @@ structures:
   name: Levator anguli oris (R)
   parent: BAP_0022022
   definition: Right facial muscle; elevates the corner of the mouth
+- id: BAP_0099097
+  name: Nasolabialis profundus (L)
+  parent: BAP_0022022
+  definition: Left deep nasolabial muscle of facial expression
+- id: BAP_0099098
+  name: Nasolabialis profundus (R)
+  parent: BAP_0022022
+  definition: Right deep nasolabial muscle of facial expression
+- id: BAP_0099099
+  name: Nasolabialis (L)
+  parent: BAP_0022022
+  definition: Left nasolabial muscle of facial expression
+- id: BAP_0099100
+  name: Nasolabialis (R)
+  parent: BAP_0022022
+  definition: Right nasolabial muscle of facial expression
+- id: BAP_0099101
+  name: Maxillolabialis (L)
+  parent: BAP_0022022
+  definition: Left maxillolabial muscle of facial expression
+- id: BAP_0099102
+  name: Maxillolabialis (R)
+  parent: BAP_0022022
+  definition: Right maxillolabial muscle of facial expression
+- id: BAP_0099103
+  name: Oblique intrinsic muscle (whisker) (L)
+  parent: BAP_0022022
+  definition: Left oblique intrinsic whisker follicle muscle
+- id: BAP_0099104
+  name: Oblique intrinsic muscle (whisker) (R)
+  parent: BAP_0022022
+  definition: Right oblique intrinsic whisker follicle muscle
+- id: BAP_0099105
+  name: Transversus nasi (L)
+  parent: BAP_0022022
+  definition: Left transverse nasal muscle
+- id: BAP_0099106
+  name: Transversus nasi (R)
+  parent: BAP_0022022
+  definition: Right transverse nasal muscle
 - id: BAP_0021870
   name: Genioglossus (L)
   parent: BAP_0021701
@@ -181,20 +221,118 @@ structures:
   definition: Right pharyngeal muscle; elevates the soft palate
 - id: BAP_0021932
   name: Sternohyoideus (L)
-  parent: BAP_0012007
+  parent: BAP_0099111
   definition: Left infrahyoid muscle; depresses hyoid bone after swallowing
 - id: BAP_0021933
   name: Sternohyoideus (R)
-  parent: BAP_0012007
+  parent: BAP_0099111
   definition: Right infrahyoid muscle; depresses hyoid bone after swallowing
 - id: BAP_0021934
   name: Omohyoideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Left infrahyoid muscle; depresses hyoid bone and stabilizes during speech
 - id: BAP_0021935
   name: Omohyoideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Right infrahyoid muscle; depresses hyoid bone and stabilizes during speech
+# --- New epaxial neck muscles ---
+- id: BAP_0099115
+  name: Semispinalis (L)
+  parent: BAP_0099112
+  definition: Left semispinalis muscle of the neck
+- id: BAP_0099116
+  name: Semispinalis (R)
+  parent: BAP_0099112
+  definition: Right semispinalis muscle of the neck
+- id: BAP_0099117
+  name: Splenius (L)
+  parent: BAP_0099112
+  definition: Left splenius muscle group
+- id: BAP_0099118
+  name: Splenius (R)
+  parent: BAP_0099112
+  definition: Right splenius muscle group
+- id: BAP_0099119
+  name: Splenius capitis (L)
+  parent: BAP_0099117
+  definition: Left splenius capitis muscle; extends and rotates head
+- id: BAP_0099120
+  name: Splenius capitis (R)
+  parent: BAP_0099118
+  definition: Right splenius capitis muscle; extends and rotates head
+- id: BAP_0099121
+  name: Splenius cervicis (L)
+  parent: BAP_0099117
+  definition: Left splenius cervicis muscle; extends and rotates neck
+- id: BAP_0099122
+  name: Splenius cervicis (R)
+  parent: BAP_0099118
+  definition: Right splenius cervicis muscle; extends and rotates neck
+- id: BAP_0099123
+  name: Transversospinalis muscles (L)
+  parent: BAP_0099112
+  definition: Left transversospinalis muscle group of the neck
+- id: BAP_0099124
+  name: Transversospinalis muscles (R)
+  parent: BAP_0099112
+  definition: Right transversospinalis muscle group of the neck
+# --- New hypaxial neck muscles ---
+- id: BAP_0099125
+  name: Scalenus dorsalis (L)
+  parent: BAP_0099113
+  definition: Left dorsal scalene muscle
+  synonyms:
+    - Dorsal scalene (L)
+- id: BAP_0099126
+  name: Scalenus dorsalis (R)
+  parent: BAP_0099113
+  definition: Right dorsal scalene muscle
+  synonyms:
+    - Dorsal scalene (R)
+- id: BAP_0099127
+  name: Scalenus medius (L)
+  parent: BAP_0099113
+  definition: Left middle scalene muscle
+  synonyms:
+    - Middle scalene (L)
+- id: BAP_0099128
+  name: Scalenus medius (R)
+  parent: BAP_0099113
+  definition: Right middle scalene muscle
+  synonyms:
+    - Middle scalene (R)
+- id: BAP_0099129
+  name: Scalenus ventralis (L)
+  parent: BAP_0099113
+  definition: Left ventral scalene muscle
+  synonyms:
+    - Ventral scalene (L)
+- id: BAP_0099130
+  name: Scalenus ventralis (R)
+  parent: BAP_0099113
+  definition: Right ventral scalene muscle
+  synonyms:
+    - Ventral scalene (R)
+- id: BAP_0099131
+  name: Longus colli (L)
+  parent: BAP_0099113
+  definition: Left prevertebral muscle; flexes neck
+- id: BAP_0099132
+  name: Longus colli (R)
+  parent: BAP_0099113
+  definition: Right prevertebral muscle; flexes neck
+- id: BAP_0099133
+  name: Longus capitis (L)
+  parent: BAP_0099113
+  definition: Left prevertebral muscle; flexes head
+- id: BAP_0099134
+  name: Longus capitis (R)
+  parent: BAP_0099113
+  definition: Right prevertebral muscle; flexes head
+- id: BAP_0099135
+  name: Esophagus muscles
+  parent: BAP_0099113
+  definition: Muscles of the esophagus in the neck region
 - id: BAP_0021940
   name: Levator palpebrae superioris (L)
   parent: BAP_0012008

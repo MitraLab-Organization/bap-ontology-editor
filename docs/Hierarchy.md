@@ -31,12 +31,14 @@ Body
       - **Paranasal sinuses (R)** (`BAP_0021727`)
     - **Head endocrine and exocrine system** (`BAP_0020005`)
       - **Lacrimal gland** (`BAP_0022024`)
-        - **Extraorbital lacrimal gland (L)** (`BAP_0021998`)
-        - **Extraorbital lacrimal gland (R)** (`BAP_0021999`)
+        - **Extraorbital lacrimal gland (L)** (`BAP_0099083`)
+        - **Extraorbital lacrimal gland (R)** (`BAP_0099084`)
         - **Harderian gland (L)** (`BAP_0022027`)
         - **Harderian gland (R)** (`BAP_0022028`)
         - **Intraorbital lacrimal gland (L)** (`BAP_0022025`)
         - **Intraorbital lacrimal gland (R)** (`BAP_0022026`)
+        - **Lacrimal gland (L)** (`BAP_0021998`)
+        - **Lacrimal gland (R)** (`BAP_0021999`)
       - **Palatal submucosa (L)** (`BAP_0021724`)
       - **Palatal submucosa (R)** (`BAP_0021725`)
       - **Salivary glands** (`BAP_0021992`)
@@ -47,64 +49,26 @@ Body
         - **Submandibular glands (L)** (`BAP_0021993`)
         - **Submandibular glands (R)** (`BAP_0021994`)
       - **Sebaceous glands** (`BAP_0021997`)
+      - **Von Ebner's Glands (L)** (`BAP_0099085`)
+      - **Von Ebner's Glands (R)** (`BAP_0099086`)
     - **Head integumentary system** (`BAP_0020007`)
       - **External ear** (`BAP_0020702`)
         - **Pinna (L)** (`BAP_0021774`)
         - **Pinna (R)** (`BAP_0021775`)
       - **Head skin (L)** (`BAP_0021728`)
       - **Head skin (R)** (`BAP_0021729`)
-      - **Whiskers** (`BAP_0021730`)
-        - **A1 (L)** (`BAP_0099001`)
-        - **A1 (R)** (`BAP_0099002`)
-        - **A2 (L)** (`BAP_0099003`)
-        - **A2 (R)** (`BAP_0099004`)
-        - **A3 (L)** (`BAP_0099005`)
-        - **A3 (R)** (`BAP_0099006`)
-        - **A4 (L)** (`BAP_0099007`)
-        - **A4 (R)** (`BAP_0099008`)
-        - **A5 (L)** (`BAP_0099009`)
-        - **A5 (R)** (`BAP_0099010`)
-        - **B1 (L)** (`BAP_0099011`)
-        - **B1 (R)** (`BAP_0099012`)
-        - **B2 (L)** (`BAP_0099013`)
-        - **B2 (R)** (`BAP_0099014`)
-        - **B3 (L)** (`BAP_0099015`)
-        - **B3 (R)** (`BAP_0099016`)
-        - **B4 (L)** (`BAP_0099017`)
-        - **B4 (R)** (`BAP_0099018`)
-        - **B5 (L)** (`BAP_0099019`)
-        - **B5 (R)** (`BAP_0099020`)
-        - **C1 (L)** (`BAP_0099021`)
-        - **C1 (R)** (`BAP_0099022`)
-        - **C2 (L)** (`BAP_0099023`)
-        - **C2 (R)** (`BAP_0099024`)
-        - **C3 (L)** (`BAP_0099025`)
-        - **C3 (R)** (`BAP_0099026`)
-        - **C4 (L)** (`BAP_0099027`)
-        - **C4 (R)** (`BAP_0099028`)
-        - **C5 (L)** (`BAP_0099029`)
-        - **C5 (R)** (`BAP_0099030`)
-        - **C6 (L)** (`BAP_0099031`)
-        - **C6 (R)** (`BAP_0099032`)
-        - **C7 (L)** (`BAP_0099033`)
-        - **C7 (R)** (`BAP_0099034`)
-        - **D1 (L)** (`BAP_0099035`)
-        - **D1 (R)** (`BAP_0099036`)
-        - **D2 (L)** (`BAP_0099037`)
-        - **D2 (R)** (`BAP_0099038`)
-        - **D3 (L)** (`BAP_0099039`)
-        - **D3 (R)** (`BAP_0099040`)
-        - **D4 (L)** (`BAP_0099041`)
-        - **D4 (R)** (`BAP_0099042`)
-        - **D5 (L)** (`BAP_0099043`)
-        - **D5 (R)** (`BAP_0099044`)
-        - **D6 (L)** (`BAP_0099045`)
-        - **D6 (R)** (`BAP_0099046`)
-        - **D7 (L)** (`BAP_0099047`)
-        - **D7 (R)** (`BAP_0099048`)
-        - **E2 (L)** (`BAP_0099049`)
-        - **E2 (R)** (`BAP_0099050`)
-        - *...and 10 more*
+      - **Lower eyelid (L)** (`BAP_0099095`)
+      - **Lower eyelid (R)** (`BAP_0099096`)
+      - **Lower lip** (`BAP_0099091`)
+      - **Mystacial pad (L)** (`BAP_0099089`)
+        - **Whiskers (L)** (`BAP_0021730`)
+      - **Mystacial pad (R)** (`BAP_0099090`)
+        - **Whiskers (R)** (`BAP_0021731`)
+      - **Philtrum** (`BAP_0099092`)
+      - **Upper eyelid (L)** (`BAP_0099093`)
+      - **Upper eyelid (R)** (`BAP_0099094`)
+      - **Upper lip (L)** (`BAP_0099087`)
+      - **Upper lip (R)** (`BAP_0099088`)
     - **Head musculoskeletal system** (`BAP_0020001`)
       - **Cranial muscles** (`BAP_0012007`)
         - **Eye Muscles** (`BAP_0012008`)
@@ -167,10 +131,18 @@ Body
           - **Levator rhinarii (R)** (`BAP_0021865`)
           - **Mandibuloauricularis (L)** (`BAP_0021834`)
           - **Mandibuloauricularis (R)** (`BAP_0021835`)
+          - **Maxillolabialis (L)** (`BAP_0099101`)
+          - **Maxillolabialis (R)** (`BAP_0099102`)
           - **Mylohyoideus (L)** (`BAP_0021814`)
           - **Mylohyoideus (R)** (`BAP_0021815`)
           - **Nasalis (L)** (`BAP_0021858`)
           - **Nasalis (R)** (`BAP_0021859`)
+          - **Nasolabialis (L)** (`BAP_0099099`)
+          - **Nasolabialis (R)** (`BAP_0099100`)
+          - **Nasolabialis profundus (L)** (`BAP_0099097`)
+          - **Nasolabialis profundus (R)** (`BAP_0099098`)
+          - **Oblique intrinsic muscle (whisker) (L)** (`BAP_0099103`)
+          - **Oblique intrinsic muscle (whisker) (R)** (`BAP_0099104`)
           - **Occipitalis (L)** (`BAP_0021832`)
           - **Occipitalis (R)** (`BAP_0021833`)
           - **Orbicularis oculi (L)** (`BAP_0021848`)
@@ -178,15 +150,7 @@ Body
           - **Orbicularis oris** (`BAP_0000047`)
           - **Orbito-temporo-auricularis (L)** (`BAP_0021846`)
           - **Orbito-temporo-auricularis (R)** (`BAP_0021847`)
-          - **Platysma cervicale (L)** (`BAP_0021828`)
-          - **Platysma cervicale (R)** (`BAP_0021829`)
-          - **Platysma myoides (L)** (`BAP_0021830`)
-          - **Platysma myoides (R)** (`BAP_0021831`)
-          - **Sphincter colli profundus (L)** (`BAP_0021838`)
-          - **Sphincter colli profundus (R)** (`BAP_0021839`)
-          - **Sphincter colli superficialis (L)** (`BAP_0021836`)
-          - **Sphincter colli superficialis (R)** (`BAP_0021837`)
-          - *...and 8 more*
+          - *...and 20 more*
         - **Muscles of mastication** (`BAP_0022023`)
           - **Masseter** (`BAP_0000015`)
             - **Deep masseter (L)** (`BAP_0021802`)
@@ -204,8 +168,6 @@ Body
             - **Temporalis lateralis (R)** (`BAP_0021807`)
             - **Temporalis medialis (L)** (`BAP_0021808`)
             - **Temporalis medialis (R)** (`BAP_0021809`)
-        - **Sternohyoideus (L)** (`BAP_0021932`)
-        - **Sternohyoideus (R)** (`BAP_0021933`)
         - **Tongue muscles** (`BAP_0000102`)
           - **Extrinsic tongue muscles** (`BAP_0021701`)
             - **Genioglossus (L)** (`BAP_0021870`)
@@ -226,23 +188,20 @@ Body
             - **Vertical (L)** (`BAP_0021884`)
             - **Vertical (R)** (`BAP_0021885`)
       - **Cranium** (`BAP_0020101`)
-        - **Ear** (`BAP_0099078`)
-          - **Inner Ear** (`BAP_0022013`)
-            - **Cochlea (L)** (`BAP_0022014`)
-            - **Cochlea (R)** (`BAP_0022015`)
-            - **Semicircular canals (L)** (`BAP_0022016`)
-            - **Semicircular canals (R)** (`BAP_0022017`)
-            - **Vestibule (L)** (`BAP_0022018`)
-            - **Vestibule (R)** (`BAP_0022019`)
-          - **Middle ear** (`BAP_0021707`)
-            - **Incus (L)** (`BAP_0021782`)
-            - **Incus (R)** (`BAP_0021783`)
-            - **Malleus (L)** (`BAP_0021784`)
-            - **Malleus (R)** (`BAP_0021785`)
-            - **Stapes (L)** (`BAP_0021780`)
-            - **Stapes (R)** (`BAP_0021781`)
-          - **Tympanic bulla (L)** (`BAP_0099079`)
-          - **Tympanic bulla (R)** (`BAP_0099080`)
+        - **Inner Ear** (`BAP_0022013`)
+          - **Cochlea (L)** (`BAP_0022014`)
+          - **Cochlea (R)** (`BAP_0022015`)
+          - **Semicircular canals (L)** (`BAP_0022016`)
+          - **Semicircular canals (R)** (`BAP_0022017`)
+          - **Vestibule (L)** (`BAP_0022018`)
+          - **Vestibule (R)** (`BAP_0022019`)
+        - **Middle ear** (`BAP_0021707`)
+          - **Incus (L)** (`BAP_0021782`)
+          - **Incus (R)** (`BAP_0021783`)
+          - **Malleus (L)** (`BAP_0021784`)
+          - **Malleus (R)** (`BAP_0021785`)
+          - **Stapes (L)** (`BAP_0021780`)
+          - **Stapes (R)** (`BAP_0021781`)
         - **Neurocranium** (`BAP_0000138`)
           - **Alisphenoid (L)** (`BAP_0099081`)
           - **Alisphenoid (R)** (`BAP_0099082`)
@@ -286,279 +245,6 @@ Body
     - **Head nervous system** (`BAP_0020002`)
       - **Head central nervous system** (`BAP_0020202`)
         - **Brain** (`BAP_0012004`)
-          - **Fiber tracts** (`BAP_0022045`)
-            - **Fiber tracts (L)** (`BAP_0024089`)
-              - **Cerebellum related fiber tracts (L)** (`BAP_0024090`)
-                - **Arbor vitae (L)** (`BAP_0024107`)
-                - **Cerebellar commissure (L)** (`BAP_0024091`)
-                - **Cerebellar peduncles (L)** (`BAP_0024092`)
-
-
-
-
-              - **Extrapyramidal fiber systems (L)** (`BAP_0024137`)
-                - **Central tegmental bundle (L)** (`BAP_0024152`)
-                - **Cerebral nuclei related (L)** (`BAP_0024138`)
-
-
-
-
-
-
-                - **Retriculospinal tract (L)** (`BAP_0024153`)
-
-
-                - **Rubrospinal tract (L)** (`BAP_0024149`)
-
-
-                - **Tectospinal pathway (L)** (`BAP_0024145`)
-
-
-
-                - **Vestibulospinal pathway (L)** (`BAP_0024156`)
-              - **Lateral forebrain bundle system (L)** (`BAP_0024109`)
-                - **Corpus callosum (L)** (`BAP_0024110`)
-
-
-
-
-
-
-
-                - **Corticospinal tract (L)** (`BAP_0024119`)
-
-
-
-
-
-
-
-
-
-
-                - **Thalamus related (L)** (`BAP_0024130`)
-
-
-
-
-
-
-              - **Medial forebrain bundle system (L)** (`BAP_0024157`)
-                - **Cerebrum related (L)** (`BAP_0024158`)
-
-
-
-
-
-
-
-                - **Hypothalamus related (L)** (`BAP_0024180`)
-
-
-
-
-
-
-
-
-
-
-
-
-              - **Supra-callosal cerebral white matter (L)** (`BAP_0024108`)
-            - **Fiber tracts (R)** (`BAP_0024211`)
-              - **Cerebellum related fiber tracts (R)** (`BAP_0024212`)
-                - **Arbor vitae (R)** (`BAP_0024229`)
-                - **Cerebellar commissure (R)** (`BAP_0024213`)
-                - **Cerebellar peduncles (R)** (`BAP_0024214`)
-
-
-
-
-              - **Extrapyramidal fiber systems (R)** (`BAP_0024259`)
-                - **Central tegmental bundle (R)** (`BAP_0024274`)
-                - **Cerebral nuclei related (R)** (`BAP_0024260`)
-
-
-
-
-
-
-                - **Retriculospinal tract (R)** (`BAP_0024275`)
-
-
-                - **Rubrospinal tract (R)** (`BAP_0024271`)
-
-
-                - **Tectospinal pathway (R)** (`BAP_0024267`)
-
-
-
-                - **Vestibulospinal pathway (R)** (`BAP_0024278`)
-              - **Lateral forebrain bundle system (R)** (`BAP_0024231`)
-                - **Corpus callosum (R)** (`BAP_0024232`)
-
-
-
-
-
-
-
-                - **Corticospinal tract (R)** (`BAP_0024241`)
-
-
-
-
-
-
-
-
-
-
-                - **Thalamus related (R)** (`BAP_0024252`)
-
-
-
-
-
-
-              - **Medial forebrain bundle system (R)** (`BAP_0024279`)
-                - **Cerebrum related (R)** (`BAP_0024280`)
-
-
-
-
-
-
-
-                - **Hypothalamus related (R)** (`BAP_0024302`)
-
-
-
-
-
-
-
-
-
-
-
-
-              - **Supra-callosal cerebral white matter (R)** (`BAP_0024230`)
-          - **Grey matter** (`BAP_0022030`)
-            - **Brainstem** (`BAP_0022058`)
-              - **Medulla** (`BAP_0022043`)
-                - **Medulla (L)** (`BAP_0023929`)
-
-
-
-
-                - **Medulla (R)** (`BAP_0024009`)
-
-
-
-
-              - **Midbrain** (`BAP_0022041`)
-                - **Midbrain (L)** (`BAP_0023669`)
-
-
-
-
-                - **Midbrain (R)** (`BAP_0023746`)
-
-
-
-
-              - **Pons** (`BAP_0022042`)
-                - **Pons (L)** (`BAP_0023823`)
-
-
-
-
-                - **Pons (R)** (`BAP_0023876`)
-
-
-
-
-            - **Cerebellum** (`BAP_0022044`)
-              - **Cerebellum (L)** (`BAP_0024333`)
-                - **Cerebellar cortex (L)** (`BAP_0024334`)
-
-
-
-
-
-                - **Cerebellar nuclei (L)** (`BAP_0024415`)
-
-
-
-
-                - **Cerebellum N.O.S (L)** (`BAP_0024420`)
-              - **Cerebellum (R)** (`BAP_0024421`)
-                - **Cerebellar cortex (R)** (`BAP_0024422`)
-
-
-
-
-
-                - **Cerebellar nuclei (R)** (`BAP_0024503`)
-
-
-
-
-                - **Cerebellum N.O.S (R)** (`BAP_0024508`)
-            - **Diencephalon** (`BAP_0022038`)
-              - **Hypothalamus** (`BAP_0022040`)
-                - **Hypothalamus (L)** (`BAP_0023485`)
-
-
-
-
-
-
-                - **Hypothalamus (R)** (`BAP_0023577`)
-
-
-
-
-
-
-              - **Thalamus** (`BAP_0022039`)
-                - **Thalamus (L)** (`BAP_0023335`)
-
-
-
-                - **Thalamus (R)** (`BAP_0023410`)
-
-
-
-            - **Telencephalon** (`BAP_0022031`)
-              - **Cerebral cortex** (`BAP_0022032`)
-                - **Cortical plate** (`BAP_0022033`)
-
-
-                - **Cortical subplate** (`BAP_0022034`)
-
-
-              - **Cerebral nuclei** (`BAP_0022035`)
-                - **Pallidum** (`BAP_0022037`)
-
-
-                - **Striatum** (`BAP_0022036`)
-
-
-          - **Ventricular systems** (`BAP_0022046`)
-            - **Central canal, spinal cord/medulla** (`BAP_0022057`)
-            - **Cerebral aqueduct** (`BAP_0022054`)
-            - **Fourth ventricle** (`BAP_0022055`)
-              - **Lateral recess** (`BAP_0022056`)
-            - **Interventricular foramen** (`BAP_0022052`)
-            - **Lateral ventricle** (`BAP_0022047`)
-              - **Choroid fissure** (`BAP_0022051`)
-              - **Choroid plexus** (`BAP_0022050`)
-              - **Rhinocele** (`BAP_0022048`)
-              - **Subependymal zone** (`BAP_0022049`)
-            - **Third ventricle** (`BAP_0022053`)
       - **Head peripheral nervous system** (`BAP_0020201`)
         - **Cranial Nerves** (`BAP_0012006`)
           - **Abducens nerve (L)** (`BAP_0021972`)
@@ -596,7 +282,11 @@ Body
         - **Temporal artery (L)** (`BAP_0021990`)
         - **Temporal artery (R)** (`BAP_0021991`)
       - **Head lymphatics (L)** (`BAP_0021720`)
+        - **Lymph nodes (L)** (`BAP_0099107`)
+        - **Nasal-Associated Lymphoid Tissue (L)** (`BAP_0099108`)
       - **Head lymphatics (R)** (`BAP_0021721`)
+        - **Lymph nodes (R)** (`BAP_0099109`)
+        - **Nasal-Associated Lymphoid Tissue (R)** (`BAP_0099110`)
       - **Head veins (L)** (`BAP_0021718`)
       - **Head veins (R)** (`BAP_0021719`)
     - **Sense organs** (`BAP_0020003`)
@@ -632,8 +322,6 @@ Body
       - **Larynx** (`BAP_0000078`)
       - **Pharynx** (`BAP_0000079`)
         - **Esophagus** (`BAP_0000083`)
-        - **Sternofacialis left (L)** (`BAP_0021904`)
-        - **Sternofacialis left (R)** (`BAP_0021905`)
     - **Neck endocrine and exocrine system** (`BAP_0021004`)
       - **Thyroid gland** (`BAP_0021401`)
     - **Neck integumentary system** (`BAP_0021006`)
@@ -641,57 +329,91 @@ Body
       - **Neck skin (R)** (`BAP_0021741`)
     - **Neck musculoskeletal system** (`BAP_0021001`)
       - **Neck muscles** (`BAP_0021101`)
-        - **Cleidomastoideus (L)** (`BAP_0021922`)
-        - **Cleidomastoideus (R)** (`BAP_0021923`)
-        - **Cleidooccipitalis (L)** (`BAP_0021920`)
-        - **Cleidooccipitalis (R)** (`BAP_0021921`)
-        - **Cricothyroideus (L)** (`BAP_0021926`)
-        - **Cricothyroideus (R)** (`BAP_0021927`)
-        - **Jugulohyoideus (L)** (`BAP_0021928`)
-        - **Jugulohyoideus (R)** (`BAP_0021929`)
-        - **Laryngeal muscles** (`BAP_0021703`)
-          - **Arytenoideus (L)** (`BAP_0021914`)
-          - **Arytenoideus (R)** (`BAP_0021915`)
-          - **Cricoarytenoideus alaris (L)** (`BAP_0021908`)
-          - **Cricoarytenoideus alaris (R)** (`BAP_0021909`)
-          - **Cricoarytenoideus lateralis (L)** (`BAP_0021910`)
-          - **Cricoarytenoideus lateralis (R)** (`BAP_0021911`)
-          - **Cricoarytenoideus posterior (L)** (`BAP_0021912`)
-          - **Cricoarytenoideus posterior (R)** (`BAP_0021913`)
-          - **Thyroarytenoideus (L)** (`BAP_0021906`)
-          - **Thyroarytenoideus (R)** (`BAP_0021907`)
-        - **Omohyoideus (L)** (`BAP_0021934`)
-        - **Omohyoideus (R)** (`BAP_0021935`)
-        - **Pharyngeal muscles** (`BAP_0021705`)
-          - **Constrictor pharyngis inferior (L)** (`BAP_0021894`)
-          - **Constrictor pharyngis inferior (R)** (`BAP_0021895`)
-          - **Constrictor pharyngis medius (L)** (`BAP_0021892`)
-          - **Constrictor pharyngis medius (R)** (`BAP_0021893`)
-          - **Constrictor pharyngis superior (L)** (`BAP_0021890`)
-          - **Constrictor pharyngis superior (R)** (`BAP_0021891`)
-          - **Levator veli palatini (L)** (`BAP_0021900`)
-          - **Levator veli palatini (R)** (`BAP_0021901`)
-          - **Palatopharyngeus (L)** (`BAP_0021898`)
-          - **Palatopharyngeus (R)** (`BAP_0021899`)
-          - **Pterygopharyngeus (L)** (`BAP_0021896`)
-          - **Pterygopharyngeus (R)** (`BAP_0021897`)
-          - **Salpingopharyngeus (L)** (`BAP_0021902`)
-          - **Salpingopharyngeus (R)** (`BAP_0021903`)
-          - **Tensor veli palatini (L)** (`BAP_0021818`)
-          - **Tensor veli palatini (R)** (`BAP_0021819`)
-        - **Sternomastoideus (L)** (`BAP_0021924`)
-        - **Sternomastoideus (R)** (`BAP_0021925`)
-        - **Sternothyroideus (L)** (`BAP_0021936`)
-        - **Sternothyroideus (R)** (`BAP_0021937`)
-        - **Thyrohyoideus (L)** (`BAP_0021938`)
-        - **Thyrohyoideus (R)** (`BAP_0021939`)
-        - **Trapezius** (`BAP_0000050`)
-          - **Acromiotrapezius (L)** (`BAP_0021916`)
-          - **Acromiotrapezius (R)** (`BAP_0021917`)
-          - **Spinotrapezius (L)** (`BAP_0021918`)
-          - **Spinotrapezius (R)** (`BAP_0021919`)
+        - **Neck muscles (cranial nerve innervated)** (`BAP_0099114`)
+          - **Cleidomastoideus (L)** (`BAP_0021922`)
+          - **Cleidomastoideus (R)** (`BAP_0021923`)
+          - **Cleidooccipitalis (L)** (`BAP_0021920`)
+          - **Cleidooccipitalis (R)** (`BAP_0021921`)
+          - **Jugulohyoideus (L)** (`BAP_0021928`)
+          - **Jugulohyoideus (R)** (`BAP_0021929`)
+          - **Laryngeal muscles** (`BAP_0021703`)
+            - **Arytenoideus (L)** (`BAP_0021914`)
+            - **Arytenoideus (R)** (`BAP_0021915`)
+            - **Cricoarytenoideus alaris (L)** (`BAP_0021908`)
+            - **Cricoarytenoideus alaris (R)** (`BAP_0021909`)
+            - **Cricoarytenoideus lateralis (L)** (`BAP_0021910`)
+            - **Cricoarytenoideus lateralis (R)** (`BAP_0021911`)
+            - **Cricoarytenoideus posterior (L)** (`BAP_0021912`)
+            - **Cricoarytenoideus posterior (R)** (`BAP_0021913`)
+            - **Thyroarytenoideus (L)** (`BAP_0021906`)
+            - **Thyroarytenoideus (R)** (`BAP_0021907`)
+          - **Pharyngeal muscles** (`BAP_0021705`)
+            - **Constrictor pharyngis inferior (L)** (`BAP_0021894`)
+            - **Constrictor pharyngis inferior (R)** (`BAP_0021895`)
+            - **Constrictor pharyngis medius (L)** (`BAP_0021892`)
+            - **Constrictor pharyngis medius (R)** (`BAP_0021893`)
+            - **Constrictor pharyngis superior (L)** (`BAP_0021890`)
+            - **Constrictor pharyngis superior (R)** (`BAP_0021891`)
+            - **Levator veli palatini (L)** (`BAP_0021900`)
+            - **Levator veli palatini (R)** (`BAP_0021901`)
+            - **Palatopharyngeus (L)** (`BAP_0021898`)
+            - **Palatopharyngeus (R)** (`BAP_0021899`)
+            - **Pterygopharyngeus (L)** (`BAP_0021896`)
+            - **Pterygopharyngeus (R)** (`BAP_0021897`)
+            - **Salpingopharyngeus (L)** (`BAP_0021902`)
+            - **Salpingopharyngeus (R)** (`BAP_0021903`)
+            - **Tensor veli palatini (L)** (`BAP_0021818`)
+            - **Tensor veli palatini (R)** (`BAP_0021819`)
+          - **Sternomastoideus (L)** (`BAP_0021924`)
+          - **Sternomastoideus (R)** (`BAP_0021925`)
+          - **Trapezius** (`BAP_0000050`)
+            - **Acromiotrapezius (L)** (`BAP_0021916`)
+            - **Acromiotrapezius (R)** (`BAP_0021917`)
+            - **Spinotrapezius (L)** (`BAP_0021918`)
+            - **Spinotrapezius (R)** (`BAP_0021919`)
+        - **Neck muscles (spinal nerve innervated)** (`BAP_0099111`)
+          - **Cricothyroideus (L)** (`BAP_0021926`)
+          - **Cricothyroideus (R)** (`BAP_0021927`)
+          - **Epaxial Neck muscles (dorsal ramus innervated)** (`BAP_0099112`)
+            - **Semispinalis (L)** (`BAP_0099115`)
+            - **Semispinalis (R)** (`BAP_0099116`)
+            - **Splenius (L)** (`BAP_0099117`)
+              - **Splenius capitis (L)** (`BAP_0099119`)
+              - **Splenius cervicis (L)** (`BAP_0099121`)
+            - **Splenius (R)** (`BAP_0099118`)
+              - **Splenius capitis (R)** (`BAP_0099120`)
+              - **Splenius cervicis (R)** (`BAP_0099122`)
+            - **Transversospinalis muscles (L)** (`BAP_0099123`)
+            - **Transversospinalis muscles (R)** (`BAP_0099124`)
+          - **Hypaxial Neck muscles (ventral ramus innervated)** (`BAP_0099113`)
+            - **Esophagus muscles** (`BAP_0099135`)
+            - **Longus capitis (L)** (`BAP_0099133`)
+            - **Longus capitis (R)** (`BAP_0099134`)
+            - **Longus colli (L)** (`BAP_0099131`)
+            - **Longus colli (R)** (`BAP_0099132`)
+            - **Scalenus dorsalis (L)** (`BAP_0099125`)
+            - **Scalenus dorsalis (R)** (`BAP_0099126`)
+            - **Scalenus medius (L)** (`BAP_0099127`)
+            - **Scalenus medius (R)** (`BAP_0099128`)
+            - **Scalenus ventralis (L)** (`BAP_0099129`)
+            - **Scalenus ventralis (R)** (`BAP_0099130`)
+          - **Omohyoideus (L)** (`BAP_0021934`)
+          - **Omohyoideus (R)** (`BAP_0021935`)
+          - **Sternohyoideus (L)** (`BAP_0021932`)
+          - **Sternohyoideus (R)** (`BAP_0021933`)
+          - **Sternothyroideus (L)** (`BAP_0021936`)
+          - **Sternothyroideus (R)** (`BAP_0021937`)
+          - **Thyrohyoideus (L)** (`BAP_0021938`)
+          - **Thyrohyoideus (R)** (`BAP_0021939`)
       - **Neck skeletal system** (`BAP_0021102`)
         - **Cervical vertebra** (`BAP_0000132`)
+          - **C1** (`BAP_0099136`)
+          - **C2** (`BAP_0099137`)
+          - **C3** (`BAP_0099138`)
+          - **C4** (`BAP_0099139`)
+          - **C5** (`BAP_0099140`)
+          - **C6** (`BAP_0099141`)
+          - **C7** (`BAP_0099142`)
         - **Laryngeal skeletal system** (`BAP_0021704`)
           - **Arytenoid cartilage (L)** (`BAP_0021788`)
           - **Arytenoid cartilage (R)** (`BAP_0021789`)
@@ -729,8 +451,8 @@ Body
 
 ## Hierarchy Statistics
 
-- **Leaf nodes** (no children): 2345
-- **Branch nodes** (has children): 597
+- **Leaf nodes** (no children): 392
+- **Branch nodes** (has children): 69
 - **Root nodes**: 1
 
 

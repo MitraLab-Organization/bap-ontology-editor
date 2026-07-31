@@ -52,6 +52,34 @@ structures:
   name: Cervical vertebra
   parent: BAP_0021102
   definition: Vertebrae of the cervical spine
+- id: BAP_0099136
+  name: C1
+  parent: BAP_0000132
+  definition: First cervical vertebra (atlas)
+- id: BAP_0099137
+  name: C2
+  parent: BAP_0000132
+  definition: Second cervical vertebra (axis)
+- id: BAP_0099138
+  name: C3
+  parent: BAP_0000132
+  definition: Third cervical vertebra
+- id: BAP_0099139
+  name: C4
+  parent: BAP_0000132
+  definition: Fourth cervical vertebra
+- id: BAP_0099140
+  name: C5
+  parent: BAP_0000132
+  definition: Fifth cervical vertebra
+- id: BAP_0099141
+  name: C6
+  parent: BAP_0000132
+  definition: Sixth cervical vertebra
+- id: BAP_0099142
+  name: C7
+  parent: BAP_0000132
+  definition: Seventh cervical vertebra
 - id: BAP_0021726
   name: Paranasal sinuses (L)
   parent: BAP_0020006
@@ -84,6 +112,10 @@ structures:
   name: Nasal (R)
   parent: BAP_0000139
   definition: Right nasal bone; forms bridge of nose
+- id: BAP_0022029
+  name: Nasal septum
+  parent: BAP_0000139
+  definition: Midline cartilaginous and bony partition dividing the nasal cavity
 - id: BAP_0021824
   name: Stapedius (L)
   parent: BAP_0012009
@@ -108,18 +140,6 @@ structures:
   name: Maxillary artery (R)
   parent: BAP_0020401
   definition: Right terminal branch of external carotid, supplies deep face structures
-
-  # ============================================================================
-  # EAR BONES (under Cranium -> Ear)
-  # ============================================================================
-- id: BAP_0099079
-  name: Tympanic bulla (L)
-  parent: BAP_0099078
-  definition: Left bony bulbous expansion of the temporal bone enclosing the middle ear
-- id: BAP_0099080
-  name: Tympanic bulla (R)
-  parent: BAP_0099078
-  definition: Right bony bulbous expansion of the temporal bone enclosing the middle ear
 
   # ============================================================================
   # TEETH (under Head -> Teeth)

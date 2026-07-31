@@ -90,10 +90,6 @@ structures:
   name: Viscerocranium
   parent: BAP_0020101
   definition: Facial skeleton bones
-- id: BAP_0099078
-  name: Ear
-  parent: BAP_0020101
-  definition: Ear structures of the cranium including tympanic bulla, middle ear, and inner ear
 - id: BAP_0020201
   name: Head peripheral nervous system
   parent: BAP_0020002
@@ -134,10 +130,6 @@ structures:
   name: Jaw apparatus
   parent: BAP_0000139
   definition: Jaw structures
-- id: BAP_0022029
-  name: Nasal septum
-  parent: BAP_0000139
-  definition: Median partition dividing the nasal cavity; bony and cartilaginous components
 - id: BAP_0021001
   name: Neck musculoskeletal system
   parent: BAP_0000002
@@ -166,6 +158,22 @@ structures:
   name: Neck muscles
   parent: BAP_0021001
   definition: Muscles of the neck region
+- id: BAP_0099111
+  name: Neck muscles (spinal nerve innervated)
+  parent: BAP_0021101
+  definition: Neck muscles innervated by spinal nerves
+- id: BAP_0099112
+  name: Epaxial Neck muscles (dorsal ramus innervated)
+  parent: BAP_0099111
+  definition: Deep back muscles of the neck innervated by dorsal rami of spinal nerves
+- id: BAP_0099113
+  name: Hypaxial Neck muscles (ventral ramus innervated)
+  parent: BAP_0099111
+  definition: Ventral neck muscles innervated by ventral rami of spinal nerves
+- id: BAP_0099114
+  name: Neck muscles (cranial nerve innervated)
+  parent: BAP_0021101
+  definition: Neck muscles innervated by cranial nerves
 - id: BAP_0021102
   name: Neck skeletal system
   parent: BAP_0021001
@@ -217,11 +225,11 @@ structures:
   definition: Pharyngeal skeleton
 - id: BAP_0021707
   name: Middle ear
-  parent: BAP_0099078
+  parent: BAP_0020101
   definition: Middle ear containing ossicles (incus, malleus, stapes)
 - id: BAP_0022013
   name: Inner Ear
-  parent: BAP_0099078
+  parent: BAP_0020101
   definition: Sensory organ containing cochlea, semicircular canals, and vestibule
 - id: BAP_0022014
   name: Cochlea (L)
@@ -291,10 +299,26 @@ structures:
   name: Head lymphatics (L)
   parent: BAP_0020004
   definition: Left lymphatic structures of the head
+- id: BAP_0099107
+  name: Lymph nodes (L)
+  parent: BAP_0021720
+  definition: Left head and neck lymph nodes
+- id: BAP_0099108
+  name: Nasal-Associated Lymphoid Tissue (L)
+  parent: BAP_0021720
+  definition: Left nasal-associated lymphoid tissue (NALT)
 - id: BAP_0021721
   name: Head lymphatics (R)
   parent: BAP_0020004
   definition: Right lymphatic structures of the head
+- id: BAP_0099109
+  name: Lymph nodes (R)
+  parent: BAP_0021721
+  definition: Right head and neck lymph nodes
+- id: BAP_0099110
+  name: Nasal-Associated Lymphoid Tissue (R)
+  parent: BAP_0021721
+  definition: Right nasal-associated lymphoid tissue (NALT)
 - id: BAP_0021992
   name: Salivary glands
   parent: BAP_0020005
@@ -330,31 +354,47 @@ structures:
 - id: BAP_0022024
   name: Lacrimal gland
   parent: BAP_0020005
-  definition: Tear-producing glands of the orbit
+  definition: Parent group for lacrimal glands
 - id: BAP_0021998
+  name: Lacrimal gland (L)
+  parent: BAP_0022024
+  definition: Left gland that produces tears
+- id: BAP_0021999
+  name: Lacrimal gland (R)
+  parent: BAP_0022024
+  definition: Right gland that produces tears
+- id: BAP_0099083
   name: Extraorbital lacrimal gland (L)
   parent: BAP_0022024
-  definition: Left extraorbital portion of the lacrimal gland that produces tears
-- id: BAP_0021999
+  definition: Left lacrimal gland located outside the orbit
+- id: BAP_0099084
   name: Extraorbital lacrimal gland (R)
   parent: BAP_0022024
-  definition: Right extraorbital portion of the lacrimal gland that produces tears
-- id: BAP_0022025
-  name: Intraorbital lacrimal gland (L)
-  parent: BAP_0022024
-  definition: Left intraorbital portion of the lacrimal gland within the orbit
-- id: BAP_0022026
-  name: Intraorbital lacrimal gland (R)
-  parent: BAP_0022024
-  definition: Right intraorbital portion of the lacrimal gland within the orbit
+  definition: Right lacrimal gland located outside the orbit
 - id: BAP_0022027
   name: Harderian gland (L)
   parent: BAP_0022024
-  definition: Left Harderian gland; orbital gland that lubricates the nictitating membrane
+  definition: Left gland located behind the eye; secretes lipids
 - id: BAP_0022028
   name: Harderian gland (R)
   parent: BAP_0022024
-  definition: Right Harderian gland; orbital gland that lubricates the nictitating membrane
+  definition: Right gland located behind the eye; secretes lipids
+- id: BAP_0022025
+  name: Intraorbital lacrimal gland (L)
+  parent: BAP_0022024
+  definition: Left lacrimal gland located within the orbit
+- id: BAP_0022026
+  name: Intraorbital lacrimal gland (R)
+  parent: BAP_0022024
+  definition: Right lacrimal gland located within the orbit
+- id: BAP_0099085
+  name: Von Ebner's Glands (L)
+  parent: BAP_0020005
+  definition: Left serous glands associated with circumvallate papillae of the tongue
+- id: BAP_0099086
+  name: Von Ebner's Glands (R)
+  parent: BAP_0020005
+  definition: Right serous glands associated with circumvallate papillae of the tongue
 - id: BAP_0021724
   name: Palatal submucosa (L)
   parent: BAP_0020005
@@ -371,250 +411,58 @@ structures:
   name: Head skin (R)
   parent: BAP_0020007
   definition: Right skin covering the head
-- id: BAP_0021730
-  name: Whiskers
+- id: BAP_0099087
+  name: Upper lip (L)
   parent: BAP_0020007
-  definition: Vibrissae tactile hair field
-- id: BAP_0099001
-  name: A1 (L)
-  parent: BAP_0021730
-  definition: Left A1 whisker
-- id: BAP_0099002
-  name: A1 (R)
-  parent: BAP_0021730
-  definition: Right A1 whisker
-- id: BAP_0099003
-  name: A2 (L)
-  parent: BAP_0021730
-  definition: Left A2 whisker
-- id: BAP_0099004
-  name: A2 (R)
-  parent: BAP_0021730
-  definition: Right A2 whisker
-- id: BAP_0099005
-  name: A3 (L)
-  parent: BAP_0021730
-  definition: Left A3 whisker
-- id: BAP_0099006
-  name: A3 (R)
-  parent: BAP_0021730
-  definition: Right A3 whisker
-- id: BAP_0099007
-  name: A4 (L)
-  parent: BAP_0021730
-  definition: Left A4 whisker
-- id: BAP_0099008
-  name: A4 (R)
-  parent: BAP_0021730
-  definition: Right A4 whisker
-- id: BAP_0099009
-  name: A5 (L)
-  parent: BAP_0021730
-  definition: Left A5 whisker
-- id: BAP_0099010
-  name: A5 (R)
-  parent: BAP_0021730
-  definition: Right A5 whisker
-- id: BAP_0099011
-  name: B1 (L)
-  parent: BAP_0021730
-  definition: Left B1 whisker
-- id: BAP_0099012
-  name: B1 (R)
-  parent: BAP_0021730
-  definition: Right B1 whisker
-- id: BAP_0099013
-  name: B2 (L)
-  parent: BAP_0021730
-  definition: Left B2 whisker
-- id: BAP_0099014
-  name: B2 (R)
-  parent: BAP_0021730
-  definition: Right B2 whisker
-- id: BAP_0099015
-  name: B3 (L)
-  parent: BAP_0021730
-  definition: Left B3 whisker
-- id: BAP_0099016
-  name: B3 (R)
-  parent: BAP_0021730
-  definition: Right B3 whisker
-- id: BAP_0099017
-  name: B4 (L)
-  parent: BAP_0021730
-  definition: Left B4 whisker
-- id: BAP_0099018
-  name: B4 (R)
-  parent: BAP_0021730
-  definition: Right B4 whisker
-- id: BAP_0099019
-  name: B5 (L)
-  parent: BAP_0021730
-  definition: Left B5 whisker
-- id: BAP_0099020
-  name: B5 (R)
-  parent: BAP_0021730
-  definition: Right B5 whisker
-- id: BAP_0099021
-  name: C1 (L)
-  parent: BAP_0021730
-  definition: Left C1 whisker
-- id: BAP_0099022
-  name: C1 (R)
-  parent: BAP_0021730
-  definition: Right C1 whisker
-- id: BAP_0099023
-  name: C2 (L)
-  parent: BAP_0021730
-  definition: Left C2 whisker
-- id: BAP_0099024
-  name: C2 (R)
-  parent: BAP_0021730
-  definition: Right C2 whisker
-- id: BAP_0099025
-  name: C3 (L)
-  parent: BAP_0021730
-  definition: Left C3 whisker
-- id: BAP_0099026
-  name: C3 (R)
-  parent: BAP_0021730
-  definition: Right C3 whisker
-- id: BAP_0099027
-  name: C4 (L)
-  parent: BAP_0021730
-  definition: Left C4 whisker
-- id: BAP_0099028
-  name: C4 (R)
-  parent: BAP_0021730
-  definition: Right C4 whisker
-- id: BAP_0099029
-  name: C5 (L)
-  parent: BAP_0021730
-  definition: Left C5 whisker
-- id: BAP_0099030
-  name: C5 (R)
-  parent: BAP_0021730
-  definition: Right C5 whisker
-- id: BAP_0099031
-  name: C6 (L)
-  parent: BAP_0021730
-  definition: Left C6 whisker
-- id: BAP_0099032
-  name: C6 (R)
-  parent: BAP_0021730
-  definition: Right C6 whisker
-- id: BAP_0099033
-  name: C7 (L)
-  parent: BAP_0021730
-  definition: Left C7 whisker
-- id: BAP_0099034
-  name: C7 (R)
-  parent: BAP_0021730
-  definition: Right C7 whisker
-- id: BAP_0099035
-  name: D1 (L)
-  parent: BAP_0021730
-  definition: Left D1 whisker
-- id: BAP_0099036
-  name: D1 (R)
-  parent: BAP_0021730
-  definition: Right D1 whisker
-- id: BAP_0099037
-  name: D2 (L)
-  parent: BAP_0021730
-  definition: Left D2 whisker
-- id: BAP_0099038
-  name: D2 (R)
-  parent: BAP_0021730
-  definition: Right D2 whisker
-- id: BAP_0099039
-  name: D3 (L)
-  parent: BAP_0021730
-  definition: Left D3 whisker
-- id: BAP_0099040
-  name: D3 (R)
-  parent: BAP_0021730
-  definition: Right D3 whisker
-- id: BAP_0099041
-  name: D4 (L)
-  parent: BAP_0021730
-  definition: Left D4 whisker
-- id: BAP_0099042
-  name: D4 (R)
-  parent: BAP_0021730
-  definition: Right D4 whisker
-- id: BAP_0099043
-  name: D5 (L)
-  parent: BAP_0021730
-  definition: Left D5 whisker
-- id: BAP_0099044
-  name: D5 (R)
-  parent: BAP_0021730
-  definition: Right D5 whisker
-- id: BAP_0099045
-  name: D6 (L)
-  parent: BAP_0021730
-  definition: Left D6 whisker
-- id: BAP_0099046
-  name: D6 (R)
-  parent: BAP_0021730
-  definition: Right D6 whisker
-- id: BAP_0099047
-  name: D7 (L)
-  parent: BAP_0021730
-  definition: Left D7 whisker
-- id: BAP_0099048
-  name: D7 (R)
-  parent: BAP_0021730
-  definition: Right D7 whisker
-- id: BAP_0099049
-  name: E2 (L)
-  parent: BAP_0021730
-  definition: Left E2 whisker
-- id: BAP_0099050
-  name: E2 (R)
-  parent: BAP_0021730
-  definition: Right E2 whisker
-- id: BAP_0099051
-  name: E3 (L)
-  parent: BAP_0021730
-  definition: Left E3 whisker
-- id: BAP_0099052
-  name: E3 (R)
-  parent: BAP_0021730
-  definition: Right E3 whisker
-- id: BAP_0099053
-  name: E4 (L)
-  parent: BAP_0021730
-  definition: Left E4 whisker
-- id: BAP_0099054
-  name: E4 (R)
-  parent: BAP_0021730
-  definition: Right E4 whisker
-- id: BAP_0099055
-  name: E5 (L)
-  parent: BAP_0021730
-  definition: Left E5 whisker
-- id: BAP_0099056
-  name: E5 (R)
-  parent: BAP_0021730
-  definition: Right E5 whisker
-- id: BAP_0099057
-  name: E6 (L)
-  parent: BAP_0021730
-  definition: Left E6 whisker
-- id: BAP_0099058
-  name: E6 (R)
-  parent: BAP_0021730
-  definition: Right E6 whisker
-- id: BAP_0099059
-  name: E7 (L)
-  parent: BAP_0021730
-  definition: Left E7 whisker
-- id: BAP_0099060
-  name: E7 (R)
-  parent: BAP_0021730
-  definition: Right E7 whisker
+  definition: Left upper lip
+- id: BAP_0099088
+  name: Upper lip (R)
+  parent: BAP_0020007
+  definition: Right upper lip
+- id: BAP_0099091
+  name: Lower lip
+  parent: BAP_0020007
+  definition: Lower lip (midline structure)
+- id: BAP_0099092
+  name: Philtrum
+  parent: BAP_0020007
+  definition: Midline groove between the nose and upper lip
+- id: BAP_0099093
+  name: Upper eyelid (L)
+  parent: BAP_0020007
+  definition: Left upper eyelid
+- id: BAP_0099094
+  name: Upper eyelid (R)
+  parent: BAP_0020007
+  definition: Right upper eyelid
+- id: BAP_0099095
+  name: Lower eyelid (L)
+  parent: BAP_0020007
+  definition: Left lower eyelid
+- id: BAP_0099096
+  name: Lower eyelid (R)
+  parent: BAP_0020007
+  definition: Right lower eyelid
+- id: BAP_0099089
+  name: Mystacial pad (L)
+  parent: BAP_0020007
+  definition: Left whisker pad
+  synonyms:
+    - Whisker pad (L)
+- id: BAP_0099090
+  name: Mystacial pad (R)
+  parent: BAP_0020007
+  definition: Right whisker pad
+  synonyms:
+    - Whisker pad (R)
+- id: BAP_0021730
+  name: Whiskers (L)
+  parent: BAP_0099089
+  definition: Left vibrissae - tactile hairs
+- id: BAP_0021731
+  name: Whiskers (R)
+  parent: BAP_0099090
+  definition: Right vibrissae - tactile hairs
 - id: BAP_0021734
   name: Neck arteries (L)
   parent: BAP_0021003
@@ -1153,11 +1001,11 @@ structures:
   definition: Right muscle connecting auditory tube to pharynx
 - id: BAP_0021904
   name: Sternofacialis left (L)
-  parent: BAP_0000079
+  parent: BAP_0022022
   definition: Left sternofacial muscle
 - id: BAP_0021905
   name: Sternofacialis left (R)
-  parent: BAP_0000079
+  parent: BAP_0022022
   definition: Right sternofacial muscle
 - id: BAP_0021906
   name: Thyroarytenoideus (L)
@@ -1217,43 +1065,43 @@ structures:
   definition: Right spinal part of trapezius muscle
 - id: BAP_0021920
   name: Cleidooccipitalis (L)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Left muscle connecting clavicle to occiput
 - id: BAP_0021921
   name: Cleidooccipitalis (R)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Right muscle connecting clavicle to occiput
 - id: BAP_0021922
   name: Cleidomastoideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Left muscle connecting clavicle to mastoid process
 - id: BAP_0021923
   name: Cleidomastoideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Right muscle connecting clavicle to mastoid process
 - id: BAP_0021924
   name: Sternomastoideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Left muscle connecting sternum to mastoid process
 - id: BAP_0021925
   name: Sternomastoideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Right muscle connecting sternum to mastoid process
 - id: BAP_0021926
   name: Cricothyroideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Left muscle connecting cricoid to thyroid cartilage; tenses vocal folds
 - id: BAP_0021927
   name: Cricothyroideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Right muscle connecting cricoid to thyroid cartilage; tenses vocal folds
 - id: BAP_0021928
   name: Jugulohyoideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Left muscle connecting jugular region to hyoid bone
 - id: BAP_0021929
   name: Jugulohyoideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099114
   definition: Right muscle connecting jugular region to hyoid bone
 - id: BAP_0021930
   name: Geniohyoideus (L)
@@ -1265,19 +1113,19 @@ structures:
   definition: Right muscle connecting chin to hyoid bone; elevates hyoid
 - id: BAP_0021936
   name: Sternothyroideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Left muscle that depresses thyroid cartilage
 - id: BAP_0021937
   name: Sternothyroideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Right muscle that depresses thyroid cartilage
 - id: BAP_0021938
   name: Thyrohyoideus (L)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Left muscle that depresses hyoid and elevates thyroid
 - id: BAP_0021939
   name: Thyrohyoideus (R)
-  parent: BAP_0021101
+  parent: BAP_0099111
   definition: Right muscle that depresses hyoid and elevates thyroid
 - id: BAP_0021942
   name: Trochlea (L)
