@@ -6,10 +6,11 @@ This page shows the complete ontological hierarchy of all structures.
 
 Body
   - **Appendages** (`BAP_0000006`)
-    - **Forelimb** (`BAP_0000004`)
+    - **Forelimb (L)** (`BAP_0000004`)
       - **Clavicle (L)** (`BAP_0021796`)
-      - **Clavicle (R)** (`BAP_0021797`)
       - **Scapula (L)** (`BAP_0021798`)
+    - **Forelimb (R)** (`BAP_0099143`)
+      - **Clavicle (R)** (`BAP_0021797`)
       - **Scapula (R)** (`BAP_0021799`)
     - **Hindlimb (L)** (`BAP_0021746`)
     - **Hindlimb (R)** (`BAP_0021747`)
@@ -245,6 +246,279 @@ Body
     - **Head nervous system** (`BAP_0020002`)
       - **Head central nervous system** (`BAP_0020202`)
         - **Brain** (`BAP_0012004`)
+          - **Fiber tracts** (`BAP_0022045`)
+            - **Fiber tracts (L)** (`BAP_0024089`)
+              - **Cerebellum related fiber tracts (L)** (`BAP_0024090`)
+                - **Arbor vitae (L)** (`BAP_0024107`)
+                - **Cerebellar commissure (L)** (`BAP_0024091`)
+                - **Cerebellar peduncles (L)** (`BAP_0024092`)
+
+
+
+
+              - **Extrapyramidal fiber systems (L)** (`BAP_0024137`)
+                - **Central tegmental bundle (L)** (`BAP_0024152`)
+                - **Cerebral nuclei related (L)** (`BAP_0024138`)
+
+
+
+
+
+
+                - **Retriculospinal tract (L)** (`BAP_0024153`)
+
+
+                - **Rubrospinal tract (L)** (`BAP_0024149`)
+
+
+                - **Tectospinal pathway (L)** (`BAP_0024145`)
+
+
+
+                - **Vestibulospinal pathway (L)** (`BAP_0024156`)
+              - **Lateral forebrain bundle system (L)** (`BAP_0024109`)
+                - **Corpus callosum (L)** (`BAP_0024110`)
+
+
+
+
+
+
+
+                - **Corticospinal tract (L)** (`BAP_0024119`)
+
+
+
+
+
+
+
+
+
+
+                - **Thalamus related (L)** (`BAP_0024130`)
+
+
+
+
+
+
+              - **Medial forebrain bundle system (L)** (`BAP_0024157`)
+                - **Cerebrum related (L)** (`BAP_0024158`)
+
+
+
+
+
+
+
+                - **Hypothalamus related (L)** (`BAP_0024180`)
+
+
+
+
+
+
+
+
+
+
+
+
+              - **Supra-callosal cerebral white matter (L)** (`BAP_0024108`)
+            - **Fiber tracts (R)** (`BAP_0024211`)
+              - **Cerebellum related fiber tracts (R)** (`BAP_0024212`)
+                - **Arbor vitae (R)** (`BAP_0024229`)
+                - **Cerebellar commissure (R)** (`BAP_0024213`)
+                - **Cerebellar peduncles (R)** (`BAP_0024214`)
+
+
+
+
+              - **Extrapyramidal fiber systems (R)** (`BAP_0024259`)
+                - **Central tegmental bundle (R)** (`BAP_0024274`)
+                - **Cerebral nuclei related (R)** (`BAP_0024260`)
+
+
+
+
+
+
+                - **Retriculospinal tract (R)** (`BAP_0024275`)
+
+
+                - **Rubrospinal tract (R)** (`BAP_0024271`)
+
+
+                - **Tectospinal pathway (R)** (`BAP_0024267`)
+
+
+
+                - **Vestibulospinal pathway (R)** (`BAP_0024278`)
+              - **Lateral forebrain bundle system (R)** (`BAP_0024231`)
+                - **Corpus callosum (R)** (`BAP_0024232`)
+
+
+
+
+
+
+
+                - **Corticospinal tract (R)** (`BAP_0024241`)
+
+
+
+
+
+
+
+
+
+
+                - **Thalamus related (R)** (`BAP_0024252`)
+
+
+
+
+
+
+              - **Medial forebrain bundle system (R)** (`BAP_0024279`)
+                - **Cerebrum related (R)** (`BAP_0024280`)
+
+
+
+
+
+
+
+                - **Hypothalamus related (R)** (`BAP_0024302`)
+
+
+
+
+
+
+
+
+
+
+
+
+              - **Supra-callosal cerebral white matter (R)** (`BAP_0024230`)
+          - **Grey matter** (`BAP_0022030`)
+            - **Brainstem** (`BAP_0022058`)
+              - **Medulla** (`BAP_0022043`)
+                - **Medulla (L)** (`BAP_0023929`)
+
+
+
+
+                - **Medulla (R)** (`BAP_0024009`)
+
+
+
+
+              - **Midbrain** (`BAP_0022041`)
+                - **Midbrain (L)** (`BAP_0023669`)
+
+
+
+
+                - **Midbrain (R)** (`BAP_0023746`)
+
+
+
+
+              - **Pons** (`BAP_0022042`)
+                - **Pons (L)** (`BAP_0023823`)
+
+
+
+
+                - **Pons (R)** (`BAP_0023876`)
+
+
+
+
+            - **Cerebellum** (`BAP_0022044`)
+              - **Cerebellum (L)** (`BAP_0024333`)
+                - **Cerebellar cortex (L)** (`BAP_0024334`)
+
+
+
+
+
+                - **Cerebellar nuclei (L)** (`BAP_0024415`)
+
+
+
+
+                - **Cerebellum N.O.S (L)** (`BAP_0024420`)
+              - **Cerebellum (R)** (`BAP_0024421`)
+                - **Cerebellar cortex (R)** (`BAP_0024422`)
+
+
+
+
+
+                - **Cerebellar nuclei (R)** (`BAP_0024503`)
+
+
+
+
+                - **Cerebellum N.O.S (R)** (`BAP_0024508`)
+            - **Diencephalon** (`BAP_0022038`)
+              - **Hypothalamus** (`BAP_0022040`)
+                - **Hypothalamus (L)** (`BAP_0023485`)
+
+
+
+
+
+
+                - **Hypothalamus (R)** (`BAP_0023577`)
+
+
+
+
+
+
+              - **Thalamus** (`BAP_0022039`)
+                - **Thalamus (L)** (`BAP_0023335`)
+
+
+
+                - **Thalamus (R)** (`BAP_0023410`)
+
+
+
+            - **Telencephalon** (`BAP_0022031`)
+              - **Cerebral cortex** (`BAP_0022032`)
+                - **Cortical plate** (`BAP_0022033`)
+
+
+                - **Cortical subplate** (`BAP_0022034`)
+
+
+              - **Cerebral nuclei** (`BAP_0022035`)
+                - **Pallidum** (`BAP_0022037`)
+
+
+                - **Striatum** (`BAP_0022036`)
+
+
+          - **Ventricular systems** (`BAP_0022046`)
+            - **Central canal, spinal cord/medulla** (`BAP_0022057`)
+            - **Cerebral aqueduct** (`BAP_0022054`)
+            - **Fourth ventricle** (`BAP_0022055`)
+              - **Lateral recess** (`BAP_0022056`)
+            - **Interventricular foramen** (`BAP_0022052`)
+            - **Lateral ventricle** (`BAP_0022047`)
+              - **Choroid fissure** (`BAP_0022051`)
+              - **Choroid plexus** (`BAP_0022050`)
+              - **Rhinocele** (`BAP_0022048`)
+              - **Subependymal zone** (`BAP_0022049`)
+            - **Third ventricle** (`BAP_0022053`)
       - **Head peripheral nervous system** (`BAP_0020201`)
         - **Cranial Nerves** (`BAP_0012006`)
           - **Abducens nerve (L)** (`BAP_0021972`)
@@ -451,8 +725,8 @@ Body
 
 ## Hierarchy Statistics
 
-- **Leaf nodes** (no children): 392
-- **Branch nodes** (has children): 69
+- **Leaf nodes** (no children): 2334
+- **Branch nodes** (has children): 607
 - **Root nodes**: 1
 
 

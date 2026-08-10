@@ -1,13 +1,13 @@
 # Complete Structure Catalog
 
-**Total Structures:** 461
+**Total Structures:** 2,941
 
 This page lists all anatomical structures in the BAP ontology with complete details.
 
 ## Structures by System
 
 
-### Body Regions (289 structures)
+### Body Regions (290 structures)
 
 | ID | Name | Parent | Definition |
 |----|------|--------|------------|
@@ -39,8 +39,8 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0021855` | **Buccinatorius (R)** | Muscles of facial expression | Right cheek muscle; compresses cheek |
 | `BAP_0021888` | **Ceratohyoideus (L)** | Muscles of facial expression | Left muscle of hyoid apparatus |
 | `BAP_0021889` | **Ceratohyoideus (R)** | Muscles of facial expression | Right muscle of hyoid apparatus |
-| `BAP_0021796` | **Clavicle (L)** | Forelimb | Left collarbone |
-| `BAP_0021797` | **Clavicle (R)** | Forelimb | Right collarbone |
+| `BAP_0021796` | **Clavicle (L)** | Forelimb (L) | Left collarbone |
+| `BAP_0021797` | **Clavicle (R)** | Forelimb (R) | Right collarbone |
 | `BAP_0021922` | **Cleidomastoideus (L)** | Neck muscles (cranial nerve innervated) | Left muscle connecting clavicle to mastoid process |
 | `BAP_0021923` | **Cleidomastoideus (R)** | Neck muscles (cranial nerve innervated) | Right muscle connecting clavicle to mastoid process |
 | `BAP_0021920` | **Cleidooccipitalis (L)** | Neck muscles (cranial nerve innervated) | Left muscle connecting clavicle to occiput |
@@ -91,7 +91,8 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0021708` | **Eye (L)** | Sense organs | Left visual organ |
 | `BAP_0021709` | **Eye (R)** | Sense organs | Right visual organ |
 | `BAP_0012008` | **Eye Muscles** | Cranial muscles | Extraocular and eyelid muscles controlling eye movement and eyelid function |
-| `BAP_0000004` | **Forelimb** | Appendages |  |
+| `BAP_0000004` | **Forelimb (L)** | Appendages | Left anterior limb |
+| `BAP_0099143` | **Forelimb (R)** | Appendages | Right anterior limb |
 | `BAP_0021868` | **Frontalis (L)** | Muscles of facial expression | Left frontal muscle; raises eyebrows |
 | `BAP_0021869` | **Frontalis (R)** | Muscles of facial expression | Right frontal muscle; raises eyebrows |
 | `BAP_0021930` | **Geniohyoideus (L)** | Muscles of facial expression | Left muscle connecting chin to hyoid bone; elevates hyoid |
@@ -110,9 +111,115 @@ This page lists all anatomical structures in the BAP ontology with complete deta
 | `BAP_0020001` | **Head musculoskeletal system** | Head | Musculoskeletal structures of the head including muscles and cranium |
 | `BAP_0020002` | **Head nervous system** | Head | Neural structures of the head |
 | `BAP_0020201` | **Head peripheral nervous system** | Head nervous system | Peripheral nerves of the head |
-| `BAP_0021728` | **Head skin (L)** | Head integumentary system | Left skin covering the head |
 
-*...and 189 more*
+*...and 190 more*
+
+### Brain (2479 structures)
+
+| ID | Name | Parent | Definition |
+|----|------|--------|------------|
+| `BAP_0023959` | **Abducens nucleus (L)** | Medulla, motor related (L) |  |
+| `BAP_0024039` | **Abducens nucleus (R)** | Medulla, motor related (R) |  |
+| `BAP_0023960` | **Accessory abducens nucleus (L)** | Medulla, motor related (L) |  |
+| `BAP_0024040` | **Accessory abducens nucleus (R)** | Medulla, motor related (R) |  |
+| `BAP_0023962` | **Accessory facial motor nucleus (L)** | Medulla, motor related (L) |  |
+| `BAP_0024042` | **Accessory facial motor nucleus (R)** | Medulla, motor related (R) |  |
+| `BAP_0022441` | **Accessory olfactory bulb (L)** | Olfactory areas (L) |  |
+| `BAP_0022993` | **Accessory olfactory bulb (R)** | Olfactory areas (R) |  |
+| `BAP_0022442` | **Accessory olfactory bulb, glomerular layer (L)** | Accessory olfactory bulb (L) |  |
+| `BAP_0022994` | **Accessory olfactory bulb, glomerular layer (R)** | Accessory olfactory bulb (R) |  |
+| `BAP_0022443` | **Accessory olfactory bulb, granular layer (L)** | Accessory olfactory bulb (L) |  |
+| `BAP_0022995` | **Accessory olfactory bulb, granular layer (R)** | Accessory olfactory bulb (R) |  |
+| `BAP_0022444` | **Accessory olfactory bulb, mitral layer (L)** | Accessory olfactory bulb (L) |  |
+| `BAP_0022996` | **Accessory olfactory bulb, mitral layer (R)** | Accessory olfactory bulb (R) |  |
+| `BAP_0023488` | **Accessory supraoptic group (L)** | Periventricular zone (L) |  |
+| `BAP_0023580` | **Accessory supraoptic group (R)** | Periventricular zone (R) |  |
+| `BAP_0023861` | **Accessory trigeminal nucleus (L)** | Pons, motor related (L) |  |
+| `BAP_0023914` | **Accessory trigeminal nucleus (R)** | Pons, motor related (R) |  |
+| `BAP_0022333` | **Agranular insular area (L)** | Isocortex (L) |  |
+| `BAP_0022885` | **Agranular insular area (R)** | Isocortex (R) |  |
+| `BAP_0022334` | **Agranular insular area, dorsal part (L)** | Agranular insular area (L) |  |
+| `BAP_0022886` | **Agranular insular area, dorsal part (R)** | Agranular insular area (R) |  |
+| `BAP_0022335` | **Agranular insular area, dorsal part, layer 1 (L)** | Agranular insular area, dorsal part (L) |  |
+| `BAP_0022887` | **Agranular insular area, dorsal part, layer 1 (R)** | Agranular insular area, dorsal part (R) |  |
+| `BAP_0022336` | **Agranular insular area, dorsal part, layer 2/3 (L)** | Agranular insular area, dorsal part (L) |  |
+| `BAP_0022888` | **Agranular insular area, dorsal part, layer 2/3 (R)** | Agranular insular area, dorsal part (R) |  |
+| `BAP_0022337` | **Agranular insular area, dorsal part, layer 5 (L)** | Agranular insular area, dorsal part (L) |  |
+| `BAP_0022889` | **Agranular insular area, dorsal part, layer 5 (R)** | Agranular insular area, dorsal part (R) |  |
+| `BAP_0022338` | **Agranular insular area, dorsal part, layer 6a (L)** | Agranular insular area, dorsal part (L) |  |
+| `BAP_0022890` | **Agranular insular area, dorsal part, layer 6a (R)** | Agranular insular area, dorsal part (R) |  |
+| `BAP_0022339` | **Agranular insular area, dorsal part, layer 6b (L)** | Agranular insular area, dorsal part (L) |  |
+| `BAP_0022891` | **Agranular insular area, dorsal part, layer 6b (R)** | Agranular insular area, dorsal part (R) |  |
+| `BAP_0022340` | **Agranular insular area, posterior part (L)** | Agranular insular area (L) |  |
+| `BAP_0022892` | **Agranular insular area, posterior part (R)** | Agranular insular area (R) |  |
+| `BAP_0022341` | **Agranular insular area, posterior part, layer 1 (L)** | Agranular insular area, posterior part (L) |  |
+| `BAP_0022893` | **Agranular insular area, posterior part, layer 1 (R)** | Agranular insular area, posterior part (R) |  |
+| `BAP_0022342` | **Agranular insular area, posterior part, layer 2/3 (L)** | Agranular insular area, posterior part (L) |  |
+| `BAP_0022894` | **Agranular insular area, posterior part, layer 2/3 (R)** | Agranular insular area, posterior part (R) |  |
+| `BAP_0022343` | **Agranular insular area, posterior part, layer 5 (L)** | Agranular insular area, posterior part (L) |  |
+| `BAP_0022895` | **Agranular insular area, posterior part, layer 5 (R)** | Agranular insular area, posterior part (R) |  |
+| `BAP_0022344` | **Agranular insular area, posterior part, layer 6a (L)** | Agranular insular area, posterior part (L) |  |
+| `BAP_0022896` | **Agranular insular area, posterior part, layer 6a (R)** | Agranular insular area, posterior part (R) |  |
+| `BAP_0022345` | **Agranular insular area, posterior part, layer 6b (L)** | Agranular insular area, posterior part (L) |  |
+| `BAP_0022897` | **Agranular insular area, posterior part, layer 6b (R)** | Agranular insular area, posterior part (R) |  |
+| `BAP_0022346` | **Agranular insular area, ventral part (L)** | Agranular insular area (L) |  |
+| `BAP_0022898` | **Agranular insular area, ventral part (R)** | Agranular insular area (R) |  |
+| `BAP_0022347` | **Agranular insular area, ventral part, layer 1 (L)** | Agranular insular area, ventral part (L) |  |
+| `BAP_0022899` | **Agranular insular area, ventral part, layer 1 (R)** | Agranular insular area, ventral part (R) |  |
+| `BAP_0022348` | **Agranular insular area, ventral part, layer 2/3 (L)** | Agranular insular area, ventral part (L) |  |
+| `BAP_0022900` | **Agranular insular area, ventral part, layer 2/3 (R)** | Agranular insular area, ventral part (R) |  |
+| `BAP_0022349` | **Agranular insular area, ventral part, layer 5 (L)** | Agranular insular area, ventral part (L) |  |
+| `BAP_0022901` | **Agranular insular area, ventral part, layer 5 (R)** | Agranular insular area, ventral part (R) |  |
+| `BAP_0022350` | **Agranular insular area, ventral part, layer 6a (L)** | Agranular insular area, ventral part (L) |  |
+| `BAP_0022902` | **Agranular insular area, ventral part, layer 6a (R)** | Agranular insular area, ventral part (R) |  |
+| `BAP_0022351` | **Agranular insular area, ventral part, layer 6b (L)** | Agranular insular area, ventral part (L) |  |
+| `BAP_0022903` | **Agranular insular area, ventral part, layer 6b (R)** | Agranular insular area, ventral part (R) |  |
+| `BAP_0024164` | **Alveus (L)** | Fornix system (L) |  |
+| `BAP_0024286` | **Alveus (R)** | Fornix system (R) |  |
+| `BAP_0022511` | **Ammon's horn (L)** | Hippocampal region (L) |  |
+| `BAP_0023063` | **Ammon's horn (R)** | Hippocampal region (R) |  |
+| `BAP_0024159` | **Amygdalar capsule (L)** | Cerebrum related (L) |  |
+| `BAP_0024281` | **Amygdalar capsule (R)** | Cerebrum related (R) |  |
+| `BAP_0024176` | **Angular path (L)** | Fornix system (L) |  |
+| `BAP_0024298` | **Angular path (R)** | Fornix system (R) |  |
+| `BAP_0024160` | **Ansa peduncularis (L)** | Cerebrum related (L) |  |
+| `BAP_0024282` | **Ansa peduncularis (R)** | Cerebrum related (R) |  |
+| `BAP_0024390` | **Ansiform lobule (L)** | Hemispheric regions (L) |  |
+| `BAP_0024478` | **Ansiform lobule (R)** | Hemispheric regions (R) |  |
+| `BAP_0023217` | **Anterior amygdalar area (L)** | Striatum-like amygdalar nuclei (L) |  |
+| `BAP_0023255` | **Anterior amygdalar area (R)** | Striatum-like amygdalar nuclei (R) |  |
+| `BAP_0022401` | **Anterior area (L)** | Posterior parietal association areas (L) |  |
+| `BAP_0022953` | **Anterior area (R)** | Posterior parietal association areas (R) |  |
+| `BAP_0022402` | **Anterior area, layer 1 (L)** | Anterior area (L) |  |
+| `BAP_0022954` | **Anterior area, layer 1 (R)** | Anterior area (R) |  |
+| `BAP_0022403` | **Anterior area, layer 2/3 (L)** | Anterior area (L) |  |
+| `BAP_0022955` | **Anterior area, layer 2/3 (R)** | Anterior area (R) |  |
+| `BAP_0022404` | **Anterior area, layer 4 (L)** | Anterior area (L) |  |
+| `BAP_0022956` | **Anterior area, layer 4 (R)** | Anterior area (R) |  |
+| `BAP_0022405` | **Anterior area, layer 5 (L)** | Anterior area (L) |  |
+| `BAP_0022957` | **Anterior area, layer 5 (R)** | Anterior area (R) |  |
+| `BAP_0022406` | **Anterior area, layer 6a (L)** | Anterior area (L) |  |
+| `BAP_0022958` | **Anterior area, layer 6a (R)** | Anterior area (R) |  |
+| `BAP_0022407` | **Anterior area, layer 6b (L)** | Anterior area (L) |  |
+| `BAP_0022959` | **Anterior area, layer 6b (R)** | Anterior area (R) |  |
+| `BAP_0022275` | **Anterior cingulate area (L)** | Isocortex (L) |  |
+| `BAP_0022827` | **Anterior cingulate area (R)** | Isocortex (R) |  |
+| `BAP_0022281` | **Anterior cingulate area, dorsal part (L)** | Anterior cingulate area (L) |  |
+| `BAP_0022833` | **Anterior cingulate area, dorsal part (R)** | Anterior cingulate area (R) |  |
+| `BAP_0022282` | **Anterior cingulate area, dorsal part, layer 1 (L)** | Anterior cingulate area, dorsal part (L) |  |
+| `BAP_0022834` | **Anterior cingulate area, dorsal part, layer 1 (R)** | Anterior cingulate area, dorsal part (R) |  |
+| `BAP_0022283` | **Anterior cingulate area, dorsal part, layer 2/3 (L)** | Anterior cingulate area, dorsal part (L) |  |
+| `BAP_0022835` | **Anterior cingulate area, dorsal part, layer 2/3 (R)** | Anterior cingulate area, dorsal part (R) |  |
+| `BAP_0022284` | **Anterior cingulate area, dorsal part, layer 5 (L)** | Anterior cingulate area, dorsal part (L) |  |
+| `BAP_0022836` | **Anterior cingulate area, dorsal part, layer 5 (R)** | Anterior cingulate area, dorsal part (R) |  |
+| `BAP_0022285` | **Anterior cingulate area, dorsal part, layer 6a (L)** | Anterior cingulate area, dorsal part (L) |  |
+| `BAP_0022837` | **Anterior cingulate area, dorsal part, layer 6a (R)** | Anterior cingulate area, dorsal part (R) |  |
+| `BAP_0022286` | **Anterior cingulate area, dorsal part, layer 6b (L)** | Anterior cingulate area, dorsal part (L) |  |
+| `BAP_0022838` | **Anterior cingulate area, dorsal part, layer 6b (R)** | Anterior cingulate area, dorsal part (R) |  |
+| `BAP_0022276` | **Anterior cingulate area, layer 1 (L)** | Anterior cingulate area (L) |  |
+| `BAP_0022828` | **Anterior cingulate area, layer 1 (R)** | Anterior cingulate area (R) |  |
+
+*...and 2379 more*
 
 ### Muscles (94 structures)
 
