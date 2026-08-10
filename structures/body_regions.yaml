@@ -206,8 +206,13 @@ structures:
   name: Thorax
   parent: BAP_0012001
 - id: BAP_0000004
-  name: Forelimb
+  name: Forelimb (L)
   parent: BAP_0000006
+  definition: Left anterior limb
+- id: BAP_0099143
+  name: Forelimb (R)
+  parent: BAP_0000006
+  definition: Right anterior limb
 - id: BAP_0000011
   name: Tail
   parent: BAP_0000006
@@ -725,7 +730,7 @@ structures:
   definition: Left collarbone
 - id: BAP_0021797
   name: Clavicle (R)
-  parent: BAP_0000004
+  parent: BAP_0099143
   definition: Right collarbone
 - id: BAP_0021798
   name: Scapula (L)
@@ -733,7 +738,7 @@ structures:
   definition: Left shoulder blade
 - id: BAP_0021799
   name: Scapula (R)
-  parent: BAP_0000004
+  parent: BAP_0099143
   definition: Right shoulder blade
 - id: BAP_0021800
   name: Superficial masseter (L)
